@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP led_smd_rgb_wurth_150141M173100
+D Common Anode RGB LED
+K RGB LED Wurth 150141M173100 SMD
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
+$ENDCMP
+#
 #End Doc Library
