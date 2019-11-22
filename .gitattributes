@@ -1,0 +1,3 @@
+*.kicad_mod text=auto
+*.lib text=auto
+*.dcm text=auto
