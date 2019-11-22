@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name _kb_connectors)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/connectors.pretty)(options "")(descr ""))
+  (lib (name _kb_leds)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/leds.pretty)(options "")(descr ""))
+  (lib (name _kb_relays-switches)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/relays-switches.pretty)(options "")(descr ""))
+)
