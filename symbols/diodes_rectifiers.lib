@@ -1,6 +1,27 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# TEMPLATE_diodes-rectifiers
+#
+DEF TEMPLATE_diodes-rectifiers D 0 50 Y N 1 F N
+F0 "D" 0 350 50 H V C CNN
+F1 "TEMPLATE_diodes-rectifiers" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+ENDDRAW
+ENDDEF
+#
 # led_smd_rgb_wurth_150141M173100
 #
 DEF led_smd_rgb_wurth_150141M173100 LED 0 50 Y N 1 F N
@@ -8,13 +29,16 @@ F0 "LED" 0 350 50 H V C CNN
 F1 "led_smd_rgb_wurth_150141M173100" 0 -350 50 H V C CNN
 F2 "_kb_leds:led_smd_rgb_wurth_150141M173100" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
-F4 "Common Anode RGB LED SMD" 0 0 60 H I C CNN "Description"
+F4 "Common Anode RGB LED SMD" 0 0 50 H I C CNN "Description"
 F5 "Wurth" 0 0 50 H I C CNN "Manufacturer1"
-F6 "150141M173100" 0 0 60 H I C CNN "MPN1"
-F7 "Farnell" 0 0 60 H I C CNN "Vendor1"
-F8 "2322115" 0 0 60 H I C CNN "SKU1"
-F9 "RS Components" 0 0 60 H I C CNN "Vendor2"
-F10 "815-4332" 0 0 60 H I C CNN "SKU2"
+F6 "150141M173100" 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 0 0 50 H I C CNN "Vendor1"
+F10 "2322115" 0 0 50 H I C CNN "SKU1"
+F11 "RS Components" 0 0 50 H I C CNN "Vendor2"
+F12 "815-4332" 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
 DRAW
 T 0 0 280 25 0 0 0 B Normal 0 C C
 T 0 0 -120 25 0 0 0 G Normal 0 C C

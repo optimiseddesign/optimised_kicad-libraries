@@ -1,3 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_connectors
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
+$ENDCMP
 #End Doc Library
