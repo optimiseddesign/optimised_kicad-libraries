@@ -8,10 +8,17 @@ F0 "LED" 0 350 50 H V C CNN
 F1 "led_smd_rgb_wurth_150141M173100" 0 -350 50 H V C CNN
 F2 "_kb_leds:led_smd_rgb_wurth_150141M173100" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
+F4 "Common Anode RGB LED SMD" 0 0 60 H I C CNN "Description"
+F5 "Wurth" 0 0 50 H I C CNN "Manufacturer1"
+F6 "150141M173100" 0 0 60 H I C CNN "MPN1"
+F7 "Farnell" 0 0 60 H I C CNN "Vendor1"
+F8 "2322115" 0 0 60 H I C CNN "SKU1"
+F9 "RS Components" 0 0 60 H I C CNN "Vendor2"
+F10 "815-4332" 0 0 60 H I C CNN "SKU2"
 DRAW
-T 0 0 -120 25 0 0 0 B Normal 0 C C
-T 0 0 80 25 0 0 0 G Normal 0 C C
-T 0 0 280 25 0 0 0 R Normal 0 C C
+T 0 0 280 25 0 0 0 B Normal 0 C C
+T 0 0 -120 25 0 0 0 G Normal 0 C C
+T 0 0 80 25 0 0 0 R Normal 0 C C
 S 30 -50 30 50 0 1 0 N
 S 30 50 30 50 0 1 0 N
 S 30 150 30 250 0 1 0 N
