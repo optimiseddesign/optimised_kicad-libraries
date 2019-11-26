@@ -24,7 +24,7 @@ ENDDEF
 #
 # audio_jack_3mm5_3contact_vertical_lumberg_1502-01
 #
-DEF audio_jack_3mm5_3contact_vertical_lumberg_1502-01 J 0 50 Y N 1 F N
+DEF audio_jack_3mm5_3contact_vertical_lumberg_1502-01 J 0 20 Y Y 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "audio_jack_3mm5_3contact_vertical_lumberg_1502-01" -50 350 50 H V C CNN
 F2 "" -45 -50 50 H I C CNN
@@ -40,14 +40,14 @@ F11 " " 0 0 50 H I C CNN "Vendor2"
 F12 " " 0 0 50 H I C CNN "SKU2"
 F13 " " 0 0 50 H I C CNN "FitPart"
 DRAW
-S -150 -100 -200 0 1 1 10 F
-S 150 250 -150 -100 1 1 10 f
-P 4 1 1 10 50 0 75 -25 100 0 150 0 N
-P 5 1 1 10 -25 0 0 -25 25 0 25 100 150 100 N
-P 5 1 1 10 150 200 -50 200 -50 0 -75 -25 -100 0 N
-X ~ R 250 100 100 L 50 50 1 1 P
-X ~ S 250 200 100 L 50 50 1 1 P
-X ~ T 250 0 100 L 50 50 1 1 P
+S -250 -50 -300 50 1 1 10 F
+S 150 300 -250 -100 1 1 10 f
+P 4 1 1 10 -50 0 -25 -25 0 0 50 0 N
+P 5 1 1 10 -125 0 -100 -25 -75 0 -75 100 50 100 N
+P 5 1 1 10 50 200 -150 200 -150 0 -175 -25 -200 0 N
+X S 1 250 200 100 L 50 50 1 1 P
+X T 2 250 0 100 L 50 50 1 1 P
+X R 3 250 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
