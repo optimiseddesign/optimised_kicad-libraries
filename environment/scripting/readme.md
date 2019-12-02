@@ -1,0 +1,2 @@
+2019-12-02 KiCAD Python scripts (pcbnew) - first attempt, in future make library and make portable
+For now, need to manually copy to %APPDATA%\kicad\scripting\plugins\ , and then run using 'Tools' -> 'External Plugins' inside KiCAD pcbnew
