@@ -1,7 +1,7 @@
 from pcbnew import *
-import os
+#import os
 
-class SimplePlugin(pcbnew.ActionPlugin):
+class SimplePlugin(ActionPlugin):
     def defaults(self):
         self.name = "Delete GND Tracks"
         self.category = "Helper Program"
