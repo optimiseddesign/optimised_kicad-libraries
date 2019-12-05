@@ -1,3 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_miscellaneous
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
+$ENDCMP
+#
+$CMP batteryholder_18650_keystone-54
+D 2off Keystone 54 clips spaced apart for protected 18650 cell
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Keystone 54 Battery Clip 16-19mm Single Side.pdf
+$ENDCMP
+#
 #End Doc Library

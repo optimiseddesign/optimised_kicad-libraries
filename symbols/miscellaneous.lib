@@ -1,4 +1,63 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# TEMPLATE_miscellaneous
+#
+DEF TEMPLATE_miscellaneous REF? 0 50 Y N 1 F N
+F0 "REF?" 0 350 50 H V C CNN
+F1 "TEMPLATE_miscellaneous" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# batteryholder_18650_keystone-54
+#
+DEF batteryholder_18650_keystone-54 BT 0 50 Y N 1 F N
+F0 "BT" -250 100 50 H V C CNN
+F1 "batteryholder_18650_keystone-54" 0 -350 50 H V C CNN
+F2 "_kb_miscellaneous:batteryholder_18650_keystone-54" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "Battery holder 18650 protected cell, 2off clips" 0 0 50 H I C CNN "Description"
+F5 "Keystone" 0 0 50 H I C CNN "Manufacturer1"
+F6 "54" 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 0 0 50 H I C CNN "Vendor1"
+F10 "1888422" 0 0 50 H I C CNN "SKU1"
+F11 "Mouser" 0 0 50 H I C CNN "Vendor2"
+F12 "534-54" 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+F14 "2" 0 0 60 H I C CNN "Qty"
+DRAW
+S 0 -100 0 -50 0 1 0 N
+S 0 50 0 100 0 1 0 N
+S -90 20 90 10 1 1 0 F
+S -62 -3 58 -23 1 1 0 F
+P 2 0 1 0 -100 -100 100 -100 N
+P 2 0 1 0 100 100 -100 100 N
+P 2 1 1 0 0 -20 0 -50 N
+P 2 1 1 0 0 20 0 50 N
+P 2 1 1 10 170 85 210 85 N
+P 2 1 1 10 190 105 190 65 N
+X + 3 100 200 100 D 50 50 0 0 P
+X - 4 -100 -200 100 U 50 50 0 0 P
+X - 5 0 -200 100 U 50 50 0 0 P
+X - 6 100 -200 100 U 50 50 0 0 P
+X + 1 -100 200 100 D 50 50 1 1 P
+X + 2 0 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
