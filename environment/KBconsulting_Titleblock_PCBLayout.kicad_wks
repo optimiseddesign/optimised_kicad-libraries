@@ -30,5 +30,5 @@
   (tbtext %C3 (name text17:Text) (pos 109 32))
   (line (name segm9:Line) (start 90 8.5) (end 90 5.5))
   (line (name segm10:Line) (start 26 8.5) (end 26 2))
-  (tbtext "Text TEST SCHEMATIC" (name text18:Text) (pos 71.002 26.007) (font (size 4 3) bold))
+  (tbtext "Text TEST PCB!!" (name text18:Text) (pos 64.002 25.007) (font (size 4 3) bold))
 )
