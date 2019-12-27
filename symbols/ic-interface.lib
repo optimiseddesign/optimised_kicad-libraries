@@ -1,4 +1,57 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# TEMPLATE_ic-interface
+#
+DEF TEMPLATE_ic-interface U 0 50 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "TEMPLATE_ic-interface" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+ENDDRAW
+ENDDEF
+#
+# driver_haptics_TI_DRV2605L_VSSOP-10
+#
+DEF driver_haptics_TI_DRV2605L_VSSOP-10 U 0 50 Y Y 1 F N
+F0 "U" 200 500 50 H V C CNN
+F1 "driver_haptics_TI_DRV2605L_VSSOP-10" 850 -650 50 H V C CNN
+F2 "Package_SO:VSSOP-10_3x3mm_P0.5mm" -45 -150 50 H I C CNN
+F3 "" -45 -150 50 H I C CNN
+F4 "Haptic 2V-5.2V LRA ERM Driver IC VSSOP-10" 0 -100 50 H I C CNN "Description"
+F5 "Texas Instruments" 0 -100 50 H I C CNN "Manufacturer1"
+F6 "DRV2605LDGSx" 0 -100 50 H I C CNN "MPN1"
+F7 " " 0 -100 50 H I C CNN "Manufacturer2"
+F8 " " 0 -100 50 H I C CNN "MPN2"
+F9 "Farnell" 0 -100 50 H I C CNN "Vendor1"
+F10 "2455129" 0 -100 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -100 50 H I C CNN "Vendor2"
+F12 "595-DRV2605LDGSR" 0 -100 50 H I C CNN "SKU2"
+F13 " " 0 -100 50 H I C CNN "FitPart"
+DRAW
+S -400 450 400 -400 1 1 10 f
+X REG 1 500 -150 100 L 50 50 1 1 w
+X VDD 10 -50 550 100 D 50 50 1 1 W
+X SCL 2 -500 -250 100 R 50 50 1 1 I
+X SDA 3 -500 -150 100 R 50 50 1 1 B
+X IN/TRIG 4 -500 150 100 R 50 50 1 1 I
+X EN 5 -500 50 100 R 50 50 1 1 I
+X VDD/NC 6 50 550 100 D 50 50 1 1 W
+X OUT+ 7 500 150 100 L 50 50 1 1 w
+X GND 8 0 -500 100 U 50 50 1 1 W
+X OUT- 9 500 50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 #End Library
