@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TEMPLATE_inductors
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\
+$ENDCMP
+#
+$CMP TEMPLATE_transformers
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\
+$ENDCMP
+#
+#End Doc Library

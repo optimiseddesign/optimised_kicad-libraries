@@ -1,4 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# TEMPLATE_crystals-oscillators
+#
+DEF TEMPLATE_crystals-oscillators Y 0 50 Y Y 1 F N
+F0 "Y" 0 350 50 H V C CNN
+F1 "TEMPLATE_crystals-oscillators" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+ENDDRAW
+ENDDEF
+#
 #End Library

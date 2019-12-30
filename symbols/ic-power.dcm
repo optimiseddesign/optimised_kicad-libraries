@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_ic-power
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\
+$ENDCMP
+#
 #End Doc Library

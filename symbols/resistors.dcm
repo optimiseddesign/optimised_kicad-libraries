@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_resistors
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+$ENDCMP
+#
 #End Doc Library
