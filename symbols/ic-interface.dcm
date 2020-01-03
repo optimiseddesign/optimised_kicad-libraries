@@ -1,3 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_ic-interface
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
+$ENDCMP
+#
+$CMP driver_haptics_TI_DRV2605L_VSSOP-10
+D Texas Instruments DRV2605L Haptic LRA ERM Driver IC VSSOP-10
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Texas Instruments DRV2605L Haptic LRA ERM Driver IC.pdf
+$ENDCMP
+#
 #End Doc Library

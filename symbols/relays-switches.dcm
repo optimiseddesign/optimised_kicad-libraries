@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_relays
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
+$ENDCMP
+#
+$CMP TEMPLATE_switches
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
+$ENDCMP
+#
 #End Doc Library

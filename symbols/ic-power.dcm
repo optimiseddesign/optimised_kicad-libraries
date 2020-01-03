@@ -1,3 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP TEMPLATE_ic-power
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\
+$ENDCMP
+#
+$CMP ldo_adj_2A_STMicro_LD39200_DFN-6
+D 1.25V-6V VIN 2A LDO Adjustable Regulator 130mV Dropout High PSRR DFN-6
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
+$ENDCMP
+#
 #End Doc Library

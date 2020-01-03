@@ -3,8 +3,8 @@ EESchema-LIBRARY Version 2.4
 #
 # TEMPLATE_connectors
 #
-DEF TEMPLATE_connectors J 0 50 Y N 1 F N
-F0 "J" 0 350 50 H V C CNN
+DEF TEMPLATE_connectors J/P 0 50 Y Y 1 F N
+F0 "J/P" 0 350 50 H V C CNN
 F1 "TEMPLATE_connectors" 0 -350 50 H V C CNN
 F2 "" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
