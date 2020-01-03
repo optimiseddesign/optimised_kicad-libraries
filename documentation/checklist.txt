@@ -1,0 +1,43 @@
+Very rough intial notes to form basis for proper design checklist document.
+Compiled from steps used for VRGOmini PT106A & PT106B releases around 12/2019
+
+
+SCHEMATIC SYMBOLS
+
+
+FOOTPRINTS
+
+
+SCHEMATIC
+major schematic blocks and important design items have schematic text to explain
+titleblocks added & versioned correctly for release
+
+
+LAYOUT
+net classes & design rules correct
+titleblocks added & versioned correctly for release
+id & versioning silk
+auxiliary origin in bottom-left of PCB
+important pcb dimensions on Dwgs.User layer
+layer names on each layer
+all DRCs clear, or accepted
+silkscreen etc tidied
+
+
+DESIGN PACK
+readme updated, incl revision history
+bom?
+schematic pdf
+3d render images front & back
+3d cad step model
+gerbers
+drill files (plated & non-plated)
+position file
+layout pdf - each page is a layer, in one pdf, with layer names
+tag in git??
+save in project/other dir??
+ECN / record release??
+
+
++ adjustments for JLC PCB or other manufacturer data?
++ ideas from enmodus stuff
