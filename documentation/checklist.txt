@@ -36,7 +36,7 @@ schematic pdf
 3d cad step model
 gerbers
 drill files (plated & non-plated)
-position file
+position files (top & bottom, relative to auxiliary origin)
 layout pdf - each page is a layer, in one pdf, with layer names
 tag in git??
 save in project/other dir??
