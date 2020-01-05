@@ -11,6 +11,8 @@ FOOTPRINTS
 SCHEMATIC
 major schematic blocks and important design items have schematic text to explain
 titleblocks added & versioned correctly for release
+make sure all expected fields have full info filled out (MPN1, Description, Datasheet, SKU1 etc)
+make sure all unexpected fields are blank
 
 
 LAYOUT
@@ -26,7 +28,9 @@ silkscreen etc tidied
 
 DESIGN PACK
 readme updated, incl revision history
-bom?
+export bom - use KiBOM with custom bom.ini , make sure to temp change getDescription(self): if parts use "Description" field name (change to "Part Description" to avoid?), using:
+python "C:\freelance\git\KiBoM/KiBOM_CLI.py" -v "%I" "%O.csv"
+change BOM headers "Component" to "Item", and "Quantity per PCB" to "Qty", and left-align everything, move pcb info to sensible place, save as .xlsx with bold headers & frozen top row.
 schematic pdf
 3d render images front & back
 3d cad step model
