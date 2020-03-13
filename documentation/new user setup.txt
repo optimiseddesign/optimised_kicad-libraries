@@ -1,0 +1,23 @@
+Very rough intial notes to form basis for proper new user setup document/scripts.
+Compiled from steps used 13/03/2020 when I got my replacement laptop.
+-------------------------------------------------------------------------
+
+Git 'Clone' the official library repos to C:\freelance\git\;
+https://github.com/KiCad/kicad-symbols.git
+https://github.com/KiCad/kicad-footprints.git
+https://github.com/KiCad/kicad-packages3D.git
+https://github.com/KiCad/kicad-templates.git
+
+Git 'Reset' each one of these repos to the Tag which corresponds to the version of KiCAD installed (e.g. 5.1.4).
+
+Install KiCAD.
+
+Edit the following Windows environment variables (do this instead of KiCAD Preferences > Configure Paths, so they're persistent);
+KICAD_SYMBOL_DIR		C:\freelance\git\kicad-symbols
+KISYSMOD				C:\freelance\git\kicad-footprints
+KISYS3DMOD				C:\freelance\git\kicad-packages3D
+KICAD_TEMPLATE_DIR		C:\freelance\git\kicad-templates
+
+Open KiCAD, and configure;
+Preferences > Manage Symbol Libraries, then select global symbol table folder C:\freelance\git\kicad-symbols\sym-lib-table
+Preferences > Manage Footprint Libraries, then select global footprint table folder C:\freelance\git\kicad-footprints\fp-lib-table
