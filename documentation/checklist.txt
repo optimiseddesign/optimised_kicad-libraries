@@ -35,11 +35,12 @@ python "C:\freelance\git\KiBoM/KiBOM_CLI.py" -v "%I" "%O.csv" -d "..\manufacturi
 change BOM headers "Component" to "Item", and "Quantity per PCB" to "Qty", and left-align everything, move pcb info to sensible place, save as .xlsx with bold headers & frozen top row.
 schematic pdf
 3d render images front & back
-3d cad step model
-gerbers
-drill files (plated & non-plated)
+3d cad step model (relative to auxiliary origin, or centre if that already used)
+gerbers (relative to auxiliary origin)
+drill files (plated & non-plated,relative to auxiliary origin)
 position files (top & bottom, relative to auxiliary origin)
-layout pdf - each page is a layer, in one pdf, with layer names
+layout pdf - each page is a layer, in one pdf, with layer names (colour export)
+REVIEW ALL OUTPUTS
 tag in git??
 save in project/other dir??
 ECN / record release??
