@@ -10,4 +10,8 @@ K audio jack receptacle stereo headphones phones TRS connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Lumberg Audio Jack 3mm5 3contact Vertical 1502_01.pdf
 $ENDCMP
 #
+$CMP header_2.54mm_th_01x04_vertical
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
+$ENDCMP
+#
 #End Doc Library
