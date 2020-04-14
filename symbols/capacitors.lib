@@ -1,32 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TEMPLATE_capacitors
+# Capacitor_SMD_0402_1005m
 #
-DEF TEMPLATE_capacitors C 0 50 Y N 1 F N
-F0 "C" 0 350 50 H V C CNN
-F1 "TEMPLATE_capacitors" 0 -350 50 H V C CNN
-F2 "" -45 -50 50 H I C CNN
-F3 "" -45 -50 50 H I C CNN
-F4 " " 0 0 50 H I C CNN "Description"
-F5 " " 0 0 50 H I C CNN "Manufacturer1"
-F6 " " 0 0 50 H I C CNN "MPN1"
-F7 " " 0 0 50 H I C CNN "Manufacturer2"
-F8 " " 0 0 50 H I C CNN "MPN2"
-F9 " " 0 0 50 H I C CNN "Vendor1"
-F10 " " 0 0 50 H I C CNN "SKU1"
-F11 " " 0 0 50 H I C CNN "Vendor2"
-F12 " " 0 0 50 H I C CNN "SKU2"
-F13 " " 0 0 50 H I C CNN "FitPart"
-DRAW
-ENDDRAW
-ENDDEF
-#
-# capacitor_smd_0402_1005m
-#
-DEF capacitor_smd_0402_1005m C 0 50 N N 1 F N
+DEF Capacitor_SMD_0402_1005m C 0 50 N N 1 F N
 F0 "C" -150 0 50 H V C CNN
-F1 "capacitor_smd_0402_1005m" 100 0 50 H V L CNN
+F1 "Capacitor_SMD_0402_1005m" 100 0 50 H V L CNN
 F2 "Capacitor_SMD:C_0402_1005Metric" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "MLCC Capacitor 0402 (1005m) X5R 10% 10V" 0 0 50 H I C CNN "Description"
@@ -47,11 +26,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# capacitor_smd_0603_1608m
+# Capacitor_SMD_0603_1608m
 #
-DEF capacitor_smd_0603_1608m C 0 50 N N 1 F N
+DEF Capacitor_SMD_0603_1608m C 0 50 N N 1 F N
 F0 "C" -150 0 50 H V C CNN
-F1 "capacitor_smd_0603_1608m" 100 0 50 H V L CNN
+F1 "Capacitor_SMD_0603_1608m" 100 0 50 H V L CNN
 F2 "Capacitor_SMD:C_0603_1608Metric" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "MLCC Capacitor 0603 (1608m) X5R 10% 10V" 0 0 50 H I C CNN "Description"
@@ -72,11 +51,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# capacitor_smd_0805_2012m
+# Capacitor_SMD_0805_2012m
 #
-DEF capacitor_smd_0805_2012m C 0 50 N N 1 F N
+DEF Capacitor_SMD_0805_2012m C 0 50 N N 1 F N
 F0 "C" -150 0 50 H V C CNN
-F1 "capacitor_smd_0805_2012m" 100 0 50 H V L CNN
+F1 "Capacitor_SMD_0805_2012m" 100 0 50 H V L CNN
 F2 "Capacitor_SMD:C_0805_2012Metric" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "MLCC Capacitor 0805 (2012m) X5R 10% 10V" 0 0 50 H I C CNN "Description"
@@ -97,11 +76,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# capacitor_smd_1206_3216m
+# Capacitor_SMD_1206_3216m
 #
-DEF capacitor_smd_1206_3216m C 0 50 N N 1 F N
+DEF Capacitor_SMD_1206_3216m C 0 50 N N 1 F N
 F0 "C" -150 0 50 H V C CNN
-F1 "capacitor_smd_1206_3216m" 100 0 50 H V L CNN
+F1 "Capacitor_SMD_1206_3216m" 100 0 50 H V L CNN
 F2 "Capacitor_SMD:C_1206_3216Metric" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "MLCC Capacitor 1206 (3216m) X5R 10% 10V" 0 0 50 H I C CNN "Description"
@@ -119,6 +98,27 @@ P 2 1 1 13 -60 -20 60 -20 N
 P 2 1 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TEMPLATE_capacitors
+#
+DEF TEMPLATE_capacitors C 0 50 Y N 1 F N
+F0 "C" 0 350 50 H V C CNN
+F1 "TEMPLATE_capacitors" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
 ENDDRAW
 ENDDEF
 #

@@ -1,15 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TEMPLATE_ic-other
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\
-$ENDCMP
-#
-$CMP rtc_i2c_nxp_pcf8523_soic-8
+$CMP RTC_I2C_NXP_PCF8523_SOIC-8
+D I2C Real Time Clock with Calendar, Watchdog, Backup Battery SOIC-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\NXP PCF8523 Real Time Clock IC.pdf
 $ENDCMP
 #
-$CMP security_microchip_atecc608a_i2c_soic-8
+$CMP Security_I2C_Microchip_ATECC608A_SOIC-8
+D CryptoAuthentication Security Device I2C Interface SOIC-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\Microchip ATECC608A CryptoAuthentication Security IC.pdf
+$ENDCMP
+#
+$CMP TEMPLATE_ic-other
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\
 $ENDCMP
 #
 #End Doc Library

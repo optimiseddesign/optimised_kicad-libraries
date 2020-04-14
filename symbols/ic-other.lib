@@ -1,32 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# TEMPLATE_ic-other
+# RTC_I2C_NXP_PCF8523_SOIC-8
 #
-DEF TEMPLATE_ic-other U 0 50 Y Y 1 F N
-F0 "U" 0 350 50 H V C CNN
-F1 "TEMPLATE_ic-other" 0 -350 50 H V C CNN
-F2 "" -45 -50 50 H I C CNN
-F3 "" -45 -50 50 H I C CNN
-F4 " " 0 0 50 H I C CNN "Description"
-F5 " " 0 0 50 H I C CNN "Manufacturer1"
-F6 " " 0 0 50 H I C CNN "MPN1"
-F7 " " 0 0 50 H I C CNN "Manufacturer2"
-F8 " " 0 0 50 H I C CNN "MPN2"
-F9 " " 0 0 50 H I C CNN "Vendor1"
-F10 " " 0 0 50 H I C CNN "SKU1"
-F11 " " 0 0 50 H I C CNN "Vendor2"
-F12 " " 0 0 50 H I C CNN "SKU2"
-F13 " " 0 0 50 H I C CNN "FitPart"
-DRAW
-ENDDRAW
-ENDDEF
-#
-# rtc_i2c_nxp_pcf8523_soic-8
-#
-DEF rtc_i2c_nxp_pcf8523_soic-8 U 0 50 Y Y 1 F N
+DEF RTC_I2C_NXP_PCF8523_SOIC-8 U 0 50 Y Y 1 F N
 F0 "U" 250 500 50 H V C CNN
-F1 "rtc_i2c_nxp_pcf8523_soic-8" 750 400 50 H V C CNN
+F1 "RTC_I2C_NXP_PCF8523_SOIC-8" 750 400 50 H V C CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "I2C Real Time Clock with Calendar, Watchdog, Backup Battery SOIC-8" 0 0 50 H I C CNN "Description"
@@ -52,11 +31,11 @@ X VDD 8 -100 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# security_microchip_atecc608a_i2c_soic-8
+# Security_I2C_Microchip_ATECC608A_SOIC-8
 #
-DEF security_microchip_atecc608a_i2c_soic-8 U 0 50 Y Y 1 F N
+DEF Security_I2C_Microchip_ATECC608A_SOIC-8 U 0 50 Y Y 1 F N
 F0 "U" 50 400 50 H V C CNN
-F1 "security_microchip_atecc608a_i2c_soic-8" 800 300 50 H V C CNN
+F1 "Security_I2C_Microchip_ATECC608A_SOIC-8" 800 300 50 H V C CNN
 F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "CryptoAuthentication Security Device I2C Interface SOIC-8" 0 0 50 H I C CNN "Description"
@@ -79,6 +58,27 @@ X GND 4 -150 -350 100 U 50 50 1 1 W
 X SDA 5 300 100 100 L 50 50 1 1 B
 X SCL 6 300 -100 100 L 50 50 1 1 I
 X VCC 8 -150 350 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# TEMPLATE_ic-other
+#
+DEF TEMPLATE_ic-other U 0 50 Y Y 1 F N
+F0 "U" 0 350 50 H V C CNN
+F1 "TEMPLATE_ic-other" 0 -350 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " " 0 0 50 H I C CNN "Description"
+F5 " " 0 0 50 H I C CNN "Manufacturer1"
+F6 " " 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
 ENDDRAW
 ENDDEF
 #

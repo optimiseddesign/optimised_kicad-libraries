@@ -1,22 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Capacitor_SMD_0402_1005m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
+$ENDCMP
+#
+$CMP Capacitor_SMD_0603_1608m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
+$ENDCMP
+#
+$CMP Capacitor_SMD_0805_2012m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
+$ENDCMP
+#
+$CMP Capacitor_SMD_1206_3216m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
+$ENDCMP
+#
 $CMP TEMPLATE_capacitors
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
-$ENDCMP
-#
-$CMP capacitor_smd_0402_1005m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
-$ENDCMP
-#
-$CMP capacitor_smd_0603_1608m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
-$ENDCMP
-#
-$CMP capacitor_smd_0805_2012m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
-$ENDCMP
-#
-$CMP capacitor_smd_1206_3216m
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\capacitors\
 $ENDCMP
 #
