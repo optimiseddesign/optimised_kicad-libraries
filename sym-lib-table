@@ -1,7 +1,7 @@
 (sym_lib_table
   (lib (name _kb_capacitors)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/capacitors.lib)(options "")(descr ""))
   (lib (name _kb_connectors)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/connectors.lib)(options "")(descr ""))
-  (lib (name _kb_crystals_oscillators)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/crystals_oscillators.lib)(options "")(descr ""))
+  (lib (name _kb_crystals-oscillators)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/crystals-oscillators.lib)(options "")(descr ""))
   (lib (name _kb_diodes-rectifiers)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/diodes-rectifiers.lib)(options "")(descr ""))
   (lib (name _kb_drawing)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/drawing.lib)(options "")(descr ""))
   (lib (name _kb_ic-amplifiers)(type Legacy)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/symbols/ic-amplifiers.lib)(options "")(descr ""))
