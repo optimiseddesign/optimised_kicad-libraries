@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R
+#
+DEF Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R REF? 0 50 Y N 1 F N
+F0 "REF?" 0 350 50 H V C CNN
+F1 "Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R" 0 -350 50 H V C CNN
+F2 "_kb_miscellaneous:Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R" 5 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "3V Coin Cell Battery Holder, 12mm x 1, SMD, for CR1220" 50 0 50 H I C CNN "Description"
+F5 "S8411-45R" 0 0 50 H I C CNN "Manufacturer1"
+F6 "Harwin" 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 0 0 50 H I C CNN "Vendor1"
+F10 "2115306" 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -90 20 90 10 1 1 0 F
+S -62 -3 58 -23 1 1 0 F
+P 2 1 1 0 0 -20 0 -50 N
+P 2 1 1 0 0 20 0 50 N
+P 2 1 1 10 20 85 60 85 N
+P 2 1 1 10 40 105 40 65 N
+X + 1 0 150 100 D 50 50 1 1 P
+X - 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_miscellaneous
 #
 DEF TEMPLATE_miscellaneous REF? 0 50 Y Y 1 F N
