@@ -22,4 +22,34 @@ DRAW
 ENDDRAW
 ENDDEF
 #
+# security_microchip_atecc608a_i2c_soic-8
+#
+DEF security_microchip_atecc608a_i2c_soic-8 U 0 50 Y Y 1 F N
+F0 "U" 50 400 50 H V C CNN
+F1 "security_microchip_atecc608a_i2c_soic-8" 800 300 50 H V C CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "CryptoAuthentication Security Device I2C Interface SOIC-8" 0 0 50 H I C CNN "Description"
+F5 "Microchip" 0 0 50 H I C CNN "Manufacturer1"
+F6 "ATECC608A-SSHDA-T" 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 0 0 50 H I C CNN "Vendor1"
+F10 "2920872" 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -300 250 200 -250 1 1 10 f
+X NC1 1 0 0 200 R 50 50 0 0 N N
+X NC1 2 0 0 200 R 50 50 0 0 N N
+X NC1 3 0 0 200 R 50 50 0 0 N N
+X NC7 7 0 0 200 R 50 50 0 0 N N
+X GND 4 -150 -350 100 U 50 50 1 1 W
+X SDA 5 300 100 100 L 50 50 1 1 B
+X SCL 6 300 -100 100 L 50 50 1 1 I
+X VCC 8 -150 350 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 #End Library

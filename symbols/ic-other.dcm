@@ -4,4 +4,8 @@ $CMP TEMPLATE_ic-other
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\
 $ENDCMP
 #
+$CMP security_microchip_atecc608a_i2c_soic-8
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\Microchip ATECC608A CryptoAuthentication Security IC.pdf
+$ENDCMP
+#
 #End Doc Library
