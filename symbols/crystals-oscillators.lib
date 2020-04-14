@@ -1,6 +1,32 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF
+#
+DEF Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF Y 0 50 N N 1 F N
+F0 "Y" 150 50 50 H V C CNN
+F1 "Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF" 1000 -50 50 H V C CNN
+F2 "_kb_crystals-oscillators:Crystal_SMD_3215m" 100 -150 50 H I C CNN
+F3 "" 50 -45 50 V I C CNN
+F4 "CFPX-217 Series 32.768kHz Crystal SMD 3215m, 20ppm, 7pF" 50 -150 50 H I C CNN "Description"
+F5 "IQD" 50 -150 50 H I C CNN "Manufacturer1"
+F6 "LFXTAL009709" 50 -150 50 H I C CNN "MPN1"
+F7 " " 0 0 50 V I C CNN "Manufacturer2"
+F8 " " 0 0 50 V I C CNN "MPN2"
+F9 "Farnell" 50 -150 50 H I C CNN "Vendor1"
+F10 "2449501" 50 -150 50 H I C CNN "SKU1"
+F11 " " 0 0 50 V I C CNN "Vendor2"
+F12 " " 0 0 50 V I C CNN "SKU2"
+F13 " " 0 0 50 V I C CNN "FitPart"
+DRAW
+S 60 -30 -60 30 1 1 0 N
+P 2 1 1 15 30 -50 -30 -50 N
+P 2 1 1 15 30 50 -30 50 N
+X 1 1 0 -100 50 U 50 50 1 1 P
+X 2 2 0 100 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_crystals-oscillators
 #
 DEF TEMPLATE_crystals-oscillators Y 0 50 Y Y 1 F N

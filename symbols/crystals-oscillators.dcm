@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF
+D IQD CFPX-217 Series Tuning Fork 32.768kHz Crystal SMD 1206 3216m 3215m, 20ppm, 7pF
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\IQD CFPX-217 Series 32khz crystal SMD 3216m.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_crystals-oscillators
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\
 $ENDCMP
