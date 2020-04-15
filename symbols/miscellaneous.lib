@@ -3,14 +3,14 @@ EESchema-LIBRARY Version 2.4
 #
 # Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R
 #
-DEF Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R REF? 0 50 Y N 1 F N
-F0 "REF?" 0 350 50 H V C CNN
+DEF Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R BT 0 50 Y N 1 F N
+F0 "BT" 0 350 50 H V C CNN
 F1 "Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R" 0 -350 50 H V C CNN
 F2 "_kb_miscellaneous:Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R" 5 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "3V Coin Cell Battery Holder, 12mm x 1, SMD, for CR1220" 50 0 50 H I C CNN "Description"
-F5 "S8411-45R" 0 0 50 H I C CNN "Manufacturer1"
-F6 "Harwin" 0 0 50 H I C CNN "MPN1"
+F5 "Harwin" 0 0 50 H I C CNN "Manufacturer1"
+F6 "S8411-45R" 0 0 50 H I C CNN "MPN1"
 F7 " " 0 0 50 H I C CNN "Manufacturer2"
 F8 " " 0 0 50 H I C CNN "MPN2"
 F9 "Farnell" 0 0 50 H I C CNN "Vendor1"
