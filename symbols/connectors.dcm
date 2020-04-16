@@ -9,6 +9,12 @@ D M12 Right-Angle TH 5pin Female Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH 5pin Female T4145015051-001.pdf
 $ENDCMP
 #
+$CMP SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4
+D SODIMM-200 0.6mm Pitch DDR2 1.8V Horizontal Socket SMD
+K Used for Raspberry Pi Compute Module CM
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity 1473005 DDR1 DDR2 SODIMM Socket 200p.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
