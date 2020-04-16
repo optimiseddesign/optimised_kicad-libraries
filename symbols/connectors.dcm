@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HDMI-A_Receptacle_Horizontal_SMD-TH_Amphenol-ICC_10029449-111RLF
+D HDMI Type A Receptacle, Horizontal, SMD + TH
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 10029449 Series Horizontal HDMI Type A Receptacle.pdf
+$ENDCMP
+#
 $CMP Header_2.54mm_TH_01x04_Vertical
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
