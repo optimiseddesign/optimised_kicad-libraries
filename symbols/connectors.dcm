@@ -24,6 +24,11 @@ D USB 2.0 Type A, Horizontal TH Single Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC UE27AC Series USB2-A Single Horizontal TH.pdf
 $ENDCMP
 #
+$CMP USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1
+D USB 2.0 Type B, Horizontal TH Single Connector
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity 292304-1 USB2-B Single Horizontal TH.pdf
+$ENDCMP
+#
 $CMP audio_jack_3mm5_3contact_vertical_lumberg_1502-01
 D Audio Jack, 3 Poles, 3.5mm (Stereo / TRS)
 K audio jack receptacle stereo headphones phones TRS connector
