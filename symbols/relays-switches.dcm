@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Relay_SPDT_1A_5V_TH_OMRON_G5V-1
+D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_relays
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
 $ENDCMP
