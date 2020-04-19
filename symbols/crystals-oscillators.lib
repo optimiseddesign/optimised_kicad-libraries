@@ -27,6 +27,32 @@ X 2 2 0 100 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
+#
+DEF Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV Y 0 50 Y Y 1 F N
+F0 "Y" 100 400 50 H V C CNN
+F1 "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" 1350 300 50 H V C CNN
+F2 "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" 0 -450 50 H I C CNN "Description"
+F5 "ECS Inc" 0 -450 50 H I C CNN "Manufacturer1"
+F6 "ECS-3225MV-250-CN-TR" 0 -450 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Mouser" 0 -450 50 H I C CNN "Vendor1"
+F10 "520-3225MV-250-CNT" 0 -450 50 H I C CNN "SKU1"
+F11 "Digikey" 0 -450 50 H I C CNN "Vendor2"
+F12 "XC2885CT-ND" 0 -450 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S 300 250 -250 -250 0 1 0 f
+X EN 1 -400 0 150 R 50 50 0 0 I
+X GND 2 0 -400 150 U 50 50 0 0 W
+X OUT 3 450 0 150 L 50 50 0 0 O
+X VDD 4 0 400 150 D 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_crystals-oscillators
 #
 DEF TEMPLATE_crystals-oscillators Y 0 50 Y Y 1 F N
