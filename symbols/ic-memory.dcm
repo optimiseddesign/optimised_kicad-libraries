@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EEPROM_4Kbit_Microwire_SOIC-8_ST-Micro_M93C66-W
+D 4Kbit (256x16bit or 512x8bit) Microwire Serial EEPROM SOIC-8, 2.5V to 5.5V supply version
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-memory\ST Microelectronics M93Cx6 1Kbit to 16Kbit Microwire Serial EEPROM.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-memory
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-memory\
 $ENDCMP
