@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_SMD_2012_Green_2.2V_15mcd_Broadcom_HSMG-C170
+D SMD LED 0805 (2012m) Green 2.2V 15mcd typ @ 20mA
+K Avago Broadcom
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
+$ENDCMP
+#
+$CMP LED_SMD_2012_Red_2.1V_10mcd_Broadcom_HSMS-C170
+D SMD LED 0805 (2012m) Red 2.1V 10mcd typ @ 20mA
+K Avago Broadcom
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_diodes-rectifiers
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\
 $ENDCMP
