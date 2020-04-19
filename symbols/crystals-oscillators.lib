@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF
+# Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217
 #
-DEF Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF Y 0 50 N N 1 F N
+DEF Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217 Y 0 50 N N 1 F N
 F0 "Y" 150 50 50 H V C CNN
-F1 "Crystal_32kHz_SMD_IQD_CFPX-217_20ppm_7pF" 1000 -50 50 H V C CNN
+F1 "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217" 1000 -50 50 H V C CNN
 F2 "_kb_crystals-oscillators:Crystal_SMD_3215m" 100 -150 50 H I C CNN
 F3 "" 50 -45 50 V I C CNN
 F4 "CFPX-217 Series 32.768kHz Crystal SMD 3215m, 20ppm, 7pF" 50 -150 50 H I C CNN "Description"
@@ -15,8 +15,8 @@ F7 " " 0 0 50 V I C CNN "Manufacturer2"
 F8 " " 0 0 50 V I C CNN "MPN2"
 F9 "Farnell" 50 -150 50 H I C CNN "Vendor1"
 F10 "2449501" 50 -150 50 H I C CNN "SKU1"
-F11 " " 0 0 50 V I C CNN "Vendor2"
-F12 " " 0 0 50 V I C CNN "SKU2"
+F11 "Mouser" 0 0 50 V I C CNN "Vendor2"
+F12 "449-LFXTAL009709REEL" 0 0 50 V I C CNN "SKU2"
 F13 " " 0 0 50 V I C CNN "FitPart"
 DRAW
 S 60 -30 -60 30 1 1 0 N
