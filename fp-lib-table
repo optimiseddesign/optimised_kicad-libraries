@@ -1,7 +1,7 @@
 (fp_lib_table
   (lib (name _kb_connectors)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/connectors.pretty)(options "")(descr ""))
   (lib (name _kb_crystals-oscillators)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/crystals-oscillators.pretty)(options "")(descr ""))
-  (lib (name _kb_leds)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/leds.pretty)(options "")(descr ""))
+  (lib (name _kb_diodes-rectifiers)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/diodes-rectifiers.pretty)(options "")(descr ""))
   (lib (name _kb_relays-switches)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/relays-switches.pretty)(options "")(descr ""))
   (lib (name _kb_miscellaneous)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/miscellaneous.pretty)(options "")(descr ""))
 )
