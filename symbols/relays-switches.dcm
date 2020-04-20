@@ -5,6 +5,11 @@ D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
 $ENDCMP
 #
+$CMP Switch_Slide_SPDT_Vertical_TH_CandK_L102011MS02Q
+D SPDT Slide Switch, Vertical TH, 4A@125VAC to 0.5A @125VDC, 5.08mm actuator
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_relays
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
 $ENDCMP
