@@ -34,6 +34,11 @@ $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708
+D 01x03 Way 5.08mm Pitch 20A Screw Terminal Block, 0.4-2mm2 (26-12AWG)
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Camden Boss CTBP0708 Series 5.08mm Pitch 20A Screw Terminal Blocks.pdf
+$ENDCMP
+#
 $CMP USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100
 D USB 2.0 Type A, Horizontal TH Single Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC UE27AC Series USB2-A Single Horizontal TH.pdf
