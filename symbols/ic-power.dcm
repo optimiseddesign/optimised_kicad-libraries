@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Protection_Input_Controller_AnalogDevices_LTC4365I_TSOT-23-8
+D -40V to 60V Over/Under/Reverse Voltage Protection Controller TSOT-23-8
+K Industrial Temp (–40°C to 85°C)
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Analog Devices Linear LTC4365 OV UV Reverse Supply Protection Controller.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-power
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\
 $ENDCMP
