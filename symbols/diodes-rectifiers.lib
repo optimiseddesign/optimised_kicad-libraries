@@ -78,6 +78,33 @@ DRAW
 ENDDRAW
 ENDDEF
 #
+# TVS_Bidir_30V_400W_SMA_Diodes-Inc_SMAJ30CA
+#
+DEF TVS_Bidir_30V_400W_SMA_Diodes-Inc_SMAJ30CA D 0 50 N N 1 F N
+F0 "D" 110 50 50 H V C CNN
+F1 "TVS_Bidir_30V_400W_SMA_Diodes-Inc_SMAJ30CA" 990 -50 50 H V C CNN
+F2 "_kb_diodes-rectifiers:SMA_Bidir" -45 -200 50 H I C CNN
+F3 "" 50 -45 50 V I C CNN
+F4 "30V Bidirectional 400W TVS Diode SMA" 0 -150 50 H I C CNN "Description"
+F5 "Diodes Inc" 0 -150 50 H I C CNN "Manufacturer1"
+F6 "SMAJ30CA-13-F" 0 -150 50 H I C CNN "MPN1"
+F7 " " 0 0 50 V I C CNN "Manufacturer2"
+F8 " " 0 0 50 V I C CNN "MPN2"
+F9 "Farnell" 0 -150 50 H I C CNN "Vendor1"
+F10 "3127458" 0 -150 50 H I C CNN "SKU1"
+F11 "Digikey" 0 -150 50 H I C CNN "Vendor2"
+F12 "621-SMAJ30CA-13-F" 0 -150 50 H I C CNN "SKU2"
+F13 " " 0 0 50 V I C CNN "FitPart"
+DRAW
+P 2 1 1 0 0 50 0 -50 N
+P 4 1 1 8 -40 20 -40 0 40 0 40 -20 N
+P 4 1 1 8 -40 70 40 70 0 0 -40 70 F
+P 4 1 1 8 40 -70 0 0 -40 -70 40 -70 F
+X A1 1 0 -100 100 U 50 50 1 1 P
+X A2 2 0 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # led_smd_rgb_wurth_150141M173100
 #
 DEF led_smd_rgb_wurth_150141M173100 LED 0 50 Y N 1 F N

@@ -16,6 +16,11 @@ $CMP TEMPLATE_diodes-rectifiers
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\
 $ENDCMP
 #
+$CMP TVS_Bidir_30V_400W_SMA_Diodes-Inc_SMAJ30CA
+D 30V Bidirectional 400W TVS Diode SMA
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc SMAJ Series 400W TVS Diodes SMA.pdf
+$ENDCMP
+#
 $CMP led_smd_rgb_wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
