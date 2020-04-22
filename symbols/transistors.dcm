@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NMOS_Dual_60_8A_PowerPAK-SO-8_Vishay_Si7972DP
+D Dual N-Channel MOSFET 8A 60V PowerPAK SO-8
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\transistors\Vishay Si7972DP Dual 8A 60V N-Channel MOSFET.pdf
+$ENDCMP
+#
 $CMP NMOS_Single_20V_0.9A_SOT-416_ON-Semi_NTA4153NT1G
 D Single N-Channel MOSFET 915mA 20V SOT-416
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\transistors\ON Semi N-4153N Single 915mA 20V N-Channel MOSFET.pdf
