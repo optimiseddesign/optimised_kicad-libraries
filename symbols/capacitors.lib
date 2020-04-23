@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ
+#
+DEF Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ C 0 50 N N 1 F N
+F0 "C" 100 50 50 H V C CNN
+F1 "Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ" 1550 -50 50 H V C CNN
+F2 "_kb_capacitors:Polarised_Radial_TH_D12.5xP5.0xH20.0xLD0.6mm" -45 -300 50 H I C CNN
+F3 "" -45 -300 50 H I C CNN
+F4 "Radial Polarised 35V 20% Al-Elec Capacitor D12.5xH20.0xP5.0mm 105C 10000hrs" 0 -250 50 H I C CNN "Description"
+F5 "Rubycon" 0 -250 50 H I C CNN "Manufacturer1"
+F6 "35YXJ1000M12.5X20" 0 -250 50 H I C CNN "MPN1"
+F7 " " 0 -250 50 H I C CNN "Manufacturer2"
+F8 " " 0 -250 50 H I C CNN "MPN2"
+F9 "Farnell" 0 -250 50 H I C CNN "Vendor1"
+F10 "2346262" 0 -250 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -250 50 H I C CNN "Vendor2"
+F12 "232-35YXJ1000M125X20" 0 -250 50 H I C CNN "SKU2"
+F13 " " 0 -250 50 H I C CNN "FitPart"
+DRAW
+A 0 -140 125 1186 614 1 1 12 N -60 -30 60 -30
+P 2 1 1 12 -60 20 60 20 N
+P 2 1 1 0 -50 60 -30 60 N
+P 2 1 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_0402_1005m
 #
 DEF Capacitor_SMD_0402_1005m C 0 50 N N 1 F N

@@ -1,4 +1,5 @@
 (fp_lib_table
+  (lib (name _kb_capacitors)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/capacitors.pretty)(options "")(descr ""))
   (lib (name _kb_connectors)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/connectors.pretty)(options "")(descr ""))
   (lib (name _kb_crystals-oscillators)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/crystals-oscillators.pretty)(options "")(descr ""))
   (lib (name _kb_diodes-rectifiers)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/diodes-rectifiers.pretty)(options "")(descr ""))
