@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP HDMI_Protection_Texas-Instruments_TPD12S521_TSSOP-38
+D HDMI Transmitter Port ESD Protection and Interface IC TSSOP-38
+K ESD OC over-current regulator level shifting
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Texas Instruments TPD12S521 HDMI Interface Port Protection TSSOP-38.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-interface
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
 $ENDCMP
