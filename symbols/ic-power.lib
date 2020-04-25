@@ -58,6 +58,36 @@ X GATE 8 -50 400 100 D 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
+# Protection_Output_HighSideSwitch_Dual_500mA_2V7-5V5_Microchip_MIC2026-1_SOIC-8
+#
+DEF Protection_Output_HighSideSwitch_Dual_500mA_2V7-5V5_Microchip_MIC2026-1_SOIC-8 U 0 25 Y Y 1 F N
+F0 "U" 0 650 50 H V C CNN
+F1 "Protection_Output_HighSideSwitch_Dual_500mA_2V7-5V5_Microchip_MIC2026-1_SOIC-8" 100 550 50 H V C CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" 5 -700 50 H I C CNN
+F3 "" 5 -100 50 H I C CNN
+F4 "Dual 500mA 2V7-5V5 High-Side Power Switch SOIC-8" 50 -650 50 H I C CNN "Description"
+F5 "Microchip" 50 -650 50 H I C CNN "Manufacturer1"
+F6 "MIC2026-1YM-TR" 50 -650 50 H I C CNN "MPN1"
+F7 " " 50 -650 50 H I C CNN "Manufacturer2"
+F8 " " 50 -650 50 H I C CNN "MPN2"
+F9 "Farnell" 50 -650 50 H I C CNN "Vendor1"
+F10 "2509898" 50 -650 50 H I C CNN "SKU1"
+F11 "Mouser" 50 -650 50 H I C CNN "Vendor2"
+F12 "998-MIC2026-1YMTR" 50 -650 50 H I C CNN "SKU2"
+F13 " " 50 -650 50 H I C CNN "FitPart"
+DRAW
+S -250 -450 250 450 1 1 10 f
+X ENA 1 -350 0 100 R 50 50 1 1 I
+X nFLGA 2 -350 -100 100 R 50 50 1 1 C
+X nFLGB 3 -350 -350 100 R 50 50 1 1 C
+X ENB 4 -350 -250 100 R 50 50 1 1 I
+X OUTB 5 350 0 100 L 50 50 1 1 w
+X GND 6 100 -550 100 U 50 50 1 1 W
+X IN 7 -350 350 100 R 50 50 1 1 W
+X OUTA 8 350 350 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_ic-power
 #
 DEF TEMPLATE_ic-power U 0 50 Y Y 1 F N

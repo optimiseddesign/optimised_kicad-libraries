@@ -11,6 +11,11 @@ K Industrial Temp (–40°C to 85°C)
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Analog Devices Linear LTC4365 OV UV Reverse Supply Protection Controller.pdf
 $ENDCMP
 #
+$CMP Protection_Output_HighSideSwitch_Dual_500mA_2V7-5V5_Microchip_MIC2026-1_SOIC-8
+D Dual 500mA 2V7-5V5 High-Side Power Switch SOIC-8, Active High Enable
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Microchip Micrel MIC2026_MIC2076 500mA 2V7-5V5 Dual High-Side Power Switch.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-power
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\
 $ENDCMP
