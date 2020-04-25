@@ -21,6 +21,12 @@ D 30V Bidirectional 400W TVS Diode SMA
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc SMAJ Series 400W TVS Diodes SMA.pdf
 $ENDCMP
 #
+$CMP TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666
+D VBUS and Dual High-Speed Signal TVS ESD Protection SOT-666
+K USB 2.0 , Ethernet and others
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ST Microelectronics USBLC6-2 VBUS and Dual High-Speed Signal Line TVS ESD Protection.pdf
+$ENDCMP
+#
 $CMP led_smd_rgb_wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
