@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14
+D Quad 2-Input NOR Gate, 1.65 V to 3.6 V, 5V Tolerant, TSSOP-14
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74LVC02A SN54LVC02A Quad 2-Input NOR Gates.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-logic
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-logic\
 $ENDCMP
