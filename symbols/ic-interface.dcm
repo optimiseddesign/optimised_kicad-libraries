@@ -6,6 +6,12 @@ K ESD OC over-current regulator level shifting
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Texas Instruments TPD12S521 HDMI Interface Port Protection TSSOP-38.pdf
 $ENDCMP
 #
+$CMP IO_Isolated_Dual_Digital-Input-Receiver_24V-60V_Texas-Instruments_ISO1212_SSOP-16
+D Dual Channel Isolated 24V-60V Digital Input Receiver SSOP-16
+K IEC 61131-2 Type 1, 2, 3
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Texas Instruments ISO1211_ISO1212 Isolated 24V-60V Digital Input Receivers.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-interface
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
 $ENDCMP
