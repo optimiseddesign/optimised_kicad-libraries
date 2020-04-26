@@ -12,6 +12,11 @@ K Avago Broadcom
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
 $ENDCMP
 #
+$CMP LED_SMD_3010-Horizontal_Green-Red-Bicolour_2.0V_35-45mcd_Lite-On_LTST-S326KGJRKT
+D Green-Red Bi-Colour SMD LED, 35/45mcd 2.0V, 3010m size, Horizontal (Side) View
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Lite-On LTST-S326KGJRKT Green-Red Bicolour Horizontal LED.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_diodes-rectifiers
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\
 $ENDCMP
