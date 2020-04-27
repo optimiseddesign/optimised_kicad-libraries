@@ -1,4 +1,4 @@
-(module LED_SMD-3_3010-Horizontal_Lite-On_LTST-S326 (layer F.Cu) (tedit 5EA5F3AC)
+(module LED_SMD-3_3010-Horizontal_Lite-On_LTST-S326 (layer F.Cu) (tedit 5EA6C9DC)
   (descr http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF)
   (tags "LED SMD right angle CCA")
   (attr smd)
@@ -39,9 +39,9 @@
   (pad A smd roundrect (at 0 1.375 180) (size 1.5 0.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad K1 smd roundrect (at 0 -1.375 180) (size 1.5 0.75) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad K2 smd roundrect (at -0.65 0 180) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model "${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/leds.3dshapes/Wurth 155124RV73200 WL-SBSW Bi-colour Side View SMD LED.stp"
-    (offset (xyz -0.5 0 0.5))
-    (scale (xyz 0.9399999999999999 1 1.35))
-    (rotate (xyz -90 180 -90))
+  (model "${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/leds.3dshapes/Lite-On LTST-S326KGJRKT SMD Horizontal Bi-colour LED.stp"
+    (offset (xyz 0.45 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 90))
   )
 )
