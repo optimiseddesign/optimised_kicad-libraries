@@ -6,4 +6,5 @@
   (lib (name _kb_relays-switches)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/relays-switches.pretty)(options "")(descr ""))
   (lib (name _kb_miscellaneous)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/miscellaneous.pretty)(options "")(descr ""))
   (lib (name _kb_semiconductors-smd)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/semiconductors-smd.pretty)(options "")(descr ""))
+  (lib (name _kb_inductors-transformers)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/inductors-transformers.pretty)(options "")(descr ""))
 )

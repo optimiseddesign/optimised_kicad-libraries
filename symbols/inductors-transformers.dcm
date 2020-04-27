@@ -5,6 +5,12 @@ D Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf
 $ENDCMP
 #
+$CMP Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA
+D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm
+K SRN5040TA Series - choose exact part
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_inductors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\
 $ENDCMP
