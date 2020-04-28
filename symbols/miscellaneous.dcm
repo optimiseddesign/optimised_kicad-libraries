@@ -5,6 +5,11 @@ D 3V Coin Cell Battery Holder, 12mm x 1, SMD, for CR1220
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Harwin S8411-45R Coin Cell CR1220 Holder SMD.pdf
 $ENDCMP
 #
+$CMP Fuse-FuseHolder_62mA-10A_SMD_9750m_Littelfuse_154-Series
+D ??A ??Slow-Blow/Fast-Acting Fuse & SMD Fuse Holder 9750m Size
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Littelfuse 154 Series 62mA-10A SMD Fuse and Fuse Holder.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
