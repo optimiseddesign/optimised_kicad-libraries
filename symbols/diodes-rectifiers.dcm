@@ -22,6 +22,11 @@ D Green-Red Bi-Colour SMD LED, 35/45mcd 2.0V, 3010m size, Horizontal (Side) View
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Lite-On LTST-S326KGJRKT Green-Red Bicolour Horizontal LED.pdf
 $ENDCMP
 #
+$CMP Schottky_Single_100V_200mA_ON-Semi_NSR02100HT1G_SOD-323
+D Schottky Diode 100V 200mA SOD-323
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor NSR02100HT1G Schottky Diode 100V 200mA SOD-323.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_diodes-rectifiers
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\
 $ENDCMP
