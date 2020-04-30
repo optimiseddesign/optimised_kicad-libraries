@@ -16,6 +16,10 @@ $CMP TEMPLATE_ic-interface
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
 $ENDCMP
 #
+$CMP TaiyoYuden_WYSEGVDXG
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
+$ENDCMP
+#
 $CMP USB2_Hub-Quad_Eth-10-100_Microchip_LAN9514i
 D Quad USB2 Hub and 10-100 Ethernet Controller QFN-64-EP, LAN9514i variant, Industrial Temp Range (-40°C to +85°C)
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Microchip LAN9514 Quad USB2 Hub and 10-100 Ethernet Controller.pdf
