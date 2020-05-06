@@ -20,7 +20,7 @@ $ENDCMP
 #
 $CMP M12_Female_5pin_Right-Angle_TE-Connectivity_T4145015051-001
 D M12 Right-Angle TH 5pin Female Connector
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH 5pin Female T4145015051-001.pdf
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH Female T41450150x1-001.pdf
 $ENDCMP
 #
 $CMP M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000
