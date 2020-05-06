@@ -23,6 +23,11 @@ D M12 Right-Angle TH 5pin Female Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH 5pin Female T4145015051-001.pdf
 $ENDCMP
 #
+$CMP M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000
+D M12 Right-Angle TH 5pin Female Connector
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Vertical TH Female T41410120x1-000.pdf
+$ENDCMP
+#
 $CMP RJ45-Mag_100Base-TX_Horizontal_TabDown_TH_Pulse-Electronics_J00-0045NL
 D Ethernet RJ45 MagJack 100Base-TX Horizontal G-Y-LED TabDown TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Pulse Electronics PulseJack J0 Series RJ45 100Base-TX Ethernet Jack.pdf

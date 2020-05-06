@@ -179,6 +179,44 @@ X P5 5 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000
+#
+DEF M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000 J 0 50 Y N 1 F N
+F0 "J" 0 380 50 H V C CNN
+F1 "M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000" 90 280 50 H V C CNN
+F2 "_kb_connectors:M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000" 5 200 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "M12 Vertical TH 5pin Female Connector" 50 250 50 H I C CNN "Description"
+F5 "TE Connectivity" 0 200 50 H I C CNN "Manufacturer1"
+F6 "T4141012051-000" 0 250 50 H I C CNN "MPN1"
+F7 " " 0 250 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" -50 250 50 H I C CNN "Vendor1"
+F10 "2723639" 0 250 50 H I C CNN "SKU1"
+F11 "RS Components" 0 0 50 H I C CNN "Vendor2"
+F12 "134-5739" 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+C -50 -50 20 1 1 0 N
+C -50 50 20 1 1 0 N
+C 0 0 20 1 1 0 N
+C 0 0 200 1 1 0 f
+C 50 -50 20 1 1 0 N
+C 50 50 20 1 1 0 N
+T 0 -89 108 40 0 1 1 1 Normal 1 C C
+T 0 89 108 40 0 1 1 2 Normal 1 C C
+T 0 89 -108 40 0 1 1 3 Normal 1 C C
+T 0 -89 -108 40 0 1 1 4 Normal 1 C C
+T 0 0 84 40 0 1 1 5 Normal 1 C C
+P 4 1 1 0 -26 198 -26 166 24 166 24 198 N
+X P1 1 -300 50 104 R 50 50 1 1 P
+X P2 2 300 50 104 L 50 50 1 1 P
+X P3 3 300 -50 104 L 50 50 1 1 P
+X P3 4 -300 -50 104 R 50 50 1 1 P
+X P5 5 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RJ45-Mag_100Base-TX_Horizontal_TabDown_TH_Pulse-Electronics_J00-0045NL
 #
 DEF RJ45-Mag_100Base-TX_Horizontal_TabDown_TH_Pulse-Electronics_J00-0045NL J 0 50 Y Y 1 F N
