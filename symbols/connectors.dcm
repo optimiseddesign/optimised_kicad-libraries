@@ -18,6 +18,11 @@ $CMP Header_2.54mm_TH_01x06_Vertical
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP Header_2.54mm_TH_02x16_Horizontal_Wurth_61303221021
+D 2.54mm Header 02x16 Way Horizontal / Right-Angle TH
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Wurth 6130xx21021 2.54mm Angled Dual Pin Header Series.pdf
+$ENDCMP
+#
 $CMP M12_Female_5pin_Right-Angle_TE-Connectivity_T4145015051-001
 D M12 Right-Angle TH 5pin Female Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH Female T41450150x1-001.pdf
