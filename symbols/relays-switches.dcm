@@ -11,6 +11,12 @@ K Right-Angle
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
 $ENDCMP
 #
+$CMP Switch_Slide_SPDT_Horizontal_TH_CandK_L102121ML04Q
+D SPDT Slide Switch, Horizontal TH, 4A@125VAC to 0.5A @125VDC, Screwdriver Slot actuator
+K Right-Angle, Screwdriver Slot
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_relays
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
 $ENDCMP
