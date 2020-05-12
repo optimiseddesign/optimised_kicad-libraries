@@ -44,6 +44,12 @@ K Used for Raspberry Pi Compute Module CM
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity 1473005 DDR1 DDR2 SODIMM Socket 200p.pdf
 $ENDCMP
 #
+$CMP Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-L-D
+D 2.54mm Socket 02x16 Way Vertical TH
+K 10u" Gold
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Samtec SSW SSQ Series TH 2.54mm Sockets.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
