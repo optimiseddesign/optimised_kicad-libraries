@@ -5,6 +5,12 @@ D Signal Diode 75V 150mA SOD-323
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc 1N4148WS_BAV16WS Signal Diode 75V 150mA SOD-323.pdf
 $ENDCMP
 #
+$CMP LED_SMD-4_3528_Wurth_150141M173100
+D Common Anode RGB LED SMD
+K RGB LED Wurth 150141M173100 SMD
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
+$ENDCMP
+#
 $CMP LED_SMD_2012_Green_2.2V_15mcd_Broadcom_HSMG-C170
 D SMD LED 0805 (2012m) Green 2.2V 15mcd typ @ 20mA
 K Avago Broadcom
@@ -40,12 +46,6 @@ $CMP TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666
 D VBUS and Dual High-Speed Signal TVS ESD Protection SOT-666
 K USB 2.0 , Ethernet and others
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ST Microelectronics USBLC6-2 VBUS and Dual High-Speed Signal Line TVS ESD Protection.pdf
-$ENDCMP
-#
-$CMP led_smd_rgb_wurth_150141M173100
-D Common Anode RGB LED SMD
-K RGB LED Wurth 150141M173100 SMD
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
 $ENDCMP
 #
 #End Doc Library
