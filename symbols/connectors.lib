@@ -961,6 +961,44 @@ DRAW
 ENDDRAW
 ENDDEF
 #
+# TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3
+#
+DEF TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3 J 0 50 Y N 1 F N
+F0 "J" 2 339 50 H V C CNN
+F1 "TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3" 173 241 50 H V C CNN
+F2 "_kb_connectors:TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3" -31 -406 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "01x03 Way 5.08mm Pitch 11A 300V Right-Angle Pluggable Terminal Block" 0 -450 50 H I C CNN "Description"
+F5 "TE Connectivity" 0 -450 50 H I C CNN "Manufacturer1"
+F6 "796638-3" 14 -306 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Mouser" 14 -306 50 H I C CNN "Vendor1"
+F10 "571-7966383" 0 -450 50 H I C CNN "SKU1"
+F11 "Digikey" 14 -356 50 H I C CNN "Vendor2"
+F12 "A98236-ND" 14 -356 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+A 30 -101 78 1534 -1534 0 1 0 N -40 -66 -40 -136
+A 30 -1 78 1534 -1534 0 1 0 N -40 34 -40 -36
+A 30 101 78 1534 -1534 0 1 0 N -40 136 -40 66
+S -40 -152 -50 -134 0 1 0 F
+S -40 -68 -50 -50 0 1 0 F
+S -40 -52 -50 -34 0 1 0 F
+S -40 32 -50 50 0 1 0 F
+S -40 50 -50 68 0 1 0 F
+S -40 134 -50 152 0 1 0 F
+S -10 -90 10 -110 0 1 0 F
+S -10 10 10 -10 0 1 0 F
+S -10 110 10 90 0 1 0 F
+S -50 150 50 -150 1 1 10 f
+P 2 0 1 0 48 149 48 -151 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708
 #
 DEF TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708 J 0 50 Y N 1 F N
