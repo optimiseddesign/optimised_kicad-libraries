@@ -54,6 +54,12 @@ $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2
+D 01x02 Way 5.08mm Pitch 11A 300V Right-Angle Pluggable Terminal Block
+K Closed Ends, 0.05-2mm2 (30-14AWG) wire size
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity Pluggable 5.08mm Terminal Block Right-Angle Closed Ends 796638.pdf
+$ENDCMP
+#
 $CMP TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3
 D 01x03 Way 5.08mm Pitch 11A 300V Right-Angle Pluggable Terminal Block
 K Closed Ends, 0.05-2mm2 (30-14AWG) wire size
