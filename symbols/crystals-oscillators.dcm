@@ -5,8 +5,18 @@ D IQD CFPX-217 Series Tuning Fork 32.768kHz Crystal SMD 1206 3216m 3215m, 20ppm,
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\IQD CFPX-217 Series 32khz crystal SMD 3215m.pdf
 $ENDCMP
 #
+$CMP Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
+D 16MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
+$ENDCMP
+#
 $CMP Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
 D 25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
+$ENDCMP
+#
+$CMP Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
+D 26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
