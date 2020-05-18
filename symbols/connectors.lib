@@ -1,6 +1,37 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Coaxial-U.Fl_SMD_Vertical_Hirose_U.FL-R-SMT-1
+#
+DEF Coaxial-U.Fl_SMD_Vertical_Hirose_U.FL-R-SMT-1 J 0 50 N N 1 F N
+F0 "J" -50 350 50 H V C CNN
+F1 "Coaxial-U.Fl_SMD_Vertical_Hirose_U.FL-R-SMT-1" 50 250 50 H V C CNN
+F2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" 5 -550 50 H I C CNN
+F3 "" -45 -100 50 H I C CNN
+F4 "Coaxial U.Fl Antenna SMD Receptacle 0-6GHz 50R" 50 -500 50 H I C CNN "Description"
+F5 "Hirose" 0 -550 50 H I C CNN "Manufacturer1"
+F6 "U.FL-R-SMT-1(10)" 50 -500 50 H I C CNN "MPN1"
+F7 " " 0 -50 50 H I C CNN "Manufacturer2"
+F8 " " 0 -50 50 H I C CNN "MPN2"
+F9 "Farnell" 0 -550 50 H I C CNN "Vendor1"
+F10 "1688077" 0 -550 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -550 50 H I C CNN "Vendor2"
+F12 "798-U.FL-R-SMT-110" 50 -500 50 H I C CNN "SKU2"
+F13 " " 0 -50 50 H I C CNN "FitPart"
+DRAW
+A -1 -73 32 -882 1242 1 1 0 N 0 -105 -20 -45
+A 1 -73 32 -918 558 1 1 0 N 0 -105 20 -45
+C 30 -75 7 1 1 0 F
+P 2 1 1 0 0 -100 0 0 N
+P 2 1 1 10 0 200 0 -150 N
+P 2 1 1 0 30 -75 100 -75 N
+P 2 1 1 0 100 -100 100 -75 N
+P 3 1 1 10 50 200 0 0 -50 200 N
+X A 1 0 -200 100 U 50 50 1 1 I
+X Shield 2 100 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # HDMI-A_Receptacle_Horizontal_SMD-TH_Amphenol-ICC_10029449-111RLF
 #
 DEF HDMI-A_Receptacle_Horizontal_SMD-TH_Amphenol-ICC_10029449-111RLF J 0 50 Y Y 1 F N

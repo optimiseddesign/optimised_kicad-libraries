@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Coaxial-U.Fl_SMD_Vertical_Hirose_U.FL-R-SMT-1
+D Coaxial U.Fl Antenna SMD Receptacle 0-6GHz 50R
+F https://www.hirose.com/product/document?clcode=CL0331-0472-2-10&productname=U.FL-R-SMT-1(10)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940684
+$ENDCMP
+#
 $CMP HDMI-A_Receptacle_Horizontal_SMD-TH_Amphenol-ICC_10029449-111RLF
 D HDMI Type A Receptacle, Horizontal, SMD + TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 10029449 Series Horizontal HDMI Type A Receptacle.pdf
