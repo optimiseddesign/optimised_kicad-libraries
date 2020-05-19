@@ -16,10 +16,6 @@ $CMP TEMPLATE_ic-interface
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
 $ENDCMP
 #
-$CMP TaiyoYuden_WYSEGVDXG
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
-$ENDCMP
-#
 $CMP USB2_Hub-Quad_Eth-10-100_Microchip_LAN9514i
 D Quad USB2 Hub and 10-100 Ethernet Controller QFN-64-EP, LAN9514i variant, Industrial Temp Range (-40°C to +85°C)
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Microchip LAN9514 Quad USB2 Hub and 10-100 Ethernet Controller.pdf
@@ -28,6 +24,12 @@ $ENDCMP
 $CMP USB2_Switch_2Port_ON-Semi_FSUSB42_MSOP-10
 D Two-Port USB2.0 480Mbps Switch MSOP-10
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\ON Semi FSUSB42 Two Port USB2 Switch.pdf
+$ENDCMP
+#
+$CMP WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG
+D WiFi 802.11a/b/g/n/ac 2.4GHz/5GHz & Bluetooth v4.2 SMD Module, Ext Antenna
+K SDIO, PCM, UART
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Taiyo Yuden WYSEGVDXG WiFi BT SMD Module.pdf
 $ENDCMP
 #
 $CMP driver_haptics_TI_DRV2605L_VSSOP-10
