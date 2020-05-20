@@ -18,6 +18,11 @@ $CMP TestPoint_Pad_0.9mm
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #
+$CMP TestPoint_TH_Loop_1.27mm_Keystone_5001
+D Miniature Test Point TH 1.27mm Loop
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Keystone 5000-5004 Series TH Loop Test Points.pdf
+$ENDCMP
+#
 $CMP batteryholder_18650_keystone-54
 D 2off Keystone 54 clips spaced apart for protected 18650 cell
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Keystone 54 Battery Clip 16-19mm Single Side.pdf
