@@ -19,6 +19,10 @@ $CMP Header_2.54mm_TH_01x04_Vertical
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP Header_2.54mm_TH_01x05_Vertical
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
+$ENDCMP
+#
 $CMP Header_2.54mm_TH_01x06_Vertical
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
