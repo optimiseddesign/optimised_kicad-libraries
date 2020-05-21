@@ -15,6 +15,11 @@ D 25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
+$CMP Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33
+D 26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf
+$ENDCMP
+#
 $CMP Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
 D 26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
