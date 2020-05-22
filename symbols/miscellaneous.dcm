@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001
+D 868/915MHz Matched Balun/LPF SMD-6 2012m for TI CC110x CC111x etc
+K 50R impedance, balanced to unbalanced conversion including LPF
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Johanson Technology 868-915MHz Matched Balun 0896BM15A0001 SMD-6 2012m for TI CC110x CC111x etc.pdf
+$ENDCMP
+#
 $CMP Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R
 D 3V Coin Cell Battery Holder, 12mm x 1, SMD, for CR1220
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Harwin S8411-45R Coin Cell CR1220 Holder SMD.pdf

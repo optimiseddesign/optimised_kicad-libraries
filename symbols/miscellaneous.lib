@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001
+#
+DEF Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001 Z? 0 25 Y Y 1 F N
+F0 "Z?" -100 450 50 H V C CNN
+F1 "Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001" 0 350 50 H V C CNN
+F2 "_kb_miscellaneous:Balun_SMD-6_2012_Johanson" -45 -800 50 H I C CNN
+F3 "" -95 -750 50 H I C CNN
+F4 "868/915MHz Matched Balun/LPF SMD-6 2012m for TI CC110x CC111x etc" 0 -850 50 H I C CNN "Description"
+F5 "Johanson Technology" 0 -850 50 H I C CNN "Manufacturer1"
+F6 "0896BM15A0001E" 0 -850 50 H I C CNN "MPN1"
+F7 " " 0 -850 50 H I C CNN "Manufacturer2"
+F8 " " 0 -850 50 H I C CNN "MPN2"
+F9 "Farnell" 0 -850 50 H I C CNN "Vendor1"
+F10 "1885513" 0 -850 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -850 50 H I C CNN "Vendor2"
+F12 "609-0896BM15A0001E" 0 -850 50 H I C CNN "SKU2"
+F13 " " 0 -850 50 H I C CNN "FitPart"
+DRAW
+S -550 -200 550 250 0 1 0 f
+X Unbalanced 1 700 150 150 L 50 50 0 0 B
+X GND 2 -100 -350 150 U 50 50 0 0 W
+X Balanced-N 3 -700 150 150 R 50 50 0 0 B
+X Balanced-P 4 -700 50 150 R 50 50 0 0 B
+X GND 5 0 -350 150 U 50 50 0 0 P
+X GND 6 100 -350 150 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R
 #
 DEF Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R BT 0 50 Y N 1 F N
