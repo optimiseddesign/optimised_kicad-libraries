@@ -95,6 +95,11 @@ D USB 2.0 Type B, Horizontal TH Single Connector
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\TE Connectivity 292304-1 USB2-B Single Horizontal TH.pdf
 $ENDCMP
 #
+$CMP USB3.1-C_Single_Horizontal_SMD_Receptacle_Amphenol_12401610E4-2A
+D USB 3.1 Gen2, Type C, Horizontal Receptacle, Top Dual-Row SMD Hybrid
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 12401610E4-2A USB-C 3.1 Gen2 Right-Angle SMD Hybrid Receptacle.pdf
+$ENDCMP
+#
 $CMP audio_jack_3mm5_3contact_vertical_lumberg_1502-01
 D Audio Jack, 3 Poles, 3.5mm (Stereo / TRS)
 K audio jack receptacle stereo headphones phones TRS connector
