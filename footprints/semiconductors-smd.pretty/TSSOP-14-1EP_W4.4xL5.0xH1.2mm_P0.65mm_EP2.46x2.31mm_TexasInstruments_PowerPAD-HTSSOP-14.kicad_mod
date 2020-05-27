@@ -1,4 +1,4 @@
-(module TSSOP-14-1EP_W4.4xL5.0xH1.2mm_P0.65mm_EP2.46x2.31mm_TexasInstruments_PowerPAD-HTSSOP-14 (layer F.Cu) (tedit 5EA890E0)
+(module TSSOP-14-1EP_W4.4xL5.0xH1.2mm_P0.65mm_EP2.46x2.31mm_TexasInstruments_PowerPAD-HTSSOP-14 (layer F.Cu) (tedit 5ECDB24E)
   (descr "KB Custom-made footprint to match TI PowerPAD HTSSOP 14pin (PWP R-PDSO-G14), as used for TPS1H100-Q1 - http://www.ti.com/lit/ml/mpds370/mpds370.pdf")
   (attr smd)
   (fp_text reference REF** (at 0.1 -3.7) (layer F.SilkS)
@@ -50,7 +50,7 @@
   (pad 7 smd roundrect (at -2.8 1.95 270) (size 0.3 1.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 15 smd rect (at 0 0 270) (size 5 3.4) (layers F.Cu)
     (zone_connect 2))
-  (pad 16 smd roundrect (at 0 0 270) (size 2.31 2.46) (layers B.Paste F.Mask) (roundrect_rratio 0.1))
+  (pad 16 smd roundrect (at 0 0 270) (size 2.31 2.46) (layers F.Paste F.Mask) (roundrect_rratio 0.1))
   (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/TSSOP-14-1EP_W4.4xL5.0xH1.2mm_P0.65mm_EP2.46x2.31mm_TexasInstruments_PowerPAD-HTSSOP-14.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
