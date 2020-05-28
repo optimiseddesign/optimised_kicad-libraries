@@ -1,4 +1,4 @@
-(module Polarised_Radial_TH_D5.0xP2.0xH11.0xLD0.5mm (layer F.Cu) (tedit 5EC01F07)
+(module Polarised_Radial_TH_D5.0xP2.0xH11.0xLD0.5mm (layer F.Cu) (tedit 5ECFF895)
   (descr "Polarised Radial Capacitor, Pitch=2.00mm, Diameter=5.0mm, Height=11mm, Lead Diameter=0.5mm")
   (fp_text reference REF** (at 1.6 -3.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -22,9 +22,9 @@
   (fp_line (start -0.5 -1.65) (end -0.5 -1.25) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D5.0mm_P2.00mm.step
+  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Radial_TH_D5.0xP2.0xH11.0xLD0.5mm.stp
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 2.2))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

@@ -1,4 +1,4 @@
-(module Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV (layer F.Cu) (tedit 5EC02396)
+(module Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV (layer F.Cu) (tedit 5ECFFBB0)
   (fp_text reference REF** (at 0.3 -2.45) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.12)))
   )
@@ -27,9 +27,9 @@
   (pad 2 smd roundrect (at 1.25 1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 1.25 -1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at -1.25 -1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KISYS3DMOD}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step
+  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/crystals-oscillators.3dshapes/Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV.stp
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1.8))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )
