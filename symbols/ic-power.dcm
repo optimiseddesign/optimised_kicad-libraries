@@ -5,9 +5,19 @@ D 3V8-36V 3A Synchronous 1400kHz Buck Converter IC HSOIC-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Texas Instruments LMR33630 3V8-36V 3A Synchronous Buck Converter IC.pdf
 $ENDCMP
 #
+$CMP LDO_Adjustable_2A_STMicro_LD39200_DFN-6
+D 1.25V-6V VIN 2A LDO Adjustable Regulator 130mV Dropout High PSRR DFN-6
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
+$ENDCMP
+#
 $CMP LDO_Fixed_1V8_300mA_Diodes-Inc_AP2127K_SOT-23-5
 D 2V5-6V IN Fixed 300mA 1V8 LDO Linear Regulator SOT-23-5
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Diodes Inc AP2127 300mA 2V5-6V Low Noise LDO Linear Regulator.pdf
+$ENDCMP
+#
+$CMP LDO_Fixed_3V3_2A_STMicro_LD39200_DFN-6
+D 1.25V-6V VIN 2A LDO Fixed 3V3 Regulator 130mV Dropout High PSRR DFN-6
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
 $ENDCMP
 #
 $CMP Protection_Input_Controller_AnalogDevices_LTC4365I_TSOT-23-8
@@ -28,11 +38,6 @@ $ENDCMP
 #
 $CMP TEMPLATE_ic-power
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\
-$ENDCMP
-#
-$CMP ldo_adj_2A_STMicro_LD39200_DFN-6
-D 1.25V-6V VIN 2A LDO Adjustable Regulator 130mV Dropout High PSRR DFN-6
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
 $ENDCMP
 #
 #End Doc Library
