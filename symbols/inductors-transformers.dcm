@@ -23,6 +23,12 @@ K General, fill-in
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\
 $ENDCMP
 #
+$CMP Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512
+D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm
+K SRN2512 Series - choose exact part
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Bourns SRN2512 Series SMD 2520m Power Inductors Semi-Shielded.pdf
+$ENDCMP
+#
 $CMP Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA
 D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm
 K SRN5040TA Series - choose exact part
