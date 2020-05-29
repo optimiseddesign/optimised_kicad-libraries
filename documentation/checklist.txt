@@ -6,6 +6,8 @@ SCHEMATIC SYMBOLS
 
 
 FOOTPRINTS
+make sure all pads have soldermask clearance of 0.0mm (this is set board-wide in the PCB design rules)
+set centre thermal pads to solid / full contact with planes
 
 
 SCHEMATIC
