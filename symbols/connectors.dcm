@@ -76,6 +76,12 @@ $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP TagConnect_6pin_NoLegs
+D Board pattern, for external 'Tag-Connect 6pin No-Legs' sprung-probe cable
+K  e.g. TC2030-IDC-NL - https://www.tag-connect.com/product/tc2030-idc-nl
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Tag Connect TC2030-IDC-NL 6pin NoLegs Sprung Probe Cable.pdf
+$ENDCMP
+#
 $CMP TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2
 D 01x02 Way 5.08mm Pitch 11A 300V Right-Angle Pluggable Terminal Block
 K Closed Ends, 0.05-2mm2 (30-14AWG) wire size

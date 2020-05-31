@@ -1100,6 +1100,49 @@ DRAW
 ENDDRAW
 ENDDEF
 #
+# TagConnect_6pin_NoLegs
+#
+DEF TagConnect_6pin_NoLegs J 0 25 Y Y 1 F N
+F0 "J" -450 400 50 H V C CNN
+F1 "TagConnect_6pin_NoLegs" 0 300 50 H V C CNN
+F2 "_kb_connectors:TagConnect_6pin_NoLegs" -45 -450 50 H I C CNN
+F3 "" -595 -100 50 H I C CNN
+F4 "Board pattern, for external 'Tag-Connect 6pin No-Legs' sprung-probe cable" 0 -400 50 H I C CNN "Description"
+F5 "Tag Connect" 0 -450 50 H I C CNN "Manufacturer1"
+F6 "TC2030-NL-FP" 0 -450 50 H I C CNN "MPN1"
+F7 " " -550 -50 50 H I C CNN "Manufacturer2"
+F8 " " -550 -50 50 H I C CNN "MPN2"
+F9 " " -550 -50 50 H I C CNN "Vendor1"
+F10 " " -550 -50 50 H I C CNN "SKU1"
+F11 " " -550 -50 50 H I C CNN "Vendor2"
+F12 " " -550 -50 50 H I C CNN "SKU2"
+F13 "DNF" -400 500 50 H V C CNN "FitPart"
+DRAW
+C -150 -135 30 0 1 0 N
+C -130 -65 20 0 1 0 F
+C -130 5 20 0 1 0 F
+C -130 75 20 0 1 0 F
+C -95 140 30 0 1 0 N
+C -40 -135 30 0 1 0 N
+C -60 -65 20 1 1 0 F
+C -60 5 20 1 1 0 F
+C -60 75 20 1 1 0 F
+T 0 -180 75 25 0 0 0 1 Normal 0 C C
+T 0 -10 75 25 0 0 0 2 Normal 0 C C
+T 0 -180 5 25 0 0 0 3 Normal 0 C C
+T 0 -10 5 25 0 0 0 4 Normal 0 C C
+T 0 -180 -65 25 0 0 0 5 Normal 0 C C
+T 0 -10 -65 25 0 0 0 6 Normal 0 C C
+S -500 200 500 -200 0 1 0 f
+X VCC 1 -650 100 150 R 50 50 0 0 W
+X SWDIO/TMS 2 650 100 150 L 50 50 0 0 B
+X ~RESET 3 -650 0 150 R 50 50 0 0 I
+X SWCLK/TCK 4 650 0 150 L 50 50 0 0 I
+X GND 5 -650 -100 150 R 50 50 0 0 W
+X SWO/TDO 6 650 -100 150 L 50 50 0 0 O
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2
 #
 DEF TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2 J 0 50 Y N 1 F N
