@@ -28,9 +28,15 @@ D Green-Red Bi-Colour SMD LED, 35/45mcd 2.0V, 3010m size, Horizontal (Side) View
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Lite-On LTST-S326KGJRKT Green-Red Bicolour Horizontal LED.pdf
 $ENDCMP
 #
-$CMP Schottky_Dual_60V_1A_SOT223_Nexperia_BAT160C
+$CMP Schottky_Dual-AKAK_30V_0.2A_SOT23_ON-Semi_BAT54SL
+D Dual 200mA 30V Schottky Diodes SMD SOT-23
+K Serial / Common Cathode+Anode (AKAK)
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor BAT54SL 30V 200mA Dual Schottky Diodes SOT-23.pdf
+$ENDCMP
+#
+$CMP Schottky_Dual-AKKA_60V_1A_SOT223_Nexperia_BAT160C
 D Dual 1A 60V Schottky Diodes SMD SOT223
-K Dual, Common Cathode
+K Dual, Common Cathode (AKKA)
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Nexperia BAT160 Series Dual 1A 60V Schottky Diodes SOT223.pdf
 $ENDCMP
 #
