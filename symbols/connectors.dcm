@@ -10,6 +10,11 @@ D HDMI Type A Receptacle, Horizontal, SMD + TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 10029449 Series Horizontal HDMI Type A Receptacle.pdf
 $ENDCMP
 #
+$CMP Header_2.54mm_TH_01x02_Vertical
+D 2.54mm Header 01x02 Way Vertical TH
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
+$ENDCMP
+#
 $CMP Header_2.54mm_TH_01x03_Vertical
 D 2.54mm Header 01x03 Way Vertical TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
