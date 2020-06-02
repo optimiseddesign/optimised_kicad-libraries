@@ -16,6 +16,11 @@ D ??A ??Slow-Blow/Fast-Acting Fuse & SMD Fuse Holder 9750m Size
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Littelfuse 154 Series 62mA-10A SMD Fuse and Fuse Holder.pdf
 $ENDCMP
 #
+$CMP Fuse_0.75A-8A_SMD_3216_Belfuse_C1T
+D ??A ??Slow-Blow Fuse 3216m Size
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Bel Fuse C1T Series SMD Chip Fuse 1206 3216m.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
