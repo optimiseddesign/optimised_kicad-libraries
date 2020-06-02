@@ -1310,6 +1310,40 @@ X Pin_2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TerminalBlock_Screw_3.81mm_TH_01x03_Horizontal_TE-Connectivity_284392
+#
+DEF TerminalBlock_Screw_3.81mm_TH_01x03_Horizontal_TE-Connectivity_284392 J 0 50 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "TerminalBlock_Screw_3.81mm_TH_01x03_Horizontal_TE-Connectivity_284392" 250 250 50 H V C CNN
+F2 "_kb_connectors:TerminalBlock_Screw_3.81mm_TH_01x03_Horizontal_TE-Connectivity_284392" 5 -350 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "01x03 Way 3.81mm Pitch 12A 300V Screw Terminal Block, 0.05-2mm2 (30-14AWG)" 50 -350 50 H I C CNN "Description"
+F5 "TE Connectivity" 50 -350 50 H I C CNN "Manufacturer1"
+F6 "284392-3" 50 -350 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 50 -350 50 H I C CNN "Vendor1"
+F10 "3217856" 50 -350 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -350 50 H I C CNN "Vendor2"
+F12 "571-284392-3" 0 -350 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+C 0 100 25 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -21 113 13 80 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+P 2 1 1 6 -14 120 20 87 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708
 #
 DEF TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708 J 0 50 Y N 1 F N
