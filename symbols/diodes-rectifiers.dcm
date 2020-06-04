@@ -54,6 +54,12 @@ D 30V Bidirectional 400W TVS Diode SMA
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc SMAJ Series 400W TVS Diodes SMA.pdf
 $ENDCMP
 #
+$CMP TVS_Bidir_400W_SOD-123FL_Littelfuse_SMF4L--CA
+D ??V Bidirectional 400W TVS Diode SOD-123FL
+K 9V - 51V Bi-directional available
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Littelfuse SMF4L Series 400W TVS Diodes SOD-123FL.pdf
+$ENDCMP
+#
 $CMP TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666
 D VBUS and Dual High-Speed Signal TVS ESD Protection SOT-666
 K USB 2.0 , Ethernet and others

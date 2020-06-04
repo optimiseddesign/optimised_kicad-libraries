@@ -315,6 +315,33 @@ X A2 2 0 100 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TVS_Bidir_400W_SOD-123FL_Littelfuse_SMF4L--CA
+#
+DEF TVS_Bidir_400W_SOD-123FL_Littelfuse_SMF4L--CA D 0 50 N N 1 F N
+F0 "D" 150 50 50 H V C CNN
+F1 "TVS_Bidir_400W_SOD-123FL_Littelfuse_SMF4L--CA" 1050 -50 50 H V C CNN
+F2 "_kb_diodes-rectifiers:SOD-123FL_Bidir" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "??V Bidirectional 400W TVS Diode SOD-123FL" 100 -400 50 H I C CNN "Description"
+F5 "Littelfuse" 100 -400 50 H I C CNN "Manufacturer1"
+F6 "SMF4L??CA" 100 -400 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "??" 0 -400 50 H I C CNN "Vendor1"
+F10 "??" 0 -400 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+P 2 1 1 0 0 50 0 -50 N
+P 4 1 1 8 -40 20 -40 0 40 0 40 -20 N
+P 4 1 1 8 -40 70 40 70 0 0 -40 70 F
+P 4 1 1 8 40 -70 0 0 -40 -70 40 -70 F
+X A1 1 0 -100 100 U 50 50 1 1 P
+X A2 2 0 100 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666
 #
 DEF TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666 D 0 0 Y Y 1 F N
