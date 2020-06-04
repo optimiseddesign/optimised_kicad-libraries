@@ -21,6 +21,11 @@ D ??A ??Slow-Blow Fuse 3216m Size
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Bel Fuse C1T Series SMD Chip Fuse 1206 3216m.pdf
 $ENDCMP
 #
+$CMP Logo
+K Select logo footprint after placing
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
