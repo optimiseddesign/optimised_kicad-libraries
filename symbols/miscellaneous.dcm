@@ -32,6 +32,12 @@ K Matches Espressif ESP-WROOM-02 reference design
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Espressif ESP-WROOM-02 2400MHz MIFA PCB Trace Antenna.pdf
 $ENDCMP
 #
+$CMP PCB_Antenna_868-920MHz_W12.3xL19.5mm_Helical_Texas-Instruments_DN038_Right
+D PCB Trace Antenna, Helical 868-920MHz 12.3mm x 19.5mm, Right Facing
+K Matches Texas Instruments DN038 reference design, for 0.8mm thick PCBs
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Texas Instruments DN038 868-920MHz Helical PCB Trace Antenna.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
