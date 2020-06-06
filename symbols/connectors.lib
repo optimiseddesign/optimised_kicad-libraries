@@ -308,6 +308,48 @@ X Pin_9 9 -150 -400 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Header_2.54mm_TH_01x10_Vertical
+#
+DEF Header_2.54mm_TH_01x10_Vertical J 0 50 Y N 1 F N
+F0 "J" 0 700 50 H V C CNN
+F1 "Header_2.54mm_TH_01x10_Vertical" 0 600 50 H V C CNN
+F2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" 55 -750 50 H I C CNN
+F3 "" -45 250 50 H I C CNN
+F4 "2.54mm Header 01x10 Way Vertical TH" 100 -700 50 H I C CNN "Description"
+F5 "ANY" 100 -700 50 H I C CNN "Manufacturer1"
+F6 "As Appropriate" 100 -700 50 H I C CNN "MPN1"
+F7 " " 0 300 50 H I C CNN "Manufacturer2"
+F8 " " 0 300 50 H I C CNN "MPN2"
+F9 " " 0 300 50 H I C CNN "Vendor1"
+F10 " " 0 300 50 H I C CNN "SKU1"
+F11 " " 0 300 50 H I C CNN "Vendor2"
+F12 " " 0 300 50 H I C CNN "SKU2"
+F13 " " 0 300 50 H I C CNN "FitPart"
+DRAW
+S -50 -445 0 -455 1 1 6 N
+S -50 -345 0 -355 1 1 6 N
+S -50 -245 0 -255 1 1 6 N
+S -50 -145 0 -155 1 1 6 N
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 355 0 345 1 1 6 N
+S -50 455 0 445 1 1 6 N
+S -50 500 50 -500 1 1 10 f
+X Pin_1 1 -150 450 100 R 50 50 1 1 P
+X Pin_10 10 -150 -450 100 R 50 50 1 1 P
+X Pin_2 2 -150 350 100 R 50 50 1 1 P
+X Pin_3 3 -150 250 100 R 50 50 1 1 P
+X Pin_4 4 -150 150 100 R 50 50 1 1 P
+X Pin_5 5 -150 50 100 R 50 50 1 1 P
+X Pin_6 6 -150 -50 100 R 50 50 1 1 P
+X Pin_7 7 -150 -150 100 R 50 50 1 1 P
+X Pin_8 8 -150 -250 100 R 50 50 1 1 P
+X Pin_9 9 -150 -350 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Header_2.54mm_TH_02x04_Vertical
 #
 DEF Header_2.54mm_TH_02x04_Vertical J 0 50 Y N 1 F N
