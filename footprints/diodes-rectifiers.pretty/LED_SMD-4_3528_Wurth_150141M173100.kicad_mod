@@ -1,7 +1,7 @@
-(module LED_SMD-4_3528_Wurth_150141M173100 (layer F.Cu) (tedit 5EC0265B)
+(module LED_SMD-4_3528_Wurth_150141M173100 (layer F.Cu) (tedit 5EE0EA06)
   (descr "Small Outline L-Lead (SOL), 1.415 mm pitch; 4 pin, 2.80 mm L X 3.20 mm W X 2.10 mm H body")
   (attr smd)
-  (fp_text reference REF** (at -2.54 0 90) (layer F.SilkS)
+  (fp_text reference REF** (at -2.54 0 90 unlocked) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.12)))
   )
   (fp_text value VAL** (at -5.08 -1.27) (layer F.Fab) hide

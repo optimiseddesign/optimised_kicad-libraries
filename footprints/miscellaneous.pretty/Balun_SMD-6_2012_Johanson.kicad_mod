@@ -1,7 +1,7 @@
-(module Balun_SMD-6_2012_Johanson (layer F.Cu) (tedit 5EC833E4)
+(module Balun_SMD-6_2012_Johanson (layer F.Cu) (tedit 5EE0E96E)
   (descr "Created for Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001")
   (attr smd)
-  (fp_text reference REF** (at 0.275 -2) (layer F.SilkS)
+  (fp_text reference REF** (at 0.275 -2 unlocked) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)))
   )
   (fp_text value Balun_Johanson_0896BM15A0001 (at 1.625 2.55) (layer F.Fab) hide

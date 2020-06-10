@@ -1,8 +1,8 @@
-(module SOD-123FL (layer F.Cu) (tedit 5ED91FEE)
+(module SOD-123FL (layer F.Cu) (tedit 5EE0EA2C)
   (descr D_SOD-123F)
   (tags D_SOD-123F)
   (attr smd)
-  (fp_text reference REF** (at -0.127 -1.905) (layer F.SilkS)
+  (fp_text reference REF** (at -0.127 -1.905 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SOD-123FL (at 0 2.1) (layer F.Fab) hide

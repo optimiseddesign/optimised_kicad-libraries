@@ -1,10 +1,10 @@
-(module Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R (layer F.Cu) (tedit 5EC024CC)
+(module Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R (layer F.Cu) (tedit 5EE0E976)
   (descr "CR1220 3V Lithum 12mm Coin Cell Battery Holder")
   (attr smd)
-  (fp_text reference REF** (at -4.55 -8.75) (layer F.SilkS)
+  (fp_text reference REF** (at -4.55 -8.75 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R (at 0.6 1.5) (layer F.Fab)
+  (fp_text value Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R (at 0.6 1.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.55 5.7) (end 3.8 5.7) (layer F.Fab) (width 0.15))

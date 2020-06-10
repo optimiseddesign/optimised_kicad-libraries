@@ -1,9 +1,9 @@
-(module Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q (layer F.Cu) (tedit 5EC025C7)
+(module Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q (layer F.Cu) (tedit 5EE0E95B)
   (tags Right-Angle)
-  (fp_text reference REF** (at -2.18 -5.965) (layer F.SilkS)
+  (fp_text reference REF** (at -2.18 -5.965 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q (at 0.96 16.795) (layer F.Fab)
+  (fp_text value Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q (at 0.96 16.795) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.59 -4.95) (end -7.67 -4.95) (layer F.SilkS) (width 0.12))

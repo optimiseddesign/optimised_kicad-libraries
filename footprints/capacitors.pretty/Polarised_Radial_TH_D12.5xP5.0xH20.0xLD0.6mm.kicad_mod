@@ -1,9 +1,9 @@
-(module Polarised_Radial_TH_D12.5xP5.0xH20.0xLD0.6mm (layer F.Cu) (tedit 5ECFF8EA)
+(module Polarised_Radial_TH_D12.5xP5.0xH20.0xLD0.6mm (layer F.Cu) (tedit 5EE0EAF1)
   (descr "Polarised Radial Capacitor, Pitch=5.00mm, Diameter=12.5mm, Height=20mm, Lead Diameter=0.6mm")
-  (fp_text reference REF** (at 3.1 -7.6) (layer F.SilkS)
+  (fp_text reference REF** (at 3.1 -7.6 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Polarised_Radial_TH_D12.5xP5.0xH20.0xLD0.6mm (at 2.5 7.5) (layer F.Fab)
+  (fp_text value Polarised_Radial_TH_D12.5xP5.0xH20.0xLD0.6mm (at 2.5 7.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -2.1 -2.2) (end -1.5 -2.2) (layer F.SilkS) (width 0.15))

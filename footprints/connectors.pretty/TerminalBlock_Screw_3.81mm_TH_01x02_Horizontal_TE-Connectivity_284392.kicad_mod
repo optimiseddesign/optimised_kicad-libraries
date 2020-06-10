@@ -1,6 +1,6 @@
-(module TerminalBlock_Screw_3.81mm_TH_01x02_Horizontal_TE-Connectivity_284392 (layer F.Cu) (tedit 5ECD06D0)
+(module TerminalBlock_Screw_3.81mm_TH_01x02_Horizontal_TE-Connectivity_284392 (layer F.Cu) (tedit 5EE0EAA6)
   (descr "14-30AWG (.05 – 2mm2) wire size")
-  (fp_text reference REF** (at -0.375 -3.415) (layer F.SilkS)
+  (fp_text reference REF** (at -0.375 -3.415 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.12)))
   )
   (fp_text value TE_284392-2 (at -0.125 7.66) (layer F.Fab) hide

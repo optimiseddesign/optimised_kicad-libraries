@@ -1,8 +1,8 @@
-(module Fuse_SMD_3216x09 (layer F.Cu) (tedit 5ED666EE)
+(module Fuse_SMD_3216x09 (layer F.Cu) (tedit 5EE0E987)
   (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "0.90mm height")
   (attr smd)
-  (fp_text reference REF** (at 0 -1.82) (layer F.SilkS)
+  (fp_text reference REF** (at 0 -1.82 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Fuse_SMD_3216x09 (at 0.1 2.2) (layer F.Fab) hide

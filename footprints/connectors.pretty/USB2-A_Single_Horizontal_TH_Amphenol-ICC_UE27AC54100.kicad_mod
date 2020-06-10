@@ -1,9 +1,9 @@
-(module USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100 (layer F.Cu) (tedit 5EC0227C)
+(module USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100 (layer F.Cu) (tedit 5EE0EAC6)
   (tags "USB_A Female Connector receptacle")
-  (fp_text reference REF** (at 3.5 -2.26) (layer F.SilkS)
+  (fp_text reference REF** (at 3.5 -2.26 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100 (at 3.5 14.49) (layer F.Fab)
+  (fp_text value USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100 (at 3.5 14.49) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -4.125 13.35) (end 11.125 13.35) (layer F.CrtYd) (width 0.05))

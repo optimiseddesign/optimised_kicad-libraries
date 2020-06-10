@@ -1,4 +1,4 @@
-(module TestPoint_Pad_0.9mm (layer F.Cu) (tedit 5EC52C10)
+(module TestPoint_Pad_0.9mm (layer F.Cu) (tedit 5EE0E9CA)
   (descr "0.9mm top copper pad, no step model")
   (attr virtual)
   (fp_text reference REF** (at 0.1 -1.1 unlocked) (layer F.SilkS)

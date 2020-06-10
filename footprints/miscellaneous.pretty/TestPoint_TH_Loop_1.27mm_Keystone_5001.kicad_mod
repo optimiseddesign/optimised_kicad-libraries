@@ -1,4 +1,4 @@
-(module TestPoint_TH_Loop_1.27mm_Keystone_5001 (layer F.Cu) (tedit 5EC51868)
+(module TestPoint_TH_Loop_1.27mm_Keystone_5001 (layer F.Cu) (tedit 5EE0E9D3)
   (fp_text reference REF** (at 0 -1.8 unlocked) (layer F.SilkS)
     (effects (font (size 0.5 0.5) (thickness 0.12)))
   )

@@ -1,5 +1,5 @@
-(module TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3 (layer F.Cu) (tedit 5EC164CA)
-  (fp_text reference REF** (at -3.8 -5.2) (layer F.SilkS)
+(module TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3 (layer F.Cu) (tedit 5EE0EA9E)
+  (fp_text reference REF** (at -3.8 -5.2 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.12)))
   )
   (fp_text value TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3 (at 1.7 15.7) (layer F.SilkS) hide

@@ -1,10 +1,10 @@
-(module SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4 (layer F.Cu) (tedit 5EC021E5)
+(module SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4 (layer F.Cu) (tedit 5EE0EA7C)
   (descr "0.6mm Pitch SODIMM DDR2 1.8V Socket used for Raspberry Pi Compute Module CM")
   (attr smd)
-  (fp_text reference REF** (at -34.480475 -22.582645) (layer F.SilkS)
+  (fp_text reference REF** (at -34.480475 -22.582645 unlocked) (layer F.SilkS)
     (effects (font (size 1.001961 1.001961) (thickness 0.15)))
   )
-  (fp_text value SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4 (at 0 1.6) (layer F.Fab)
+  (fp_text value SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4 (at -1.4 8.1) (layer F.Fab) hide
     (effects (font (size 1.001094 1.001094) (thickness 0.15)))
   )
   (fp_line (start -35.55 -1.85) (end -35.55 5) (layer F.Fab) (width 0.127))

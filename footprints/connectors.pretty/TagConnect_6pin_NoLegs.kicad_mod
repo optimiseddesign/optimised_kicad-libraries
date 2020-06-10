@@ -1,4 +1,4 @@
-(module TagConnect_6pin_NoLegs (layer F.Cu) (tedit 5ED4146C)
+(module TagConnect_6pin_NoLegs (layer F.Cu) (tedit 5EE0EA8F)
   (descr "To fit Tag-Connect 6pin No-Legs cables, e.g. TC2030-IDC-NL - https://www.tag-connect.com/product/tc2030-idc-nl")
   (attr virtual)
   (fp_text reference REF** (at 3.1 0.3 270 unlocked) (layer F.SilkS)

@@ -1,9 +1,9 @@
-(module USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1 (layer F.Cu) (tedit 5EC022E4)
+(module USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1 (layer F.Cu) (tedit 5EE0EACE)
   (descr "USB 2.0 Type B, Horizontal TH Single Connector")
-  (fp_text reference REF** (at -4.07503 -1.92509) (layer F.SilkS)
+  (fp_text reference REF** (at -4.07503 -1.92509 unlocked) (layer F.SilkS)
     (effects (font (size 1.000016 1.000016) (thickness 0.15)))
   )
-  (fp_text value USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1 (at -0.014055 16.334105) (layer F.Fab)
+  (fp_text value USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1 (at -0.014055 16.334105) (layer F.Fab) hide
     (effects (font (size 1.00078 1.00078) (thickness 0.15)))
   )
   (fp_line (start 4.82 15.04) (end -7.32 15.04) (layer F.Fab) (width 0.127))

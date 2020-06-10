@@ -1,10 +1,10 @@
-(module Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512 (layer F.Cu) (tedit 5ED132BB)
+(module Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512 (layer F.Cu) (tedit 5EE0E9EB)
   (descr "2.5mm x 2.0mm nominal, 1.2mm high max")
   (attr smd)
-  (fp_text reference REF** (at 0.2 -2.1) (layer F.SilkS)
+  (fp_text reference REF** (at 0.2 -2.1 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.12)))
   )
-  (fp_text value Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512 (at 0.6 9.9) (layer F.Fab) hide
+  (fp_text value Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512 (at 0.7 4.4) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.12)))
   )
   (fp_text user %R (at 0 0.05) (layer F.Fab)

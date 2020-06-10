@@ -1,7 +1,7 @@
-(module Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S (layer F.Cu) (tedit 5EC6CE22)
+(module Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S (layer F.Cu) (tedit 5EE0EA48)
   (descr "Oscillator, Corner Concave; 2.50 mm L X 2.00 mm W X 1.00 mm H body")
   (attr smd)
-  (fp_text reference REF** (at 0.14 -2.19) (layer F.SilkS)
+  (fp_text reference REF** (at 0.14 -2.19 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.12)))
   )
   (fp_text value VAL** (at 0.3 2.35) (layer F.Fab) hide

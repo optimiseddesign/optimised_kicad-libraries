@@ -1,7 +1,7 @@
-(module TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708 (layer F.Cu) (tedit 5EC02253)
+(module TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708 (layer F.Cu) (tedit 5EE0EABE)
   (descr CTBP0708/3)
   (tags Connector)
-  (fp_text reference REF** (at 2.85 -3.95) (layer F.SilkS)
+  (fp_text reference REF** (at 2.85 -3.95 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708 (at 3.2 15.2) (layer F.SilkS) hide

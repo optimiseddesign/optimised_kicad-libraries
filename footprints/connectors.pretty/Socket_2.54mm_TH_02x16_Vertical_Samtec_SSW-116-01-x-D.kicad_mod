@@ -1,9 +1,9 @@
-(module Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D (layer F.Cu) (tedit 5EBAB7F0)
+(module Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D (layer F.Cu) (tedit 5EE0EA87)
   (descr "Through hole straight socket strip, 2x16, 2.54mm pitch, double row")
-  (fp_text reference REF** (at -1.27 -2.77) (layer F.SilkS)
+  (fp_text reference REF** (at -1.27 -2.77 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value PinSocket_2x16_P2.54mm_Vertical (at -1.27 40.87) (layer F.Fab)
+  (fp_text value PinSocket_2x16_P2.54mm_Vertical (at -1.27 40.87) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.87 -1.59) (end 0.21 -1.59) (layer F.Fab) (width 0.12))
