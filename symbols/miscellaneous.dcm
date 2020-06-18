@@ -22,6 +22,7 @@ F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Bel Fuse C1T
 $ENDCMP
 #
 $CMP Logo
+D PCB Logo Virtual Part
 K Select logo footprint after placing
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
@@ -43,6 +44,7 @@ F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #
 $CMP TestPoint_Pad_0.9mm
+D Test Point 0.9mm Pad
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #

@@ -115,9 +115,9 @@ F0 "LOGO" 0 100 50 H V C CNN
 F1 "Logo" 0 -350 50 H I C CNN
 F2 "" -145 0 50 H I C CNN
 F3 "" -145 0 50 H I C CNN
-F4 " " -100 50 50 H I C CNN "Description"
-F5 " " -100 50 50 H I C CNN "Manufacturer1"
-F6 " " -100 50 50 H I C CNN "MPN1"
+F4 "PCB Logo Virtual Part" -100 50 50 H I C CNN "Description"
+F5 "N/A" -100 50 50 H I C CNN "Manufacturer1"
+F6 "N/A" -100 50 50 H I C CNN "MPN1"
 F7 " " -100 50 50 H I C CNN "Manufacturer2"
 F8 " " -100 50 50 H I C CNN "MPN2"
 F9 " " -100 50 50 H I C CNN "Vendor1"
