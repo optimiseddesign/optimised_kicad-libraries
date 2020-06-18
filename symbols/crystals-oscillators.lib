@@ -36,7 +36,7 @@ F2 "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S" -45 -450 5
 F3 "" -45 -50 50 H I C CNN
 F4 "16MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" 0 -450 50 H I C CNN "Description"
 F5 "ECS Inc" 0 -450 50 H I C CNN "Manufacturer1"
-F6 "ECS‍‐2520S33‍‐160‍‐FN‍‐TR" 0 -450 50 H I C CNN "MPN1"
+F6 "ECS‍-2520S33‍-160‍-FN‍-TR" 0 -450 50 H I C CNN "MPN1"
 F7 " " 0 0 50 H I C CNN "Manufacturer2"
 F8 " " 0 0 50 H I C CNN "MPN2"
 F9 "Mouser" 0 -450 50 H I C CNN "Vendor1"
@@ -117,7 +117,7 @@ F2 "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S" -45 -450 5
 F3 "" -45 -50 50 H I C CNN
 F4 "26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" 0 -450 50 H I C CNN "Description"
 F5 "ECS Inc" 0 -450 50 H I C CNN "Manufacturer1"
-F6 "ECS‍‐2520S33‍‐260‍‐FN‍‐TR" 0 -450 50 H I C CNN "MPN1"
+F6 "ECS‍-2520S33‍-260‍-FN‍-TR" 0 -450 50 H I C CNN "MPN1"
 F7 " " 0 0 50 H I C CNN "Manufacturer2"
 F8 " " 0 0 50 H I C CNN "MPN2"
 F9 "Mouser" 0 -450 50 H I C CNN "Vendor1"
