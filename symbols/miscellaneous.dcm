@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2_Left
+D WiFi/Bluetooth 2400MHz SMD Chip Antenna 1608
+K Left Facing Layout. Minimum GND Keepout. Requires radiator electrode pattern and vias adding. Adjust using simulation at https://product.tdk.com/en/search/rf/rf/antenna/simulation?pid=1432889562964
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\TDK ANT016008LCS2442MA2 SMD Chip Antenna 1608 2400MHz.pdf
+$ENDCMP
+#
 $CMP Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001
 D 868/915MHz Matched Balun/LPF SMD-6 2012m for TI CC110x CC111x etc
 K 50R impedance, balanced to unbalanced conversion including LPF
