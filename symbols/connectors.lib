@@ -1279,6 +1279,59 @@ X SWO/TDO 6 650 -100 150 L 50 50 0 0 O
 ENDDRAW
 ENDDEF
 #
+# TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003
+#
+DEF TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003 J 0 50 Y N 1 F N
+F0 "J" 2 339 50 H V C CNN
+F1 "TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003" 173 241 50 H V C CNN
+F2 "_kb_connectors:TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003" -31 -406 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "01x03 Way 3.50mm Pitch 10A 300VAC Horizontal Pluggable TH Terminal Block" 0 -450 50 H I C CNN "Description"
+F5 "Wurth Elektronik" 0 -450 50 H I C CNN "Manufacturer1"
+F6 "691322110003" 14 -306 50 H I C CNN "MPN1"
+F7 " " -5 0 50 H I C CNN "Manufacturer2"
+F8 " " -5 0 50 H I C CNN "MPN2"
+F9 "Farnell" 14 -306 50 H I C CNN "Vendor1"
+F10 "1841316" 0 -450 50 H I C CNN "SKU1"
+F11 "Mouser" 14 -356 50 H I C CNN "Vendor2"
+F12 "710-691322110003" 14 -356 50 H I C CNN "SKU2"
+F13 " " -5 0 50 H I C CNN "FitPart"
+DRAW
+A 30 -101 78 1534 -1534 0 1 0 N -40 -66 -40 -136
+A 30 -1 78 1534 -1534 0 1 0 N -40 34 -40 -36
+A 30 101 78 1534 -1534 0 1 0 N -40 136 -40 66
+S -40 -152 -50 -134 0 1 0 F
+S -40 -68 -50 -50 0 1 0 F
+S -40 -52 -50 -34 0 1 0 F
+S -40 32 -50 50 0 1 0 F
+S -40 50 -50 68 0 1 0 F
+S -40 134 -50 152 0 1 0 F
+S -15 -90 5 -110 0 1 0 F
+S -15 10 5 -10 0 1 0 F
+S -15 110 5 90 0 1 0 F
+S 30 -120 35 -150 0 1 0 N
+S 30 -80 35 -50 0 1 0 N
+S 30 -20 35 -50 0 1 0 N
+S 30 20 35 50 0 1 0 N
+S 30 80 35 50 0 1 0 N
+S 30 120 35 150 0 1 0 N
+S -50 150 50 -150 1 1 10 f
+P 2 0 1 0 -48 148 -48 -152 N
+P 2 0 1 0 30 -150 50 -150 N
+P 2 0 1 0 30 -50 50 -50 N
+P 2 0 1 0 30 50 50 50 N
+P 4 0 1 0 35 -130 50 -150 45 -150 35 -140 N
+P 4 0 1 0 35 -70 50 -50 45 -50 35 -60 N
+P 4 0 1 0 35 -30 50 -50 45 -50 35 -40 N
+P 4 0 1 0 35 30 50 50 45 50 35 40 N
+P 4 0 1 0 35 70 50 50 45 50 35 60 N
+P 4 0 1 0 35 130 50 150 45 150 35 140 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2
 #
 DEF TerminalBlock_Pluggable_5.08mm_TH_01x02_Horizontal_TE-Connectivity_796638-2 J 0 50 Y N 1 F N
