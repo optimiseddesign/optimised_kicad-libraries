@@ -102,6 +102,12 @@ K  e.g. TC2030-IDC-NL - https://www.tag-connect.com/product/tc2030-idc-nl
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Tag Connect TC2030-IDC-NL 6pin NoLegs Sprung Probe Cable.pdf
 $ENDCMP
 #
+$CMP TerminalBlock_Pluggable_3.50mm_TH_01x02_Horizontal_Wurth_691322110002
+D 01x02 Way 3.50mm Pitch 10A 300VAC Horizontal Pluggable TH Terminal Block
+K Right-Angle PCB Header
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Wurth 6913221100xx Series 3.50mm 10A 300V Pluggable PCB Terminal Blocks Horizontal.pdf
+$ENDCMP
+#
 $CMP TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003
 D 01x03 Way 3.50mm Pitch 10A 300VAC Horizontal Pluggable TH Terminal Block
 K Right-Angle PCB Header
