@@ -29,6 +29,12 @@ K SRN2512 Series - choose exact part
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Bourns SRN2512 Series SMD 2520m Power Inductors Semi-Shielded.pdf
 $ENDCMP
 #
+$CMP Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH
+D Inductor ??uH ??% ??Arms ??% Un-Shielded 4532m Wire-Wound
+K LQH43NH Series - choose exact part
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Murata LQH43NH Series 4532m Wire-Wound SMD Inductors.pdf
+$ENDCMP
+#
 $CMP Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA
 D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm
 K SRN5040TA Series - choose exact part
