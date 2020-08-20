@@ -86,15 +86,15 @@ D 2.54mm Socket 01x03 Way Vertical TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
-$CMP Socket_2.54mm_TH_01x03_Vertical_Everconn_D161
-D 01x03 Way 1.6mm Holes, to fit Everconn D161 Crimped Wires
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Everconn D10 D121 D161 D1831 D182 D185 D262 D32 DIP SIN PCB Wire Crimp Connectors.pdf
-$ENDCMP
-#
 $CMP Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-L-D
 D 2.54mm Socket 02x16 Way Vertical TH
 K 10u" Gold
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Samtec SSW SSQ Series TH 2.54mm Sockets.pdf
+$ENDCMP
+#
+$CMP Socket_2.84mm_TH_01x03_Vertical_Everconn_D161
+D 01x03 Way 1.6mm Holes, to fit Everconn D161 Crimped Wires
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Everconn D10 D121 D161 D1831 D182 D185 D262 D32 DIP SIN PCB Wire Crimp Connectors.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_connectors

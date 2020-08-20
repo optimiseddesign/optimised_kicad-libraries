@@ -1129,34 +1129,6 @@ X Pin_3 3 -150 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Socket_2.54mm_TH_01x03_Vertical_Everconn_D161
-#
-DEF Socket_2.54mm_TH_01x03_Vertical_Everconn_D161 J 0 50 Y N 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "Socket_2.54mm_TH_01x03_Vertical_Everconn_D161" 0 250 50 H V C CNN
-F2 "_kb_connectors:Socket_2.54mm_TH_01x03_Vertical_Everconn_D161" 5 -300 50 H I C CNN
-F3 "" -45 -100 50 H I C CNN
-F4 "01x03 Way 1.6mm Holes, 2.54mm Pitch, to fit Everconn D161 Crimp Wires" 50 -250 50 H I C CNN "Description"
-F5 "N/A" 0 -250 50 H I C CNN "Manufacturer1"
-F6 "N/A" 50 -250 50 H I C CNN "MPN1"
-F7 " " 0 -50 50 H I C CNN "Manufacturer2"
-F8 " " 0 -50 50 H I C CNN "MPN2"
-F9 " " 0 -50 50 H I C CNN "Vendor1"
-F10 " " 0 -50 50 H I C CNN "SKU1"
-F11 " " 0 -50 50 H I C CNN "Vendor2"
-F12 " " 0 -50 50 H I C CNN "SKU2"
-F13 "DNF" 0 -250 50 H I C CNN "FitPart"
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -150 100 100 R 50 50 1 1 P
-X Pin_2 2 -150 0 100 R 50 50 1 1 P
-X Pin_3 3 -150 -100 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-L-D
 #
 DEF Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-L-D J 0 50 Y N 1 F N
@@ -1240,6 +1212,34 @@ X Pin_6 6 -250 550 150 R 50 50 1 1 P
 X Pin_7 7 250 450 150 L 50 50 1 1 P
 X Pin_8 8 -250 450 150 R 50 50 1 1 P
 X Pin_9 9 250 350 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Socket_2.84mm_TH_01x03_Vertical_Everconn_D161
+#
+DEF Socket_2.84mm_TH_01x03_Vertical_Everconn_D161 J 0 50 Y N 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Socket_2.84mm_TH_01x03_Vertical_Everconn_D161" 0 250 50 H V C CNN
+F2 "_kb_connectors:Socket_2.84mm_TH_01x03_Vertical_Everconn_D161" 5 -300 50 H I C CNN
+F3 "" -45 -100 50 H I C CNN
+F4 "01x03 Way 1.6mm Holes, 2.84mm Pitch, to fit Everconn D161 Crimp Wires" 50 -250 50 H I C CNN "Description"
+F5 "N/A" 0 -250 50 H I C CNN "Manufacturer1"
+F6 "N/A" 50 -250 50 H I C CNN "MPN1"
+F7 " " 0 -50 50 H I C CNN "Manufacturer2"
+F8 " " 0 -50 50 H I C CNN "MPN2"
+F9 " " 0 -50 50 H I C CNN "Vendor1"
+F10 " " 0 -50 50 H I C CNN "SKU1"
+F11 " " 0 -50 50 H I C CNN "Vendor2"
+F12 " " 0 -50 50 H I C CNN "SKU2"
+F13 "DNF" 0 -250 50 H I C CNN "FitPart"
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -150 100 100 R 50 50 1 1 P
+X Pin_2 2 -150 0 100 R 50 50 1 1 P
+X Pin_3 3 -150 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
