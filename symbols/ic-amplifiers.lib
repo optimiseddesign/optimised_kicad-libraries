@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Opamp_Single_1.2MHz_3.5V-16V_SMD_Microchip_MCP6H01_SC-70-5
+#
+DEF Opamp_Single_1.2MHz_3.5V-16V_SMD_Microchip_MCP6H01_SC-70-5 U 0 4 Y Y 1 F N
+F0 "U" 150 350 50 H V C CNN
+F1 "Opamp_Single_1.2MHz_3.5V-16V_SMD_Microchip_MCP6H01_SC-70-5" 1400 200 50 H V C CNN
+F2 "_kb_semiconductors-smd:SOT-353_SC-70-5_W1.25xL2.0xH1.1mm_P0.65mm" -45 -450 50 H I C CNN
+F3 "" -45 -650 50 H I C CNN
+F4 "Single 1.2 MHz Opamp 3.5V-to-16V Rail-Rail SC-70-5" 100 -450 50 H I C CNN "Description"
+F5 "Microchip" 100 -450 50 H I C CNN "Manufacturer1"
+F6 "MCP6H01T-E/LT" 100 -450 50 H I C CNN "MPN1"
+F7 " " 0 -600 50 H I C CNN "Manufacturer2"
+F8 " " 0 -600 50 H I C CNN "MPN2"
+F9 "Farnell" 100 -450 50 H I C CNN "Vendor1"
+F10 "2920751" 100 -450 50 H I C CNN "SKU1"
+F11 "Mouser" 100 -450 50 H I C CNN "Vendor2"
+F12 "579-MCP6H01T-E/LT" 100 -450 50 H I C CNN "SKU2"
+F13 " " 0 -600 50 H I C CNN "FitPart"
+DRAW
+P 4 1 1 10 -150 200 250 0 -150 -200 -150 200 f
+X ~ 1 350 0 100 L 50 50 1 1 O
+X V- 2 -50 -300 150 U 50 50 1 1 W
+X + 3 -250 100 100 R 50 50 1 1 I
+X - 4 -250 -100 100 R 50 50 1 1 I
+X V+ 5 -50 300 150 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_ic-amplifiers
 #
 DEF TEMPLATE_ic-amplifiers U 0 50 Y Y 1 F N
