@@ -8,4 +8,5 @@
   (lib (name _kb_modules)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/modules.pretty)(options "")(descr ""))
   (lib (name _kb_semiconductors-smd)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/semiconductors-smd.pretty)(options "")(descr ""))
   (lib (name _kb_inductors-transformers)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/inductors-transformers.pretty)(options "")(descr ""))
+  (lib (name _kb_resistors)(type KiCad)(uri ${KIPRJMOD}/kbconsulting_kicad-libraries/footprints/resistors.pretty)(options "")(descr ""))
 )
