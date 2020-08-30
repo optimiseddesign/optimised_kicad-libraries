@@ -1,6 +1,30 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Resistor_SMD_0201_0603m
+#
+DEF Resistor_SMD_0201_0603m R 0 50 N N 1 F N
+F0 "R" -100 0 50 H V C CNN
+F1 "Resistor_SMD_0201_0603m" 50 0 50 H V L CNN
+F2 "_kb_resistors:Resistor_SMD_0201_0603m" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "Chip Resistor 0201 (0603m) 1% 63mW" 0 0 50 H I C CNN "Description"
+F5 "ANY" 0 0 50 H I C CNN "Manufacturer1"
+F6 "As Appropriate" 0 0 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -30 70 30 -70 1 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_0402_1005m
 #
 DEF Resistor_SMD_0402_1005m R 0 50 N N 1 F N

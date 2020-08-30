@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Resistor_SMD_0201_0603m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+$ENDCMP
+#
 $CMP Resistor_SMD_0402_1005m
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
 $ENDCMP

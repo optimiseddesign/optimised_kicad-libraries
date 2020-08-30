@@ -1,5 +1,5 @@
-(module Capacitor_SMD_0402_1005m (layer F.Cu) (tedit 5F3FD6D9)
-  (descr "Capacitor SMD 0402 (1005 Metric), IPC7351 Nominal, Chip; 1.00 mm L X 0.50 mm W X 0.35 mm H body")
+(module Capacitor_SMD_0402_1005m (layer F.Cu) (tedit 5F4C04B7)
+  (descr "Capacitor SMD 0402 (1005 Metric), IPC7351 Nominal, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body")
   (attr smd)
   (fp_text reference REF** (at 0.22 -0.93) (layer F.SilkS)
     (effects (font (size 0.6 0.6) (thickness 0.12)))
