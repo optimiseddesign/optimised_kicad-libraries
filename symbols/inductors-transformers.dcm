@@ -5,6 +5,10 @@ D Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf
 $ENDCMP
 #
+$CMP Inductor_SMD_0201_0603m
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\
+$ENDCMP
+#
 $CMP Inductor_SMD_1005
 D Wire-Wound Inductor 0402 (1005m) ??% ??A
 K General, fill-in
