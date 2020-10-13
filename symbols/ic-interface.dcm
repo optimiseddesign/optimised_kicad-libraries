@@ -31,6 +31,12 @@ D Two-Port USB2.0 480Mbps Switch MSOP-10
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\ON Semi FSUSB42 Two Port USB2 Switch.pdf
 $ENDCMP
 #
+$CMP WiFi-BT_SMD_Espressif_ESP32-PICO-V3_LGA-48
+D RF SiP - WiFi/Bluetooth 2.4GHz, 240MHz Dual Core 32Bit LX6, XTAL, 4MB Flash, 520kB RAM, LGA-48
+K Integrated System-in-Package
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Espressif ESP32-PICO-V3 WiFi and Bluetooth SMD SiP LGA-48.pdf
+$ENDCMP
+#
 $CMP WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG
 D WiFi 802.11a/b/g/n/ac 2.4GHz/5GHz & Bluetooth v4.2 SMD Module, Ext Antenna
 K SDIO, PCM, UART
