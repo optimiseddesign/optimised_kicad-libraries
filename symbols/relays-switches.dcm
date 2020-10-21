@@ -5,6 +5,11 @@ D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
 $ENDCMP
 #
+$CMP Switch_RF_SPDT_6GHz_SMD_Infineon_BGS12SN6_TSNP-6-2
+D Wideband 0.05-6GHz RF SPDT Switch 30dBm TSNP-6-2
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\Infineon BGS12SN6 0-6GHz RF 2-Port SMD Switch SPDT.pdf
+$ENDCMP
+#
 $CMP Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q
 D SPDT Slide Switch, Horizontal TH, 4A@125VAC to 0.5A @125VDC, 5.08mm actuator
 K Right-Angle
