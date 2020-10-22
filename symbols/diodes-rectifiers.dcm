@@ -11,6 +11,11 @@ K RGB LED Wurth 150141M173100 SMD
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
 $ENDCMP
 #
+$CMP LED_SMD_1608_Green_3.2V_430mcd_Wurth_150060GS75000
+D SMD LED 0603 (1608m) Green 3.2V 430mcd InGaN
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SMCW Green SMD LED 150060GS75000.pdf
+$ENDCMP
+#
 $CMP LED_SMD_2012_Green_2.2V_15mcd_Broadcom_HSMG-C170
 D SMD LED 0805 (2012m) Green 2.2V 15mcd typ @ 20mA
 K Avago Broadcom
