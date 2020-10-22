@@ -17,6 +17,11 @@ K IEC 61131-2 Type 1, 2, 3
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Texas Instruments ISO1211_ISO1212 Isolated 24V-60V Digital Input Receivers.pdf
 $ENDCMP
 #
+$CMP LoRa_SMD_Semtech_SX1262_QFN-24
+D 150-960MHz FSK & LoRa Low Power Long Range 22dBm Transceiver, Spreading Factor. 5 to 12, QFN-24
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Semtech SX1261 SX1262 LoRa Sub-GHz RF Transceiver.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-interface
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\
 $ENDCMP
