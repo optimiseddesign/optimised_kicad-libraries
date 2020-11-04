@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D
+D Chip Ferrite Bead 0402 1005m, 1A Max, 10R@100MHz 0.025RDC
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Murata Chip Ferrite Bead 1005m SMD BLM15_xSN1 Series.pdf
+$ENDCMP
+#
 $CMP Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D
 D Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\inductors-transformers\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf
