@@ -35,6 +35,11 @@ D 26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
+$CMP TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A
+D 32MHz TCXO, SMD 4-Pin 2016m, 1/2.5ppm, -40C to 85C, 1.8-3V, END4263A Spec for LoRa
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\NDK NT2016SA-32M-END4263A SMD 2016 TCXO for Semtech LoRa.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_crystals-oscillators
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\
 $ENDCMP
