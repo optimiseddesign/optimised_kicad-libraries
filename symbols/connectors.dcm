@@ -91,6 +91,11 @@ D 2.54mm Socket 01x12 Way Vertical TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
 $ENDCMP
 #
+$CMP Socket_2.54mm_TH_02x08_Vertical
+D 2.54mm Socket 02x08 Way Vertical TH
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\
+$ENDCMP
+#
 $CMP Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-L-D
 D 2.54mm Socket 02x16 Way Vertical TH
 K 10u" Gold
