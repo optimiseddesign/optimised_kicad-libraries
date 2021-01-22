@@ -50,6 +50,12 @@ K Matches Texas Instruments DN038 reference design, for 0.8mm thick PCBs
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Texas Instruments DN038 868-920MHz Helical PCB Trace Antenna.pdf
 $ENDCMP
 #
+$CMP PCB_NFC-Coil_13.56MHz_WxLmm_PT118C
+D PCB Trace Antenna, Helical 868-920MHz 12.3mm x 19.5mm, Right Facing
+K Matches Texas Instruments DN038 reference design, for 0.8mm thick PCBs
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\Texas Instruments DN038 868-920MHz Helical PCB Trace Antenna.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_miscellaneous
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
