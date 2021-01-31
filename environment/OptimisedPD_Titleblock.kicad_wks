@@ -15,7 +15,7 @@
   (line (name segm5:Line) (start 110 5.5) (end 2 5.5))
   (tbtext %K (name text6:Text) (pos 109 3.7))
   (line (name segm6:Line) (start 110.0002 8.500199999999978) (end 2.000200000000007 8.500199999999978))
-  (tbtext "Copyright 2020" (name text7:Text) (pos 49.002 3.7) (font italic))
+  (tbtext "Copyright 2021" (name text7:Text) (pos 49.002 3.7) (font italic))
   (tbtext "PCB ID: %C0" (name text8:Text) (pos 29.002 10.5) (font bold))
   (tbtext "Rev: %R" (name text9:Text) (pos 29.00020000000001 6.900199999999984) (font bold))
   (tbtext "Size: %Z" (name text10:Text) (pos 109 6.9))
