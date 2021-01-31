@@ -176,8 +176,8 @@ ENDDEF
 # Logo
 #
 DEF Logo LOGO 0 50 Y Y 1 F N
-F0 "LOGO" 0 100 50 H V C CNN
-F1 "Logo" 0 -350 50 H I C CNN
+F0 "LOGO" 200 50 50 H V C CNN
+F1 "Logo" 200 -50 50 H V C CNN
 F2 "" -145 0 50 H I C CNN
 F3 "" -145 0 50 H I C CNN
 F4 "PCB Logo Virtual Part" -100 50 50 H I C CNN "Description"
