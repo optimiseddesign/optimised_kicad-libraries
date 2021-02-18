@@ -10,6 +10,12 @@ D CryptoAuthentication Security Device I2C Interface SOIC-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\Microchip ATECC608A CryptoAuthentication Security IC.pdf
 $ENDCMP
 #
+$CMP Sensor_IMU_I2C-SPI_STMicroelectronics_LSM6DSL_LGA-14L
+D iNEMO IMU 3D Accelerometer Gyroscope I2C SPI Sensor LGA-14L
+K 16g/2000dps max full scale
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\ST Microelectronics LSM6DSL iNEMO IMU Accelerometer Gyro Sensor IC.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-other
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\
 $ENDCMP
