@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA
+D 9.5mm Height Vertical Push Button SMD Switch SPST
+K Black 160g Actuation
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\TE Connectivity FSM JSM Series Miniature Pushbutton SMD Vertical Switch.pdf
+$ENDCMP
+#
 $CMP Relay_SPDT_1A_5V_TH_OMRON_G5V-1
 D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
