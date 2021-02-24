@@ -80,6 +80,32 @@ X SH SH 250 -1100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Header_2.00mm_SMD_01x02_Horizontal_JST_PH
+#
+DEF Header_2.00mm_SMD_01x02_Horizontal_JST_PH J 0 50 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "Header_2.00mm_SMD_01x02_Horizontal_JST_PH" 150 200 50 H V C CNN
+F2 "_kb_connectors:Header_2.00mm_SMD_01x02_Horizontal_JST_PH" 55 -250 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "2.00mm Pitch 2way SMD Horizontal Header" 100 -200 50 H I C CNN "Description"
+F5 "JST" 0 -250 50 H I C CNN "Manufacturer1"
+F6 "S3B-PH-SM4-TB(LF)(SN)" 100 -200 50 H I C CNN "MPN1"
+F7 " " 0 -250 50 H I C CNN "Manufacturer2"
+F8 " " 50 -300 50 H I C CNN "MPN2"
+F9 "Farnell" 50 -200 50 H I C CNN "Vendor1"
+F10 "9492623" 50 -200 50 H I C CNN "SKU1"
+F11 "Digikey" 50 -200 50 H I C CNN "Vendor2"
+F12 "455-1750-1-ND" 50 -200 50 H I C CNN "SKU2"
+F13 " " 0 -250 50 H I C CNN "FitPart"
+DRAW
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 100 50 -100 1 1 10 f
+X Pin_1 1 -150 50 100 R 50 50 1 1 P
+X Pin_2 2 -150 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Header_2.54mm_TH_01x02_Vertical
 #
 DEF Header_2.54mm_TH_01x02_Vertical J 0 50 Y N 1 F N
