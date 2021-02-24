@@ -5,6 +5,12 @@ D RF SoC - Bluetooth/2.4GHz, 64MHz Cortex-M4, 512kB Flash 128kB RAM, QFN-40
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Nordic nRF52833 Bluetooth 2400MHz Cortex-M4 SoC Product Specification.pdf
 $ENDCMP
 #
+$CMP BT_SMD_PCBAntenna_Fanstel_BM833
+D nRF52833 Bluetooth BLE v5.1 SMD Module, PCB Antenna, LGA-68
+K Cortex M4F 64MHz, 512KB Flash / 128KB RAM, NFC, 8dBm, -40C to 105C
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-interface\Fanstel BM833 Series nRF52833 nRF52811 Bluetooth BLE v5.1 SMD Module.pdf
+$ENDCMP
+#
 $CMP HDMI_Protection_Texas-Instruments_TPD12S521_TSSOP-38
 D HDMI Transmitter Port ESD Protection and Interface IC TSSOP-38
 K ESD OC over-current regulator level shifting
