@@ -5,6 +5,11 @@ D Signal Diode 75V 150mA SOD-323
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc 1N4148WS_BAV16WS Signal Diode 75V 150mA SOD-323.pdf
 $ENDCMP
 #
+$CMP LED_SMD-4_2220_RGB_Broadcom_ASMB-KTF0-0A306
+D Common Anode RGB LED, SMD 2220 PLCC-4, 490/1100/320mcd typ @ 15mA
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Broadcom ASMB-KTF0-0A306 RGB 2220 SMD LED PLCC-4.pdf
+$ENDCMP
+#
 $CMP LED_SMD-4_3528_Wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
