@@ -10,6 +10,12 @@ D Dual N-Channel MOSFET 8A 60V PowerPAK SO-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\transistors\Vishay Si7972DP Dual 8A 60V N-Channel MOSFET.pdf
 $ENDCMP
 #
+$CMP NMOS_Single_20V_0.8A_DFN0606-3_Nexperia_PMH600UNE
+D Single N-Channel MOSFET 800mA 20V DFN0606-3
+K SOT-8001
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\transistors\Nexperia PMH600UNE Single 800mA 20V N-Channel MOSFET.pdf
+$ENDCMP
+#
 $CMP NMOS_Single_20V_0.9A_SOT-416_ON-Semi_NTA4153NT1G
 D Single N-Channel MOSFET 915mA 20V SOT-416
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\transistors\ON Semi N-4153N Single 915mA 20V N-Channel MOSFET.pdf
