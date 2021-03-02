@@ -10,6 +10,12 @@ D HDMI Type A Receptacle, Horizontal, SMD + TH
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 10029449 Series Horizontal HDMI Type A Receptacle.pdf
 $ENDCMP
 #
+$CMP Header_1.27mm_TH_02x05_Vertical_Shrouded
+D 1.27mm Shrouded Header 02x05 Way Vertical TH
+K Commonly for 10way IDC SWD Programming Header, Dual-fit Samtec/Amphenol
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\connectors\Amphenol ICC 20021511 Series Vertical TH Shrouded 1.27mm Headers.pdf
+$ENDCMP
+#
 $CMP Header_2.00mm_SMD_01x02_Horizontal_JST_PH
 D 2.00mm Pitch 2way SMD Horizontal Header
 K 2A 100V, 32AWG-24AWG
