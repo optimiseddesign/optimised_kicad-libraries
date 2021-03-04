@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Charger_Lithium_Single_0A5_4V2_Microchip_MCP73831_DFN-8
+D Single cell 500mA Li-Ion/Li-Poly Charge Controller, 4.20V, DFN-8-1EP
+K lithium battery charger
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Microchip MCP73831_2 Single Cell Li-ion Li-Poly Charge Controller IC.pdf
+$ENDCMP
+#
 $CMP DC-DC_Buck_Controller_3V8-36V_3A_1400kHz_Texas-Instruments_LMR33630_HSOIC-8
 D 3V8-36V 3A Synchronous 1400kHz Buck Converter IC HSOIC-8
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Texas Instruments LMR33630 3V8-36V 3A Synchronous Buck Converter IC.pdf
