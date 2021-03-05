@@ -1,4 +1,4 @@
-(module LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306 (layer F.Cu) (tedit 603EC939)
+(module LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306 (layer F.Cu) (tedit 60422582)
   (descr "2.2mm (L) x 2.0mm (W) x 1.9mm (H) PLCC-4 SMD LED for RGB Common-Anode LED Broadcom ASMB-KTF0-0A306")
   (attr smd)
   (fp_text reference REF** (at -0.05 -1.9 unlocked) (layer F.SilkS)
@@ -30,8 +30,8 @@
   (pad 3 smd roundrect (at 0.9 0.6) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 0.9 -0.6) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/leds.3dshapes/LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306.stp
-    (offset (xyz 0 0 0.5))
+    (offset (xyz 15.3 -2.26 0.53))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -180))
+    (rotate (xyz 0 0 0))
   )
 )
