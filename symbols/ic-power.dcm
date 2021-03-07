@@ -42,6 +42,11 @@ D 1.25V-6V VIN 2A LDO Fixed 3V3 Regulator 130mV Dropout High PSRR DFN-6
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
 $ENDCMP
 #
+$CMP LDO_Fixed_3V3_300mA_Diodes-Inc_AP2127K_SOT-23-5
+D 2V5-6V IN Fixed 300mA 3V3 LDO Linear Regulator SOT-23-5
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Diodes Inc AP2127 300mA 2V5-6V Low Noise LDO Linear Regulator.pdf
+$ENDCMP
+#
 $CMP LDO_Fixed_5V0_50mA_ON-Semi_NCP715_XDFN-6
 D 2V5-24V IN Fixed 50mA 5V0 LDO Linear Regulator XDFN-6
 K 1.5x1.5mm Package, 0.47uF Stable Cout, Ultra-low Iq 4.7uA
