@@ -271,7 +271,7 @@ ENDDEF
 DEF LDO_Fixed_5V0_300mA_ON-Semi_NCP718_WDFN-6 U 0 25 Y Y 1 F N
 F0 "U" 50 400 50 H V C CNN
 F1 "LDO_Fixed_5V0_300mA_ON-Semi_NCP718_WDFN-6" 50 300 50 H V C CNN
-F2 "_kb_semiconductors-smd:DFN-6-1EP_W2.0xL2.0xH0.8mm_P0.65mm_EP1x1.6mm_ONSemi" 5 -750 50 H I C CNN
+F2 "_kb_semiconductors-smd:DFN-6-1EP_W2.0xL2.0xH0.8mm_P0.65mm_EP1x1.6mm" 5 -750 50 H I C CNN
 F3 "" 5 -750 50 H I C CNN
 F4 "2V5-24V IN Fixed 5V 300mA 2% LDO Linear Regulator WDFN-6" 50 -700 50 H I C CNN "Description"
 F5 "ON Semiconductor" 50 -700 50 H I C CNN "Manufacturer1"
