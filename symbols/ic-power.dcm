@@ -47,6 +47,12 @@ D 2V5-6V IN Fixed 300mA 3V3 LDO Linear Regulator SOT-23-5
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Diodes Inc AP2127 300mA 2V5-6V Low Noise LDO Linear Regulator.pdf
 $ENDCMP
 #
+$CMP LDO_Fixed_3V3_300mA_Texas-Instruments_TPS7A25_WSON-6
+D 2.4V-18V IN Fixed 3.3V 300mA 1% LDO Linear Regulator WSON-6
+K 2x2mm Package, 1uF Stable Cout, Ultra-low Iq 2uA, Power-good output
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-power\Texas Instruments TPS7A25 300mA 2V4-18V LDO Linear Regulator.pdf
+$ENDCMP
+#
 $CMP LDO_Fixed_5V0_300mA_ON-Semi_NCP718_WDFN-6
 D 2V5-24V IN Fixed 5V 300mA 2% LDO Linear Regulator WDFN-6
 K 2x2mm Package, 1uF Stable Cout, Ultra-low Iq 4uA, without active discharge
