@@ -5,6 +5,12 @@ D Signal Diode 75V 150mA SOD-323
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc 1N4148WS_BAV16WS Signal Diode 75V 150mA SOD-323.pdf
 $ENDCMP
 #
+$CMP Diode_Single_85V_215mA_Diodes-Inc_BAS116LPH4_DFN1006-2
+D Single Low-Leakage SMD Switching Diode 85V 215mA DFN1006-2
+K 1.0x0.6mmx0.4mm, 3us, 1.5pF
+F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc BAS116LPH4 Low Leakage Switching Diode 85V 215mA DFN1006.pdf
+$ENDCMP
+#
 $CMP LED_SMD-4_2220_RGB_Broadcom_ASMB-KTF0-0A306
 D Common Anode RGB LED, SMD 2220 PLCC-4, 490/1100/320mcd typ @ 15mA
 F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Broadcom ASMB-KTF0-0A306 RGB 2220 SMD LED PLCC-4.pdf
