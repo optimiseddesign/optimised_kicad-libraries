@@ -42,7 +42,7 @@
   (pad 2 smd roundrect (at 4.55 -2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at -4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 4.55 2.25) (size 2.1 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/relays-switches.3dshapes/Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA.stp
     (offset (xyz 0 0 3.7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

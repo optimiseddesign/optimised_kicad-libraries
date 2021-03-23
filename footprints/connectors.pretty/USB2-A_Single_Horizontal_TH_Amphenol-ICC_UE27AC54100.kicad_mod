@@ -47,7 +47,7 @@
   (pad 2 thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.5 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 7 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/Amphenol ICC UE27AC54100 USB2-A Single Horizontal.stp"
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Amphenol ICC UE27AC54100 USB2-A Single Horizontal.stp"
     (offset (xyz 3.5 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

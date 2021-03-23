@@ -34,7 +34,7 @@ DESIGN PACK
 readme updated, incl revision history
 export bom - use KiBOM from my own customised fork at https://github.com/kb-consulting/KiBoM.git using command:...
 python "C:\freelance\git\KiBoM/KiBOM_CLI.py" -v "%I" "%O.csv" -d "..\manufacturing"
-... plus custom bom.ini from C:\freelance\git\kbconsulting_kicad-libraries\environment\bom.ini (copied into KiCAD design folder root)
+... plus custom bom.ini from C:\freelance\git\optimised_kicad-libraries\environment\bom.ini (copied into KiCAD design folder root)
 ... (later could change field to "Part Description" to avoid clashing with 'Description' and needed my customised fork?).
 change BOM headers "Component" to "Item", and "Quantity per PCB" to "Qty", and left-align everything, move pcb info to sensible place, save as .xlsx with bold headers & frozen top row.
 schematic pdf

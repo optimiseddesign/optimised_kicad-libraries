@@ -46,7 +46,7 @@
   (pad 1 thru_hole rect (at 0 0 270) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 5.08 270) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 10.16 270) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708.stp
     (offset (xyz 6.2 -12.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

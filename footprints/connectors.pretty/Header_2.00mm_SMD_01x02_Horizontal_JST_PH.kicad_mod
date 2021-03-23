@@ -56,7 +56,7 @@
   (pad 2 smd roundrect (at 1 -2.85) (size 1 3.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad MP smd roundrect (at -3.35 2.9) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
   (pad MP smd roundrect (at 3.35 2.9) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/Header_2.00mm_SMD_01x02_Horizontal_JST_PH.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_2.00mm_SMD_01x02_Horizontal_JST_PH.stp
     (offset (xyz -7.9 12.6 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

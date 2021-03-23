@@ -40,7 +40,7 @@
   (pad 2 thru_hole circle (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 5.08 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model "${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/relays-switches.3dshapes/OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.stp"
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

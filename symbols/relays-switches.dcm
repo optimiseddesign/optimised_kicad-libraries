@@ -3,37 +3,37 @@ EESchema-DOCLIB  Version 2.0
 $CMP Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA
 D 9.5mm Height Vertical Push Button SMD Switch SPST
 K Black 160g Actuation
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\TE Connectivity FSM JSM Series Miniature Pushbutton SMD Vertical Switch.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\TE Connectivity FSM JSM Series Miniature Pushbutton SMD Vertical Switch.pdf
 $ENDCMP
 #
 $CMP Relay_SPDT_1A_5V_TH_OMRON_G5V-1
 D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
 $ENDCMP
 #
 $CMP Switch_RF_SPDT_6GHz_SMD_Infineon_BGS12SN6_TSNP-6-2
 D Wideband 0.05-6GHz RF SPDT Switch 30dBm TSNP-6-2
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\Infineon BGS12SN6 0-6GHz RF 2-Port SMD Switch SPDT.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\Infineon BGS12SN6 0-6GHz RF 2-Port SMD Switch SPDT.pdf
 $ENDCMP
 #
 $CMP Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q
 D SPDT Slide Switch, Horizontal TH, 4A@125VAC to 0.5A @125VDC, 5.08mm actuator
 K Right-Angle
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
 $ENDCMP
 #
 $CMP Switch_Slide_SPDT_Horizontal_TH_CandK_L102121ML04Q
 D SPDT Slide Switch, Horizontal TH, 4A@125VAC to 0.5A @125VDC, Screwdriver Slot actuator
 K Right-Angle, Screwdriver Slot
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\CandK L Series Miniature Slide Switches.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_relays
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\
 $ENDCMP
 #
 $CMP TEMPLATE_switches
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\relays-switches\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\
 $ENDCMP
 #
 #End Doc Library

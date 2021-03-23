@@ -2,89 +2,89 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP Diode_Single_75V_150mA_Diodes-Inc_1N4148WS_SOD-323
 D Signal Diode 75V 150mA SOD-323
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc 1N4148WS_BAV16WS Signal Diode 75V 150mA SOD-323.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc 1N4148WS_BAV16WS Signal Diode 75V 150mA SOD-323.pdf
 $ENDCMP
 #
 $CMP Diode_Single_85V_215mA_Diodes-Inc_BAS116LPH4_DFN1006-2
 D Single Low-Leakage SMD Switching Diode 85V 215mA DFN1006-2
 K 1.0x0.6mmx0.4mm, 3us, 1.5pF
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc BAS116LPH4 Low Leakage Switching Diode 85V 215mA DFN1006.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc BAS116LPH4 Low Leakage Switching Diode 85V 215mA DFN1006.pdf
 $ENDCMP
 #
 $CMP LED_SMD-4_2220_RGB_Broadcom_ASMB-KTF0-0A306
 D Common Anode RGB LED, SMD 2220 PLCC-4, 490/1100/320mcd typ @ 15mA
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Broadcom ASMB-KTF0-0A306 RGB 2220 SMD LED PLCC-4.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Broadcom ASMB-KTF0-0A306 RGB 2220 SMD LED PLCC-4.pdf
 $ENDCMP
 #
 $CMP LED_SMD-4_3528_Wurth_150141M173100
 D Common Anode RGB LED SMD
 K RGB LED Wurth 150141M173100 SMD
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
 $ENDCMP
 #
 $CMP LED_SMD_1608_Green_3.2V_430mcd_Wurth_150060GS75000
 D SMD LED 0603 (1608m) Green 3.2V 430mcd InGaN
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SMCW Green SMD LED 150060GS75000.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SMCW Green SMD LED 150060GS75000.pdf
 $ENDCMP
 #
 $CMP LED_SMD_2012_Green_2.2V_15mcd_Broadcom_HSMG-C170
 D SMD LED 0805 (2012m) Green 2.2V 15mcd typ @ 20mA
 K Avago Broadcom
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
 $ENDCMP
 #
 $CMP LED_SMD_2012_Red_2.1V_10mcd_Broadcom_HSMS-C170
 D SMD LED 0805 (2012m) Red 2.1V 10mcd typ @ 20mA
 K Avago Broadcom
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Avago Technologies Broadcom HSMx-Cxxx SMD LEDs.pdf
 $ENDCMP
 #
 $CMP LED_SMD_3010-Horizontal_Green-Red-Bicolour_2.0V_35-45mcd_Lite-On_LTST-S326KGJRKT
 D Green-Red Bi-Colour SMD LED, 35/45mcd 2.0V, 3010m size, Horizontal (Side) View
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Lite-On LTST-S326KGJRKT Green-Red Bicolour Horizontal LED.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Lite-On LTST-S326KGJRKT Green-Red Bicolour Horizontal LED.pdf
 $ENDCMP
 #
 $CMP Schottky_Dual-AKAK_30V_0.2A_SOT23_ON-Semi_BAT54SL
 D Dual 200mA 30V Schottky Diodes SMD SOT-23
 K Serial / Common Cathode+Anode (AKAK)
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor BAT54SL 30V 200mA Dual Schottky Diodes SOT-23.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor BAT54SL 30V 200mA Dual Schottky Diodes SOT-23.pdf
 $ENDCMP
 #
 $CMP Schottky_Dual-AKKA_60V_1A_SOT223_Nexperia_BAT160C
 D Dual 1A 60V Schottky Diodes SMD SOT223
 K Dual, Common Cathode (AKKA)
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Nexperia BAT160 Series Dual 1A 60V Schottky Diodes SOT223.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Nexperia BAT160 Series Dual 1A 60V Schottky Diodes SOT223.pdf
 $ENDCMP
 #
 $CMP Schottky_Single_100V_200mA_ON-Semi_NSR02100HT1G_SOD-323
 D Schottky Diode 100V 200mA SOD-323
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor NSR02100HT1G Schottky Diode 100V 200mA SOD-323.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ON Semiconductor NSR02100HT1G Schottky Diode 100V 200mA SOD-323.pdf
 $ENDCMP
 #
 $CMP Schottky_Single_60V_2A_Nexperia_PMEG6020ER_SOD-323W
 D Schottky Diode 60V 2A SOD-123W
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Nexperia PMEG6020ER Schottky Diode 60V 2A SOD-123W.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Nexperia PMEG6020ER Schottky Diode 60V 2A SOD-123W.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_diodes-rectifiers
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\
 $ENDCMP
 #
 $CMP TVS_Bidir_400W_SMA_Diodes-Inc_SMAJ--CA
 D 30V Bidirectional 400W TVS Diode SMA
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc SMAJ Series 400W TVS Diodes SMA.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Diodes Inc SMAJ Series 400W TVS Diodes SMA.pdf
 $ENDCMP
 #
 $CMP TVS_Bidir_400W_SOD-123FL_Littelfuse_SMF4L--CA
 D ??V Bidirectional 400W TVS Diode SOD-123FL
 K 9V - 51V Bi-directional available
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\Littelfuse SMF4L Series 400W TVS Diodes SOD-123FL.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Littelfuse SMF4L Series 400W TVS Diodes SOD-123FL.pdf
 $ENDCMP
 #
 $CMP TVS_Bidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666
 D VBUS and Dual High-Speed Signal TVS ESD Protection SOT-666
 K USB 2.0 , Ethernet and others
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\diodes-rectifiers\ST Microelectronics USBLC6-2 VBUS and Dual High-Speed Signal Line TVS ESD Protection.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ST Microelectronics USBLC6-2 VBUS and Dual High-Speed Signal Line TVS ESD Protection.pdf
 $ENDCMP
 #
 #End Doc Library

@@ -90,7 +90,7 @@
   (pad "" smd roundrect (at 0.9 0.9) (size 1.27 1.27) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at -0.9 -0.9) (size 1.27 1.27) (layers F.Paste) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 0.9 -0.9) (size 1.27 1.27) (layers F.Paste) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/QFN-40-1EP_W5.0xL5.0xH0.9mm_P0.4mm_EP3.6x3.6mm.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/QFN-40-1EP_W5.0xL5.0xH0.9mm_P0.4mm_EP3.6x3.6mm.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

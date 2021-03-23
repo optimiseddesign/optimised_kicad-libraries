@@ -29,7 +29,7 @@
   (pad 2 smd roundrect (at -0.9 0.6) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 0.9 0.6) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at 0.9 -0.6) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/leds.3dshapes/LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306.stp
     (offset (xyz 15.3 -2.26 0.53))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -24,7 +24,7 @@
   (pad 2 smd roundrect (at -0.245 0.175) (size 0.3 0.2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 0.21 0) (size 0.35 0.6) (layers F.Cu F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 0.21 0) (size 0.3 0.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN0606-3_W0.62xL0.62xH0.4mm_P0.35mm_Nexperia_SOT8001.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN0606-3_W0.62xL0.62xH0.4mm_P0.35mm_Nexperia_SOT8001.stp
     (offset (xyz 0.5 -0.285 0.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 -90))

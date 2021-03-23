@@ -56,7 +56,7 @@
   (pad 30 thru_hole oval (at -2.54 35.56) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 31 thru_hole oval (at 0 38.1) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 32 thru_hole oval (at -2.54 38.1) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D.stp
     (offset (xyz -1.27 -19.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

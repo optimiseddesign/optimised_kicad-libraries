@@ -52,7 +52,7 @@
   (pad 8 thru_hole circle (at 1.27 3.81) (size 1.12 1.12) (drill 0.75) (layers *.Cu *.Mask))
   (pad 9 thru_hole circle (at 0 5.08) (size 1.12 1.12) (drill 0.75) (layers *.Cu *.Mask))
   (pad 10 thru_hole circle (at 1.27 5.08) (size 1.12 1.12) (drill 0.75) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/Header_1.27mm_TH_02x05_Vertical_Shrouded_Samtec_SHF-105-01-L-D-TH.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_1.27mm_TH_02x05_Vertical_Shrouded_Samtec_SHF-105-01-L-D-TH.stp
     (offset (xyz 0.635 -2.54 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

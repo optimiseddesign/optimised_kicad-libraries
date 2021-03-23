@@ -108,7 +108,7 @@
   (pad 66 smd roundrect (at 2.6 -0.15 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 67 smd roundrect (at 0 3.7 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 68 smd roundrect (at 0 2.6 90) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/modules.3dshapes/BT_SMD_PCBAntenna_Fanstel_BM832.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/modules.3dshapes/BT_SMD_PCBAntenna_Fanstel_BM832.stp
     (offset (xyz -0.05 0.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

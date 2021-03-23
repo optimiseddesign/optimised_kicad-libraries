@@ -295,7 +295,7 @@
   (pad 200 smd roundrect (at 31.65 -4.1) (size 0.35 2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad S1 smd roundrect (at -32.55 -12) (size 4.5 4.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad S2 smd roundrect (at 32.55 -12) (size 4.5 4.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model "${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/TE Connectivity 1473005-4 DDR2 SODIMM Socket 200p.stp"
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TE Connectivity 1473005-4 DDR2 SODIMM Socket 200p.stp"
     (offset (xyz 0 3.7 2.61))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

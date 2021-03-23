@@ -25,7 +25,7 @@
   (pad 3 thru_hole circle (at 0 7) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 3.5) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
   (pad 1 thru_hole rect (at 0 0) (size 2.4 2.4) (drill 1.4) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003.stp
     (offset (xyz -3.4 -3.5 3.7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

@@ -79,17 +79,17 @@
   (pad 4 thru_hole circle (at 56.62 -2.54) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 56.62 2.54) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
   (pad 6 thru_hole circle (at 64.24 0) (size 3 3) (drill 1.8) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/miscellaneous.3dshapes/batteryholder_keystone-54.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/batteryholder_keystone-54.stp
     (offset (xyz 9.4 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))
   )
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/miscellaneous.3dshapes/batteryholder_keystone-54.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/batteryholder_keystone-54.stp
     (offset (xyz 54.85 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/miscellaneous.3dshapes/battery_18650.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/battery_18650.stp
     (offset (xyz 64.5 0 10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

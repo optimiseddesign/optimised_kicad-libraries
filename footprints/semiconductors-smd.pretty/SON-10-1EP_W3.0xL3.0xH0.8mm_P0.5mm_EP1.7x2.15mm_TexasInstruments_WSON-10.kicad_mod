@@ -107,7 +107,7 @@
     (zone_connect 2))
   (pad 11 smd roundrect (at -0.6 1.375 180) (size 0.25 0.8) (layers F.Cu F.Mask) (roundrect_rratio 0.25)
     (zone_connect 2))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/SON-10-1EP_W3.0xL3.0xH0.8mm_P0.5mm_EP1.7x2.15mm_TexasInstruments_WSON-10.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SON-10-1EP_W3.0xL3.0xH0.8mm_P0.5mm_EP1.7x2.15mm_TexasInstruments_WSON-10.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

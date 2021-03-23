@@ -39,7 +39,7 @@
   (pad 3 smd roundrect (at -0.935 0.65) (size 1.04 0.46) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2609))
   (pad 4 smd roundrect (at 0.935 0.65) (size 1.04 0.46) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2609))
   (pad 5 smd roundrect (at 0.935 -0.65) (size 1.04 0.46) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2609))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOT-353_SC-70-5_W1.25xL2.0xH1.1mm_P0.65mm.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOT-353_SC-70-5_W1.25xL2.0xH1.1mm_P0.65mm.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

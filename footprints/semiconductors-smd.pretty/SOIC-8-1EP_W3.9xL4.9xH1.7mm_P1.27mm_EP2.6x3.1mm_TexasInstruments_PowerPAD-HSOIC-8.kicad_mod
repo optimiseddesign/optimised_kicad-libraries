@@ -46,7 +46,7 @@
   (pad 8 smd roundrect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad "" smd roundrect (at 0 0) (size 2.6 3.1) (layers F.Paste) (roundrect_rratio 0.1))
   (pad "" smd roundrect (at 0 0) (size 2.6 3.1) (layers F.Mask) (roundrect_rratio 0.1))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOIC-8-1EP_W3.9xL4.9xH1.7mm_P1.27mm_EP2.6x3.1mm_TexasInstruments_PowerPAD-HSOIC-8.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOIC-8-1EP_W3.9xL4.9xH1.7mm_P1.27mm_EP2.6x3.1mm_TexasInstruments_PowerPAD-HSOIC-8.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

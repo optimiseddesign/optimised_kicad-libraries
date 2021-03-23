@@ -29,7 +29,7 @@
   (fp_line (start 0.24 0) (end 0.6 0) (layer F.Fab) (width 0.12))
   (pad K smd roundrect (at -0.82 0) (size 0.69 0.93) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.246))
   (pad A smd roundrect (at 0.82 0) (size 0.69 0.93) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2464))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/leds.3dshapes/LED_SMD_1608_H0.7mm.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD_1608_H0.7mm.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

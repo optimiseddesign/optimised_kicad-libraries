@@ -2,27 +2,27 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP RTC_I2C_NXP_PCF8523_SOIC-8
 D I2C Real Time Clock with Calendar, Watchdog, Backup Battery SOIC-8
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\NXP PCF8523 Real Time Clock IC.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\NXP PCF8523 Real Time Clock IC.pdf
 $ENDCMP
 #
 $CMP Security_I2C_Microchip_ATECC608A_SOIC-8
 D CryptoAuthentication Security Device I2C Interface SOIC-8
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\Microchip ATECC608A CryptoAuthentication Security IC.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\Microchip ATECC608A CryptoAuthentication Security IC.pdf
 $ENDCMP
 #
 $CMP Sensor_Cap_2Ch_GPIO_Microchip_MTCH102_UDFN-8
 D 2-Channel GPIO Capacitive Touch Sense Controller UDFN-8
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\Microchip MTCH102_5_8 2Ch 5Ch 8Channel Capacitive Touch Sensor IC.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\Microchip MTCH102_5_8 2Ch 5Ch 8Channel Capacitive Touch Sensor IC.pdf
 $ENDCMP
 #
 $CMP Sensor_IMU_I2C-SPI_STMicroelectronics_LSM6DSL_LGA-14L
 D iNEMO IMU 3D Accelerometer Gyroscope I2C SPI Sensor LGA-14L
 K 16g/2000dps max full scale
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\ST Microelectronics LSM6DSL iNEMO IMU Accelerometer Gyro Sensor IC.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\ST Microelectronics LSM6DSL iNEMO IMU Accelerometer Gyro Sensor IC.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_ic-other
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\ic-other\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\
 $ENDCMP
 #
 #End Doc Library

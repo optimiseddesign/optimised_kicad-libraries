@@ -28,7 +28,7 @@
   (pad 2 smd roundrect (at 1.25 1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 3 smd roundrect (at 1.25 -1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 4 smd roundrect (at -1.25 -1) (size 1.4 1.1) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/crystals-oscillators.3dshapes/Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/crystals-oscillators.3dshapes/Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

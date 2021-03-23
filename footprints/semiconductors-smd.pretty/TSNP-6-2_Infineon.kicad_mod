@@ -28,7 +28,7 @@
   (pad 4 smd roundrect (at 0.2 0.4) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at 0.2 0) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 6 smd roundrect (at 0.2 -0.4) (size 0.24 0.24) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/TSNP-6-2_Infineon.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/TSNP-6-2_Infineon.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

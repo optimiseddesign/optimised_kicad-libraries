@@ -97,7 +97,7 @@
   (pad "" smd roundrect (at 1.265 1.265) (size 1.79 1.79) (layers F.Paste) (roundrect_rratio 0.14))
   (pad "" smd roundrect (at -1.265 -1.265) (size 1.79 1.79) (layers F.Paste) (roundrect_rratio 0.14))
   (pad "" smd roundrect (at 1.265 -1.265) (size 1.79 1.79) (layers F.Paste) (roundrect_rratio 0.14))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/semiconductors-smd.3dshapes/LGA-48-1EP_W7.0xL7.0xH0.95mm_P0.5mm_EP5.05x5.05mm.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/LGA-48-1EP_W7.0xL7.0xH0.95mm_P0.5mm_EP5.05x5.05mm.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

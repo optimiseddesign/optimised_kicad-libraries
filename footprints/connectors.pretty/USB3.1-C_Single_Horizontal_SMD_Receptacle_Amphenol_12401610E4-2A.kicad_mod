@@ -78,7 +78,7 @@
   (pad B10 smd roundrect (at -2 -3.32) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad B11 smd roundrect (at -2.5 -3.32) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad B12 smd roundrect (at -3 -3.32) (size 0.3 0.7) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/connectors.3dshapes/USB3.1-C_Single_Horizontal_SMD_Receptacle_Amphenol_12401610E4-2A.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/USB3.1-C_Single_Horizontal_SMD_Receptacle_Amphenol_12401610E4-2A.stp
     (offset (xyz 0 -5.22 1.55))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

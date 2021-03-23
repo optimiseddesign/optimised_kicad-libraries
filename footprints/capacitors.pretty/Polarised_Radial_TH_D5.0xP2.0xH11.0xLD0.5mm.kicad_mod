@@ -22,7 +22,7 @@
   (fp_line (start -0.5 -1.65) (end -0.5 -1.25) (layer F.SilkS) (width 0.12))
   (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Radial_TH_D5.0xP2.0xH11.0xLD0.5mm.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Radial_TH_D5.0xP2.0xH11.0xLD0.5mm.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

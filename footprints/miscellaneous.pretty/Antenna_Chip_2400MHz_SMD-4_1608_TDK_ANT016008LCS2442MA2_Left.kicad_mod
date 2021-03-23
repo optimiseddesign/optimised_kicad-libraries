@@ -42,7 +42,7 @@
     (zone_connect 2))
   (pad 3 smd roundrect (at 0 0.235) (size 0.6 0.26) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1)
     (zone_connect 2))
-  (model ${KIPRJMOD}/kbconsulting_kicad-libraries/models3d/miscellaneous.3dshapes/Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2.stp
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

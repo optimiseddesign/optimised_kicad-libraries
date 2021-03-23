@@ -1,27 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP Resistor_SMD_0201_0603m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 $CMP Resistor_SMD_0402_1005m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 $CMP Resistor_SMD_0603_1608m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 $CMP Resistor_SMD_0805_2012m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 $CMP Resistor_SMD_1206_3216m
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 $CMP TEMPLATE_resistors
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\resistors\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\resistors\
 $ENDCMP
 #
 #End Doc Library

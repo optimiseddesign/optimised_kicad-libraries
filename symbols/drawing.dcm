@@ -1,7 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP TEMPLATE_drawing
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\drawing\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\drawing\
 $ENDCMP
 #
 #End Doc Library

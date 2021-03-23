@@ -2,46 +2,46 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B
 D 32MHz Crystal SMD 2016m, 10ppm/10ppm tol/stability, 10pF load
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf
 $ENDCMP
 #
 $CMP Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217
 D IQD CFPX-217 Series Tuning Fork 32.768kHz Crystal SMD 1206 3216m 3215m, 20ppm, 7pF
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\IQD CFPX-217 Series 32khz crystal SMD 3215m.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\IQD CFPX-217 Series 32khz crystal SMD 3215m.pdf
 $ENDCMP
 #
 $CMP Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33
 D 16MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf
 $ENDCMP
 #
 $CMP Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
 D 16MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
 $CMP Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
 D 25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
 $CMP Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33
 D 26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf
 $ENDCMP
 #
 $CMP Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV
 D 26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf
 $ENDCMP
 #
 $CMP TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A
 D 32MHz TCXO, SMD 4-Pin 2016m, 1/2.5ppm, -40C to 85C, 1.8-3V, END4263A Spec for LoRa
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\NDK NT2016SA-32M-END4263A SMD 2016 TCXO for Semtech LoRa.pdf
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\NDK NT2016SA-32M-END4263A SMD 2016 TCXO for Semtech LoRa.pdf
 $ENDCMP
 #
 $CMP TEMPLATE_crystals-oscillators
-F ${KIPRJMOD}\kbconsulting_kicad-libraries\datasheets\crystals-oscillators\
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\crystals-oscillators\
 $ENDCMP
 #
 #End Doc Library
