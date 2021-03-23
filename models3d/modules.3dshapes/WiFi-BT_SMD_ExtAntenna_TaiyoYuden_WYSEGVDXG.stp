@@ -2,9 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('FreeCAD Model'),'2;1');
 FILE_NAME(
-'C:/freelance/git/pt111a_fsrio-remoteio-8ch/design/kbconsulting_
-kicad-libraries/models3d/modules.3dshapes/WiFi-BT_Module_ExtAntenna_SMD_
-TaiyoYuden_WYSEGVDXG.stp','2020-05-19T14:47:45',('Author'),(''),
+'WiFi-BT_Module_ExtAntenna_SMD_TaiyoYuden_WYSEGVDXG.stp','2020-05-19T14:47:45',('Author'),(''),
   'Open CASCADE STEP processor 7.3','FreeCAD','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
