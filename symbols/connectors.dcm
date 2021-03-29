@@ -153,6 +153,12 @@ K Closed Ends, 0.05-2mm2 (30-14AWG) wire size
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity Pluggable 5.08mm Terminal Block Right-Angle Closed Ends 796638.pdf
 $ENDCMP
 #
+$CMP TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296
+D Single Poke-Home 22AWG(11A) - 28AWG(6A) SMD 2x6mm Horizontal Contact
+K Push Fit Connector
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\AVX 70-9296 Series Single Horizontal Poke Home Connectors.pdf
+$ENDCMP
+#
 $CMP TerminalBlock_Screw_3.81mm_TH_01x02_Horizontal_TE-Connectivity_284392
 D 01x02 Way 3.81mm Pitch 12A 300V Screw Terminal Block, 0.05-2mm2 (30-14AWG)
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity 284392 Series 3.81mm Pitch 12A 300V Screw Terminal Blocks.pdf

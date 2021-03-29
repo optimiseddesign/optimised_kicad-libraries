@@ -1642,6 +1642,30 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296
+#
+DEF TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296 J 0 50 N N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296" 0 -150 50 H V C CNN
+F2 "_kb_connectors:TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296" -50 -300 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "Single Poke-Home 22AWG(11A) - 28AWG(6A) SMD 2x6mm Horizontal Contact" 0 -300 50 H I C CNN "Description"
+F5 "AVX" 0 -300 50 H I C CNN "Manufacturer1"
+F6 "709296001002006" 0 -300 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Farnell" 50 -300 50 H I C CNN "Vendor1"
+F10 "2668377" 0 -300 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -300 50 H I C CNN "Vendor2"
+F12 "581-709296001002006" 0 -300 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Screw_3.81mm_TH_01x02_Horizontal_TE-Connectivity_284392
 #
 DEF TerminalBlock_Screw_3.81mm_TH_01x02_Horizontal_TE-Connectivity_284392 J 0 50 Y N 1 F N
