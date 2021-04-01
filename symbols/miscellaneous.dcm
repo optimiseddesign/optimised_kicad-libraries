@@ -6,6 +6,12 @@ K Left Facing Layout. Minimum GND Keepout. Requires radiator electrode pattern a
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\TDK ANT016008LCS2442MA2 SMD Chip Antenna 1608 2400MHz.pdf
 $ENDCMP
 #
+$CMP Antenna_Helical_2400MHz_SMD-4_Molex_479480001
+D 3.2x3.2x4mm Helical Monopole 2.4GHz SMD Antenna
+K MID 'OnGround' SLS Selective Laser Sintering
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\Molex 479480001 SMD 3x3x4mm Helical Monopole 2400MHz Antenna.pdf
+$ENDCMP
+#
 $CMP Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001
 D 868/915MHz Matched Balun/LPF SMD-6 2012m for TI CC110x CC111x etc
 K 50R impedance, balanced to unbalanced conversion including LPF
