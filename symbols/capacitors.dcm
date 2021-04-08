@@ -35,6 +35,11 @@ $CMP Capacitor_SMD_1206_3216m
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\
 $ENDCMP
 #
+$CMP SuperCap_SMD_3V3_11mF_3225_Seiko_CPH3225A
+D 3.3V 11mF EDLC Supercapacitor 160ohm 3225
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\Seiko CPH3225A 3V3 11mF 160ohm EDLC Supercapacitor SMD 3225.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_capacitors
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\
 $ENDCMP
