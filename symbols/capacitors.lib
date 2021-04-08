@@ -137,7 +137,7 @@ ENDDEF
 DEF Capacitor_SMD_0603_1608m C 0 50 N N 1 F N
 F0 "C" -150 0 50 H V C CNN
 F1 "Capacitor_SMD_0603_1608m" 100 0 50 H V L CNN
-F2 "Capacitor_SMD:C_0603_1608Metric" -45 -50 50 H I C CNN
+F2 "_kb_capacitors:Capacitor_SMD_0603_1608m" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
 F4 "MLCC Capacitor 0603 (1608m) X5R 10% 10V" 0 0 50 H I C CNN "Description"
 F5 "ANY" 0 0 50 H I C CNN "Manufacturer1"
