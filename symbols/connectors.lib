@@ -1411,6 +1411,30 @@ X Pin_3 3 -150 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609-5
+#
+DEF SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609-5 J 0 50 N N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609-5" 0 200 50 H V C CNN
+F2 "_kb_connectors:SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609" -45 -200 50 H I C CNN
+F3 "" -45 -200 50 H I C CNN
+F4 "1.0x2.9mm SMD Preloaded Spring Finger 3.0mm Height" 0 -150 50 H I C CNN "Description"
+F5 "TE Connectivity" 0 -150 50 H I C CNN "Manufacturer1"
+F6 "2108609-5" 0 -150 50 H I C CNN "MPN1"
+F7 " " 0 -150 50 H I C CNN "Manufacturer2"
+F8 " " 0 -150 50 H I C CNN "MPN2"
+F9 "Farnell" 0 -150 50 H I C CNN "Vendor1"
+F10 "2462847" 0 -150 50 H I C CNN "SKU1"
+F11 "Mouser" 0 -150 50 H I C CNN "Vendor2"
+F12 "571-2108609-5" 0 -150 50 H I C CNN "SKU2"
+F13 " " 0 -150 50 H I C CNN "FitPart"
+DRAW
+S -50 -50 100 50 0 1 0 f
+P 13 0 1 0 -30 -30 70 -30 80 -20 80 -10 70 0 60 0 40 -10 20 -10 0 20 -10 30 -20 30 -30 20 -30 0 N
+X ~ 1 -150 0 100 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_connectors
 #
 DEF TEMPLATE_connectors J 0 50 Y Y 1 F N

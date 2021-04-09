@@ -119,6 +119,12 @@ D 01x03 Way 1.6mm Holes, to fit Everconn D161 Crimped Wires
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\Everconn D10 D121 D161 D1831 D182 D185 D262 D32 DIP SIN PCB Wire Crimp Connectors.pdf
 $ENDCMP
 #
+$CMP SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609-5
+D 1.0x2.9mm SMD Preloaded Spring Finger 3.0mm Height
+K sprung contact probe connector ground shield clip
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity 2108609 SMD Preloaded Spring Finger 3.0H.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_connectors
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\
 $ENDCMP
