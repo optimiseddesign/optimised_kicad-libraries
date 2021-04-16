@@ -50,6 +50,11 @@ K Select logo footprint after placing
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #
+$CMP MountingHole_Pad
+D Mounting Hole ??mm, for M?? screw, with Pad
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
+$ENDCMP
+#
 $CMP PCB_Antenna_2400MHz_W5.5xL15.1mm_MIFA_ESP-WROOM-02_Left
 D PCB Trace Antenna, MIFA 2400MHz 5.5mm x 15.1mm, Left Facing
 K Matches Espressif ESP-WROOM-02 reference design

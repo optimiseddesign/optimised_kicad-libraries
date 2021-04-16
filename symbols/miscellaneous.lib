@@ -255,6 +255,29 @@ S -50 -50 50 50 0 1 0 f
 ENDDRAW
 ENDDEF
 #
+# MountingHole_Pad
+#
+DEF MountingHole_Pad MH 0 50 N N 1 F N
+F0 "MH" 0 300 50 H V C CNN
+F1 "MountingHole_Pad" 0 200 50 H V C CNN
+F2 "" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "Mounting Hole ??mm, for M?? screw, with Pad" -50 -350 50 H I C CNN "Description"
+F5 "N/A" 0 -350 50 H I C CNN "Manufacturer1"
+F6 "N/A" 0 -350 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 " " 0 0 50 H I C CNN "Vendor1"
+F10 " " 0 0 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 "DNF" 0 -350 50 H I C CNN "FitPart"
+DRAW
+C 0 50 50 1 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PCB_Antenna_2400MHz_W5.5xL15.1mm_MIFA_ESP-WROOM-02_Left
 #
 DEF PCB_Antenna_2400MHz_W5.5xL15.1mm_MIFA_ESP-WROOM-02_Left ANT 0 25 Y Y 1 F N
