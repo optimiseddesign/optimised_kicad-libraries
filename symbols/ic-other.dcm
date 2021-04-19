@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP RTC_I2C_MicroCrystal_RV-3028-C7
+D RTC Module with XTAL, I2C, 1ppm @ 25C, 3.2x1.5mm SMD
+K Real Time Clock with battery backup switch alarm eeprom ram memory
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\Micro Crystal RV-3028-C7 RTC Module with XTAL.pdf
+$ENDCMP
+#
 $CMP RTC_I2C_NXP_PCF8523_SOIC-8
 D I2C Real Time Clock with Calendar, Watchdog, Backup Battery SOIC-8
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-other\NXP PCF8523 Real Time Clock IC.pdf
