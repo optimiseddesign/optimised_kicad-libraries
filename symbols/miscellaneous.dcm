@@ -67,6 +67,11 @@ K Matches Texas Instruments DN038 reference design, for 0.8mm thick PCBs
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\Texas Instruments DN038 868-920MHz Helical PCB Trace Antenna.pdf
 $ENDCMP
 #
+$CMP PCB_NFC-Capsense_PT118C-2.0
+D Custom PCB 13.56MHz NFC Coil, 0.9uH target & Capacitive Touch Sense Button with guard trace
+K Self-contained, pads built-in. For PT118C 2.0
+$ENDCMP
+#
 $CMP PCB_NFC-Coil_13.56MHz_W14.9xL17.6mm_PT118C
 D PCB NFC Coil, 14.9mm x 17.6mm, 0.9uH Target
 K Self-contained, pads built-in
