@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM6JSMA
+D 7.01mm Height Vertical Momentary Push Button SMD Switch SPST
+K Black 160g Actuation
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\TE Connectivity FSM JSM Series Miniature Pushbutton SMD Vertical Switch.pdf
+$ENDCMP
+#
 $CMP Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA
 D 9.5mm Height Vertical Push Button SMD Switch SPST
 K Black 160g Actuation
