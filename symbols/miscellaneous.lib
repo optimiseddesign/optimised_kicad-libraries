@@ -462,6 +462,29 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TestPoint_Pad_1.1mm
+#
+DEF TestPoint_Pad_1.1mm TP 0 50 N N 1 F N
+F0 "TP" 0 200 50 H V C CNN
+F1 "TestPoint_Pad_1.1mm" 0 -350 50 H I C CNN
+F2 "_kb_miscellaneous:TestPoint_Pad_1.1mm" 5 -300 50 H I C CNN
+F3 "" 5 -300 50 H I C CNN
+F4 "Test Point 1.1mm Pad" 50 -250 50 H I C CNN "Description"
+F5 "N/A" 50 -250 50 H I C CNN "Manufacturer1"
+F6 "N/A" 50 -250 50 H I C CNN "MPN1"
+F7 " " 50 -250 50 H I C CNN "Manufacturer2"
+F8 " " 50 -250 50 H I C CNN "MPN2"
+F9 " " 50 -250 50 H I C CNN "Vendor1"
+F10 " " 50 -250 50 H I C CNN "SKU1"
+F11 " " 50 -250 50 H I C CNN "Vendor2"
+F12 " " 50 -250 50 H I C CNN "SKU2"
+F13 "DNF" 50 -250 50 H I C CNN "FitPart"
+DRAW
+C 0 130 30 1 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TestPoint_Pad_1.3mm
 #
 DEF TestPoint_Pad_1.3mm TP 0 50 N N 1 F N

@@ -86,6 +86,11 @@ D Test Point 0.9mm Pad
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #
+$CMP TestPoint_Pad_1.1mm
+D Test Point 1.1mm Pad
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
+$ENDCMP
+#
 $CMP TestPoint_Pad_1.3mm
 D Test Point 1.3mm Pad
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
