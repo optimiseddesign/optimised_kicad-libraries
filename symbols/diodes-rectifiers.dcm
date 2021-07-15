@@ -22,6 +22,11 @@ K RGB LED Wurth 150141M173100 SMD
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SFTW RGB SMD LED 150141M173100.pdf
 $ENDCMP
 #
+$CMP LED_SMD-6_2827_RGB_OSRAM_KRTB-LFLP71.32
+D Independent RGB LED, SMD 2827, 475/1350/285mcd typ @ 10mA
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\OSRAM KRTB LFLP71.32 RGB 2827 SMD LED.pdf
+$ENDCMP
+#
 $CMP LED_SMD_1608_Green_3.2V_430mcd_Wurth_150060GS75000
 D SMD LED 0603 (1608m) Green 3.2V 430mcd InGaN
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Wurth WL-SMCW Green SMD LED 150060GS75000.pdf
