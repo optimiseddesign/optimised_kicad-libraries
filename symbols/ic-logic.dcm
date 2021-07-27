@@ -5,6 +5,11 @@ D Quad 2-Input NOR Gate, 1.65 V to 3.6 V, 5V Tolerant, TSSOP-14
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74LVC02A SN54LVC02A Quad 2-Input NOR Gates.pdf
 $ENDCMP
 #
+$CMP OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14
+D Quad 2-Input OR Gates, 2.0V to 6.0V, Schmitt Trigger Inputs, TSSOP-14
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74HCS32 Quad 2-Input OR Gates.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-logic
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\
 $ENDCMP
