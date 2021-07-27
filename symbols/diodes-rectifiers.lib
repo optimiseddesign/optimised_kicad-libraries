@@ -573,4 +573,30 @@ X IO1 6 100 300 150 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F
+#
+DEF Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F D 0 50 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F" 0 -150 50 H V C CNN
+F2 "_kb_diodes-rectifiers:SOD-323F" -45 -50 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "?V? 2% Single Zener Diode, 500mW SOD-323F" 150 -150 50 H I C CNN "Description"
+F5 "Nexperia" 0 -150 50 H I C CNN "Manufacturer1"
+F6 "TDZxxxJ" 0 -150 50 H I C CNN "MPN1"
+F7 " " 0 -100 50 H I C CNN "Manufacturer2"
+F8 " " 0 -150 50 H I C CNN "MPN2"
+F9 "??" 0 -150 50 H I C CNN "Vendor1"
+F10 "??" 50 -150 50 H I C CNN "SKU1"
+F11 "??" 50 -150 50 H I C CNN "Vendor2"
+F12 "??" 0 -150 50 H I C CNN "SKU2"
+F13 " " 0 -100 50 H I C CNN "FitPart"
+DRAW
+P 2 1 1 0 50 0 -50 0 N
+P 4 1 1 10 -45 -55 -30 -40 -30 40 -15 55 N
+P 4 1 1 10 30 40 -30 0 30 -40 30 40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

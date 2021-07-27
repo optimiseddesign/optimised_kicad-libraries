@@ -92,4 +92,10 @@ K USB 2.0 , Ethernet and others
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\ST Microelectronics USBLC6-2 VBUS and Dual High-Speed Signal Line TVS ESD Protection.pdf
 $ENDCMP
 #
+$CMP Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F
+D ?V? 2% Single Zener Diode, 500mW SOD-323F
+K Library Part for whole series, fill in details. SC-90
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\diodes-rectifiers\Nexperia TDZxJ Series 2V4-30V 500mW Zener Diode SOD323F.pdf
+$ENDCMP
+#
 #End Doc Library
