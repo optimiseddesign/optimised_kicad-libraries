@@ -1,8 +1,9 @@
-(module Header_4.2mm_TH_02x03_Horizontal_Molex_39300060 (layer F.Cu) (tedit 6100F5BF)
+(module Header_4.2mm_TH_02x03_Horizontal_Molex_39300060 (layer F.Cu) (tedit 61017983)
+  (descr "Mini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 6 Circuits, PA Polyamide Nylon 6/6 94V-0, 2.54µm Matte Tin (Sn) Plating")
   (fp_text reference REF** (at -8.2 -7.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Header_4.2mm_TH_02x03_Horizontal_Molex_39300060 (at -4.5 16.1) (layer F.Fab)
+  (fp_text value Header_4.2mm_TH_02x03_Horizontal_Molex_39300060 (at -4.5 16.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 2.7 1.1) (end 2.7 13.9) (layer F.SilkS) (width 0.12))
@@ -58,4 +59,9 @@
   (pad 6 thru_hole circle (at -8.4 -5.5) (size 2.7 2.7) (drill 1.8) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at -4.2 -5.5) (size 2.7 2.7) (drill 1.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0 -5.5) (size 2.7 2.7) (drill 1.8) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_4.2mm_TH_02x03_Horizontal_Molex_39300060.stp
+    (offset (xyz -4.2 -13.8 0.1))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

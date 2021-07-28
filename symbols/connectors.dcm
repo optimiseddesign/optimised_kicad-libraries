@@ -73,7 +73,8 @@ F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\Wurth 6130xx21021 
 $ENDCMP
 #
 $CMP Header_4.2mm_TH_02x03_Horizontal_Molex_39300060
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\
+D Mini-Fit Jr. Header, Dual Row, Right-Angle, with Snap-in Plastic Peg PCB Lock, 6 Circuits, PA Polyamide Nylon 6/6 94V-0, 2.54µm Matte Tin (Sn) Plating
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\Molex Mini-fit Right Angle 4.2mm Header Series.pdf
 $ENDCMP
 #
 $CMP M12_Female_5pin_Right-Angle_TE-Connectivity_T4145015051-001
