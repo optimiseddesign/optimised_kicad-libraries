@@ -72,6 +72,10 @@ D 2.54mm Header 02x16 Way Horizontal / Right-Angle TH
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\Wurth 6130xx21021 2.54mm Angled Dual Pin Header Series.pdf
 $ENDCMP
 #
+$CMP Header_4.2mm_TH_02x03_Horizontal_Molex_39300060
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\
+$ENDCMP
+#
 $CMP M12_Female_5pin_Right-Angle_TE-Connectivity_T4145015051-001
 D M12 Right-Angle TH 5pin Female Connector
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity M12 Right-Angle TH Female T41450150x1-001.pdf
