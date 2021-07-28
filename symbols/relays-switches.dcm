@@ -17,6 +17,12 @@ D Miniature Sensitive SPDT 1A Low Signal TH Relay 5V Coil
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\OMRON G5V-1 Series SPDT 1A Low Signal TH Relay.pdf
 $ENDCMP
 #
+$CMP Relay_Socket_SPDT-DPDT_TH_OMRON_PT08-0
+D Relay Back-Mounting TH Socket, for LY Series 1 or 2 Pole Relays
+K PCB Pins. e.g. for LY2-DC24 10A 240V 110V 5A
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\Omron LY Series Arc Barrier Power Relays and accessories.pdf
+$ENDCMP
+#
 $CMP Switch_RF_SPDT_6GHz_SMD_Infineon_BGS12SN6_TSNP-6-2
 D Wideband 0.05-6GHz RF SPDT Switch 30dBm TSNP-6-2
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\relays-switches\Infineon BGS12SN6 0-6GHz RF 2-Port SMD Switch SPDT.pdf
