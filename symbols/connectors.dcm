@@ -180,6 +180,11 @@ D 01x03 Way 3.81mm Pitch 12A 300V Screw Terminal Block, 0.05-2mm2 (30-14AWG)
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity 284392 Series 3.81mm Pitch 12A 300V Screw Terminal Blocks.pdf
 $ENDCMP
 #
+$CMP TerminalBlock_Screw_3.81mm_TH_01x06_Horizontal_TE-Connectivity_284392
+D 01x06 Way 3.81mm Pitch 12A 300V Screw Terminal Block, 0.05-2mm2 (30-14AWG)
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\TE Connectivity 284392 Series 3.81mm Pitch 12A 300V Screw Terminal Blocks.pdf
+$ENDCMP
+#
 $CMP TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708
 D 01x02 Way 5.08mm Pitch 20A Screw Terminal Block, 0.4-2mm2 (26-12AWG)
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\connectors\Camden Boss CTBP0708 Series 5.08mm Pitch 20A Screw Terminal Blocks.pdf
