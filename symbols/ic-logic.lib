@@ -1,12 +1,69 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 3-8_Demultiplexer_2V-6V_Texas-Instruments_SN74HCS238PWR_TSSOP-16
+#
+DEF 3-8_Demultiplexer_2V-6V_Texas-Instruments_SN74HCS238PWR_TSSOP-16 U 0 50 Y N 1 F N
+F0 "U" 150 300 50 H V C CNN
+F1 "3-8_Demultiplexer_2V-6V_Texas-Instruments_SN74HCS238PWR_TSSOP-16" 400 -1600 50 H V C CNN
+F2 "_kb_semiconductors-smd:TSSOP-16_4.4x5mm_P0.65mm" -345 -100 50 H I C CNN
+F3 "" -345 -100 50 H I C CNN
+F4 " " -300 -50 50 H I C CNN "Description"
+F5 "Texas Instruments" -300 -50 50 H I C CNN "Manufacturer1"
+F6 "SN74HCS238PWR" -300 -50 50 H I C CNN "MPN1"
+F7 " " -300 -50 50 H I C CNN "Manufacturer2"
+F8 " " -300 -50 50 H I C CNN "MPN2"
+F9 "Mouser" -300 -50 50 H I C CNN "Vendor1"
+F10 "595-SN74HCS238PWR" -300 -50 50 H I C CNN "SKU1"
+F11 "Digikey" -300 -50 50 H I C CNN "Vendor2"
+F12 "296-SN74HCS238PWRCT-ND" -300 -50 50 H I C CNN "SKU2"
+F13 " " -300 -50 50 H I C CNN "FitPart"
+DRAW
+T 0 200 -450 50 0 1 1 & Normal 0 C C
+T 0 170 20 50 0 1 1 0 Normal 0 C C
+T 0 170 -70 50 0 1 1 1 Normal 0 C C
+T 0 170 -170 50 0 1 1 2 Normal 0 C C
+T 0 400 -350 50 0 1 1 DMUX Normal 1 C C
+T 0 200 -800 50 0 1 1 G2 Normal 0 C C
+T 0 400 -850 50 0 1 1 GND Normal 0 C C
+T 0 400 100 50 0 1 1 Vcc Normal 0 C C
+T 0 600 -50 50 0 1 1 Y0 Normal 0 C C
+T 0 600 -150 50 0 1 1 Y1 Normal 0 C C
+T 0 600 -250 50 0 1 1 Y2 Normal 0 C C
+T 0 600 -350 50 0 1 1 Y3 Normal 0 C C
+T 0 600 -450 50 0 1 1 Y4 Normal 0 C C
+T 0 600 -550 50 0 1 1 Y5 Normal 0 C C
+T 0 600 -650 50 0 1 1 Y6 Normal 0 C C
+T 0 600 -750 50 0 1 1 Y7 Normal 0 C C
+T 0 200 -600 50 0 1 1 "~G0" Normal 0 C C
+T 0 200 -700 50 0 1 1 "~G1" Normal 0 C C
+S 100 -900 700 150 1 1 0 f
+P 3 1 1 0 100 -500 300 -500 300 -900 N
+X Pin_1 1 0 0 100 R 50 50 1 1 I
+X Pin_10 10 800 -550 100 L 50 50 1 1 O
+X Pin_11 11 800 -450 100 L 50 50 1 1 O
+X Pin_12 12 400 250 100 D 50 50 1 1 W
+X Pin_12 12 800 -350 100 L 50 50 1 1 O
+X Pin_13 13 800 -250 100 L 50 50 1 1 O
+X Pin_14 14 800 -150 100 L 50 50 1 1 O
+X Pin_15 15 800 -50 100 L 50 50 1 1 O
+X Pin_2 2 0 -100 100 R 50 50 1 1 I
+X Pin_3 3 0 -200 100 R 50 50 1 1 I
+X Pin_4 4 0 -600 100 R 50 50 1 1 I
+X Pin_5 5 0 -700 100 R 50 50 1 1 I
+X Pin_6 6 0 -800 100 R 50 50 1 1 I
+X Pin_7 7 800 -750 100 L 50 50 1 1 O
+X Pin_8 8 400 -1000 100 U 50 50 1 1 W
+X Pin_9 9 800 -650 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # 3-8_Demultiplexer_3V-5V5_Texas-Instruments_74AC11138PWR_TSSOP-16
 #
 DEF 3-8_Demultiplexer_3V-5V5_Texas-Instruments_74AC11138PWR_TSSOP-16 U 0 50 Y N 1 F N
 F0 "U" -650 350 50 H V C CNN
 F1 "3-8_Demultiplexer_3V-5V5_Texas-Instruments_74AC11138PWR_TSSOP-16" -350 -1450 50 H V C CNN
-F2 "" -345 -100 50 H I C CNN
+F2 "_kb_semiconductors-smd:TSSOP-16_4.4x5mm_P0.65mm" -345 -100 50 H I C CNN
 F3 "" -345 -100 50 H I C CNN
 F4 " " -300 -50 50 H I C CNN "Description"
 F5 "Texas Instruments" -300 -50 50 H I C CNN "Manufacturer1"
