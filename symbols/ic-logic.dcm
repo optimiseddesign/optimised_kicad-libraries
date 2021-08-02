@@ -1,8 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 3-8_Demultiplexer_2V-6V_Texas-Instruments_SN74HCS238PWR_TSSOP-16
-D 3 to 8 decoder, 2V-6V, Texas instruments, TSSOP16
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74HCS238PWR 3-Line To 8-Line Decoder Demultiplexer With Schmitt Trigger Inputs.pdf
+$CMP Demux3-8_Schmitt_2V-6V_Texas-Instruments_SN74HCS238_TSSOP-16
+D 3-to-8 Decoder Demultiplexer with Schmitt Trigger Inputs, 2V-6V, TSSOP-16
+K –40C to 125C, 7.8mA Drive, 100nA Icc
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74HCS238 3-to-8 Decoder Demultiplexer with Schmitt Trigger Inputs.pdf
 $ENDCMP
 #
 $CMP NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14
