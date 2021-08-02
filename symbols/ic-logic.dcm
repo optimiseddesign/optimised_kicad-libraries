@@ -5,11 +5,6 @@ D 3 to 8 decoder, 2V-6V, Texas instruments, TSSOP16
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74HCS238PWR 3-Line To 8-Line Decoder Demultiplexer With Schmitt Trigger Inputs.pdf
 $ENDCMP
 #
-$CMP 3-8_Demultiplexer_3V-5V5_Texas-Instruments_74AC11138PWR_TSSOP-16
-D 3 to 8 decoder, 3-5V5, Texas instruments, TSSOP16
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments 74AC11138 3-Line To 8-Line Decoder Demultiplexer.pdf
-$ENDCMP
-#
 $CMP NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14
 D Quad 2-Input NOR Gate, 1.65 V to 3.6 V, 5V Tolerant, TSSOP-14
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-logic\Texas Instruments SN74LVC02A SN54LVC02A Quad 2-Input NOR Gates.pdf
