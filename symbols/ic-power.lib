@@ -63,6 +63,37 @@ X EP/AGND 9 50 -450 150 U 50 50 0 0 W
 ENDDRAW
 ENDDEF
 #
+# DC-DC_Buck_Controller_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8
+#
+DEF DC-DC_Buck_Controller_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8 U 0 50 Y Y 1 F N
+F0 "U" -300 400 50 H V C CNN
+F1 "DC-DC_Buck_Controller_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8" 50 -1150 50 H V C CNN
+F2 "_kb_semiconductors-smd:SOIC-8-1EP_W3.9xL4.9xH1.7mm_P1.27mm_EP2.6x3.1mm_TexasInstruments_PowerPAD-HSOIC-8" -300 -1350 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 " 4V-36V 1A Synchronous 400kHz Buck Converter IC HSOIC-EP-8" -200 -1350 50 H I C CNN "Description"
+F5 "Texas Instruments" -300 -1350 50 H I C CNN "Manufacturer1"
+F6 "LMR23610ADDA" 0 -1350 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Digikey" -150 -1350 50 H I C CNN "Vendor1"
+F10 "296-44615-5-ND" 0 -1350 50 H I C CNN "SKU1"
+F11 "Mouser" -50 -1350 50 H I C CNN "Vendor2"
+F12 "595-LMR23610ADDA" -50 -1350 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -350 200 350 -550 1 1 0 f
+X SW 1 500 -50 150 L 50 50 1 1 O
+X BOOT 2 500 100 150 L 50 50 1 1 P
+X VCC 3 0 350 150 D 50 50 1 1 w
+X FB 4 500 -200 150 L 50 50 1 1 I
+X PG 4 500 -350 150 L 50 50 1 1 C
+X EN 5 -500 -50 150 R 50 50 1 1 I
+X EP/AGND 6 50 -700 150 U 50 50 1 1 W
+X VIN 7 -500 100 150 R 50 50 1 1 W
+X PGND 8 -50 -700 150 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # DCDC_Buck-Boost_Converter_Fixed_5V_2A_2V5-12V_2400kHz_Texas-Instruments_TPS63061_WSON-10
 #
 DEF DCDC_Buck-Boost_Converter_Fixed_5V_2A_2V5-12V_2400kHz_Texas-Instruments_TPS63061_WSON-10 U 0 25 Y Y 1 F N
