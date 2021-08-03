@@ -5,6 +5,11 @@ D Radial Polarised 10V 20% Al-Elec Capacitor D5.0xH11.0xP2.0mm 105C 4000hrs
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\Rubycon YXJ Series 105C 10khrs 6V3-100V Al-Elec TH Capacitors.pdf
 $ENDCMP
 #
+$CMP Al-Elec_Polarised_Radial_TH_25V_100uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ
+D Radial Polarised 25V 20% Al-Elec Capacitor D5.0xH11.0xP2.0mm 105C 4000hrs
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\Rubycon YXJ Series 105C 10khrs 6V3-100V Al-Elec TH Capacitors.pdf
+$ENDCMP
+#
 $CMP Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ
 D Radial Polarised 35V 20% Al-Elec Capacitor D12.5xH20.0xP5.0mm 105C 10000hrs
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\capacitors\Rubycon YXJ Series 105C 10khrs 6V3-100V Al-Elec TH Capacitors.pdf
