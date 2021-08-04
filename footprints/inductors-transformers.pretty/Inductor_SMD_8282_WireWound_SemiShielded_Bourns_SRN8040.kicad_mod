@@ -1,10 +1,10 @@
-(module Inductor_SMD_8040_WireWound_SemiShielded_Bourns_SRN8040 (layer F.Cu) (tedit 61096D1B)
+(module Inductor_SMD_8282_WireWound_SemiShielded_Bourns_SRN8040 (layer F.Cu) (tedit 610A7D41)
   (descr "5x5mm 4mm high Semi-Shielded Power Inductor")
   (attr smd)
   (fp_text reference REF** (at 2.5 -6.4 unlocked) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Inductor_SMD_8040_WireWound_SemiShielded_Bourns_SRN8040 (at 0.4 8.1) (layer F.Fab) hide
+  (fp_text value Inductor_SMD_8282_WireWound_SemiShielded_Bourns_SRN8040 (at 0.4 8.1) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 0 0 90) (layer F.Fab)

@@ -242,14 +242,14 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Inductor_SMD_8040_0.1-22uH_2.2A_WireWound_SemiShielded_Bourns_SRN8040
+# Inductor_SMD_8282_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040
 #
-DEF Inductor_SMD_8040_0.1-22uH_2.2A_WireWound_SemiShielded_Bourns_SRN8040 L 0 50 N N 1 F N
+DEF Inductor_SMD_8282_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040 L 0 50 N N 1 F N
 F0 "L" -450 350 50 H V C CNN
-F1 "Inductor_SMD_8040_0.1-22uH_2.2A_WireWound_SemiShielded_Bourns_SRN8040" 0 -550 50 H V C CNN
-F2 "" -45 -50 50 H I C CNN
+F1 "Inductor_SMD_8282_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040" 0 -550 50 H V C CNN
+F2 "_kb_inductors-transformers:Inductor_SMD_8040_WireWound_SemiShielded_Bourns_SRN8040" -45 -50 50 H I C CNN
 F3 "" -45 -50 50 H I C CNN
-F4 "Power Inductor 22uH 30% 2.2ASat Semi-Shielded Wire-Wound 8mm" 0 0 50 H I C CNN "Description"
+F4 "Power Inductor 0.5-100uH 30% 12-1ASat Semi-Shielded Wire-Wound 8mm" 0 0 50 H I C CNN "Description"
 F5 "Bourns" 0 0 50 H I C CNN "Manufacturer1"
 F6 "SRN8040-220M" 0 0 50 H I C CNN "MPN1"
 F7 " " 0 0 50 H I C CNN "Manufacturer2"
