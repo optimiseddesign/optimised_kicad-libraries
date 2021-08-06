@@ -50,8 +50,8 @@ K SRN5040TA Series - choose exact part
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\inductors-transformers\Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.pdf
 $ENDCMP
 #
-$CMP Inductor_SMD_8282_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040
-D Power Inductor 0.5-100uH 30% 12-1ASat Semi-Shielded Wire-Wound 8mm
+$CMP Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040
+D Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 8x8mm
 K SRN8040 Series - choose exact part
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\inductors-transformers\Bourns SRN8040 Series SMD 8mm Power Inductors Semi-Shielded.pdf
 $ENDCMP
