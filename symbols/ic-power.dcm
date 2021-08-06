@@ -6,20 +6,20 @@ K lithium battery charger
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Microchip MCP73831_2 Single Cell Li-ion Li-Poly Charge Controller IC.pdf
 $ENDCMP
 #
-$CMP DC-DC_Buck_Controller_3V8-36V_3A_1400kHz_Texas-Instruments_LMR33630_HSOIC-8
-D 3V8-36V 3A Synchronous 1400kHz Buck Converter IC HSOIC-8
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LMR33630 3V8-36V 3A Synchronous Buck Converter IC.pdf
-$ENDCMP
-#
-$CMP DC-DC_Buck_Controller_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8
-D 4V-36V 1A Synchronous 400kHz Buck Converter IC HSOIC-EP-8
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LMR23610 4-36V 1A Synchronous Buck Converter IC.pdf
-$ENDCMP
-#
 $CMP DCDC_Buck-Boost_Converter_Fixed_5V_2A_2V5-12V_2400kHz_Texas-Instruments_TPS63061_WSON-10
 D 2V5-12V Fixed 5V 2A Synchronous 2400kHz Buck-Boost Converter WSON-10
 K 3x3mm 2.4MHz
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments TPS6306x 2V5-12V 2A Buck-Boost Converter WSON-10.pdf
+$ENDCMP
+#
+$CMP DCDC_Buck_Converter_3V8-36V_3A_1400kHz_Texas-Instruments_LMR33630_HSOIC-8
+D 3V8-36V 3A Synchronous 1400kHz Buck Converter IC HSOIC-8
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LMR33630 3V8-36V 3A Synchronous Buck Converter IC.pdf
+$ENDCMP
+#
+$CMP DCDC_Buck_Converter_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8
+D 4V-36V 1A Synchronous 400kHz Buck Converter IC HSOIC-EP-8
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments LMR23610 4-36V 1A Synchronous Buck Converter IC.pdf
 $ENDCMP
 #
 $CMP DCDC_Buck_Converter_6V-100V_0.5A_1000kHz_Texas-Instruments_LM5163_HSOIC-8
