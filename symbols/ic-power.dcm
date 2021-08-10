@@ -81,6 +81,12 @@ D Dual 500mA 2V7-5V5 High-Side Power Switch SOIC-8, Active High Enable
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Microchip Micrel MIC2026_MIC2076 500mA 2V7-5V5 Dual High-Side Power Switch.pdf
 $ENDCMP
 #
+$CMP Protection_Output_HighSideSwitch_Single_0.13A-2.7A_3V0-5V5_Diodes-Inc_AP22652_DFN-6
+D Single High-Side 2.1A Max Programmable 3V0-5V5 Power Switch DFN-6
+K Output Current Limits, Active-Low Enable, with slow start and reverse protection
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Diodes Inc AP22652_53_52A_53A Programmable Limit 2A1 Max 3V0-5V5 Single High-Side Power Switch.pdf
+$ENDCMP
+#
 $CMP Protection_Output_HighSideSwitch_Single_4A_3V5-40V_Texas-Instruments_TPS1H100A_HTSSOP-14
 D Single High-Side 4A 3V5-40V Power Switch HTSSOP-14, A version for open-drain status output
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments TPS1H100-Q1 4A 3V5-40V Single High-Side Power Switch.pdf
