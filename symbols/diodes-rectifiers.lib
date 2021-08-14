@@ -601,6 +601,33 @@ X IO1 6 100 300 150 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TVS_Unidir_400W_SOD-123FL_Littelfuse_SMF4L--A
+#
+DEF TVS_Unidir_400W_SOD-123FL_Littelfuse_SMF4L--A D 0 50 N N 1 F N
+F0 "D" 150 50 50 H V C CNN
+F1 "TVS_Unidir_400W_SOD-123FL_Littelfuse_SMF4L--A" 1050 -50 50 H V C CNN
+F2 "_kb_diodes-rectifiers:SOD-123FL" -50 -250 50 H I C CNN
+F3 "" -255 -20 50 H I C CNN
+F4 "??V Unidirectional 400W TVS Diode SOD-123FL" 100 -250 50 H I C CNN "Description"
+F5 "Littelfuse" 100 -250 50 H I C CNN "Manufacturer1"
+F6 "SMF4L??A" 100 -250 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "??" 0 -250 50 H I C CNN "Vendor1"
+F10 "??" 0 -250 50 H I C CNN "SKU1"
+F11 " " 0 0 50 H I C CNN "Vendor2"
+F12 " " 0 0 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+P 2 1 1 0 0 30 0 -50 N
+P 4 1 1 10 -43 45 -28 30 42 30 52 20 N
+P 4 1 1 10 40 -30 0 30 -40 -30 40 -30 F
+P 5 1 1 10 -53 55 -43 45 2 45 27 45 42 30 N
+X K 1 0 100 50 D 50 50 1 1 P
+X A 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F
 #
 DEF Zener_Single_2V4-30V_500mW_Nexperia_TDZxJ_SOD-323F D 0 50 N N 1 F N
