@@ -92,6 +92,12 @@ D Single High-Side 4A 3V5-40V Power Switch HTSSOP-14, A version for open-drain s
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments TPS1H100-Q1 4A 3V5-40V Single High-Side Power Switch.pdf
 $ENDCMP
 #
+$CMP Ref_Adj_2V5-36V_Texas-Instruments_TL431LIAQ_SOT-23
+D Pogrammable Precision 2.5V-36V Shunt Reference 1%, -40C to +125C, SOT-23
+K Regulator, Q Temp, A Grade
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments TL431LI TL432LI Programmable Shunt Regulator.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_ic-power
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\
 $ENDCMP

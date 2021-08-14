@@ -509,6 +509,35 @@ X VS 9 -500 250 150 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# Ref_Adj_2V5-36V_Texas-Instruments_TL431LIAQ_SOT-23
+#
+DEF Ref_Adj_2V5-36V_Texas-Instruments_TL431LIAQ_SOT-23 U 0 50 Y N 1 F N
+F0 "U" 200 100 50 H V C CNN
+F1 "Ref_Adj_2V5-36V_Texas-Instruments_TL431LIAQ_SOT-23" 1250 0 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 5 -400 50 H I C CNN
+F3 "" -45 -50 50 H I C CNN
+F4 "Pogrammable Precision 2.5V-36V Shunt Reference 1%, -40C to +125C, SOT-23" 50 -350 50 H I C CNN "Description"
+F5 "Texas Instruments" 50 -350 50 H I C CNN "Manufacturer1"
+F6 "TL431LIAQDBZR" 50 -350 50 H I C CNN "MPN1"
+F7 " " 0 0 50 H I C CNN "Manufacturer2"
+F8 " " 0 0 50 H I C CNN "MPN2"
+F9 "Mouser" 0 -350 50 H I C CNN "Vendor1"
+F10 "595-TL431LIAQDBZR" 50 -350 50 H I C CNN "SKU1"
+F11 "Digikey" 0 -350 50 H I C CNN "Vendor2"
+F12 "296-53240-1-ND" 50 -350 50 H I C CNN "SKU2"
+F13 " " 0 0 50 H I C CNN "FitPart"
+DRAW
+S -100 100 100 -100 1 1 0 f
+P 2 1 1 0 0 -120 0 130 N
+P 2 1 1 0 0 0 -100 0 N
+P 4 1 1 10 -55 45 -40 30 40 30 55 15 N
+P 4 1 1 10 40 -30 0 30 -40 -30 40 -30 F
+X REF 2 -200 0 100 R 50 50 0 0 P
+X K 1 0 200 100 D 50 50 1 1 P
+X A 3 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TEMPLATE_ic-power
 #
 DEF TEMPLATE_ic-power U 0 50 Y Y 1 F N
