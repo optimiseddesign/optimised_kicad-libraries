@@ -101,6 +101,11 @@ D Test Point 1.5mm Pad
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
 $ENDCMP
 #
+$CMP TestPoint_Pad_1.8x1.4mm_Oval
+D Test Point 1.8x1.4mm Oval Pad
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\
+$ENDCMP
+#
 $CMP TestPoint_TH_Loop_1.27mm_Keystone_5001
 D Miniature Test Point TH 1.27mm Loop
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\miscellaneous\Keystone 5000-5004 Series TH Loop Test Points.pdf
