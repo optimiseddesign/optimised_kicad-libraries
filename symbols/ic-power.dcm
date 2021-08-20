@@ -42,6 +42,12 @@ D 2V-5V5 IN Fixed 300mA 1V8 LDO Linear Regulator SOT-23-5
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\Texas Instruments TLV702 300mA 2V-5V5 LDO Linear Regulator.pdf
 $ENDCMP
 #
+$CMP LDO_Fixed_2V5_300mA_ON-Semi_NCP718_WDFN-6
+D 2V5-24V IN Fixed 2.5V 300mA 2% LDO Linear Regulator WDFN-6
+K 2x2mm Package, 1uF Stable Cout, Ultra-low Iq 4uA, with active discharge
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\ON Semi NCP718 300mA 2V5-24V LDO Linear Regulator.pdf
+$ENDCMP
+#
 $CMP LDO_Fixed_3V3_2A_STMicro_LD39200_DFN-6
 D 1.25V-6V VIN 2A LDO Fixed 3V3 Regulator 130mV Dropout High PSRR DFN-6
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-power\ST Microelectronics LD39200 2A High PSRR LDO Regulator.pdf
