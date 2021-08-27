@@ -21,6 +21,12 @@ D Single N-Channel MOSFET 915mA 20V SOT-416
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\ON Semi N-4153N Single 915mA 20V N-Channel MOSFET.pdf
 $ENDCMP
 #
+$CMP NMOS_Single_55V_0.54A_SOT-23_Infineon_BSS670S2L
+D Single N-Channel MOSFET 540mA 55V SOT-23
+K AEC Q101
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\Infineon BSS670S2L Single 540mA 55V N-Channel MOSFET.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_transistors
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\
 $ENDCMP
