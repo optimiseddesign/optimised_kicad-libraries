@@ -27,6 +27,12 @@ K AEC Q101
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\Infineon BSS670S2L Single 540mA 55V N-Channel MOSFET.pdf
 $ENDCMP
 #
+$CMP PMOS_Single_40V_7A_TO-252_Diodes-Inc_DMP4025LK3Q
+D Single P-Channel MOSFET 7A 40V TO-252 (DPAK)
+K AEC Q101 DPAK
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\Diodes Inc DMP4025LK3Q Single 7A 40V P-Channel MOSFET.pdf
+$ENDCMP
+#
 $CMP TEMPLATE_transistors
 F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\transistors\
 $ENDCMP
