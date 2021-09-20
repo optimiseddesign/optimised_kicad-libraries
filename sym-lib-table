@@ -16,4 +16,5 @@
   (lib (name _kb_relays-switches)(type Legacy)(uri ${KIPRJMOD}/optimised_kicad-libraries/symbols/relays-switches.lib)(options "")(descr ""))
   (lib (name _kb_resistors)(type Legacy)(uri ${KIPRJMOD}/optimised_kicad-libraries/symbols/resistors.lib)(options "")(descr ""))
   (lib (name _kb_transistors)(type Legacy)(uri ${KIPRJMOD}/optimised_kicad-libraries/symbols/transistors.lib)(options "")(descr ""))
+  (lib (name _kb_triac-thyristor)(type Legacy)(uri ${KIPRJMOD}/optimised_kicad-libraries/symbols/triac-thyristor.lib)(options "")(descr ""))
 )

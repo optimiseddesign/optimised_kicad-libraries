@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TEMPLATE_triac-thyristor
+F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\triac-thyristor\
+$ENDCMP
+#
+#End Doc Library
