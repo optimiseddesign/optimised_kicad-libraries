@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TEMPLATE_ic-microcontroller
-F ${KIPRJMOD}\optimised_kicad-libraries\datasheets\ic-microcontroller\
-$ENDCMP
-#
-#End Doc Library
