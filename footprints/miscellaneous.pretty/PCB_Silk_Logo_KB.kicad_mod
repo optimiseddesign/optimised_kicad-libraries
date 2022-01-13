@@ -1,12 +1,17 @@
-(module PCB_Silk_Logo_KB (layer F.Cu) (tedit 5EB03575)
-  (attr virtual)
-  (fp_text reference REF** (at 0.55 -1.4 unlocked) (layer F.SilkS) hide
+(footprint "PCB_Silk_Logo_KB" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 5EB03575)
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0.55 -1.4 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b7a0463c-3b66-44e5-ba7f-28dbac034303)
   )
-  (fp_text value PCB_Silk_Logo_KB (at 0.8 -1.5 unlocked) (layer F.Fab) hide
+  (fp_text value "PCB_Silk_Logo_KB" (at 0.8 -1.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c5d91516-475c-4fdd-807a-8d966ab1d172)
   )
-  (fp_text user KBconsulting (at 0.1 -0.1 unlocked) (layer F.SilkS)
+  (fp_text user "KBconsulting" (at 0.1 -0.1 unlocked) (layer "F.SilkS")
     (effects (font (size 0.7 0.7) (thickness 0.125)))
+    (tstamp 4f977c6f-1ecd-43f5-9e06-4a9a1b62fe9b)
   )
 )
