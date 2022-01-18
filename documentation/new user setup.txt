@@ -21,3 +21,19 @@ KICAD_TEMPLATE_DIR		C:\freelance\git\kicad-templates
 Open KiCAD, and configure;
 Preferences > Manage Symbol Libraries, then select global symbol table folder C:\freelance\git\kicad-symbols\sym-lib-table
 Preferences > Manage Footprint Libraries, then select global footprint table folder C:\freelance\git\kicad-footprints\fp-lib-table
+
+
+Added rough things after KiCAD v6, 2022-01-18;
+-------------------------------------------------------------------------
+Need to update all of above instructions for KiCAD v6, but most similar or fixed in my library
+
+Install InteractiveHtmlBom v2.4.1 (or later with caution?) using plugin manager...
+...copy config.ini from Git Repo optimised_kicad-libraries \environment\config.ini
+...to C:\Users\<UserName>\Documents\KiCad\6.0\3rdparty\plugins\org_openscopeproject_InteractiveHtmlBom\ or similar
+
+Clone KiBOM repo (Optimised fork) from https://github.com/optimiseddesign/KiBoM
+In KiCAD Schematic Editor, Tools -> Generate BOM
+Add a BOM generator with the Nickname and Commandline as below:
+OptimisedPD_KiBOM_CSV
+python "C:\freelance\git\KiBoM/KiBOM_CLI.py" -v "%I" "%O" -d "..\manufacturing"
+plus, when outputting a BOM, temporarily copy \environment\bom.ini to the local KiCAD PCB folder
