@@ -414,7 +414,7 @@
     (property "Value" "Varistor_SMD_0402_1005m_4VAC_5.5VDC_Bourns_CG0402MLA-5.5MG" (id 1) (at 1.27 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "resistors_JH:VARC100X50X60L25_BOURNS" (id 2) (at -1.143 -1.27 0)
+    (property "Footprint" "_kb_resistors:VARC100X50X60L25_BOURNS" (id 2) (at -1.143 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\Bourns_MLA.pdf" (id 3) (at -1.143 -1.27 0)

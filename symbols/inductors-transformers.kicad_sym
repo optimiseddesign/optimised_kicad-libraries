@@ -472,7 +472,7 @@
     (property "Value" "Inductor_SMD_2016_0.875_10uH_0.6A-0.8A_WireWound_Shielded_Laird_TYA201610100M-10" (id 1) (at 45.72 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "inductors-transformers_JH:IND_LAIRD_TYA201610" (id 2) (at 1.397 -8.89 0)
+    (property "Footprint" "_kb_inductors-transformers:IND_LAIRD_TYA201610" (id 2) (at 1.397 -8.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Laird_TYA201610_series.pdf" (id 3) (at 1.397 -8.89 0)

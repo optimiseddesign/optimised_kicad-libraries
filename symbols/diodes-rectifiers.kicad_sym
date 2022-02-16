@@ -1967,7 +1967,7 @@
     (property "Value" "Schottky_Single_40V_500mA_ON-Semi_NSR05T40P2_SOD-923" (id 1) (at 34.29 -1.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "diodes-rectifiers_JH:SODFL100X60X40L19X20_ONSEMI" (id 2) (at 0.127 -13.97 0)
+    (property "Footprint" "_kb_diodes-rectifiers:SODFL100X60X40L19X20_ONSEMI" (id 2) (at 0.127 -13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\diodes-rectifiers\\" (id 3) (at 0.127 -13.97 0)
