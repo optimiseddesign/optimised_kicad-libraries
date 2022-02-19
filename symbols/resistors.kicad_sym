@@ -180,7 +180,7 @@
     (property "Value" "Resistor_SMD_0805_2012m" (id 1) (at 1.27 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at -1.143 -1.27 0)
+    (property "Footprint" "_kb_resistors:Resistor_SMD_0805_2012m" (id 2) (at -1.143 -1.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (id 3) (at -1.143 -1.27 0)
