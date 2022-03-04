@@ -1,6 +1,6 @@
 (footprint "Inductor_SMD_2016_WireWound_Shielded_Laird_TYA201610" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620FC589)
+  (tedit 622216BB)
   (descr "Inductor, Dual Flat No-Lead, 2 pin; 2.00 mm L X 1.60 mm W X 1.15 mm H body")
   (attr smd)
   (fp_text reference "REF**" (at 0.34 -1.79 unlocked) (layer "F.SilkS")
@@ -27,9 +27,9 @@
   (fp_line (start -1.15 -0.95) (end 1.15 -0.95) (layer "F.Fab") (width 0.12) (tstamp 955cc99e-a129-42cf-abc7-aa99813fdb5f))
   (pad "1" smd roundrect (at -0.8 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b96fe6ac-3535-4455-ab88-ed77f5e46d6e))
   (pad "2" smd roundrect (at 0.8 0) (size 0.8 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9f8381e9-3077-4453-a480-a01ad9c1a940))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_2012_WireWound_SemiShielded_Bourns_SRN2012.stp"
-    (offset (xyz -1.25 1 1.15))
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_2016_WireWound_SemiShielded_Laird_TYA201610.stp"
+    (offset (xyz 0 0 0.55))
     (scale (xyz 1 1 1))
-    (rotate (xyz 180 0 0))
+    (rotate (xyz 0 0 90))
   )
 )
