@@ -639,7 +639,7 @@
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\ic-power\\ST Microelectronics LD39050 500mA LDO Regulator.pdf" (id 3) (at 1.27 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "1.5V-5.5V VIN 500mA LDO Adjustable Regulator 200mV Dropout DFN-6" (id 4) (at 1.27 -19.05 0)
+    (property "Description" "1.5V-5.5V VIN 500mA 2% LDO Adjustable Regulator 200mV Dropout DFN-6" (id 4) (at 1.27 -19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer1" "ST Microelectronics" (id 5) (at 0 -19.05 0)
@@ -669,7 +669,7 @@
     (property "FitPart" " " (id 13) (at 0 -20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "1.25V-6V VIN 2A LDO Adjustable Regulator 130mV Dropout High PSRR DFN-6" (id 14) (at 0 0 0)
+    (property "ki_description" "1.5V-5.5V VIN 500mA 2% LDO Adjustable Regulator 200mV Dropout DFN-6" (id 14) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LDO_Adjustable_500mA_STMicro_LD39050_DFN-6_0_0"
