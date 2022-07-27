@@ -1976,7 +1976,10 @@
     (property "FitPart" "DNF" (id 13) (at 1.27 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Test Point 1.3mm Pad 0.7mm Hole" (id 14) (at 0 0 0)
+    (property "ki_keywords" "for 26AWG" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Test Point 1.3mm Pad 0.7mm Hole" (id 15) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TestPoint_TH_1.3mm_0.7mm_1_1"
