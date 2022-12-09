@@ -4,7 +4,7 @@
   (descr "0.9mm top copper pad, no step model")
   (attr exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0.1 -1.1 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.5 0.5) (thickness 0.12)))
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp a33ef418-572b-4fe7-bcdb-8ff8476705d3)
   )
   (fp_text value "TestPoint_Pad_0.9mm" (at 0.45 1.45) (layer "F.Fab") hide
@@ -12,7 +12,7 @@
     (tstamp 34886383-eaa7-43ae-be9c-01d71bb176b8)
   )
   (fp_text user "${REFERENCE}" (at 0.1 -1.1 unlocked) (layer "F.Fab")
-    (effects (font (size 0.5 0.5) (thickness 0.12)))
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
     (tstamp 96249633-ad65-4dfb-ab82-b57304bbe6c1)
   )
   (fp_circle (center 0 0) (end 0.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 11d8c2e7-90c4-4d21-9d56-b7ce6bb4b6d7))
