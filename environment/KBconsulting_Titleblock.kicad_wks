@@ -15,7 +15,7 @@
   (line (name "segm5:Line") (start 110 5.5) (end 2 5.5))
   (tbtext "${KICAD_VERSION}" (name "text6:Text") (pos 109 3.7))
   (line (name "segm6:Line") (start 110.0002 8.5002) (end 2.0002 8.5002))
-  (tbtext "Copyright 2022" (name "text7:Text") (pos 49.002 3.7) (font italic))
+  (tbtext "Copyright 2023" (name "text7:Text") (pos 49.002 3.7) (font italic))
   (tbtext "PCB ID: ${COMMENT1}" (name "text8:Text") (pos 29.002 10.5) (font bold))
   (tbtext "Rev: ${REVISION}" (name "text9:Text") (pos 29.0002 6.9002) (font bold))
   (tbtext "Size: ${PAPER}" (name "text10:Text") (pos 109 6.9))
