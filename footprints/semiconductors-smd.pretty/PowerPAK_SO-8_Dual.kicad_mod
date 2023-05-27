@@ -56,7 +56,7 @@
     (zone_connect 2) (tstamp f4b814f3-b664-4a70-b34a-22c37b8d26e6))
   (pad "8" smd roundrect (at 2.795 -1.905) (size 1.02 0.61) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (zone_connect 2) (tstamp a35b6b79-d285-4133-958a-d8e63da63004))
-  (model "${KISYS3DMOD}/Package_SO.3dshapes/Vishay_PowerPAK_SO-8.step"
+  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_SO-8.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
