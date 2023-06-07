@@ -51,8 +51,8 @@
   (pad "8" smd roundrect (at 0 0.525) (size 1 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1667)
     (solder_paste_margin -0.072) (tstamp ff11d02a-1020-4b0c-bea0-d64398f7260e))
   (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN-6-2EP_W2.0xL2.0xH0.6mm_P0.65mm_EP0.6x1.0mm.stp"
-    (offset (xyz 0 0 0))
+    (offset (xyz 2.46 -82.72 -0.65))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz 90 0 90))
   )
 )
