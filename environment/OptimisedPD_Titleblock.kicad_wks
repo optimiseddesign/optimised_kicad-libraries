@@ -1,4 +1,4 @@
-(kicad_wks (version 20210606) (generator pl_editor)
+(kicad_wks (version 20220228) (generator pl_editor)
   (setup (textsize 1.5 1.5)(linewidth 0.15)(textlinewidth 0.15)
   (left_margin 10)(right_margin 10)(top_margin 10)(bottom_margin 10))
   (rect (name "rect1:Rect") (start 110 33) (end 2 2))
