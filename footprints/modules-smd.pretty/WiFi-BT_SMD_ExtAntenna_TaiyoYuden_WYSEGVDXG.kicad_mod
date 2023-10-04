@@ -103,7 +103,7 @@
     (solder_mask_margin -0.225) (solder_paste_margin -0.225) (zone_connect 2) (tstamp 725d36ff-21bc-4c06-a249-ccdff69adf46))
   (pad "56" smd roundrect (at 1.9 -1.5 270) (size 2.8 2.8) (property pad_prop_heatsink) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_mask_margin -0.225) (solder_paste_margin -0.225) (zone_connect 2) (tstamp 1b3a5470-4720-4346-b0f8-19a7321f6c89))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules.3dshapes/WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG.stp"
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-smd.3dshapes/WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG.stp"
     (offset (xyz 5.75 -12 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

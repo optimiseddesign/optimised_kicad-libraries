@@ -116,7 +116,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules.3dshapes/BT_SMD_PCBAntenna_Fanstel_BM832.stp"
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-smd.3dshapes/BT_SMD_PCBAntenna_Fanstel_BM832.stp"
     (offset (xyz -0 0.4 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

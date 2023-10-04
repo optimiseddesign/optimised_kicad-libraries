@@ -13,6 +13,7 @@
   (lib (name "_kb_ic-power")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-power.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_inductors-transformers")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/inductors-transformers.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_miscellaneous")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/miscellaneous.kicad_sym")(options "")(descr ""))
+  (lib (name "_kb_modules-plugin")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/modules-plugin.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_relays-switches")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/relays-switches.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_resistors")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/resistors.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_transistors")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/transistors.kicad_sym")(options "")(descr ""))
