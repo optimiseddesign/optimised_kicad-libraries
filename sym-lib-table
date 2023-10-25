@@ -8,7 +8,7 @@
   (lib (name "_kb_ic-interface")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-interface.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_ic-logic")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-logic.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_ic-memory")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-memory.kicad_sym")(options "")(descr ""))
-  (lib (name "_kb_ic-microcontroller")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-microcontroller.kicad_sym")(options "")(descr ""))
+  (lib (name "_kb_ic-processor")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-processor.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_ic-other")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-other.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_ic-power")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/ic-power.kicad_sym")(options "")(descr ""))
   (lib (name "_kb_inductors-transformers")(type "KiCad")(uri "${KIPRJMOD}/optimised_kicad-libraries/symbols/inductors-transformers.kicad_sym")(options "")(descr ""))
