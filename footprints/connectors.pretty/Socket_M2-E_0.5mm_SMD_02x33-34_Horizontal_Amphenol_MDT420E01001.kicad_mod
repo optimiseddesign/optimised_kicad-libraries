@@ -7,11 +7,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0e4011cf-a03e-40dc-b74d-c16a3ebb47d9)
   )
-  (fp_text value "VAL**" (at 0 0) (layer "F.Fab") hide
+  (fp_text value "VAL**" (at 0 5.675) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dfea0fe0-8bc8-4a2a-b8ff-cb3d358fc573)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "M.2 Card Edge" (at 0 1.025 unlocked) (layer "Dwgs.User")
+      (effects (font (size 0.8 0.8) (thickness 0.15)) (justify bottom))
+    (tstamp 9d4d4324-96ec-4fa5-a9f5-a01619de2392)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -1.425) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9eb653a5-c240-4217-86d6-b0c41ece6da9)
   )
@@ -29,6 +33,34 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c144a47e-bcc7-43ce-9b26-70b261dbc78b))
   (fp_line (start 11 4.275) (end 11 -1.52)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b59e3441-1bcb-48bf-a89a-0fbe10211ede))
+  (fp_line (start -11 4.275) (end -11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 261d9075-bd98-4fe9-8d0c-e2dfef5c43e1))
+  (fp_line (start -10.5 3.675) (end -11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp b6eac578-bba8-4201-82e5-e1bcd7d3c118))
+  (fp_line (start -10 -0.325) (end -10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp e51968e2-7b4f-4e86-b4f2-1a13754e0b63))
+  (fp_line (start 0 2.65) (end 0 1.4)
+    (stroke (width 0.2) (type default)) (layer "Dwgs.User") (tstamp 6fdd9e09-43e0-432a-b5b1-a63b5af27835))
+  (fp_line (start 10 -0.325) (end -10 -0.325)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp aac107ba-be38-426a-a47f-b3ee9018f959))
+  (fp_line (start 10 -0.325) (end 10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp e3d8ccde-0e20-4664-bc06-17f2ee75fb0f))
+  (fp_line (start 10.5 3.675) (end 11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 5db7921e-4dae-4210-b021-720a2885d3c4))
+  (fp_line (start 11 4.275) (end 11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp f60dcade-c443-440f-a822-c71b0791c83d))
+  (fp_arc (start -10 3.175) (mid -10.146447 3.528553) (end -10.5 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 154bf50b-a00a-4c11-8680-87f275e94a64))
+  (fp_arc (start 10.5 3.675) (mid 10.146447 3.528553) (end 10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 53f1193c-8553-4c6e-89f9-d90774998cd5))
+  (fp_poly
+    (pts
+      (xy 0 1.4)
+      (xy -0.3 1.9)
+      (xy 0.3 1.9)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp a1d5a105-4fe9-4b14-81f9-b7dfd49dd9d2))
   (fp_poly
     (pts
       (xy 11.25 -4.7)
@@ -139,6 +171,25 @@
   (pad "75" smd roundrect (at 9.25 -3.85) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5753980a-65b7-49c3-b850-9929b6734328))
   (pad "M1" smd roundrect (at -10.35 -3.075) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e4ed8402-a1e5-4361-b79a-b46c138ffdd6))
   (pad "M2" smd roundrect (at 10.35 -3.075) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bb543c5e-f07f-40df-8495-fb11c120b592))
+  (group "" (id 06122d48-8fc5-4d4a-874b-0b8a3f8b2ae9)
+    (members
+      154bf50b-a00a-4c11-8680-87f275e94a64
+      261d9075-bd98-4fe9-8d0c-e2dfef5c43e1
+      53f1193c-8553-4c6e-89f9-d90774998cd5
+      5db7921e-4dae-4210-b021-720a2885d3c4
+      aac107ba-be38-426a-a47f-b3ee9018f959
+      b6eac578-bba8-4201-82e5-e1bcd7d3c118
+      e3d8ccde-0e20-4664-bc06-17f2ee75fb0f
+      e51968e2-7b4f-4e86-b4f2-1a13754e0b63
+      f60dcade-c443-440f-a822-c71b0791c83d
+    )
+  )
+  (group "" (id 7f2ee92f-c04b-492d-8202-0d4ee6b3b80a)
+    (members
+      6fdd9e09-43e0-432a-b5b1-a63b5af27835
+      a1d5a105-4fe9-4b14-81f9-b7dfd49dd9d2
+    )
+  )
   (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Socket_M2-E_0.5mm_SMD_02x33-34_Horizontal_Amphenol_MDT420E01001.stp"
     (offset (xyz 0 0.33 0))
     (scale (xyz 1 1 1))

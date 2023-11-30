@@ -7,11 +7,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp aa862249-fff5-4c09-a09c-d34b57653443)
   )
-  (fp_text value "Val**" (at 0 0) (layer "F.SilkS") hide
+  (fp_text value "Val**" (at 0.25 5.775) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3baea072-7f1a-4b98-a21f-1c5acea703d5)
   )
-  (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+  (fp_text user "M.2 Card Edge" (at 0 1.025 unlocked) (layer "Dwgs.User")
+      (effects (font (size 0.8 0.8) (thickness 0.15)) (justify bottom))
+    (tstamp a4c39fee-3792-4534-891a-e21dd7cc4227)
+  )
+  (fp_text user "${REFERENCE}" (at -0.025 -1.45) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d470259c-539a-4966-838f-47f4a63779b3)
   )
@@ -29,6 +33,34 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7a6e4643-fbbc-40fd-bb60-e97b4ab0e70b))
   (fp_line (start 11 4.275) (end 9.33 4.275)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a20e8942-1432-49e5-a83f-20a21e845567))
+  (fp_line (start -11 4.275) (end -11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 95c8d6a7-6b11-47e5-be7f-bb3fddb8d5aa))
+  (fp_line (start -10.5 3.675) (end -11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp d6ce8236-4b26-4996-8da3-71306ab6c627))
+  (fp_line (start -10 -0.325) (end -10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 727ef7b6-7d92-4969-aa4b-3a72290fa8f4))
+  (fp_line (start 0 2.65) (end 0 1.4)
+    (stroke (width 0.2) (type default)) (layer "Dwgs.User") (tstamp 20b05600-5657-40ec-9b2d-30dbeca2c86f))
+  (fp_line (start 10 -0.325) (end -10 -0.325)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp ee9373a7-c064-461f-a8b0-44f5eae65360))
+  (fp_line (start 10 -0.325) (end 10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 7be8ed8a-9a3f-4586-9557-5aa5c7ce6be1))
+  (fp_line (start 10.5 3.675) (end 11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp bc3069b3-3105-4239-bd8c-978ef69c2bc5))
+  (fp_line (start 11 4.275) (end 11 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp bbc24dd2-2298-4254-920d-2b2881a4e1cc))
+  (fp_arc (start -10 3.175) (mid -10.146447 3.528553) (end -10.5 3.675)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp ad17fe47-8b89-471c-82de-a7d650d4e4b0))
+  (fp_arc (start 10.5 3.675) (mid 10.146447 3.528553) (end 10 3.175)
+    (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp bc87fe46-0bfc-4382-9fa8-eb30e4272c4f))
+  (fp_poly
+    (pts
+      (xy 0 1.4)
+      (xy -0.3 1.9)
+      (xy 0.3 1.9)
+    )
+
+    (stroke (width 0.2) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 6f978d59-5ec9-4e9d-be65-652a93248220))
   (fp_poly
     (pts
       (xy 11.25 -4.7)
@@ -139,6 +171,25 @@
   (pad "75" smd roundrect (at 9.25 -3.85) (size 0.3 1.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ddc71ecc-7a42-4d3d-87dc-79dec484e072))
   (pad "M1" smd roundrect (at -10.35 -3.075) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ade3d6c3-7acc-4397-85e7-2f7e713377ae))
   (pad "M2" smd roundrect (at 10.35 -3.075) (size 1.2 2.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 05132960-972b-4ef8-a40c-eaa7665370d8))
+  (group "" (id 62771396-b874-418f-a8bc-396e83febbca)
+    (members
+      20b05600-5657-40ec-9b2d-30dbeca2c86f
+      6f978d59-5ec9-4e9d-be65-652a93248220
+    )
+  )
+  (group "" (id 69911896-ae9b-48a2-b99f-c6ef9b5d6857)
+    (members
+      727ef7b6-7d92-4969-aa4b-3a72290fa8f4
+      7be8ed8a-9a3f-4586-9557-5aa5c7ce6be1
+      95c8d6a7-6b11-47e5-be7f-bb3fddb8d5aa
+      ad17fe47-8b89-471c-82de-a7d650d4e4b0
+      bbc24dd2-2298-4254-920d-2b2881a4e1cc
+      bc3069b3-3105-4239-bd8c-978ef69c2bc5
+      bc87fe46-0bfc-4382-9fa8-eb30e4272c4f
+      d6ce8236-4b26-4996-8da3-71306ab6c627
+      ee9373a7-c064-461f-a8b0-44f5eae65360
+    )
+  )
   (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Socket_M2-M_0.5mm_SMD_02x33-34_Horizontal_Amphenol_MDT420M01002.stp"
     (offset (xyz 0 0.33 0))
     (scale (xyz 1 1 1))
