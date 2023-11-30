@@ -92,20 +92,4 @@
     (stroke (width 0.12) (type default)) (layer "F.Fab") (tstamp 58edf77f-5b92-4e13-8f86-71a064eb1a83))
   (fp_arc (start 40.075 1.75) (mid 38.325 0) (end 40.075 -1.75)
     (stroke (width 0.12) (type default)) (layer "F.Fab") (tstamp 0e4954e0-dc59-4f5f-be3b-ee03460063e8))
-  (group "" (id aaf41d8e-99f8-435c-be0b-9486ba98a04b)
-    (members
-      0a16d83e-cfe6-45d7-948e-4685876b2be8
-      0e4954e0-dc59-4f5f-be3b-ee03460063e8
-      2d8da93c-e647-492e-b1a4-fe13a9eb3e5c
-      58edf77f-5b92-4e13-8f86-71a064eb1a83
-      5f1d9b2a-b944-46c0-854d-532dfcaedabb
-      6e762a7a-5f37-4999-85d5-e8770ffe0789
-      89b616fb-a798-4aa8-aee6-5f0265b5c91b
-      a0314fd1-7cd9-4cfc-a71d-0540e542bc9f
-      aaa71405-a7f0-43bb-8f62-050c6c87b743
-      c1a1a972-4313-4728-a6ee-e218a7800131
-      f1fbb7f0-8c90-4c96-8640-41e100f724ef
-      f20f3bfa-7c9e-4b31-84ca-22cce6b4b043
-    )
-  )
 )
