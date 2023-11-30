@@ -2,6 +2,7 @@
   (layer "F.Cu")
   (descr "SMT M3 threaded standoff for M.2 Drives, 2.45mm height for 4.2H M.2 sockets")
   (tags "SMD, M2, connector")
+  (zone_connect 2)
   (attr smd)
   (fp_text reference "REF**" (at 0 -4.55 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
