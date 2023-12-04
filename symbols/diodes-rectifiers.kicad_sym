@@ -1139,7 +1139,7 @@
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\diodes-rectifiers\\Kingbright KPT-2012QBC-D Blue 2012 LED.pdf" (at -1.27 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "SMD LED 0805 (2012m) Blue 3.3V 100mcd" (at 0 -10.16 0)
+    (property "Description" "SMD LED 0805 (2012m) Blue 3.3V 100mcd @ 20mA" (at 0 -10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer1" "Kingbright" (at 0 -10.16 0)
@@ -1172,7 +1172,7 @@
     (property "ki_keywords" "InGaN Light Emitting Diode" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "SMD LED 0805 (2012m) Green 2.2V 15mcd typ @ 20mA" (at 0 0 0)
+    (property "ki_description" "SMD LED 0805 (2012m) Blue 3.3V 100mcd @ 20mA" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "LED_SMD_2012_Blue_3.3V_100mcd_Kingbright_KPT-2012QBC-D_1_1"
