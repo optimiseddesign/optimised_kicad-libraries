@@ -2533,7 +2533,7 @@
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\transistors\\Nexperia BSS84AKM Single 230mA 50V P-Channel MOSFET.pdf" (at 2.667 -16.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "Single N-Channel MOSFET 230mA 50V SOT883" (at 1.7018 -14.097 0)
+    (property "Description" "Single P-Channel MOSFET 230mA 50V SOT883" (at 1.7018 -14.097 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer1" "Nexperia" (at 0.2286 -14.0716 0)
