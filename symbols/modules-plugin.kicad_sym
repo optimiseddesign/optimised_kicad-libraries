@@ -395,7 +395,7 @@
     (property "Value" "Notecard_Connector-67" (at 0 -50.8 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 0 -62.23 0)
+    (property "Footprint" "_kb_connectors:Socket_M2-E_0.5mm_SMD_02x33-34_Horizontal_Amphenol_MDT420E01001" (at 0 -62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\modules-plugin\\mdtxxxxxx001.pdf" (at 0 -55.88 0)
