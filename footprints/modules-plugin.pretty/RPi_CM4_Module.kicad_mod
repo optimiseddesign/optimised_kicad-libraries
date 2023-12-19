@@ -143,20 +143,6 @@
     (solder_mask_margin 1.7) (clearance 1.7) (tstamp 0e9ff0ab-be9a-410e-83d3-560aabe41a96))
   (pad "" np_thru_hole circle (at 16.5 24 180) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 1.7) (clearance 1.7) (tstamp c2c1d247-2c20-4b1e-a5d1-8d71cf195ab3))
-  (zone (net 0) (net_name "") (layers "*.Cu") (tstamp 8170d01f-77a9-4cb8-b99e-7dad45030561) (name "CM4_wireless_keepout") (hatch edge 0.5)
-    (connect_pads (clearance 0))
-    (min_thickness 0.25) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
-    (fill (thermal_gap 0.5) (thermal_bridge_width 0.5))
-    (polygon
-      (pts
-        (xy -1.5 -27.5)
-        (xy 9.5 -27.5)
-        (xy 9.5 -21)
-        (xy -1.5 -21)
-      )
-    )
-  )
   (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-plugin.3dshapes/RPi_CM4_Module.stp"
     (offset (xyz -36 27.5 1.5))
     (scale (xyz 1 1 1))
