@@ -1,7 +1,7 @@
 (footprint "RPi_CM4_Module" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Raspberry Pi 4 Compute Plug-in Module, connects to two Hirose DF40C connectors (separate parts)")
-  (tags "use with parts RPi_CM4_Connector1-100_GPIO and RPi_CM4_Connector101-200_HighSpeed")
+  (tags "3.0mm stacking height, use with RPi_CM4_Connector1-100_GPIO and RPi_CM4_Connector101-200_HighSpeed")
   (attr smd)
   (fp_text reference "REF**" (at 0.2 -28.9 180) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
@@ -144,7 +144,7 @@
   (pad "" np_thru_hole circle (at 16.5 24 180) (size 2.7 2.7) (drill 2.7) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 1.7) (clearance 1.7) (tstamp c2c1d247-2c20-4b1e-a5d1-8d71cf195ab3))
   (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-plugin.3dshapes/RPi_CM4_Module.stp"
-    (offset (xyz -36 27.5 1.5))
+    (offset (xyz -36 27.5 3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
