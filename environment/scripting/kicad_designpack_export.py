@@ -3,16 +3,17 @@
 ## INFO
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
-# Uses KiCAD v7 CLI (Command Line Interface). Written for KiCAD v7.0.6 on Win10 using Python v3.10.0.
+# Uses KiCAD v7 CLI (Command Line Interface). Written for KiCAD v7.0.8 (updated, initially for v7.0.6) on Win10 using Python v3.10.0 .
 # REQUIRES 'pypdf' python package installed, Tested using v3.15.0 - install using 'pip3 install pypdf' on command line
+# 
+# Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
-# Copyright Optimised Product Design Ltd 2023
+# Copyright Optimised Product Design Ltd 2023-2024
 #
 #
 ## TO-DO
 #
 # - (?)Add versioning and other readme content for script.
-# - Layout PDF CLI exports with missing copper on drill holes! Doesn't happen when done from GUI. Missing CLI drill marks option?
 # - Add automatic BOM export once CLI feature availability in KiCAD v8 in 2024
 # - Add automatic 3D viewer image save once feature available, see (unknown time) https://gitlab.com/kicad/code/kicad/-/issues/13948
 #
@@ -35,7 +36,7 @@ from pypdf import PdfMerger, PdfReader, PdfWriter
 # Overall configs
 CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\7.0\\bin\\kicad-cli"
 CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
-CONFIG_KICAD_NAME = "pt115a_vrgo-fyt-electronics-main"  # Main configuration to set if design follows Optimiseds' conventions
+CONFIG_KICAD_NAME = "pt136a_giraffecctv_edge_controller_generic"  # Main configuration to set if design follows Optimiseds' conventions
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
 CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
@@ -160,6 +161,8 @@ def pcb_export_pdf_single(layer):
             layer + ",Edge.Cuts",
             '--include-border-title',
             '--black-and-white',
+            '--drill-shape-opt',    # Fix for missing copper in drill holes, requires KiCAD v7.0.8
+            '0',                    # Fix for missing copper in drill holes, requires KiCAD v7.0.8
             CONFIG_KICAD_PCB]
             
     process = subprocess.run(args=cmd, 
