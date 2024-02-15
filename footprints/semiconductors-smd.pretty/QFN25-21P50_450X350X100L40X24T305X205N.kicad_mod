@@ -114,4 +114,9 @@
   (pad "21" smd roundrect (at 0 1.775) (size 0.76 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f5bae3f1-0b08-4b41-a35a-f6571fff8844))
   (pad "21" smd roundrect (at 0.25 -2.155 270) (size 0.72 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 06d92837-0e0d-4a0c-b22e-6a718e1e1783))
   (pad "21" smd roundrect (at 0.25 2.15 270) (size 0.72 0.26) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a75e52fa-378b-40c2-92e9-2e765204c407))
+  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/VQFN-20_W3.5xL4.5mm_P1.0mm.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
