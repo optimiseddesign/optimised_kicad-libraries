@@ -299,6 +299,8 @@ def pcb_export_gerbers():
             '--exclude-value',
             '--use-drill-file-origin',
             '--no-protel-ext',
+            '--subtract-soldermask',
+            '--disable-aperture-macros',
             '--precision',
             '6',
             '--common-layers',
