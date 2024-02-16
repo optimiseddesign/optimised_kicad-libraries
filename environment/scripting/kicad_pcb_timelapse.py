@@ -4,6 +4,7 @@
 #
 # First outputs all the X .kicad_pcb files
 # Next outputs all the X .svg files using the KiCAD CLI
+# Next sets all the layers of the SVG to a % opacity for visual clarity
 # Next converts the X .svg to .png using inkscape
 # Finally, crops the PNGs to a specified area
 # Then the .PNG are available to use as you wish - e.g. Flowframes to merge (and AI interpolate) to a Gif https://github.com/n00mkrad/flowframes
@@ -33,23 +34,24 @@ from PIL import Image # Install with 'pip3 install Pillow' before
 ## For paths, use double backslashes '\\'
 ## All folders must *exist already*
 CONFIG_GIT_EXE_PATH = "C:\\Program Files\\SmartGit\\git\\bin\\git.exe"
-CONFIG_GIT_REPO_PATH = "C:\\freelance\\git\\pt115a_vrgo-fyt-electronics-main"
-CONFIG_GIT_PCB_PATH = "./design/pt115a_vrgo-fyt-electronics-main.kicad_pcb"
-CONFIG_GIT_BRANCH = "miniaturisation"
-CONFIG_GIT_NUM_COMMITS = 120
+CONFIG_GIT_REPO_PATH = "C:\\freelance\\git\\pt136a_giraffecctv_edge_controller_generic"
+CONFIG_GIT_PCB_PATH = "./design/pt136a_giraffecctv_edge_controller_generic.kicad_pcb"
+CONFIG_GIT_BRANCH = "master"
+CONFIG_GIT_NUM_COMMITS = 143 #this many commits counting backwards relative to the HEAD, for changes in PCB file only
 CONFIG_OUTPUT_PCB_PATH = "C:\\Users\\KevinBibby\\Desktop\\output\\"
 CONFIG_OUTPUT_PCB_PREFIX = "output"
 CONFIG_OUTPUT_IMAGE_PATH = "C:\\Users\\KevinBibby\\Desktop\\output\\"
 CONFIG_OUTPUT_IMAGE_PREFIX = "output"
 CONFIG_OUTPUT_IMAGE_DPI = 600
-CONFIG_OUTPUT_IMAGE_CROP_LEFT = 1600 #margin from left
-CONFIG_OUTPUT_IMAGE_CROP_RIGHT = 2500 #margin from right
-CONFIG_OUTPUT_IMAGE_CROP_TOP = 1800 #margin from top
-CONFIG_OUTPUT_IMAGE_CROP_BOTTOM = 1500 #margin from bottom
+CONFIG_OUTPUT_IMAGE_OPACITY = 60 # setting 0 to 99 opacity % of all the layers for visual clarity adjustment
+CONFIG_OUTPUT_IMAGE_CROP_LEFT = 300 #margin from left
+CONFIG_OUTPUT_IMAGE_CROP_RIGHT = 2100 #margin from right
+CONFIG_OUTPUT_IMAGE_CROP_TOP = 750 #margin from top
+CONFIG_OUTPUT_IMAGE_CROP_BOTTOM = 950 #margin from bottom
 CONFIG_OUTPUT_IMAGE_DUPLICATE = 2 # 1 default, 9 max (set higher for duplicates of each one, ensure image interpolation has de-duplication OFF)
-CONFIG_INKSCAPE_PATH = "C:\\Program Files\\Inkscape\\bin\inkscape.exe"
+CONFIG_INKSCAPE_PATH = "C:\\Program Files\\Inkscape\\bin\inkscape.com"
 CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\7.0\\bin\\kicad-cli"
-CONFIG_KICAD_LAYERS = "F.Paste,F.Mask,F.Cu,F.Courtyard,B.Cu,Edge.Cuts"
+CONFIG_KICAD_LAYERS = "F.Paste,F.Cu,F.Courtyard,In2.Cu,B.Cu,Edge.Cuts"
 
 
 # First outputs all the X .kicad_pcb files
@@ -93,6 +95,21 @@ for commit_num in range(1,CONFIG_GIT_NUM_COMMITS+1):
                             shell=True, 
                             universal_newlines=True)
     print(process.stdout)
+
+
+# Next, modifies the SVG opacity for all layers for better visual clarity
+for commit_num in range(1,CONFIG_GIT_NUM_COMMITS+1):
+    print("\nSetting SVG to " + str(CONFIG_OUTPUT_IMAGE_OPACITY) + "% opacity for output file #" + str(commit_num) + "\n")
+
+    # read svg file -> write png file
+    process = subprocess.run([CONFIG_INKSCAPE_PATH,
+                            '--actions=select-all;object-set-property:opacity,0.70;export-overwrite;export-do;',
+                            CONFIG_OUTPUT_IMAGE_PATH + CONFIG_OUTPUT_IMAGE_PREFIX + str(commit_num) + ".svg"])
+       
+    print(process.stdout)
+
+    time.sleep(0.1) # Delay between each as sometimes hung mid loop
+
 
 # Next converts the X .svg to .png using inkscape. Pads the output filenames with leading zeros
 for commit_num in range(1,CONFIG_GIT_NUM_COMMITS+1):
