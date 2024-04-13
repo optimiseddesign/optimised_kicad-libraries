@@ -1,1020 +1,2922 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "FB" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D" (at 29.21 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1005m SMD BLM15_xSN1 Series.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Ferrite Bead 0402 1005m, 1A Max, 10R@100MHz 0.025RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Murata" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "BLM15PG100SN1D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "2443233" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "81-BLM15PG100SN1D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Ferrite Bead 0402 1005m, 1A Max, 10R@100MHz 0.025RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D_1_1"
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -0.7874)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.889)
-          (xy 0 1.2954)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.8288 0.2794)
-          (xy -1.1176 1.4986)
-          (xy 1.8288 -0.2032)
-          (xy 1.1176 -1.4224)
-          (xy -1.8288 0.2794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "FB" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D" (at 29.21 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Ferrite Bead 0603 1608m, 700mA Max, 220R@100MHz 0.25RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Murata" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "BLM18AG221SN1D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "1515674" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "81-BLM11A221S" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Ferrite Bead 0603 1608m, 700mA Max, 220R@100MHz 0.25RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D_1_1"
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -0.7874)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.889)
-          (xy 0 1.2954)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.8288 0.2794)
-          (xy -1.1176 1.4986)
-          (xy 1.8288 -0.2032)
-          (xy 1.1176 -1.4224)
-          (xy -1.8288 0.2794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "FB" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D" (at 29.21 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Murata" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "BLM18PG121SN1D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "1515738" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "81-BLM18PG121SN1D" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D_1_1"
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 -0.7874)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 0.889)
-          (xy 0 1.2954)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.8288 0.2794)
-          (xy -1.1176 1.4986)
-          (xy 1.8288 -0.2032)
-          (xy 1.1176 -1.4224)
-          (xy -1.8288 0.2794)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_0201_0603m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_0201_0603m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_0201_0603m" (at -1.143 -6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -6.35 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Wire-Wound Inductor 0201 (0603m) ??% ??A" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "??" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "??" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "??" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "??" (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 -5.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_0201_0603m_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_1005" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_1005" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Wire-Wound Inductor 0402 (1005m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "General, fill-in" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Wire-Wound Inductor 0402 (1005m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_1005_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_1608" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_1608" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Wire-Wound Inductor 0603 (1608m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "General, fill-in" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Wire-Wound Inductor 0603 (1608m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_1608_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_2012" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_2012" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Inductor_SMD:L_0805_2012Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Wire-Wound Inductor 0805 (2012m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "??" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "General, fill-in" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Wire-Wound Inductor 0805 (2012m) ??% ??A" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_2012_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610" (at 41.91 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_2016_WireWound_Shielded_Laird_TYA201610" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Laird TYA201610 Series SMD 2016m Power Inductors Shielded.pdf" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Power Inductor ??uH 20% ??Arms ??Asat Shielded Wire-Wound 2.0x1.6mm" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Laird" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "TYA201610???M-10" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "???" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "???" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "-40C to 125C, 1.15mm Tall" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power Inductor 10uH 20% 0.6Arms 0.8Asat Semi-Shielded Wire-Wound 2x1.6mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512" (at 45.72 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN2512 Series SMD 2520m Power Inductors Semi-Shielded.pdf" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 2.5x2mm" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Bourns" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "SRN2512-???M" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "???" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "???" (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "SRN2512 Series - choose exact part" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH" (at 43.18 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata LQH43NH Series 4532m Wire-Wound SMD Inductors.pdf" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Inductor ??uH ??% ??mA Un-Shielded 4532m Wire-Wound" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Murata" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "LQH43NH????03" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "???" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "???" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "LQH43NH Series - choose exact part" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Inductor ??uH ??% ??Arms ??% Un-Shielded 4532m Wire-Wound" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 2.54 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA" (at 45.72 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_5050_WireWound_SemiShielded_Bourns_SRN5040TA" (at 2.667 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.pdf" (at 1.397 -8.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Bourns" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "SRN5040TA-????" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "???" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "???" (at 3.81 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 2.54 -7.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "SRN5040TA Series - choose exact part" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040" (at 3.81 -1.27 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_inductors-transformers:Inductor_SMD_8279_WireWound_SemiShielded_Bourns_SRN8040" (at -1.143 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN8040 Series SMD 8mm Power Inductors Semi-Shielded.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 8x8mm" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Bourns" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "SRN8040-????" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "???" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "???" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "SRN8040 Series - choose exact part" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 8x8mm" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040_1_1"
-      (arc (start 0 -2.032) (mid 0.5058 -1.524) (end 0 -1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 -1.016) (mid 0.5058 -0.508) (end 0 0)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 0) (mid 0.5058 0.508) (end 0 1.016)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (arc (start 0 1.016) (mid 0.5058 1.524) (end 0 2.032)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.508)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TEMPLATE_inductors" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "L" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE_inductors" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "TEMPLATE_transformers" (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "T" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE_transformers" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D"
+			(at 29.21 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1005m SMD BLM15_xSN1 Series.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Ferrite Bead 0402 1005m, 1A Max, 10R@100MHz 0.025RDC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Murata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "BLM15PG100SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "2443233"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "81-BLM15PG100SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.7874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.889) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D"
+			(at 29.21 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Ferrite Bead 0603 1608m, 700mA Max, 220R@100MHz 0.25RDC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Murata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "BLM18AG221SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "1515674"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "81-BLM11A221S"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.7874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.889) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "FB"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D"
+			(at 29.21 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata Chip Ferrite Bead 1608m SMD BLM18_xN Series.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Ferrite Bead 0603 1608m, 2A Max, 120R@100MHz 0.05RDC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Murata"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "BLM18PG121SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "1515738"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "81-BLM18PG121SN1D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D_1_1"
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0 -0.7874)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.889) (xy 0 1.2954)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_0201_0603m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_0201_0603m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_0201_0603m"
+			(at -1.143 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wire-Wound Inductor 0201 (0603m) ??% ??A"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "??"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "??"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "??"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "??"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_0201_0603m_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_1005"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_1005"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wire-Wound Inductor 0402 (1005m) ??% ??A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "General, fill-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_1005_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_1608"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_1608"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wire-Wound Inductor 0603 (1608m) ??% ??A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "General, fill-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_1608_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_2012"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_2012"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Wire-Wound Inductor 0805 (2012m) ??% ??A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "??"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "General, fill-in"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_2012_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610"
+			(at 41.91 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_2016_WireWound_Shielded_Laird_TYA201610"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Laird TYA201610 Series SMD 2016m Power Inductors Shielded.pdf"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor 10uH 20% 0.6Arms 0.8Asat Semi-Shielded Wire-Wound 2x1.6mm"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Laird"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "TYA201610???M-10"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "???"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "???"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "-40C to 125C, 1.15mm Tall"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512"
+			(at 45.72 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN2512 Series SMD 2520m Power Inductors Semi-Shielded.pdf"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Bourns"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "SRN2512-???M"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "???"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "???"
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SRN2512 Series - choose exact part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH"
+			(at 43.18 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Murata LQH43NH Series 4532m Wire-Wound SMD Inductors.pdf"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor ??uH ??% ??Arms ??% Un-Shielded 4532m Wire-Wound"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Murata"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "LQH43NH????03"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "???"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "???"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LQH43NH Series - choose exact part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA"
+			(at 45.72 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_5050_WireWound_SemiShielded_Bourns_SRN5040TA"
+			(at 2.667 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.pdf"
+			(at 1.397 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 5x5mm"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Bourns"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "SRN5040TA-????"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "???"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "???"
+			(at 3.81 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 2.54 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SRN5040TA Series - choose exact part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040"
+			(at 3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_inductors-transformers:Inductor_SMD_8279_WireWound_SemiShielded_Bourns_SRN8040"
+			(at -1.143 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\Bourns SRN8040 Series SMD 8mm Power Inductors Semi-Shielded.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power Inductor ??uH ??% ??Arms ??Asat Semi-Shielded Wire-Wound 8x8mm"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Bourns"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "SRN8040-????"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "???"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "???"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "SRN8040 Series - choose exact part"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040_1_1"
+			(arc
+				(start 0 -2.032)
+				(mid 0.5058 -1.524)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 0.508)
+				(end 0 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 1.016)
+				(mid 0.5058 1.524)
+				(end 0 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.508)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TEMPLATE_inductors"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE_inductors"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "TEMPLATE_transformers"
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE_transformers"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\inductors-transformers\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )

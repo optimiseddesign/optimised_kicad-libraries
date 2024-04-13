@@ -1,51 +1,246 @@
-(footprint "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61F9619D)
-  (descr "Preloaded spring finger, 1.0x2.9mm area, 3.0mm max Height, SMD, for TE-Connectivity 2108609 series")
-  (tags "sprung contact ground shield clip")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -1.45 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp ed704165-075f-492a-9af0-394fd6c41d9e)
-  )
-  (fp_text value "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609" (at 0.4 1.65) (layer "F.Fab") hide
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 1e496a56-cb35-4555-8068-2e85e2ef177b)
-  )
-  (fp_text user "${REFERENCE}" (at 0.5 0) (layer "F.Fab")
-    (effects (font (size 0.6 0.6) (thickness 0.1)))
-    (tstamp 6eb9d83a-51d1-4b51-9b46-e8feaf36ca3f)
-  )
-  (fp_line (start 1.5 0.55) (end 1.5 -0.55) (layer "F.SilkS") (width 0.12) (tstamp 64f47ae4-bf36-4413-ae6b-9a7d3a1e59da))
-  (fp_line (start 1 0.55) (end 1.5 0.55) (layer "F.SilkS") (width 0.12) (tstamp 8616b5e1-ee8d-421a-a8df-4396a66f53d0))
-  (fp_line (start 1 -0.55) (end 1.5 -0.55) (layer "F.SilkS") (width 0.12) (tstamp 94a42bf8-c060-46ad-bd99-54b600e2ff68))
-  (fp_line (start -1.75 0.75) (end -1.75 -0.75) (layer "F.CrtYd") (width 0.05) (tstamp 0c9773c4-9ef7-4a9c-88dd-c1d4b9c421a0))
-  (fp_line (start 1.65 0.75) (end -1.75 0.75) (layer "F.CrtYd") (width 0.05) (tstamp 7b67616c-3f1e-4cef-b353-c94c0e3bb0a5))
-  (fp_line (start -1.75 -0.75) (end 1.65 -0.75) (layer "F.CrtYd") (width 0.05) (tstamp f2b6acd1-ec4b-4a0f-b0b7-2146865b1f2a))
-  (fp_line (start 1.65 -0.75) (end 1.65 0.75) (layer "F.CrtYd") (width 0.05) (tstamp f8236d6a-cd24-401a-aa05-0ba22beff83f))
-  (fp_line (start 1.5 0.55) (end 1.5 -0.55) (layer "F.Fab") (width 0.12) (tstamp 5340e359-ca14-4094-bc40-88d39e61d26f))
-  (fp_line (start -1.5 -0.55) (end -1.5 0.55) (layer "F.Fab") (width 0.12) (tstamp 7f209a0f-11ed-4bc8-a0ef-905a736fcf53))
-  (fp_line (start 1.5 -0.55) (end -1.5 -0.55) (layer "F.Fab") (width 0.12) (tstamp 824c7c80-57a9-4131-9b7b-17585966bbd5))
-  (fp_line (start -1.05 0) (end -0.9 0) (layer "F.Fab") (width 0.25) (tstamp d62b48c7-96f2-4a84-a966-6ae628b4ee25))
-  (fp_line (start -1.5 0.55) (end 1.5 0.55) (layer "F.Fab") (width 0.12) (tstamp eb9b5d48-4ac2-4e9d-9da1-616f34dc2419))
-  (pad "1" smd roundrect (at -0.4 0) (size 2.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 44f9095b-eeb6-4378-9c5c-6d09ddb813a5))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp e1b963ea-799b-44a7-a9cb-2a0dd2883700) (hatch edge 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.254)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 1.56 0.61)
-        (xy 0.8 0.61)
-        (xy 0.8 -0.61)
-        (xy 1.56 -0.61)
-      )
-    )
-  )
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609.stp"
-    (offset (xyz 1.45 0 0.75))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Preloaded spring finger, 1.0x2.9mm area, 3.0mm max Height, SMD, for TE-Connectivity 2108609 series")
+	(tags "sprung contact ground shield clip")
+	(property "Reference" "REF**"
+		(at 0 -1.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed704165-075f-492a-9af0-394fd6c41d9e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609"
+		(at 0.4 1.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e496a56-cb35-4555-8068-2e85e2ef177b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a783fea3-5efb-456e-9f4e-b90e2e51e34a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5530cdcb-0d22-49ac-840b-c21908948928")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6027fae-d2b8-465c-866d-8d16df388269")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1 -0.55)
+		(end 1.5 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94a42bf8-c060-46ad-bd99-54b600e2ff68")
+	)
+	(fp_line
+		(start 1 0.55)
+		(end 1.5 0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8616b5e1-ee8d-421a-a8df-4396a66f53d0")
+	)
+	(fp_line
+		(start 1.5 0.55)
+		(end 1.5 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64f47ae4-bf36-4413-ae6b-9a7d3a1e59da")
+	)
+	(fp_line
+		(start -1.75 -0.75)
+		(end 1.65 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2b6acd1-ec4b-4a0f-b0b7-2146865b1f2a")
+	)
+	(fp_line
+		(start -1.75 0.75)
+		(end -1.75 -0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c9773c4-9ef7-4a9c-88dd-c1d4b9c421a0")
+	)
+	(fp_line
+		(start 1.65 -0.75)
+		(end 1.65 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8236d6a-cd24-401a-aa05-0ba22beff83f")
+	)
+	(fp_line
+		(start 1.65 0.75)
+		(end -1.75 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b67616c-3f1e-4cef-b353-c94c0e3bb0a5")
+	)
+	(fp_line
+		(start -1.5 -0.55)
+		(end -1.5 0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f209a0f-11ed-4bc8-a0ef-905a736fcf53")
+	)
+	(fp_line
+		(start -1.5 0.55)
+		(end 1.5 0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eb9b5d48-4ac2-4e9d-9da1-616f34dc2419")
+	)
+	(fp_line
+		(start -1.05 0)
+		(end -0.9 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d62b48c7-96f2-4a84-a966-6ae628b4ee25")
+	)
+	(fp_line
+		(start 1.5 -0.55)
+		(end -1.5 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "824c7c80-57a9-4131-9b7b-17585966bbd5")
+	)
+	(fp_line
+		(start 1.5 0.55)
+		(end 1.5 -0.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5340e359-ca14-4094-bc40-88d39e61d26f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 0 0)
+		(layer "F.Fab")
+		(uuid "6eb9d83a-51d1-4b51-9b46-e8feaf36ca3f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4 0)
+		(size 2.4 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "44f9095b-eeb6-4378-9c5c-6d09ddb813a5")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e1b963ea-799b-44a7-a9cb-2a0dd2883700")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 1.56 0.61) (xy 0.8 0.61) (xy 0.8 -0.61) (xy 1.56 -0.61)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609.stp"
+		(offset
+			(xyz 1.45 0 0.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

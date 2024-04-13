@@ -1,35 +1,204 @@
-(footprint "Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5EE0E9EB)
-  (descr "2.5mm x 2.0mm nominal, 1.2mm high max")
-  (attr smd)
-  (fp_text reference "REF**" (at 0.2 -2.1 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.12)))
-    (tstamp b3c17d85-5b6a-4d30-87cd-376f4206f580)
-  )
-  (fp_text value "Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512" (at 0.7 4.4) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.12)))
-    (tstamp 8c7f55c3-6bab-4728-8dd7-d1fea60ba753)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0.05) (layer "F.Fab")
-    (effects (font (size 0.6 0.6) (thickness 0.1)))
-    (tstamp 1d2bdc7b-c38c-4947-9f5b-525c86b7ed60)
-  )
-  (fp_line (start 0.3 1.175) (end -0.3 1.175) (layer "F.SilkS") (width 0.12) (tstamp 9c3cd712-ce94-402c-b8fa-08b9f30b02e5))
-  (fp_line (start 0.3 -1.175) (end -0.3 -1.175) (layer "F.SilkS") (width 0.12) (tstamp c624c794-7be8-4dd6-8892-1c8fa699ae65))
-  (fp_line (start -1.7 1.45) (end 1.7 1.45) (layer "F.CrtYd") (width 0.05) (tstamp 477d57fc-3530-4b06-a83c-ae2e58b633a8))
-  (fp_line (start -1.7 -1.45) (end -1.7 1.45) (layer "F.CrtYd") (width 0.05) (tstamp 65a5c289-2403-45c1-a355-20d9680c390b))
-  (fp_line (start 1.7 1.45) (end 1.7 -1.45) (layer "F.CrtYd") (width 0.05) (tstamp d42847ad-990a-4200-934d-4d556b925193))
-  (fp_line (start 1.7 -1.45) (end -1.7 -1.45) (layer "F.CrtYd") (width 0.05) (tstamp e2301668-6e69-4a95-b043-c54260d19a27))
-  (fp_line (start -1.35 1.175) (end 1.35 1.175) (layer "F.Fab") (width 0.12) (tstamp 1722b78b-f55f-454f-b8c1-d5fee7286d88))
-  (fp_line (start 1.35 1.175) (end 1.35 -1.175) (layer "F.Fab") (width 0.12) (tstamp 2322cde5-ab92-4bac-a88f-594c925d9cb2))
-  (fp_line (start 1.35 -1.175) (end -1.35 -1.175) (layer "F.Fab") (width 0.12) (tstamp 70650231-3657-458f-9f48-741b42421c7d))
-  (fp_line (start -1.35 -1.175) (end -1.35 1.175) (layer "F.Fab") (width 0.12) (tstamp fd49b611-21fb-4daf-b867-b30558d907db))
-  (pad "1" smd roundrect (at -0.925 0) (size 1.05 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e99c2bb4-7a57-4e26-8d0c-400dab99a963))
-  (pad "2" smd roundrect (at 0.925 0) (size 1.05 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 46a0ad32-6cd2-48a9-ade1-14ba68c8ad8e))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512.stp"
-    (offset (xyz -1.25 1 1.2))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -180 0 0))
-  )
+(footprint "Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2.5mm x 2.0mm nominal, 1.2mm high max")
+	(property "Reference" "REF**"
+		(at 0.2 -2.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b3c17d85-5b6a-4d30-87cd-376f4206f580")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512"
+		(at 0.7 4.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c7f55c3-6bab-4728-8dd7-d1fea60ba753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8a5d95a-bdbf-43e5-9809-83406d33579a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a96303f1-58b0-4e73-b331-5111f19d55f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e2d102e3-e575-46d5-9066-991e2e2bf86d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.3 -1.175)
+		(end -0.3 -1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c624c794-7be8-4dd6-8892-1c8fa699ae65")
+	)
+	(fp_line
+		(start 0.3 1.175)
+		(end -0.3 1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c3cd712-ce94-402c-b8fa-08b9f30b02e5")
+	)
+	(fp_line
+		(start -1.7 -1.45)
+		(end -1.7 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65a5c289-2403-45c1-a355-20d9680c390b")
+	)
+	(fp_line
+		(start -1.7 1.45)
+		(end 1.7 1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "477d57fc-3530-4b06-a83c-ae2e58b633a8")
+	)
+	(fp_line
+		(start 1.7 -1.45)
+		(end -1.7 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2301668-6e69-4a95-b043-c54260d19a27")
+	)
+	(fp_line
+		(start 1.7 1.45)
+		(end 1.7 -1.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d42847ad-990a-4200-934d-4d556b925193")
+	)
+	(fp_line
+		(start -1.35 -1.175)
+		(end -1.35 1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd49b611-21fb-4daf-b867-b30558d907db")
+	)
+	(fp_line
+		(start -1.35 1.175)
+		(end 1.35 1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1722b78b-f55f-454f-b8c1-d5fee7286d88")
+	)
+	(fp_line
+		(start 1.35 -1.175)
+		(end -1.35 -1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "70650231-3657-458f-9f48-741b42421c7d")
+	)
+	(fp_line
+		(start 1.35 1.175)
+		(end 1.35 -1.175)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2322cde5-ab92-4bac-a88f-594c925d9cb2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.05 0)
+		(layer "F.Fab")
+		(uuid "1d2bdc7b-c38c-4947-9f5b-525c86b7ed60")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.925 0)
+		(size 1.05 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "e99c2bb4-7a57-4e26-8d0c-400dab99a963")
+	)
+	(pad "2" smd roundrect
+		(at 0.925 0)
+		(size 1.05 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "46a0ad32-6cd2-48a9-ade1-14ba68c8ad8e")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512.stp"
+		(offset
+			(xyz -1.25 1 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
 )

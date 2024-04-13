@@ -1,24 +1,95 @@
-(footprint "PCB_Silk_ID" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5EB03491)
-  (descr "PT123A 1.0 ?? ID Silk")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "PTXXXX" (at 0.5 -0.9 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f3916eb6-23a1-441e-a20f-407c15c012e7)
-  )
-  (fp_text value "PCB_Silk_ID" (at -2.85 1.2 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-    (tstamp 051b228d-a5a3-475a-b5d2-7a7893317b54)
-  )
-  (fp_text user "1.0" (at -1.6 1.2 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.05)))
-    (tstamp 1590feb5-9d87-45cd-ab70-3c3ebcbca117)
-  )
-  (fp_poly (pts
-      (xy 0 0)
-      (xy 0 2.8)
-      (xy 3.8 2.8)
-      (xy 3.8 0)
-    ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 77e2056d-4b6f-4091-baae-3196cd242bf3))
+(footprint "PCB_Silk_ID"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "PT123A 1.0 ?? ID Silk")
+	(property "Reference" "PTXXXX"
+		(at 0.5 -0.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f3916eb6-23a1-441e-a20f-407c15c012e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_Silk_ID"
+		(at -2.85 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "051b228d-a5a3-475a-b5d2-7a7893317b54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "739b177e-7950-4e8c-9e7a-6619b4cdd47c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "476e13d8-ad93-46ea-ae51-c03b63bbfac8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a62b6615-0f28-4cd5-9a1d-791cff57d724")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 0 0) (xy 0 2.8) (xy 3.8 2.8) (xy 3.8 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "77e2056d-4b6f-4091-baae-3196cd242bf3")
+	)
+	(fp_text user "1.0"
+		(at -1.6 1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1590feb5-9d87-45cd-ab70-3c3ebcbca117")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.05)
+			)
+		)
+	)
 )

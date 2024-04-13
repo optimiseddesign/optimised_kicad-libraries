@@ -1,23 +1,110 @@
-(footprint "MountingHole_M2.0_2.20mm_Pad3.8mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61229B02)
-  (descr "Mounting Hole 2.20mm, for M2.0 screw, 3.8mm Pad for 3.0mm Head")
-  (zone_connect 2)
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0.25 -2.9) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp f56dd039-85ef-4674-b113-6f394104551f)
-  )
-  (fp_text value "MountingHole_M2.0_2.20mm_Pad3.8mm" (at 0 3.2) (layer "F.Fab") hide
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 382ba18b-30c0-4dbf-92f0-0118aaadc287)
-  )
-  (fp_text user "${REFERENCE}" (at 0.15 0.1) (layer "F.Fab")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 5564d6cf-dbbe-4d40-b608-42fed1422d74)
-  )
-  (fp_circle (center 0 0) (end 2.15 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp e852136f-2b6c-4ea8-99f8-d3919a0076b9))
-  (fp_circle (center 0 0) (end 1.9 0) (layer "F.Fab") (width 0.15) (fill none) (tstamp 90ba61c8-535c-4a86-b2d1-0b7195069b78))
-  (pad "1" thru_hole circle (at 0 0) (size 3.8 3.8) (drill 2.2) (layers *.Cu *.Mask)
-    (zone_connect 2) (tstamp 2b07615b-44e6-4885-8741-599588a6ffe5))
+(footprint "MountingHole_M2.0_2.20mm_Pad3.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.20mm, for M2.0 screw, 3.8mm Pad for 3.0mm Head")
+	(property "Reference" "REF**"
+		(at 0.25 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "f56dd039-85ef-4674-b113-6f394104551f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "MountingHole_M2.0_2.20mm_Pad3.8mm"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "382ba18b-30c0-4dbf-92f0-0118aaadc287")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0baf28ea-f155-47f5-8b98-67f9db2e692f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2024721-4673-4a3f-8013-b02c3e3286f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e2bf96b-76be-43eb-a647-5be5236678a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.15 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e852136f-2b6c-4ea8-99f8-d3919a0076b9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "90ba61c8-535c-4a86-b2d1-0b7195069b78")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.15 0.1 0)
+		(layer "F.Fab")
+		(uuid "5564d6cf-dbbe-4d40-b608-42fed1422d74")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.8 3.8)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "2b07615b-44e6-4885-8741-599588a6ffe5")
+	)
 )

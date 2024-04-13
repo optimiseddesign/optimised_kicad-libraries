@@ -1,37 +1,224 @@
-(footprint "DFN1006-2_Diodes-Inc_BAS116LPH4_Least" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 6058EC5F)
-  (descr "1.0x0.6mmx0.4mmH SMD Diode, created for Diodes Inc BAS116LPH4, X2-DFN1006-2 case")
-  (attr smd)
-  (fp_text reference "REF**" (at 0.225 -1.1 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 438e3967-8f2c-48f7-ba90-17addbcef93f)
-  )
-  (fp_text value "DFN1006-2_Diodes-Inc_BAS116LPH4_Least" (at 1.225 2.2) (layer "F.Fab") hide
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 13cc0727-ff85-4fb6-91ef-7cded8edeff4)
-  )
-  (fp_text user "${REFERENCE}" (at 0.225 1) (layer "F.Fab")
-    (effects (font (size 0.5 0.5) (thickness 0.1)))
-    (tstamp 05a06372-f081-4d5f-be6a-9e5d1ca61b64)
-  )
-  (fp_line (start -0.675 -0.25) (end -0.675 0.25) (layer "F.SilkS") (width 0.12) (tstamp 55b7cd0b-d2c5-42bc-9c73-3d9bc5e05b57))
-  (fp_line (start 0.025 -0.35) (end -0.025 -0.35) (layer "F.SilkS") (width 0.12) (tstamp 6a269650-388f-48e9-8a49-20e121d47e5c))
-  (fp_line (start 0.025 0.35) (end -0.025 0.35) (layer "F.SilkS") (width 0.12) (tstamp 8753c8fc-bb71-42f8-9ae9-65ed0d7b3091))
-  (fp_line (start 0.65 0.45) (end 0.65 -0.45) (layer "F.CrtYd") (width 0.05) (tstamp 29f02721-cd44-4aab-90ff-8bc922f08ba4))
-  (fp_line (start -0.65 0.45) (end 0.65 0.45) (layer "F.CrtYd") (width 0.05) (tstamp 3cbe59cf-f7bd-410c-80e8-c8c41dbea92b))
-  (fp_line (start 0.65 -0.45) (end -0.65 -0.45) (layer "F.CrtYd") (width 0.05) (tstamp 7fb754e3-fc94-477e-aa68-7d6d0d50d458))
-  (fp_line (start -0.65 -0.45) (end -0.65 0.45) (layer "F.CrtYd") (width 0.05) (tstamp 9a2b6a79-ae1b-4635-a2da-0fb6377868b7))
-  (fp_line (start 0.5375 0.3375) (end 0.5375 -0.3375) (layer "F.Fab") (width 0.12) (tstamp 0a749787-a6ba-4649-bf57-70748f82086d))
-  (fp_line (start -0.5375 0.3375) (end 0.5375 0.3375) (layer "F.Fab") (width 0.12) (tstamp 2d049cd7-3407-4312-a919-3c44ae898a59))
-  (fp_line (start 0.5375 -0.3375) (end -0.5375 -0.3375) (layer "F.Fab") (width 0.12) (tstamp 5981a3f4-b465-40ff-8d0c-6e2bbd85dd12))
-  (fp_line (start -0.2875 -0.3375) (end -0.2875 0.3375) (layer "F.Fab") (width 0.12) (tstamp b0e87fee-d47d-4f32-af28-c9f95c7ac1b6))
-  (fp_line (start -0.5375 -0.3375) (end -0.5375 0.3375) (layer "F.Fab") (width 0.12) (tstamp ea0c6f48-a203-4e8e-967c-bd7acf9c20a0))
-  (pad "1" smd roundrect (at -0.35 0) (size 0.4 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3cc75f21-b2eb-451d-85ca-3d6285be4f66))
-  (pad "2" smd roundrect (at 0.35 0) (size 0.4 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a7f7715b-5c81-4a47-8dcc-92fd95ee2b52))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN1006-2_Diodes-Inc_BAS116LPH4.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
+(footprint "DFN1006-2_Diodes-Inc_BAS116LPH4_Least"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1.0x0.6mmx0.4mmH SMD Diode, created for Diodes Inc BAS116LPH4, X2-DFN1006-2 case")
+	(property "Reference" "REF**"
+		(at 0.225 -1.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "438e3967-8f2c-48f7-ba90-17addbcef93f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "DFN1006-2_Diodes-Inc_BAS116LPH4_Least"
+		(at 1.225 2.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13cc0727-ff85-4fb6-91ef-7cded8edeff4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20e8bff4-64c6-40b7-ac8f-76d01b4acebe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4ecbe85-ac9f-4fee-a94e-0df374d94961")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df7ad89a-bd15-42ba-be6f-3ba7dbde21f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.675 -0.25)
+		(end -0.675 0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55b7cd0b-d2c5-42bc-9c73-3d9bc5e05b57")
+	)
+	(fp_line
+		(start 0.025 -0.35)
+		(end -0.025 -0.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a269650-388f-48e9-8a49-20e121d47e5c")
+	)
+	(fp_line
+		(start 0.025 0.35)
+		(end -0.025 0.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8753c8fc-bb71-42f8-9ae9-65ed0d7b3091")
+	)
+	(fp_line
+		(start -0.65 -0.45)
+		(end -0.65 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a2b6a79-ae1b-4635-a2da-0fb6377868b7")
+	)
+	(fp_line
+		(start -0.65 0.45)
+		(end 0.65 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cbe59cf-f7bd-410c-80e8-c8c41dbea92b")
+	)
+	(fp_line
+		(start 0.65 -0.45)
+		(end -0.65 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fb754e3-fc94-477e-aa68-7d6d0d50d458")
+	)
+	(fp_line
+		(start 0.65 0.45)
+		(end 0.65 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29f02721-cd44-4aab-90ff-8bc922f08ba4")
+	)
+	(fp_line
+		(start -0.5375 -0.3375)
+		(end -0.5375 0.3375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea0c6f48-a203-4e8e-967c-bd7acf9c20a0")
+	)
+	(fp_line
+		(start -0.5375 0.3375)
+		(end 0.5375 0.3375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d049cd7-3407-4312-a919-3c44ae898a59")
+	)
+	(fp_line
+		(start -0.2875 -0.3375)
+		(end -0.2875 0.3375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0e87fee-d47d-4f32-af28-c9f95c7ac1b6")
+	)
+	(fp_line
+		(start 0.5375 -0.3375)
+		(end -0.5375 -0.3375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5981a3f4-b465-40ff-8d0c-6e2bbd85dd12")
+	)
+	(fp_line
+		(start 0.5375 0.3375)
+		(end 0.5375 -0.3375)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a749787-a6ba-4649-bf57-70748f82086d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.225 1 0)
+		(layer "F.Fab")
+		(uuid "05a06372-f081-4d5f-be6a-9e5d1ca61b64")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3cc75f21-b2eb-451d-85ca-3d6285be4f66")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "a7f7715b-5c81-4a47-8dcc-92fd95ee2b52")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN1006-2_Diodes-Inc_BAS116LPH4.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
 )

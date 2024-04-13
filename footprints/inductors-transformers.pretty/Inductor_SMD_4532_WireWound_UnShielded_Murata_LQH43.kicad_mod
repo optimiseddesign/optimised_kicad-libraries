@@ -1,40 +1,254 @@
-(footprint "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5F3C0EA7)
-  (descr "4.5x3.2mm 2.6mm Tall Un-Shielded Inductor")
-  (attr smd)
-  (fp_text reference "REF**" (at 0.1 -2.85 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp fa7f9d2d-4299-4971-8e0e-afd73f5faa2b)
-  )
-  (fp_text value "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43" (at 0.15 3.05) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 88fa3dae-a4ca-48f1-9ad3-9803965e6da0)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0 180) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6de9ea6e-cd2d-4518-9c27-f1fea1df4e96)
-  )
-  (fp_line (start -2.4 -1.7) (end -2.4 -1.45) (layer "F.SilkS") (width 0.12) (tstamp 32c2bb57-0102-476f-8fb3-341c7fb54560))
-  (fp_line (start 2.4 -1.7) (end 2.4 -1.45) (layer "F.SilkS") (width 0.12) (tstamp 47ff6c88-a29f-4d15-8ff7-5da6777a5cb5))
-  (fp_line (start 2.4 -1.7) (end -2.4 -1.7) (layer "F.SilkS") (width 0.12) (tstamp 747c4577-77ce-42a0-9eed-8b8b7cb771c5))
-  (fp_line (start 2.4 1.7) (end 2.4 1.45) (layer "F.SilkS") (width 0.12) (tstamp 8748d24b-3927-4372-9744-33c99de3780f))
-  (fp_line (start -2.4 1.7) (end 2.4 1.7) (layer "F.SilkS") (width 0.12) (tstamp 8cb5a123-5ea7-477e-b3e1-7f09340748fc))
-  (fp_line (start -2.4 1.7) (end -2.4 1.45) (layer "F.SilkS") (width 0.12) (tstamp bd33cd27-36b9-4e31-b4e9-7b1badd84dfd))
-  (fp_line (start -2.65 1.95) (end -2.65 -1.95) (layer "F.CrtYd") (width 0.05) (tstamp 074dc6b1-d990-46d0-9c10-413e61b12d7b))
-  (fp_line (start 2.65 -1.95) (end -2.65 -1.95) (layer "F.CrtYd") (width 0.05) (tstamp 33690e11-5ad8-43f0-bbd1-306207efe26d))
-  (fp_line (start 2.65 -1.95) (end 2.65 1.95) (layer "F.CrtYd") (width 0.05) (tstamp 4bde1f76-d2d5-49cb-8b28-1df7ae13b5e9))
-  (fp_line (start -2.65 1.95) (end 2.65 1.95) (layer "F.CrtYd") (width 0.05) (tstamp b60dc536-ad78-489f-ab01-ac64bc2f5c83))
-  (fp_line (start 2.4 1.7) (end -2.3875 1.7) (layer "F.Fab") (width 0.12) (tstamp 3b0ec45e-6c74-449d-87d1-1d729f3bc690))
-  (fp_line (start 2.4 1.7) (end -2.3875 1.7) (layer "F.Fab") (width 0.12) (tstamp 79c65faf-cd20-4fdf-a6db-dccac2421ea3))
-  (fp_line (start -2.4 1.7) (end -2.4 -1.7) (layer "F.Fab") (width 0.12) (tstamp a17ec843-0554-4286-9a94-5f678319dd65))
-  (fp_line (start 2.4 -1.7) (end 2.4 1.7) (layer "F.Fab") (width 0.12) (tstamp aa56910f-c586-4ca1-96ae-8f6856e67298))
-  (fp_line (start -2.4 -1.7) (end 2.3875 -1.7) (layer "F.Fab") (width 0.12) (tstamp cfc29243-b4bb-4d37-939c-85f8dc13b28e))
-  (pad "1" smd roundrect (at -1.6 0) (size 1.6 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c1c6db56-b200-46e5-a252-b4c51ce0c7ac))
-  (pad "2" smd roundrect (at 1.6 0) (size 1.6 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fe873b1b-ba4c-4d38-9892-aaea2494cff9))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4.5x3.2mm 2.6mm Tall Un-Shielded Inductor")
+	(property "Reference" "REF**"
+		(at 0.1 -2.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fa7f9d2d-4299-4971-8e0e-afd73f5faa2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43"
+		(at 0.15 3.05 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88fa3dae-a4ca-48f1-9ad3-9803965e6da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67e98570-112a-4b26-abd1-505964d4592d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1874d4cf-8d40-4708-a4cc-34d725c287c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b0e4042-5c30-44dc-9ace-0a19a6bd4120")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -1.7)
+		(end -2.4 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32c2bb57-0102-476f-8fb3-341c7fb54560")
+	)
+	(fp_line
+		(start -2.4 1.7)
+		(end -2.4 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd33cd27-36b9-4e31-b4e9-7b1badd84dfd")
+	)
+	(fp_line
+		(start -2.4 1.7)
+		(end 2.4 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cb5a123-5ea7-477e-b3e1-7f09340748fc")
+	)
+	(fp_line
+		(start 2.4 -1.7)
+		(end -2.4 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "747c4577-77ce-42a0-9eed-8b8b7cb771c5")
+	)
+	(fp_line
+		(start 2.4 -1.7)
+		(end 2.4 -1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47ff6c88-a29f-4d15-8ff7-5da6777a5cb5")
+	)
+	(fp_line
+		(start 2.4 1.7)
+		(end 2.4 1.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8748d24b-3927-4372-9744-33c99de3780f")
+	)
+	(fp_line
+		(start -2.65 1.95)
+		(end -2.65 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "074dc6b1-d990-46d0-9c10-413e61b12d7b")
+	)
+	(fp_line
+		(start -2.65 1.95)
+		(end 2.65 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b60dc536-ad78-489f-ab01-ac64bc2f5c83")
+	)
+	(fp_line
+		(start 2.65 -1.95)
+		(end -2.65 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33690e11-5ad8-43f0-bbd1-306207efe26d")
+	)
+	(fp_line
+		(start 2.65 -1.95)
+		(end 2.65 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bde1f76-d2d5-49cb-8b28-1df7ae13b5e9")
+	)
+	(fp_line
+		(start -2.4 -1.7)
+		(end 2.3875 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cfc29243-b4bb-4d37-939c-85f8dc13b28e")
+	)
+	(fp_line
+		(start -2.4 1.7)
+		(end -2.4 -1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a17ec843-0554-4286-9a94-5f678319dd65")
+	)
+	(fp_line
+		(start 2.4 -1.7)
+		(end 2.4 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa56910f-c586-4ca1-96ae-8f6856e67298")
+	)
+	(fp_line
+		(start 2.4 1.7)
+		(end -2.3875 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3b0ec45e-6c74-449d-87d1-1d729f3bc690")
+	)
+	(fp_line
+		(start 2.4 1.7)
+		(end -2.3875 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79c65faf-cd20-4fdf-a6db-dccac2421ea3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "6de9ea6e-cd2d-4518-9c27-f1fea1df4e96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.6 0)
+		(size 1.6 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "c1c6db56-b200-46e5-a252-b4c51ce0c7ac")
+	)
+	(pad "2" smd roundrect
+		(at 1.6 0)
+		(size 1.6 2.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fe873b1b-ba4c-4d38-9892-aaea2494cff9")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

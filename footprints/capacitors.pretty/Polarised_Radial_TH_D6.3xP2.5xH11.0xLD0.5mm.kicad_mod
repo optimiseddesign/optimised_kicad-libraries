@@ -1,46 +1,225 @@
-(footprint "Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61126589)
-  (descr "Polarised Radial Capacitor, Pitch=2.50mm, Diameter=6.3mm, Height=11mm, Lead Diameter=0.5mm")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 1.65 -4.6 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 2949af22-2432-469e-9f07-eee60be8acbd)
-  )
-  (fp_text value "Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm" (at 2.2 4.35) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3997254a-8057-4464-ba07-e37f0720cbd8)
-  )
-  (fp_text user "${REFERENCE}" (at 1.4 0.1) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d3db736b-0e33-4126-b950-5488923df40e)
-  )
-  (fp_line (start -0.9 -1.75) (end -0.9 -1.35) (layer "F.SilkS") (width 0.12) (tstamp 356199c8-c0f7-4995-bef0-53ad752a30c5))
-  (fp_line (start -1.1 -1.55) (end -0.7 -1.55) (layer "F.SilkS") (width 0.12) (tstamp cb0f5a26-0827-4807-aea7-55b25947b9d5))
-  (fp_circle (center -0.9 -1.55) (end -0.45 -1.55) (layer "F.SilkS") (width 0.12) (fill none) (tstamp a9ff0621-eacb-4187-ba89-29f236eec881))
-  (fp_circle (center 1.25 0) (end 4.65 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp f46fb303-7470-41c0-b6e8-4553c1d6503f))
-  (fp_poly (pts
-      (xy 3.9 -0.4)
-      (xy 3.9 0.45)
-      (xy 4.55 0.45)
-      (xy 4.55 -0.4)
-    ) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 0fe3ebe2-61a9-477a-a657-d783c4c4d70e))
-  (fp_circle (center 1.25 0) (end 4.9 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 03d57b22-a0ad-4d3d-9d1c-5573371e6c2f))
-  (fp_line (start -0.9 -1.75) (end -0.9 -1.35) (layer "F.Fab") (width 0.12) (tstamp 56bbedad-6259-4443-b321-0ffa1f89c336))
-  (fp_line (start -1.1 -1.55) (end -0.7 -1.55) (layer "F.Fab") (width 0.12) (tstamp 832b1e20-f118-4505-ad00-93c040f2f83d))
-  (fp_circle (center 1.25 0) (end 4.65 0) (layer "F.Fab") (width 0.12) (fill none) (tstamp 159c8092-f459-40eb-b409-c2cace814e6e))
-  (fp_circle (center -0.9 -1.55) (end -0.45 -1.55) (layer "F.Fab") (width 0.12) (fill none) (tstamp 8eacb9d3-c41d-4b39-abd1-0bc8f2e97411))
-  (fp_poly (pts
-      (xy 3.9 -0.4)
-      (xy 3.9 0.45)
-      (xy 4.55 0.45)
-      (xy 4.55 -0.4)
-    ) (layer "F.Fab") (width 0.1) (fill solid) (tstamp b4afdd30-7a78-4cd8-8670-bb6dd787dcdc))
-  (pad "1" thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (tstamp 86f6faec-7eee-404c-a73a-2ae625f33d8c))
-  (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.9) (layers *.Cu *.Mask) (tstamp 90337a8b-a8c5-48e1-ad0f-b0e67716fe3c))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Polarised Radial Capacitor, Pitch=2.50mm, Diameter=6.3mm, Height=11mm, Lead Diameter=0.5mm")
+	(property "Reference" "REF**"
+		(at 1.65 -4.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2949af22-2432-469e-9f07-eee60be8acbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm"
+		(at 2.2 4.35 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3997254a-8057-4464-ba07-e37f0720cbd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0ae47eb-074e-4b74-aa94-97cad2b4747e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7de2aade-4adb-42cb-b15a-169fc81b5bbd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "331b65bf-b847-403e-b08c-ae4a21162690")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.1 -1.55)
+		(end -0.7 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb0f5a26-0827-4807-aea7-55b25947b9d5")
+	)
+	(fp_line
+		(start -0.9 -1.75)
+		(end -0.9 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "356199c8-c0f7-4995-bef0-53ad752a30c5")
+	)
+	(fp_circle
+		(center -0.9 -1.55)
+		(end -0.45 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a9ff0621-eacb-4187-ba89-29f236eec881")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 4.65 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f46fb303-7470-41c0-b6e8-4553c1d6503f")
+	)
+	(fp_poly
+		(pts
+			(xy 3.9 -0.4) (xy 3.9 0.45) (xy 4.55 0.45) (xy 4.55 -0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "0fe3ebe2-61a9-477a-a657-d783c4c4d70e")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03d57b22-a0ad-4d3d-9d1c-5573371e6c2f")
+	)
+	(fp_line
+		(start -1.1 -1.55)
+		(end -0.7 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "832b1e20-f118-4505-ad00-93c040f2f83d")
+	)
+	(fp_line
+		(start -0.9 -1.75)
+		(end -0.9 -1.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56bbedad-6259-4443-b321-0ffa1f89c336")
+	)
+	(fp_circle
+		(center -0.9 -1.55)
+		(end -0.45 -1.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8eacb9d3-c41d-4b39-abd1-0bc8f2e97411")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 4.65 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "159c8092-f459-40eb-b409-c2cace814e6e")
+	)
+	(fp_poly
+		(pts
+			(xy 3.9 -0.4) (xy 3.9 0.45) (xy 4.55 0.45) (xy 4.55 -0.4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b4afdd30-7a78-4cd8-8670-bb6dd787dcdc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.4 0.1 0)
+		(layer "F.Fab")
+		(uuid "d3db736b-0e33-4126-b950-5488923df40e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86f6faec-7eee-404c-a73a-2ae625f33d8c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.6 1.6)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90337a8b-a8c5-48e1-ad0f-b0e67716fe3c")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

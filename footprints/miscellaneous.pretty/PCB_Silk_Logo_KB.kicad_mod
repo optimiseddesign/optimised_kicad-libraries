@@ -1,17 +1,81 @@
-(footprint "PCB_Silk_Logo_KB" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 5EB03575)
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0.55 -1.4 unlocked) (layer "F.SilkS") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp b7a0463c-3b66-44e5-ba7f-28dbac034303)
-  )
-  (fp_text value "PCB_Silk_Logo_KB" (at 0.8 -1.5 unlocked) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c5d91516-475c-4fdd-807a-8d966ab1d172)
-  )
-  (fp_text user "KBconsulting" (at 0.1 -0.1 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.7 0.7) (thickness 0.125)))
-    (tstamp 4f977c6f-1ecd-43f5-9e06-4a9a1b62fe9b)
-  )
+(footprint "PCB_Silk_Logo_KB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.55 -1.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7a0463c-3b66-44e5-ba7f-28dbac034303")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_Silk_Logo_KB"
+		(at 0.8 -1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5d91516-475c-4fdd-807a-8d966ab1d172")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddc34fa5-7405-415c-84e8-fd263ad1dbef")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778076bf-748a-42ed-9714-72e37afea1f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00225bd0-fef3-4430-9a6f-4f35a52ec464")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "KBconsulting"
+		(at 0.1 -0.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4f977c6f-1ecd-43f5-9e06-4a9a1b62fe9b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.125)
+			)
+		)
+	)
 )

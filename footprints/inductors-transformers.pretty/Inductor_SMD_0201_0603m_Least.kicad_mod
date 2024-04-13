@@ -1,35 +1,203 @@
-(footprint "Inductor_SMD_0201_0603m_Least" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61F963D4)
-  (descr "Inductor SMD 0201 (0603 Metric), IPC7351 Least, Chip; 0.60 mm L X 0.30 mm W X 0.35 mm H body")
-  (attr smd)
-  (fp_text reference "REF**" (at 0.24 -0.87) (layer "F.SilkS")
-    (effects (font (size 0.6 0.6) (thickness 0.12)))
-    (tstamp 258ed0e8-4350-485f-be2a-6d807d6635cd)
-  )
-  (fp_text value "VAL**" (at 0.28 0.01) (layer "F.Fab") hide
-    (effects (font (size 0.6 0.6) (thickness 0.12)))
-    (tstamp aaa204d4-94bb-485e-9ac8-d6d8f5551b61)
-  )
-  (fp_text user "${REFERENCE}" (at 0.26 0.77) (layer "F.Fab")
-    (effects (font (size 0.5 0.5) (thickness 0.1)))
-    (tstamp 73838b75-6e7d-4edf-91b6-dfe45c45d5fc)
-  )
-  (fp_line (start -0.01 -0.18) (end 0.01 -0.18) (layer "F.SilkS") (width 0.12) (tstamp 8a071d7d-0551-4f6d-934d-320a3eb1c7c5))
-  (fp_line (start -0.01 0.18) (end 0.01 0.18) (layer "F.SilkS") (width 0.12) (tstamp b4999f68-0f8f-4e8f-b25f-50c68387b166))
-  (fp_line (start -0.53 -0.28) (end 0.53 -0.28) (layer "F.CrtYd") (width 0.05) (tstamp 41887d90-7b0e-48df-894e-3dabb9b59fdd))
-  (fp_line (start 0.53 0.28) (end -0.53 0.28) (layer "F.CrtYd") (width 0.05) (tstamp 4d7f1976-745c-415a-94b5-2846b4121961))
-  (fp_line (start -0.53 0.28) (end -0.53 -0.28) (layer "F.CrtYd") (width 0.05) (tstamp 8dd418d4-186c-4f93-9e36-b382d207613a))
-  (fp_line (start 0.53 -0.28) (end 0.53 0.28) (layer "F.CrtYd") (width 0.05) (tstamp aa61131b-28f9-4bc8-b3fb-a56fafef2412))
-  (fp_line (start -0.33 0.18) (end -0.33 -0.18) (layer "F.Fab") (width 0.12) (tstamp 8aa9fa33-c5ad-4873-a4ba-8001667c4225))
-  (fp_line (start 0.33 0.18) (end -0.33 0.18) (layer "F.Fab") (width 0.12) (tstamp ef8112e2-d4c3-4aa8-8296-61d03be47cad))
-  (fp_line (start 0.33 -0.18) (end 0.33 0.18) (layer "F.Fab") (width 0.12) (tstamp fa1e19c3-fbfa-44b7-aad4-c7a2845a2c47))
-  (fp_line (start -0.33 -0.18) (end 0.33 -0.18) (layer "F.Fab") (width 0.12) (tstamp fcfcc664-3572-4175-9c5a-b8b109c7b7ef))
-  (pad "1" smd roundrect (at -0.275 0) (size 0.31 0.34) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2581) (tstamp 25f643f7-350e-4d69-aa47-2c3575731e04))
-  (pad "2" smd roundrect (at 0.275 0) (size 0.31 0.34) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2581) (tstamp a195ed07-b516-47f7-8f19-1f0477ab58d4))
-  (model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Inductor_SMD_0201_0603m_Least"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 0201 (0603 Metric), IPC7351 Least, Chip; 0.60 mm L X 0.30 mm W X 0.35 mm H body")
+	(property "Reference" "REF**"
+		(at 0.24 -0.87 0)
+		(layer "F.SilkS")
+		(uuid "258ed0e8-4350-485f-be2a-6d807d6635cd")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.28 0.01 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aaa204d4-94bb-485e-9ac8-d6d8f5551b61")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47eb67d5-10e6-4408-84f2-de9fe26ee8cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "accde84d-f39c-45fc-88b9-dfc0f04d21d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cae5db46-70ca-413f-bff2-1448ead76315")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.01 -0.18)
+		(end 0.01 -0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a071d7d-0551-4f6d-934d-320a3eb1c7c5")
+	)
+	(fp_line
+		(start -0.01 0.18)
+		(end 0.01 0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4999f68-0f8f-4e8f-b25f-50c68387b166")
+	)
+	(fp_line
+		(start -0.53 -0.28)
+		(end 0.53 -0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41887d90-7b0e-48df-894e-3dabb9b59fdd")
+	)
+	(fp_line
+		(start -0.53 0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8dd418d4-186c-4f93-9e36-b382d207613a")
+	)
+	(fp_line
+		(start 0.53 -0.28)
+		(end 0.53 0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa61131b-28f9-4bc8-b3fb-a56fafef2412")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end -0.53 0.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d7f1976-745c-415a-94b5-2846b4121961")
+	)
+	(fp_line
+		(start -0.33 -0.18)
+		(end 0.33 -0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcfcc664-3572-4175-9c5a-b8b109c7b7ef")
+	)
+	(fp_line
+		(start -0.33 0.18)
+		(end -0.33 -0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8aa9fa33-c5ad-4873-a4ba-8001667c4225")
+	)
+	(fp_line
+		(start 0.33 -0.18)
+		(end 0.33 0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa1e19c3-fbfa-44b7-aad4-c7a2845a2c47")
+	)
+	(fp_line
+		(start 0.33 0.18)
+		(end -0.33 0.18)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef8112e2-d4c3-4aa8-8296-61d03be47cad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.26 0.77 0)
+		(layer "F.Fab")
+		(uuid "73838b75-6e7d-4edf-91b6-dfe45c45d5fc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.275 0)
+		(size 0.31 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2581)
+		(uuid "25f643f7-350e-4d69-aa47-2c3575731e04")
+	)
+	(pad "2" smd roundrect
+		(at 0.275 0)
+		(size 0.31 0.34)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2581)
+		(uuid "a195ed07-b516-47f7-8f19-1f0477ab58d4")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

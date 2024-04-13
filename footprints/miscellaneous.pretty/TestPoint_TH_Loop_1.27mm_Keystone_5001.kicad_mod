@@ -1,26 +1,132 @@
-(footprint "TestPoint_TH_Loop_1.27mm_Keystone_5001" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61F82ED5)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0.3 -2.15 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp c441cb9c-b88c-4bbd-82de-7d925c8daf45)
-  )
-  (fp_text value "TestPoint_TH_Loop_1.27mm_Keystone_5001" (at 1.4 2.3) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3da5e250-4fb4-478f-98ad-d9ecd823f719)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
-    (effects (font (size 0.5 0.5) (thickness 0.12)))
-    (tstamp 6a56988a-7832-4af8-8f89-a7855a4cc694)
-  )
-  (fp_circle (center 0 0) (end 1.2 0) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 5bcc6b1a-de48-4c19-a893-2f55ec9a849b))
-  (fp_circle (center 0 0) (end 0.55 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp da2a32be-30cd-46f1-a15c-c27219687b17))
-  (fp_circle (center 0 0) (end 1.2 0.1) (layer "F.Fab") (width 0.12) (fill none) (tstamp 7cfd3e5f-4de6-4818-82ba-e2053c491454))
-  (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (property pad_prop_testpoint) (layers *.Cu *.Mask) (tstamp 5f4afde7-e0bf-42ff-8f50-8d38f27d290c))
-  (model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/TestPoint_TH_Loop_1.27mm_Keystone_5001.stp"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "TestPoint_TH_Loop_1.27mm_Keystone_5001"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -2.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c441cb9c-b88c-4bbd-82de-7d925c8daf45")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "TestPoint_TH_Loop_1.27mm_Keystone_5001"
+		(at 1.4 2.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3da5e250-4fb4-478f-98ad-d9ecd823f719")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98f21a8d-62bb-4e90-979d-f20ca585a757")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e26ae24-6a22-4f01-9e4f-437dcbd7b604")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f95f883f-5799-48a5-95ed-fd13294f9358")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5bcc6b1a-de48-4c19-a893-2f55ec9a849b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.55 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "da2a32be-30cd-46f1-a15c-c27219687b17")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.2 0.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7cfd3e5f-4de6-4818-82ba-e2053c491454")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a56988a-7832-4af8-8f89-a7855a4cc694")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(property pad_prop_testpoint)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5f4afde7-e0bf-42ff-8f50-8d38f27d290c")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/TestPoint_TH_Loop_1.27mm_Keystone_5001.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

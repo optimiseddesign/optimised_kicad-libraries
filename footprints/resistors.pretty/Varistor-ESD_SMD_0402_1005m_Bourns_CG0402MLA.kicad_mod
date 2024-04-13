@@ -1,35 +1,203 @@
-(footprint "Varistor-ESD_SMD_0402_1005m_Bourns_CG0402MLA" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 620D80F9)
-  (descr "Varistor, Chip; 1.00 mm L X 0.50 mm W X 0.60 mm H body")
-  (attr smd)
-  (fp_text reference "REF**" (at -0.01 -0.85) (layer "F.SilkS")
-    (effects (font (size 0.6 0.6) (thickness 0.1)))
-    (tstamp c873689a-d206-42f5-aead-9199b4d63f51)
-  )
-  (fp_text value "VAL**" (at 0 0) (layer "F.Fab") hide
-    (effects (font (size 0.6 0.6) (thickness 0.12)))
-    (tstamp 6a2bcc72-047b-4846-8583-1109e3552669)
-  )
-  (fp_text user "${REFERENCE}" (at 0.06 0.76) (layer "F.Fab")
-    (effects (font (size 0.4 0.4) (thickness 0.08)))
-    (tstamp 430d6d73-9de6-41ca-b788-178d709f4aae)
-  )
-  (fp_line (start -0.17 -0.3) (end 0.17 -0.3) (layer "F.SilkS") (width 0.12) (tstamp 540e354c-27ff-478d-81f7-6f769c81b0d8))
-  (fp_line (start -0.17 0.3) (end 0.17 0.3) (layer "F.SilkS") (width 0.12) (tstamp 9c8a44cf-93a9-4179-ab21-84b431a03183))
-  (fp_line (start 1.015 -0.45) (end 1.015 0.45) (layer "F.CrtYd") (width 0.05) (tstamp 1b023dd4-5185-4576-b544-68a05b9c360b))
-  (fp_line (start -1.015 -0.45) (end 1.015 -0.45) (layer "F.CrtYd") (width 0.05) (tstamp 90f81af1-b6de-44aa-a46b-6504a157ce6c))
-  (fp_line (start -1.015 0.45) (end -1.015 -0.45) (layer "F.CrtYd") (width 0.05) (tstamp 9e0e6fc0-a269-4822-b93d-4c5e6689ff11))
-  (fp_line (start 1.015 0.45) (end -1.015 0.45) (layer "F.CrtYd") (width 0.05) (tstamp a64aeb89-c24a-493b-9aab-87a6be930bde))
-  (fp_line (start 0.575 -0.3) (end 0.575 0.3) (layer "F.Fab") (width 0.12) (tstamp 3249bd81-9fd4-4194-9b4f-2e333b2195b8))
-  (fp_line (start 0.575 0.3) (end -0.575 0.3) (layer "F.Fab") (width 0.12) (tstamp 718e5c6d-0e4c-46d8-a149-2f2bfc54c7f1))
-  (fp_line (start -0.575 -0.3) (end 0.575 -0.3) (layer "F.Fab") (width 0.12) (tstamp cbde200f-1075-469a-89f8-abbdcf30e36a))
-  (fp_line (start -0.575 0.3) (end -0.575 -0.3) (layer "F.Fab") (width 0.12) (tstamp f50dae73-c5b5-475d-ac8c-5b555be54fa3))
-  (pad "1" smd roundrect (at -0.56 0) (size 0.61 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2549) (tstamp 775e8983-a723-43c5-bf00-61681f0840f3))
-  (pad "2" smd roundrect (at 0.56 0) (size 0.61 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2549) (tstamp a0e7a81b-2259-4f8d-8368-ba75f2004714))
-  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1.2))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Varistor-ESD_SMD_0402_1005m_Bourns_CG0402MLA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Varistor, Chip; 1.00 mm L X 0.50 mm W X 0.60 mm H body")
+	(property "Reference" "REF**"
+		(at -0.01 -0.85 0)
+		(layer "F.SilkS")
+		(uuid "c873689a-d206-42f5-aead-9199b4d63f51")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a2bcc72-047b-4846-8583-1109e3552669")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd364ec7-55fd-45ee-87e2-3e4811732c4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d012f8b7-8d7c-4e9c-a522-e364871ef0ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "262ef805-336a-421b-ac55-2c1a364eca5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.17 -0.3)
+		(end 0.17 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "540e354c-27ff-478d-81f7-6f769c81b0d8")
+	)
+	(fp_line
+		(start -0.17 0.3)
+		(end 0.17 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c8a44cf-93a9-4179-ab21-84b431a03183")
+	)
+	(fp_line
+		(start -1.015 -0.45)
+		(end 1.015 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "90f81af1-b6de-44aa-a46b-6504a157ce6c")
+	)
+	(fp_line
+		(start -1.015 0.45)
+		(end -1.015 -0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e0e6fc0-a269-4822-b93d-4c5e6689ff11")
+	)
+	(fp_line
+		(start 1.015 -0.45)
+		(end 1.015 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b023dd4-5185-4576-b544-68a05b9c360b")
+	)
+	(fp_line
+		(start 1.015 0.45)
+		(end -1.015 0.45)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a64aeb89-c24a-493b-9aab-87a6be930bde")
+	)
+	(fp_line
+		(start -0.575 -0.3)
+		(end 0.575 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cbde200f-1075-469a-89f8-abbdcf30e36a")
+	)
+	(fp_line
+		(start -0.575 0.3)
+		(end -0.575 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f50dae73-c5b5-475d-ac8c-5b555be54fa3")
+	)
+	(fp_line
+		(start 0.575 -0.3)
+		(end 0.575 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3249bd81-9fd4-4194-9b4f-2e333b2195b8")
+	)
+	(fp_line
+		(start 0.575 0.3)
+		(end -0.575 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "718e5c6d-0e4c-46d8-a149-2f2bfc54c7f1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.06 0.76 0)
+		(layer "F.Fab")
+		(uuid "430d6d73-9de6-41ca-b788-178d709f4aae")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.56 0)
+		(size 0.61 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2549)
+		(uuid "775e8983-a723-43c5-bf00-61681f0840f3")
+	)
+	(pad "2" smd roundrect
+		(at 0.56 0)
+		(size 0.61 0.51)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2549)
+		(uuid "a0e7a81b-2259-4f8d-8368-ba75f2004714")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

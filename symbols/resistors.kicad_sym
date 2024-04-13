@@ -1,496 +1,1477 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Resistor_SMD_0201_0603m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Resistor_SMD_0201_0603m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Resistor_SMD_0201_0603m" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Resistor 0201 (0603m) 1% 63mW" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ANY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "As Appropriate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Resistor_SMD_0201_0603m_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Resistor_SMD_0402_1005m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Resistor_SMD_0402_1005m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Resistor_SMD_0402_1005m" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Resistor 0402 (1005m) 1% 63mW" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ANY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "As Appropriate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Resistor_SMD_0402_1005m_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Resistor_SMD_0603_1608m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Resistor_SMD_0603_1608m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Resistor 0603 (1608m) 1% 100mW" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ANY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "As Appropriate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Resistor_SMD_0603_1608m_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Resistor_SMD_0805_2012m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Resistor_SMD_0805_2012m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Resistor_SMD_0805_2012m" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Resistor 0805 (2012m) 1% 125mW" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ANY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "As Appropriate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Resistor_SMD_0805_2012m_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Resistor_SMD_1206_3216m" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at -2.54 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Resistor_SMD_1206_3216m" (at 1.27 0 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_1206_3216Metric" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Resistor 1206 (3216m) 1% 250mW" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ANY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "As Appropriate" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Resistor_SMD_1206_3216m_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TEMPLATE_resistors" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "R" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE_resistors" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
-  (symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "RV" (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG" (at 3.81 1.016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Varistor-ESD_SMD_0402_1005m_Bourns_CG0402MLA" (at 1.651 -11.176 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\Bourns MLA Series Varistor ESD Clamp Protectors SMD.pdf" (at 1.651 -11.176 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Varistor ESD Clamp Protector 0402 (1005m) 11VAC 14VDC" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Bourns" (at 1.524 -10.668 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "CG0402MLA-14LG" (at 1.016 -10.922 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0.508 -10.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "CG0402MLA-14LG" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 1.524 -10.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "CG0402MLA-14LGTR-ND" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "IEC 61000-4-2 Level 4, ChipGuard MLA Series 0402" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Varistor ESD Clamp Protector 0402 (1005m) 11VAC 14VDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_0_0"
-      (text "V" (at 2.032 1.016 900)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_0_1"
-      (polyline
-        (pts
-          (xy 1.5 -2)
-          (xy 1.5 -1)
-          (xy -1.5 1.5)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "RV" (at 5.08 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE" (at 3.81 1.016 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_resistors:Varistor-ESD_SMD_0603_1608m_Bourns_CG0603MLA" (at 1.651 -11.176 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\Bourns MLA Series Varistor ESD Clamp Protectors SMD.pdf" (at 1.651 -11.176 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Chip Varistor ESD Clamp Protector 0603 (1608m) 14VAC 18VDC" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "Bourns" (at 1.524 -10.668 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "CG0603MLA-18KE" (at 1.016 -10.922 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 0.508 -10.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "1692663" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 1.524 -10.414 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "652-CG0603MLA-18KE" (at 2.794 -9.906 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "IEC 61000-4-2 Level 4, ChipGuard MLA Series 0603" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "Chip Varistor ESD Clamp Protector 0603 (1608m) 14VAC 18VDC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_0_0"
-      (text "V" (at 2.032 1.016 900)
-        (effects (font (size 1.27 1.27)))
-      )
-    )
-    (symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_0_1"
-      (polyline
-        (pts
-          (xy 1.5 -2)
-          (xy 1.5 -1)
-          (xy -1.5 1.5)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_1_1"
-      (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-        (stroke (width 0.2032) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 2.54 270) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 -2.54 90) (length 0.762)
-        (name "~" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Resistor_SMD_0201_0603m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor_SMD_0201_0603m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0201_0603m"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 0201 (0603m) 1% 63mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Resistor_SMD_0201_0603m_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Resistor_SMD_0402_1005m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor_SMD_0402_1005m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0402_1005m"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 0402 (1005m) 1% 63mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Resistor_SMD_0402_1005m_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Resistor_SMD_0603_1608m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor_SMD_0603_1608m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Resistor_SMD_0603_1608m_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Resistor_SMD_0805_2012m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor_SMD_0805_2012m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0805_2012m"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 0805 (2012m) 1% 125mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Resistor_SMD_0805_2012m_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Resistor_SMD_1206_3216m"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Resistor_SMD_1206_3216m"
+			(at 1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Resistor 1206 (3216m) 1% 250mW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Resistor_SMD_1206_3216m_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TEMPLATE_resistors"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE_resistors"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RV"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG"
+			(at 3.81 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Varistor-ESD_SMD_0402_1005m_Bourns_CG0402MLA"
+			(at 1.651 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\Bourns MLA Series Varistor ESD Clamp Protectors SMD.pdf"
+			(at 1.651 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Varistor ESD Clamp Protector 0402 (1005m) 11VAC 14VDC"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Bourns"
+			(at 1.524 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "CG0402MLA-14LG"
+			(at 1.016 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0.508 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "CG0402MLA-14LG"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 1.524 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "CG0402MLA-14LGTR-ND"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "IEC 61000-4-2 Level 4, ChipGuard MLA Series 0402"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_0_0"
+			(text "V"
+				(at 2.032 1.016 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_0_1"
+			(polyline
+				(pts
+					(xy 1.5 -2) (xy 1.5 -1) (xy -1.5 1.5)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RV"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE"
+			(at 3.81 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Varistor-ESD_SMD_0603_1608m_Bourns_CG0603MLA"
+			(at 1.651 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\Bourns MLA Series Varistor ESD Clamp Protectors SMD.pdf"
+			(at 1.651 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Varistor ESD Clamp Protector 0603 (1608m) 14VAC 18VDC"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Bourns"
+			(at 1.524 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "CG0603MLA-18KE"
+			(at 1.016 -10.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 0.508 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "1692663"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 1.524 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "652-CG0603MLA-18KE"
+			(at 2.794 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "IEC 61000-4-2 Level 4, ChipGuard MLA Series 0603"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_0_0"
+			(text "V"
+				(at 2.032 1.016 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_0_1"
+			(polyline
+				(pts
+					(xy 1.5 -2) (xy 1.5 -1) (xy -1.5 1.5)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Varistor-ESD_SMD_0603_1608m_18VDC_Bourns_CG0603MLA-18KE_1_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 )

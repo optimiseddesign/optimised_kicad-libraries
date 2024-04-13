@@ -1,35 +1,204 @@
-(footprint "Resistor_SMD_0805_2012m" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 621106E1)
-  (descr "Resistor SMD 0805 (2012 Metric), IPC7351 Nominal, Chip; 2.00 mm L X 1.25 mm W X 0.70 mm H body")
-  (attr smd)
-  (fp_text reference "REF**" (at 0.01 -1.5 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 45ac326a-c736-44df-8a9f-831ee6a999be)
-  )
-  (fp_text value "VAL**" (at 0.14 2.79) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6b8348a9-9539-49af-af70-f18f631b00a4)
-  )
-  (fp_text user "${REFERENCE}" (at 0.01 0.01) (layer "F.Fab")
-    (effects (font (size 0.7 0.7) (thickness 0.12)))
-    (tstamp b2cd9815-d8c4-41b6-bff0-7687e6a5cdfa)
-  )
-  (fp_line (start -0.205 -0.7) (end 0.205 -0.7) (layer "F.SilkS") (width 0.12) (tstamp 43e6d975-4327-45c5-bc0e-7b53a9f16d4e))
-  (fp_line (start -0.205 0.7) (end 0.205 0.7) (layer "F.SilkS") (width 0.12) (tstamp f3254346-9f6d-4998-b8f7-8a7eac4f4100))
-  (fp_line (start -1.61 -0.91) (end 1.61 -0.91) (layer "F.CrtYd") (width 0.05) (tstamp 363e3c49-9636-4288-ba20-983310bd6e33))
-  (fp_line (start 1.61 0.91) (end -1.61 0.91) (layer "F.CrtYd") (width 0.05) (tstamp 4908dc02-3c49-4984-82d0-9f6073f67c2d))
-  (fp_line (start -1.61 0.91) (end -1.61 -0.91) (layer "F.CrtYd") (width 0.05) (tstamp 78881a46-8a08-46b6-8e0b-49da7c88601b))
-  (fp_line (start 1.61 -0.91) (end 1.61 0.91) (layer "F.CrtYd") (width 0.05) (tstamp b619cb8a-20f3-48f4-b2b6-5b34c59400e9))
-  (fp_line (start -1.1 0.7) (end -1.1 -0.7) (layer "F.Fab") (width 0.12) (tstamp 1080101f-1c2e-4f10-ab45-24a9d33e9ade))
-  (fp_line (start 1.1 0.7) (end -1.1 0.7) (layer "F.Fab") (width 0.12) (tstamp 30a70b9f-18eb-4da3-92cb-48569d95c9aa))
-  (fp_line (start -1.1 -0.7) (end 1.1 -0.7) (layer "F.Fab") (width 0.12) (tstamp 90b1fe41-539e-4f6c-aaef-1f7b0db1b967))
-  (fp_line (start 1.1 -0.7) (end 1.1 0.7) (layer "F.Fab") (width 0.12) (tstamp d3a94ffb-a47a-4438-89a0-79d983ce8747))
-  (pad "1" smd roundrect (at -0.895 0) (size 1.02 1.42) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 7ad8f76d-70e9-40ab-96ac-5477a04aee8a))
-  (pad "2" smd roundrect (at 0.895 0) (size 1.02 1.42) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 16049ddd-1751-41e6-a6aa-9af488e1ca52))
-  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "Resistor_SMD_0805_2012m"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0805 (2012 Metric), IPC7351 Nominal, Chip; 2.00 mm L X 1.25 mm W X 0.70 mm H body")
+	(property "Reference" "REF**"
+		(at 0.01 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "45ac326a-c736-44df-8a9f-831ee6a999be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0.14 2.79 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b8348a9-9539-49af-af70-f18f631b00a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa04278f-d3cb-426e-a18c-95c49fad9247")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b046571b-0fe2-462b-b4bf-4273539cd12d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9929b500-a7cd-453d-85b6-91bac35bd769")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.205 -0.7)
+		(end 0.205 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43e6d975-4327-45c5-bc0e-7b53a9f16d4e")
+	)
+	(fp_line
+		(start -0.205 0.7)
+		(end 0.205 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3254346-9f6d-4998-b8f7-8a7eac4f4100")
+	)
+	(fp_line
+		(start -1.61 -0.91)
+		(end 1.61 -0.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "363e3c49-9636-4288-ba20-983310bd6e33")
+	)
+	(fp_line
+		(start -1.61 0.91)
+		(end -1.61 -0.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78881a46-8a08-46b6-8e0b-49da7c88601b")
+	)
+	(fp_line
+		(start 1.61 -0.91)
+		(end 1.61 0.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b619cb8a-20f3-48f4-b2b6-5b34c59400e9")
+	)
+	(fp_line
+		(start 1.61 0.91)
+		(end -1.61 0.91)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4908dc02-3c49-4984-82d0-9f6073f67c2d")
+	)
+	(fp_line
+		(start -1.1 -0.7)
+		(end 1.1 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90b1fe41-539e-4f6c-aaef-1f7b0db1b967")
+	)
+	(fp_line
+		(start -1.1 0.7)
+		(end -1.1 -0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1080101f-1c2e-4f10-ab45-24a9d33e9ade")
+	)
+	(fp_line
+		(start 1.1 -0.7)
+		(end 1.1 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3a94ffb-a47a-4438-89a0-79d983ce8747")
+	)
+	(fp_line
+		(start 1.1 0.7)
+		(end -1.1 0.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "30a70b9f-18eb-4da3-92cb-48569d95c9aa")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.01 0.01 0)
+		(layer "F.Fab")
+		(uuid "b2cd9815-d8c4-41b6-bff0-7687e6a5cdfa")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.895 0)
+		(size 1.02 1.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "7ad8f76d-70e9-40ab-96ac-5477a04aee8a")
+	)
+	(pad "2" smd roundrect
+		(at 0.895 0)
+		(size 1.02 1.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "16049ddd-1751-41e6-a6aa-9af488e1ca52")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

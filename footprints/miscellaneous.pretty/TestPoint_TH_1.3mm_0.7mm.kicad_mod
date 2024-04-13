@@ -1,22 +1,112 @@
-(footprint "TestPoint_TH_1.3mm_0.7mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 62E187E8)
-  (descr "TH 1.3mm pad, 0.7mm hole, no step model")
-  (tags "for 26AWG wire, to IPC size")
-  (attr exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0.25 -1.3 unlocked) (layer "F.SilkS")
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp 7a249c7e-e6ee-4ca8-976a-1cca566b6215)
-  )
-  (fp_text value "TestPoint_TH_1.3mm_0.7mm" (at 0.45 1.45) (layer "F.Fab") hide
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d42ecdc4-00d0-4703-a144-68441155b8a1)
-  )
-  (fp_text user "${REFERENCE}" (at 0.24 -1.21 unlocked) (layer "F.Fab")
-    (effects (font (size 0.6 0.6) (thickness 0.12)))
-    (tstamp df9e5b0c-8804-47f2-8b3e-67fccd07856a)
-  )
-  (fp_circle (center 0 0) (end 0.75 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c13ea910-aae0-462c-a476-2d42e6096126))
-  (fp_circle (center 0 0) (end 0.65 0) (layer "F.Fab") (width 0.12) (fill none) (tstamp 0d2dc8e5-31c1-4bee-8237-31af0ca16beb))
-  (pad "1" thru_hole circle (at 0 0) (size 1.3 1.3) (drill 0.7) (property pad_prop_testpoint) (layers *.Cu *.Mask) (tstamp be3918f1-4fe5-4b30-bfda-c8c375ad626c))
+(footprint "TestPoint_TH_1.3mm_0.7mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TH 1.3mm pad, 0.7mm hole, no step model")
+	(tags "for 26AWG wire, to IPC size")
+	(property "Reference" "REF**"
+		(at 0.25 -1.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7a249c7e-e6ee-4ca8-976a-1cca566b6215")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "TestPoint_TH_1.3mm_0.7mm"
+		(at 0.45 1.45 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d42ecdc4-00d0-4703-a144-68441155b8a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62d31c81-ea64-4735-b302-f989ae2b8402")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7835bf0-1291-4fcc-bd19-96be8bba4807")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db1175c6-9bb2-43c2-b038-74d148c865f6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c13ea910-aae0-462c-a476-2d42e6096126")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.65 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0d2dc8e5-31c1-4bee-8237-31af0ca16beb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.24 -1.21 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df9e5b0c-8804-47f2-8b3e-67fccd07856a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.7)
+		(property pad_prop_testpoint)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "be3918f1-4fe5-4b30-bfda-c8c375ad626c")
+	)
 )

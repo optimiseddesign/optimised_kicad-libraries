@@ -1,1028 +1,2753 @@
-(kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B" (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 5.08 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B" (at 34.29 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf" (at 11.43 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "25MHz Crystal SMD 2016m, 10ppm/20ppm tol/stability, 10pF load" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-250-10-37B-CTN-TR" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "4059126" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "520-250-10-37B-CTNT" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "25MHz Crystal SMD 2016m, 10ppm/20ppm tol/stability, 10pF load" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_0_0"
-      (pin passive line (at 3.81 1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 3.81 -1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_0_1"
-      (polyline
-        (pts
-          (xy 1.778 2.032)
-          (xy 2.54 2.032)
-          (xy 2.54 -2.032)
-          (xy 1.778 -2.032)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_1_1"
-      (polyline
-        (pts
-          (xy 0.762 -1.27)
-          (xy -0.762 -1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.524 -0.762) (end -1.524 0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "IN-OUT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "OUT-IN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B" (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 5.08 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B" (at 34.29 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-33B" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-33B Series SMD 3225 Crystal.pdf" (at 11.43 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "25MHz Crystal SMD 3225m, 10ppm/15ppm tol/stability, 10pF load" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-250-10-33B-CWN-TR" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" "ECS Inc" (at 0.635 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" "ECS-250-10-33B-CWN-TR3" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "3649584" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "520-250-10-33B-CWNT" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "40R ESR, -40 to +85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "25MHz Crystal SMD 3225m, 10ppm/15ppm tol/stability, 10pF load" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_0_0"
-      (pin passive line (at 3.81 1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 3.81 -1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_0_1"
-      (polyline
-        (pts
-          (xy 1.778 2.032)
-          (xy 2.54 2.032)
-          (xy 2.54 -2.032)
-          (xy 1.778 -2.032)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_1_1"
-      (polyline
-        (pts
-          (xy 0.762 -1.27)
-          (xy -0.762 -1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.524 -0.762) (end -1.524 0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "IN-OUT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "OUT-IN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B" (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 5.08 -5.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B" (at 34.29 -7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B" (at 2.54 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf" (at 1.27 -1.143 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "32MHz Crystal SMD 2016m, 10ppm/10ppm tol/stability, 10pF load" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-320-10-37B-CKY-TR" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-320-10-37B-CKYT" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 1.27 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC3068CT-ND" (at 0 -10.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "32MHz Crystal SMD 2016m, 10ppm/10ppm tol/stability, 10pF load" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_0_0"
-      (pin passive line (at 3.81 1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 3.81 -1.27 180) (length 1.27)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_0_1"
-      (polyline
-        (pts
-          (xy 1.778 2.032)
-          (xy 2.54 2.032)
-          (xy 2.54 -2.032)
-          (xy 1.778 -2.032)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-    (symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_1_1"
-      (polyline
-        (pts
-          (xy 0.762 -1.27)
-          (xy -0.762 -1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.524 -0.762) (end -1.524 0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "IN-OUT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.016 1.016))))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "OUT-IN" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.016 1.016))))
-      )
-    )
-  )
-  (symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217" (pin_numbers hide) (pin_names (offset 1.27) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 3.81 1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217" (at 25.4 -1.27 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Crystal_SMD_3215m" (at 2.54 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\IQD CFPX-217 Series 32khz crystal SMD 3215m.pdf" (at 1.27 -1.143 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "CFPX-217 Series 32.768kHz Crystal SMD 3215m, 20ppm, 7pF" (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "IQD" (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "LFXTAL009709" (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Farnell" (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "2449501" (at 1.27 -3.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Mouser" (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "449-LFXTAL009709REEL" (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "IQD CFPX-217 Series Tuning Fork 32.768kHz Crystal SMD 1206 3216m 3215m, 20ppm, 7pF" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217_1_1"
-      (polyline
-        (pts
-          (xy 0.762 -1.27)
-          (xy -0.762 -1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0.762 1.27)
-          (xy -0.762 1.27)
-        )
-        (stroke (width 0.381) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 1.524 -0.762) (end -1.524 0.762)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 0 -2.54 90) (length 1.27)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin passive line (at 0 2.54 270) (length 1.27)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S" (at -1.143 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "16MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS‍-2520S33‍-160‍-FN‍-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-2520S33-160-FNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2195CT-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "16MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "16MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-3225MV-160-CN-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-3225MV-160-CNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2883CT-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "16MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-3225MV-250-CN-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-3225MV-250-CNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2885CT-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S" (at -1.143 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS‍-2520S33‍-260‍-FN‍-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-2520S33-260-FNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2199CT-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-3225MV-260-CN-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-3225MV-260-CNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2886CT-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 2.54 10.16 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18" (at 34.29 7.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S" (at -1.143 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf" (at 3.81 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "40MHz Oscillator, SMD 4-Pin 2520m, 1.8V, +/-10ppm -40C to 85C" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "ECS Inc" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "ECS-2520S18-400-FN-TR" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Mouser" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "520-2520S18-400-FNT" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" "Digikey" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" "XC2214TR-ND" (at 0 -11.43 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "40MHz Oscillator, SMD 4-Pin 2520m, 1.8V, +/-10ppm -40C to 85C" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_0_0"
-      (pin input line (at -10.16 0 0) (length 3.81)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-    (symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_0_1"
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-    )
-    (symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 5.08 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A" (at 35.56 -11.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_NDK_NT2016SA" (at 6.477 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\NDK NT2016SA-32M-END4263A SMD 2016 TCXO for Semtech LoRa.pdf" (at 6.477 -21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "32MHz TCXO, SMD 4-Pin 2016m, 1/2.5ppm, -40C to 85C, 1.8-3V, END4263A Spec for LoRa" (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "NDK" (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "NT2016SA-32M-END4263A" (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" "Digikey" (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" "644-1328-1-ND" (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 7.62 -20.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_description" "32MHz TCXO, SMD 4-Pin 2016m, 1/2.5ppm, -40C to 85C, 1.8-3V, END4263A Spec for LoRa" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A_1_1"
-      (polyline
-        (pts
-          (xy -0.635 -0.635)
-          (xy 0 -0.635)
-          (xy 0 0.635)
-          (xy 0.635 0.635)
-          (xy 0.635 -0.635)
-          (xy 1.27 -0.635)
-          (xy 1.27 0.635)
-          (xy 1.905 0.635)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (rectangle (start 7.62 6.35) (end -6.35 -6.35)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin passive line (at -2.54 -10.16 90) (length 3.81)
-        (name "NC/GND" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 -10.16 90) (length 3.81)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin output line (at 11.43 0 180) (length 3.81)
-        (name "OUT" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin power_in line (at 0 10.16 270) (length 3.81)
-        (name "VDD" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "TEMPLATE_crystals-oscillators" (pin_names (offset 1.27)) (in_bom yes) (on_board yes)
-    (property "Reference" "Y" (at 0 8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEMPLATE_crystals-oscillators" (at 0 -8.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\" (at -1.143 -1.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" " " (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B"
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B"
+			(at 34.29 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf"
+			(at 11.43 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25MHz Crystal SMD 2016m, 10ppm/20ppm tol/stability, 10pF load"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-250-10-37B-CTN-TR"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "4059126"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "520-250-10-37B-CTNT"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_0_0"
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_0_1"
+			(polyline
+				(pts
+					(xy 1.778 2.032) (xy 2.54 2.032) (xy 2.54 -2.032) (xy 1.778 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_1_1"
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.524 -0.762)
+				(end -1.524 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "OUT-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B"
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B"
+			(at 34.29 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-33B"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-33B Series SMD 3225 Crystal.pdf"
+			(at 11.43 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25MHz Crystal SMD 3225m, 10ppm/15ppm tol/stability, 10pF load"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-250-10-33B-CWN-TR"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" "ECS Inc"
+			(at 0.635 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" "ECS-250-10-33B-CWN-TR3"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "3649584"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "520-250-10-33B-CWNT"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "40R ESR, -40 to +85C"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_0_0"
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_0_1"
+			(polyline
+				(pts
+					(xy 1.778 2.032) (xy 2.54 2.032) (xy 2.54 -2.032) (xy 1.778 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_1_1"
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.524 -0.762)
+				(end -1.524 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "OUT-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B"
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B"
+			(at 34.29 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B"
+			(at 2.54 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECX-1637B Series SMD 2016 Crystal.pdf"
+			(at 1.27 -1.143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32MHz Crystal SMD 2016m, 10ppm/10ppm tol/stability, 10pF load"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-320-10-37B-CKY-TR"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-320-10-37B-CKYT"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 1.27 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC3068CT-ND"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_0_0"
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -1.27 180)
+				(length 1.27)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_0_1"
+			(polyline
+				(pts
+					(xy 1.778 2.032) (xy 2.54 2.032) (xy 2.54 -2.032) (xy 1.778 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_1_1"
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.524 -0.762)
+				(end -1.524 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "OUT-IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.27) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 3.81 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217"
+			(at 25.4 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Crystal_SMD_3215m"
+			(at 2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\IQD CFPX-217 Series 32khz crystal SMD 3215m.pdf"
+			(at 1.27 -1.143 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IQD CFPX-217 Series Tuning Fork 32.768kHz Crystal SMD 1206 3216m 3215m, 20ppm, 7pF"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "IQD"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "LFXTAL009709"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "2449501"
+			(at 1.27 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "449-LFXTAL009709REEL"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217_1_1"
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.27) (xy -0.762 1.27)
+				)
+				(stroke
+					(width 0.381)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.524 -0.762)
+				(end -1.524 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 2.54 270)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S"
+			(at -1.143 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS‍-2520S33‍-160‍-FN‍-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-2520S33-160-FNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2195CT-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-3225MV-160-CN-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-3225MV-160-CNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2883CT-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-3225MV-250-CN-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-3225MV-250-CNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2885CT-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S"
+			(at -1.143 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "26MHz Oscillator, SMD 4-Pin 2520m, 3.3V, +/-10ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS‍-2520S33‍-260‍-FN‍-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-2520S33-260-FNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2199CT-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-3225MV Series SMD 3225 MultiVolt HCMOS Oscillator.pdf"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "26MHz Oscillator, SMD 4-Pin 1206 (3225m), +/-25ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-3225MV-260-CN-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-3225MV-260-CNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2886CT-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 2.54 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18"
+			(at 34.29 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2520_ECS-Inc_ECS-2520S"
+			(at -1.143 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\ECS Inc ECS-2520S Series SMD 2520 HCMOS Oscillator.pdf"
+			(at 3.81 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40MHz Oscillator, SMD 4-Pin 2520m, 1.8V, +/-10ppm -40C to 85C"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "ECS Inc"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "ECS-2520S18-400-FN-TR"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "520-2520S18-400-FNT"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" "Digikey"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" "XC2214TR-ND"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_0_0"
+			(pin input line
+				(at -10.16 0 0)
+				(length 3.81)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_0_1"
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A"
+		(pin_names
+			(offset 0.635)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 5.08 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A"
+			(at 35.56 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_crystals-oscillators:Oscillator_SMD-4_2016_NDK_NT2016SA"
+			(at 6.477 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\NDK NT2016SA-32M-END4263A SMD 2016 TCXO for Semtech LoRa.pdf"
+			(at 6.477 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32MHz TCXO, SMD 4-Pin 2016m, 1/2.5ppm, -40C to 85C, 1.8-3V, END4263A Spec for LoRa"
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "NDK"
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "NT2016SA-32M-END4263A"
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Digikey"
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "644-1328-1-ND"
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 7.62 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A_1_1"
+			(polyline
+				(pts
+					(xy -0.635 -0.635) (xy 0 -0.635) (xy 0 0.635) (xy 0.635 0.635) (xy 0.635 -0.635) (xy 1.27 -0.635)
+					(xy 1.27 0.635) (xy 1.905 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 7.62 6.35)
+				(end -6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 90)
+				(length 3.81)
+				(name "NC/GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TEMPLATE_crystals-oscillators"
+		(pin_names
+			(offset 1.27)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Y"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TEMPLATE_crystals-oscillators"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\crystals-oscillators\\"
+			(at -1.143 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 )
