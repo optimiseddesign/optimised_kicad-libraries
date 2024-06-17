@@ -1,0 +1,272 @@
+(footprint "Oscillator_SMD-4_3225_ECS-Inc_ECX-32"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Oscillator, Corner Concave Package; 3.20 mm L X 2.50 mm W X 0.80 mm H body")
+	(tags "For ECS Inc ECX-32 Series SMD Crystal")
+	(property "Reference" "REF**"
+		(at 0 -2.14 0)
+		(layer "F.SilkS")
+		(uuid "6909a60d-f6f0-422a-aff7-06c92529a022")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -0.05 2.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e81da90-4743-4a41-96ad-53d276f1d2b5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d072ca0-ea2b-4b75-8b8e-57fc1a1d5c13")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c506009b-a099-46b1-be77-ed0db3c3c5f6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5cc77b73-77ed-4d43-8995-6adf8937a8cb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.97 0.92)
+		(end -1.97 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69b7d3a8-e42f-4cc8-86c1-a78357db49b7")
+	)
+	(fp_line
+		(start -1.97 1.62)
+		(end -1.22 1.62)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6d0742e-51d2-4790-af17-83fdc6e2d3d6")
+	)
+	(fp_line
+		(start -1.65 0.17)
+		(end -1.65 -0.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec454e7f-3183-45be-9980-943e7337fd8f")
+	)
+	(fp_line
+		(start 0.32 -1.3)
+		(end -0.32 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e3f01a3-c8ee-433e-af38-d957c8071395")
+	)
+	(fp_line
+		(start 0.32 1.3)
+		(end -0.32 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "550e4416-7826-4249-872e-28dd97df80d2")
+	)
+	(fp_line
+		(start 1.65 0.17)
+		(end 1.65 -0.17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96052423-bb28-433c-b2b9-1f2b3e7d41ec")
+	)
+	(fp_line
+		(start -2 -1.65)
+		(end 2 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bfc4ce1-7c0e-4775-af91-e3043d0ec703")
+	)
+	(fp_line
+		(start -2 1.65)
+		(end -2 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b5c1922-83d6-4f1d-8390-8e6193a5652e")
+	)
+	(fp_line
+		(start 2 -1.65)
+		(end 2 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "422e944a-8da2-4591-abd6-bc5870c1d0cf")
+	)
+	(fp_line
+		(start 2 1.65)
+		(end -2 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d3288f4-31b8-493c-806f-1b9b0dffc0d3")
+	)
+	(fp_line
+		(start -1.65 -1.3)
+		(end 1.65 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33e99769-af86-403a-984f-cbbaf909bebd")
+	)
+	(fp_line
+		(start -1.65 0.433)
+		(end -1.65 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36147139-f7a3-469f-9dee-1f28de3b4448")
+	)
+	(fp_line
+		(start -0.783 1.3)
+		(end -1.65 0.433)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cc15749-ce1d-41dc-a568-aef37ea125a0")
+	)
+	(fp_line
+		(start 1.65 -1.3)
+		(end 1.65 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de179515-3551-4c03-b841-9723fd27ddff")
+	)
+	(fp_line
+		(start 1.65 1.3)
+		(end -0.783 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53d93633-d4c8-474f-84d4-a4890cd872dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f1494668-d628-4858-8e5e-611a424f5b5f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.15 0.9 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1818)
+		(uuid "5dd59a5a-4147-42ef-b00d-02af0303ddf7")
+	)
+	(pad "2" smd roundrect
+		(at 1.15 0.9 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1818)
+		(uuid "d089e103-5f8d-4d83-8ba3-acde55fefa30")
+	)
+	(pad "3" smd roundrect
+		(at 1.15 -0.9 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1818)
+		(uuid "70f985ed-7e6a-4b0e-ae12-28bf812a0f08")
+	)
+	(pad "4" smd roundrect
+		(at -1.15 -0.9 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1818)
+		(uuid "2efba8f9-1db8-4d61-853b-e0dd4e4bdacd")
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
