@@ -887,7 +887,7 @@
 				)
 			)
 			(pin power_out line
-				(at -12.7 11.43 0)
+				(at -12.7 12.7 0)
 				(length 3.7)
 				(name "PMID"
 					(effects
@@ -923,7 +923,7 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 3.7)
 				(name "REGN"
 					(effects
