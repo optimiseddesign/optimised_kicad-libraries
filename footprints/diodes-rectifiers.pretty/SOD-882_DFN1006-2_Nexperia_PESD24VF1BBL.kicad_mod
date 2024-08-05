@@ -1,0 +1,199 @@
+(footprint "SOD-882_DFN1006-2_Nexperia_PESD24VF1BBL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Dual Flat No-Lead (DFN 2 Pin); 2 pin, 0.985 mm L X 0.585 mm W X 0.50 mm H body")
+	(tags "DFN1006-2 SOD882 1x0.6x0.48mm for Nexperia PESD24VF1BBL")
+	(property "Reference" "REF**"
+		(at -0.01 -1.14 0)
+		(layer "F.SilkS")
+		(uuid "ace7736e-dbb0-4017-bb01-ffa0b0eb7234")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 2.63 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e6da3b-08af-419e-a08e-257e381ea96a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "574c2906-c201-4284-954d-4c8cf303acab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8116e61a-2159-4596-abf7-b00ea989e264")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "213eea01-ac9e-4f13-88ec-53b7f585231b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.12)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.73 -0.53)
+		(end 0.73 -0.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e4ca7e6-64f7-44c5-936d-8ec0d29af403")
+	)
+	(fp_line
+		(start -0.73 0.53)
+		(end -0.73 -0.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "697ca4c4-9d5a-475c-b968-0a0e37b2aec7")
+	)
+	(fp_line
+		(start 0.73 -0.53)
+		(end 0.73 0.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce3776de-54d8-4171-878a-b1e5a294c698")
+	)
+	(fp_line
+		(start 0.73 0.53)
+		(end -0.73 0.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ea9a0a8-d0d0-46b6-a069-b64467af2d3f")
+	)
+	(fp_rect
+		(start -0.75 -0.55)
+		(end 0.75 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8262c9e0-0933-4caf-8fc4-fbc4d22e46ae")
+	)
+	(fp_line
+		(start -0.51 -0.31)
+		(end -0.51 0.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4baa7ea2-1517-4ac7-9ff5-ed1cdd1d0974")
+	)
+	(fp_line
+		(start -0.51 0.31)
+		(end 0.51 0.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20b66245-bbc8-4f22-8bc5-dec71e6cdd5a")
+	)
+	(fp_line
+		(start 0.51 -0.31)
+		(end -0.51 -0.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c843008-97d3-45f4-bdc4-e03d83383b0c")
+	)
+	(fp_line
+		(start 0.51 0.31)
+		(end 0.51 -0.31)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad59fc2d-e60d-406d-ad8f-3f60b9a088a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.32 0)
+		(layer "F.Fab")
+		(uuid "4caadd23-9930-4fc4-9f1f-a105ed43db1d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "84f42d7d-ba22-4ab2-9f99-7a8d912148cd")
+	)
+	(pad "2" smd roundrect
+		(at 0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.05)
+		(solder_paste_margin -0.05)
+		(uuid "c9009223-b24b-4748-808e-8d4ef23c8a78")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
