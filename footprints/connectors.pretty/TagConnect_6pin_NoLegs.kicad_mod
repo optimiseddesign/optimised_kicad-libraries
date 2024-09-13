@@ -4,6 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "To fit Tag-Connect 6pin No-Legs cables, e.g. TC2030-IDC-NL - https://www.tag-connect.com/product/tc2030-idc-nl")
+	(tags "pinout depends on cable & schematic symbol")
 	(property "Reference" "REF**"
 		(at 3.1 0.3 -90)
 		(unlocked yes)
@@ -37,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +64,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
