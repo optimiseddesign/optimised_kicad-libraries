@@ -19711,7 +19711,7 @@
 			)
 		)
 	)
-	(symbol "TagConnect_6pin_NoLegs"
+	(symbol "TagConnect_6pin_SWD_NoLegs"
 		(pin_names
 			(offset 0.635)
 		)
@@ -19726,7 +19726,7 @@
 				)
 			)
 		)
-		(property "Value" "TagConnect_6pin_NoLegs"
+		(property "Value" "TagConnect_6pin_SWD_NoLegs"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -19744,7 +19744,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\connectors\\Tag Connect TC2030-IDC-NL 6pin NoLegs Sprung Probe Cable.pdf"
-			(at -15.113 -2.54 0)
+			(at -10.668 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19752,7 +19752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Board pattern, for external 'Tag-Connect 6pin No-Legs' sprung-probe cable"
+		(property "Description" "Board pattern, for external 'Tag-Connect 6pin No-Legs' SWD sprung-probe cable"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -19850,7 +19850,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TagConnect_6pin_NoLegs_0_0"
+		(symbol "TagConnect_6pin_SWD_NoLegs_0_0"
 			(text "1"
 				(at -4.572 1.905 0)
 				(effects
@@ -20008,7 +20008,7 @@
 				)
 			)
 		)
-		(symbol "TagConnect_6pin_NoLegs_0_1"
+		(symbol "TagConnect_6pin_SWD_NoLegs_0_1"
 			(rectangle
 				(start -12.7 5.08)
 				(end 12.7 -5.08)
@@ -20087,7 +20087,7 @@
 				)
 			)
 		)
-		(symbol "TagConnect_6pin_NoLegs_1_1"
+		(symbol "TagConnect_6pin_SWD_NoLegs_1_1"
 			(circle
 				(center -1.524 -1.651)
 				(radius 0.508)
