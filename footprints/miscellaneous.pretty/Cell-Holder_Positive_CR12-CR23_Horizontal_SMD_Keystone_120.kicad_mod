@@ -1,0 +1,398 @@
+(footprint "Cell-Holder_Positive_CR12-CR23_Horizontal_SMD_Keystone_120"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.23 -3.41 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05a0db58-24c3-4510-aa44-4c2b57c52738")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Cell-Holder_Positive_CR12-CR23_Horizontal_SMD_Keystone_120"
+		(at 0.06 4.58 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1debde7a-a170-4a8c-91b2-7d562c319096")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee10882a-636c-46fc-9adf-0e5c3eb1bf7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87283c88-ab77-4aec-b219-8b3c2d177a4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f945a734-e7cf-4e39-ac93-db2651c4ecf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.86 -2.19)
+		(end 1.1125 -3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b901e5d7-426b-440e-894f-d6a33eae4b88")
+	)
+	(fp_line
+		(start 0.86 2.19)
+		(end 1.1125 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6753a699-a116-4bc1-831f-16e88f61297b")
+	)
+	(fp_line
+		(start 1.1125 -3.125)
+		(end 2.225 -3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e6fdfc3-9c27-4509-a9aa-261cbcb56cbe")
+	)
+	(fp_line
+		(start 2.225 -3.125)
+		(end 2.225 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "926e88cc-d9fc-4a43-96b5-9f25412031f9")
+	)
+	(fp_line
+		(start 2.225 3.125)
+		(end 1.1125 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eaa8d381-e7b1-4e43-969d-7c6bacd37c5b")
+	)
+	(fp_line
+		(start 6.955 -0.5)
+		(end 6.955 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "a8d36119-e122-44aa-ba19-a883ce26c551")
+	)
+	(fp_line
+		(start 7.455 0)
+		(end 6.455 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "54a7924e-c8a2-46d0-8c52-206ab01f90dc")
+	)
+	(fp_line
+		(start 8.955 -0.5)
+		(end 8.955 0.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e1d37d49-7ce7-405f-ba07-a2b781bf5346")
+	)
+	(fp_line
+		(start 9.455 0)
+		(end 8.455 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3db18f26-2fef-459b-8620-9e9491a0a237")
+	)
+	(fp_circle
+		(center 6.955 0)
+		(end 12.955 0)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "1219edb7-77af-4177-9395-ab8ca2c79c87")
+	)
+	(fp_circle
+		(center 8.955 0)
+		(end 16.955 0)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a1d51c2c-51ba-4cac-adb2-7adb6ba80d6f")
+	)
+	(fp_line
+		(start -1.11 -2.5)
+		(end -1.11 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "67eabefe-2c81-47ed-a65a-d46090f2dc80")
+	)
+	(fp_line
+		(start -1.11 -2.5)
+		(end 0.61 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "689a3a69-ebfd-4ec6-ab2f-94382449ccd0")
+	)
+	(fp_line
+		(start -1.11 2.5)
+		(end 0.61 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "851ca492-6f4e-4bb2-b7d2-ef114195b003")
+	)
+	(fp_line
+		(start 0.61 -2.5)
+		(end 0.8625 -3.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9dca7f47-714d-43cc-96a0-33f7cc8588bc")
+	)
+	(fp_line
+		(start 0.61 2.5)
+		(end 0.8625 3.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ce8c924-36a9-438f-9049-387e051dce7e")
+	)
+	(fp_line
+		(start 0.8625 -3.375)
+		(end 2.475 -3.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e003f471-9e68-4dce-83fc-44b9ca34b41d")
+	)
+	(fp_line
+		(start 2.475 -3.375)
+		(end 2.475 3.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c6e362a-3342-4d4b-b1b1-5412e5b30fe0")
+	)
+	(fp_line
+		(start 2.475 3.375)
+		(end 0.8625 3.375)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2fefdac0-df0c-453f-9d86-ff0bec7d2a6f")
+	)
+	(fp_line
+		(start -0.86 -2.19)
+		(end -0.86 2.19)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6c8b28d9-4177-48a2-ba6c-e8659c1a5cbb")
+	)
+	(fp_line
+		(start -0.86 -2.19)
+		(end 0.86 -2.19)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "94abf0ee-be06-4fcc-9d93-c53d18a69c2a")
+	)
+	(fp_line
+		(start -0.86 2.19)
+		(end 0.86 2.19)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ba32d860-67d5-45b0-b79b-cb08117fd925")
+	)
+	(fp_line
+		(start 0.86 -2.19)
+		(end 1.1125 -3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "89abf2f0-fcef-43ab-8cce-04ca194a4679")
+	)
+	(fp_line
+		(start 0.86 2.19)
+		(end 1.1125 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e89f9871-38b3-4b71-8c50-4b8920935bc5")
+	)
+	(fp_line
+		(start 1.1125 -3.125)
+		(end 2.225 -3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cc4bcf6e-95e5-4c33-ac2b-33e0deafde92")
+	)
+	(fp_line
+		(start 2.225 -3.125)
+		(end 2.225 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d0c496e6-8dd8-4563-acb0-4285655cf5fe")
+	)
+	(fp_line
+		(start 2.225 3.125)
+		(end 1.1125 3.125)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1badedca-8361-4fd9-8267-d527da209a74")
+	)
+	(fp_text user "CR12"
+		(at 4.785 -4.15 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "3349f3be-7bab-4c26-8963-a1dc88a595d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CR16"
+		(at 6.715 -6.38 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "7a8da973-dfb2-4cc9-a650-f1e86d815ce9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.75 0.01 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f2c25ecb-1664-4f27-860f-8826515c046c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.35 4.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1146788991)
+		(uuid "83130f56-eeca-49bb-9059-4cf6077ec25f")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Cell-Holder_Positive_CR12-CR23_Horizontal_SMD_Keystone_120.stp"
+		(offset
+			(xyz 0.975 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
