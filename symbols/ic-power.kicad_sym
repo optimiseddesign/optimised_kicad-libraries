@@ -1332,6 +1332,269 @@
 			)
 		)
 	)
+	(symbol "DCDC_Boost_Converter_0V5-5V5_1.2A_3000kHz_Texas-Instruments_TPS61299A_SOT-563"
+		(pin_names
+			(offset 0.5)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DCDC_Boost_Converter_0V5-5V5_1.2A_3000kHz_Texas-Instruments_TPS61299A_SOT-563"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_kb_semiconductors-smd:SOT-563_W1.2xL1.6xH0.6mm_P0.5mm_TexasInstruments"
+			(at 2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\ic-power\\Texas Instruments TPS61299x 95nA 5mA-1.9A 5.5V Series Boost Converter IC.pdf"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.5V-5.5V 1.2A Input Synchronous 3000kHz Boost Converter with Bypass SOT-563"
+			(at 2.54 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "Texas Instruments"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "TPS61299ADRLR"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" "Mouser"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" "595-TPS61299ADRLR"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" ""
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" ""
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "force pass through bypass mode, VSEL, WCSP option"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "DCDC_Boost_Converter_0V5-5V5_1.2A_3000kHz_Texas-Instruments_TPS61299A_SOT-563_0_0"
+			(pin power_in line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 -3.81 180)
+				(length 2.54)
+				(name "VSEL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 3.81 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DCDC_Boost_Converter_0V5-5V5_1.2A_3000kHz_Texas-Instruments_TPS61299A_SOT-563_0_1"
+			(rectangle
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "DCDC_Boost_Converter_0V5-5V5_1.2A_3000kHz_Texas-Instruments_TPS61299A_SOT-563_1_0"
+			(pin input line
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "DCDC_Boost_Converter_2V6-16V_0.5A_1500kHz_Diodes-Inc_AP3012_SOT-23-5"
 		(pin_names
 			(offset 0.5)
