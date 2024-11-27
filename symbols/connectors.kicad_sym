@@ -19851,54 +19851,6 @@
 			)
 		)
 		(symbol "TagConnect_6pin_SWD_NoLegs_0_0"
-			(text "1"
-				(at -4.572 1.905 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "2"
-				(at -0.254 1.905 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "3"
-				(at -4.572 0.127 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "4"
-				(at -0.254 0.127 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "5"
-				(at -4.572 -1.651 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "6"
-				(at -0.254 -1.651 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
 			(pin power_in line
 				(at -16.51 2.54 0)
 				(length 3.81)
@@ -20124,9 +20076,6 @@
 		)
 	)
 	(symbol "TagConnect_6pin_UART_Legs"
-		(pin_names
-			(offset 0.635)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20263,54 +20212,6 @@
 			)
 		)
 		(symbol "TagConnect_6pin_UART_Legs_0_0"
-			(text "1"
-				(at -2.794 2.032 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "2"
-				(at 1.524 2.032 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "3"
-				(at -2.794 0.254 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "4"
-				(at 1.524 0.254 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "5"
-				(at -2.794 -1.524 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(text "6"
-				(at 1.524 -1.524 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
 			(pin power_out line
 				(at -16.51 2.54 0)
 				(length 3.81)
@@ -20433,6 +20334,28 @@
 				)
 			)
 			(circle
+				(center -3.61 -1.27)
+				(radius 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.61 1.905)
+				(radius 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
 				(center -2.032 -3.429)
 				(radius 0.762)
 				(stroke
@@ -20490,6 +20413,28 @@
 			(circle
 				(center 0.762 -3.429)
 				(radius 0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.34 -1.27)
+				(radius 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.34 1.905)
+				(radius 0.9)
 				(stroke
 					(width 0)
 					(type default)
