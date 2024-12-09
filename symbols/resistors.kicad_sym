@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Resistor 0201 (0603m) 1% 63mW"
+		(property "Description" "Chip Resistor 0201 (0603m) 1% 50mW"
 			(at 0 0 0)
 			(effects
 				(font
