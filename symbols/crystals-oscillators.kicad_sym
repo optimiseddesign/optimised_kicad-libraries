@@ -847,7 +847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" " "
+		(property "Manufacturer2" "Wurth"
 			(at 0 0 90)
 			(effects
 				(font
@@ -856,7 +856,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" " "
+		(property "MPN2" "830009709"
 			(at 0 0 90)
 			(effects
 				(font
