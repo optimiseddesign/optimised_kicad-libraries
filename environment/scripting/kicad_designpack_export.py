@@ -3,12 +3,12 @@
 ## INFO
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
-# Uses KiCAD v7 CLI (Command Line Interface). Written for KiCAD v7.0.8 (updated, initially for v7.0.6) on Win10 using Python v3.10.0 .
+# Uses KiCAD v8 CLI (Command Line Interface). Written for KiCAD v8.0.8 (updated, initially for v7.0.6) on Win10 using Python v3.10.0 .
 # REQUIRES 'pypdf' python package installed, Tested using v3.15.0 - install using 'pip3 install pypdf' on command line
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
-# Copyright Optimised Product Design Ltd 2023-2024
+# Copyright Optimised Product Design Ltd 2023-2025
 #
 #
 ## TO-DO
@@ -16,6 +16,7 @@
 # - (?)Add versioning and other readme content for script.
 # - Add automatic BOM export once CLI feature availability in KiCAD v8 in 2024
 # - Add automatic 3D viewer image save once feature available, see (unknown time) https://gitlab.com/kicad/code/kicad/-/issues/13948
+# - Set soldermask expansion/min web values?
 #
 ###########################################
 
@@ -34,7 +35,7 @@ from pypdf import PdfMerger, PdfReader, PdfWriter
 ###########################################
 
 # Overall configs
-CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\7.0\\bin\\kicad-cli"
+CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\8.0\\bin\\kicad-cli"
 CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
 CONFIG_KICAD_NAME = "pt136a_giraffecctv_edge_controller_generic"  # Main configuration to set if design follows Optimiseds' conventions
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
@@ -42,11 +43,13 @@ CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONF
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
 CONFIG_KICAD_LAYERS_FRONT = "F.Fab,Edge.Cuts,User.Drawings,F.Cu,F.Mask,F.Paste,F.Silkscreen,"
 CONFIG_KICAD_LAYERS_BACK = "B.Fab,B.Cu,B.Mask,B.Paste,B.Silkscreen,User.Comments"
+CONFIG_KICAD_LAYERS_FLEX = "User.1,User.2" # i.e. "Flex.pcb.rigid,Flex.pcb.not.rigid"
 CONFIG_KICAD_LAYERS_2L = CONFIG_KICAD_LAYERS_FRONT + CONFIG_KICAD_LAYERS_BACK
 CONFIG_KICAD_LAYERS_4L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu," + CONFIG_KICAD_LAYERS_BACK
+CONFIG_KICAD_LAYERS_4LR_2LF = CONFIG_KICAD_LAYERS_4L + "," + CONFIG_KICAD_LAYERS_FLEX
 CONFIG_KICAD_LAYERS_6L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu," + CONFIG_KICAD_LAYERS_BACK
 CONFIG_KICAD_LAYERS_8L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu,In5.Cu,In6.Cu," + CONFIG_KICAD_LAYERS_BACK
-CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_4L     # **Note**: Adjust based on the number of PCB layers
+CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_4L     # **Note**: Adjust based on the number/type of PCB layers
 
 # for sch_export_pdf
 CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
@@ -114,7 +117,8 @@ def pcb_export_pdf():
     print("\n## Exporting Layout PDF of all layers...")
 
     # Create PDF Object to merge all the individual Layer PDFs into
-    merger = PdfMerger()
+    merger = PdfWriter()
+    #pypdf.errors.DeprecationError: PdfMerger is deprecated and was removed in pypdf 5.0.0. Use PdfWriter instead.
 
     # Loop over layers in CONFIG_PCB_EXPORT_PDF_LAYERS_2L to export individually
     layers = CONFIG_PCB_EXPORT_PDF_LAYERS
