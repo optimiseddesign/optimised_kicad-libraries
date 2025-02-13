@@ -17,6 +17,10 @@
 # - Use --exclude-dnp in future(?) when I use the in-built DNP feature (but need to think through)
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
+# - fixes before IPC-2581 can be used
+#            a) BOM 'populate' field won't be correct until I move to KiCAD native DNP method
+#            b) 'revision' field is always 1.0
+#            c) import error into ZofZPCB (but may just be that program?)
 #
 ###########################################
 
@@ -80,6 +84,15 @@ CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "
 CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for gerbers
 CONFIG_PCB_EXPORT_GERBERS_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 CONFIG_PCB_EXPORT_GERBERS_LAYERS_COMMON = ""    # Think best to have no common layers, though could be Edge.Cuts?
+
+# for pcb_export_ipc2581
+CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
+CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.xml"
+CONFIG_PCB_EXPORT_IPC2581_BOM_ID = "Reference"
+CONFIG_PCB_EXPORT_IPC2581_BOM_MFG = "Manufacturer1"
+CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN = "MPN1"
+CONFIG_PCB_EXPORT_IPC2581_BOM_DIST = "Vendor1"
+CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN = "SKU1"
 
 
 
@@ -368,6 +381,48 @@ def pcb_export_gerbers():
 
 ###########################################
 #
+#   Export KICAD PCB Layout IPC-2581 file
+#   Uses: kicad-cli pcb export ipc2581 [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE] [--precision PRECISION] [--compress] [--version VAR] [--units VAR] [--bom-col-int-id FIELD_NAME] [--bom-col-mfg-pn FIELD_NAME] [--bom-col-mfg FIELD_NAME] [--bom-col-dist-pn FIELD_NAME] [--bom-col-dist FIELD_NAME] INPUT_FILE
+#
+###########################################
+
+def pcb_export_ipc2581():
+    print("\n## Exporting Layout IPC-2581[" + CONFIG_PCB_EXPORT_IPC2581_VERSION + "] file ...")
+        
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'export',
+            'ipc2581',
+            '--output',
+            CONFIG_PCB_EXPORT_IPC2581_FILEPATH,
+            '--compress',
+            '--version',
+            CONFIG_PCB_EXPORT_IPC2581_VERSION,
+            '--units',
+            'mm',
+            '--bom-col-int-id',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_ID,
+            '--bom-col-mfg',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_MFG,
+            '--bom-col-mfg-pn',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN,
+            '--bom-col-dist',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_DIST,
+            '--bom-col-dist-pn',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN,
+            CONFIG_KICAD_PCB]
+            
+    process = subprocess.run(args=cmd, 
+                            stdout=subprocess.PIPE,
+                            shell=True, 
+                            universal_newlines=True)
+    
+    print("Result: " + process.stdout)
+
+
+
+###########################################
+#
 #   MAIN
 #   Calls all the other functions in turn to export the design pack
 #
@@ -386,6 +441,7 @@ pcb_export_pos("front")
 pcb_export_pos("back")
 pcb_export_drill()
 pcb_export_gerbers()
+#pcb_export_ipc2581() - DRAFT for future addition once issues are resolved (see top)
 
 print("\nEnd of design pack export!")
 print("\n####################################################################\n")
