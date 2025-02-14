@@ -163,7 +163,7 @@
 	)
 	(tbtext "Customer: ${COMPANY}"
 		(name "text16:Text")
-		(pos 108.2 29.8002)
+		(pos 108.2 29.8)
 		(font
 			(size 1.8 1.8) bold)
 	)
