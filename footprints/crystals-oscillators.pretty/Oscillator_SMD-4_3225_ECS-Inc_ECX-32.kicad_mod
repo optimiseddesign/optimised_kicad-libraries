@@ -258,7 +258,7 @@
 		(roundrect_rratio 0.1818)
 		(uuid "2efba8f9-1db8-4d61-853b-e0dd4e4bdacd")
 	)
-	(model "${KICAD7_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+	(model "${KICAD8_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

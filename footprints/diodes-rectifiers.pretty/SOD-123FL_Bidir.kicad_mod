@@ -401,7 +401,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "e76e5810-2903-467e-abc7-6a7875d6dbc4")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
+	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
 		(offset
 			(xyz 0 0 0)
 		)

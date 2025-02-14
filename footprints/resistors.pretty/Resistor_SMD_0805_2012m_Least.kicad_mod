@@ -190,7 +190,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "78d72c1b-dafe-49ae-aa9e-de2c79ecdc0b")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

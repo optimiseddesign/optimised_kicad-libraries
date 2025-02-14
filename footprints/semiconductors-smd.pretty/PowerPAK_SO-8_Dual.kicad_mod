@@ -399,7 +399,7 @@
 		(zone_connect 2)
 		(uuid "a35b6b79-d285-4133-958a-d8e63da63004")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/Vishay_PowerPAK_SO-8.step"
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/PQFN-8-EP_6x5mm_P1.27mm_Generic.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -407,7 +407,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz 0 0 0)
 		)
 	)
 )

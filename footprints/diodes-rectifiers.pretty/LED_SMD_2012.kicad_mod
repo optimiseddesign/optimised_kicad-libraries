@@ -271,7 +271,7 @@
 		(roundrect_rratio 0.192)
 		(uuid "ae8ffd1e-be1d-4f41-b4e2-0842fe0cb899")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -189,7 +189,7 @@
 		(roundrect_rratio 0.2468)
 		(uuid "6d7ff8c0-8a2a-4636-844f-c7210ff3e6f2")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

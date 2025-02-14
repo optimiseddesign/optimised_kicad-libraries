@@ -525,7 +525,7 @@
 			)
 		)
 	)
-	(model ":KICAD7_3DMODEL_DIR:Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step"
+	(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
