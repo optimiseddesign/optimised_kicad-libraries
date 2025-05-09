@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Raspberry Pi 4 Compute Plug-in Module, connects to two Hirose DF40C connectors (separate parts)")
-	(tags "3.0mm stacking height, use with RPi_CM4_Connector1-100_GPIO and RPi_CM4_Connector101-200_HighSpeed")
+	(descr "Raspberry Pi 4 Compute Plug-in Module, connects to 2off Hirose DF40C connectors and 4off standoffs (separate parts)")
+	(tags "3.0mm stacking height, use with RPi_CM4_Connector1-100_GPIO and RPi_CM4_Connector101-200_HighSpeed & _CM4-3.0mm_Wurth_9774030151R")
 	(property "Reference" "REF**"
 		(at 0.2 -28.9 180)
 		(layer "F.SilkS")
@@ -207,6 +207,28 @@
 		(uuid "0e6521a8-dc7b-43fb-bcda-0d038dca4c4d")
 	)
 	(fp_circle
+		(center -16.5 -24)
+		(end -13.5 -24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "1a8c3920-c602-4f57-869a-cc93282042a1")
+	)
+	(fp_circle
+		(center -16.5 24)
+		(end -13.5 24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "bdc4b35f-17d0-4bdc-98e3-ca90d3dd2b8a")
+	)
+	(fp_circle
 		(center 11 -24.933)
 		(end 12 -24.933)
 		(stroke
@@ -216,6 +238,28 @@
 		(fill none)
 		(layer "Dwgs.User")
 		(uuid "c607045f-de71-4404-b557-1242f6f2dbb4")
+	)
+	(fp_circle
+		(center 16.5 -24)
+		(end 19.5 -24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "fd1230f0-f67a-4655-ac6f-370f5a7bda1d")
+	)
+	(fp_circle
+		(center 16.5 24)
+		(end 19.5 24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "0b4a14fc-5aa4-4d96-bb2e-742df1d80c37")
 	)
 	(fp_line
 		(start -20.5 24)
@@ -406,6 +450,50 @@
 		)
 		(layer "F.Fab")
 		(uuid "00496f9d-9117-43ed-a1d6-03dc8ec997a7")
+	)
+	(fp_circle
+		(center -16.5 -24)
+		(end -13.5 -24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f8b61a35-a23a-4da4-83a8-847db0654918")
+	)
+	(fp_circle
+		(center -16.5 24)
+		(end -13.5 24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "93feb3cb-ee14-44c3-ace2-cac11ab741c7")
+	)
+	(fp_circle
+		(center 16.5 -24)
+		(end 19.5 -24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7d0a7316-0e3c-4b8a-8018-5a2cbdce04a7")
+	)
+	(fp_circle
+		(center 16.5 24)
+		(end 19.5 24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cde77a65-ddca-47e0-a260-153ade435672")
 	)
 	(fp_text user "${VALUE}"
 		(at -4 -1.6 0)
@@ -611,42 +699,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(pad "" np_thru_hole circle
-		(at -16.5 -24 180)
-		(size 2.7 2.7)
-		(drill 2.7)
-		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 1.7)
-		(clearance 1.7)
-		(uuid "bbef7c9c-3baf-44f1-a3db-387df8539077")
-	)
-	(pad "" np_thru_hole circle
-		(at -16.5 24 180)
-		(size 2.7 2.7)
-		(drill 2.7)
-		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 1.7)
-		(clearance 1.7)
-		(uuid "24644d5b-8a8d-4e6c-81de-1d29e1b2cf87")
-	)
-	(pad "" np_thru_hole circle
-		(at 16.5 -24 180)
-		(size 2.7 2.7)
-		(drill 2.7)
-		(layers "F&B.Cu" "*.Mask")
-		(solder_mask_margin 1.7)
-		(clearance 1.7)
-		(uuid "0e9ff0ab-be9a-410e-83d3-560aabe41a96")
-	)
-	(pad "" np_thru_hole circle
-		(at 16.5 24 180)
-		(size 2.7 2.7)
-		(drill 2.7)
-		(layers "*.Cu" "*.Mask")
-		(solder_mask_margin 1.7)
-		(clearance 1.7)
-		(uuid "c2c1d247-2c20-4b1e-a5d1-8d71cf195ab3")
 	)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-plugin.3dshapes/RPi_CM4_Module.stp"
 		(offset

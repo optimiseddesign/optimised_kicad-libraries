@@ -6372,7 +6372,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "for module itself, fill in part numbers. Use with CM_Connector parts"
+		(property "ki_keywords" "for module itself, fill in part numbers. Use with CM_Connector & Standoff_SMD parts"
 			(at 0 0 0)
 			(effects
 				(font
