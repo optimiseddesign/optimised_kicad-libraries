@@ -1,10 +1,10 @@
-(footprint "Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R"
+(footprint "Standoff_SMD_M2.5_CM4-3.0mm_Wurth_9774030151R"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "SMT M2.5 threaded standoff, 2.5mm height for 4.2H M.2 sockets")
-	(tags "SMD, M2, connector")
+	(descr "SMT M2.5 threaded standoff, 3.0mm height for CM4")
+	(tags "SMD, mounting hole")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
 		(unlocked yes)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R"
+	(property "Value" "Standoff_SMD_M2.5_CM4-3.0mm_Wurth_9774030151R"
 		(at 0 5.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -245,7 +245,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "b6879517-56d3-4ad2-a5b6-91ccce5547c7")
 	)
-	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R.stp"
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Standoff_SMD_M2.5_CM4-3.0mm_Wurth_9774030151R.stp"
 		(offset
 			(xyz 0 0 0)
 		)
