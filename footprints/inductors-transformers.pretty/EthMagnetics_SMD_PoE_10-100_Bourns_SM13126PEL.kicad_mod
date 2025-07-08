@@ -1,0 +1,514 @@
+(footprint "EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Ceramic Flat Pack (CFP), 1.27 mm pitch; 16 pin, 12.80 mm L X 6.90 mm W X 5.70 mm H body")
+	(tags "16-Pin SMD Magnetics LAN 10/100 Base-TX Transformer Module")
+	(property "Reference" "REF**"
+		(at 0 -7.95 0)
+		(layer "F.SilkS")
+		(uuid "4eb3f8c9-48bb-4dfb-888b-aaf2084b1d92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -0.1 7.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "891cdd01-d836-4aaa-8e8f-104b10d4b568")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c16ce41-69b5-470d-9974-0f7d9a5bbcff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9663eb3-105c-458f-b754-79192057d5ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6a8a807-053a-4aee-8c1d-2845ce4bce9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.7 -6.65)
+		(end 3.7 -6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c39119e7-c3a0-43cb-bb45-bb25745b4f76")
+	)
+	(fp_line
+		(start -3.7 -5)
+		(end -5.1 -5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8540592-cc16-4ccb-afdb-d328af7b80eb")
+	)
+	(fp_line
+		(start -3.7 -5)
+		(end -3.7 -6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26a3501d-d856-4c8c-9ebd-779758018c43")
+	)
+	(fp_line
+		(start -3.7 4.98)
+		(end -3.7 6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "529a5b35-8c40-4d67-972e-1c967b809c1c")
+	)
+	(fp_line
+		(start -3.7 6.65)
+		(end 3.7 6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1776eb21-45ca-49d2-a345-30957f702152")
+	)
+	(fp_line
+		(start 3.7 -6.65)
+		(end 3.7 -4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37f7281c-a5ff-4918-a5cd-2163ab32c998")
+	)
+	(fp_line
+		(start 3.7 6.65)
+		(end 3.7 4.98)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa79128d-eebd-480f-b5fd-c32e3ae58c74")
+	)
+	(fp_line
+		(start -5.453 -5)
+		(end -5.453 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a45ef04-0b5c-4991-82fd-51ca571d2b1f")
+	)
+	(fp_line
+		(start -5.453 5)
+		(end -3.9 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c34556e4-8b60-4dbb-be48-bd7d90f0c116")
+	)
+	(fp_line
+		(start -3.9 -6.85)
+		(end -3.9 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80a81e6e-cfb3-403c-b96e-ec7427c6ca99")
+	)
+	(fp_line
+		(start -3.9 -5)
+		(end -5.453 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0fdd982b-a531-4baa-928b-3b6ced00d524")
+	)
+	(fp_line
+		(start -3.9 5)
+		(end -3.9 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51cdd066-ce39-4979-ae3e-fbc9e3a35c4a")
+	)
+	(fp_line
+		(start -3.9 6.85)
+		(end 3.9 6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9a8481c5-dcae-4350-bd73-efcf66365bfa")
+	)
+	(fp_line
+		(start 3.9 -6.85)
+		(end -3.9 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dec8a35c-274c-4029-be03-8a0561dd2608")
+	)
+	(fp_line
+		(start 3.9 -5)
+		(end 3.9 -6.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5f2ba3b-9933-45ef-bf47-09cca48c7ca7")
+	)
+	(fp_line
+		(start 3.9 5)
+		(end 5.453 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a314087c-aaf1-4b1f-8474-f837974d5b29")
+	)
+	(fp_line
+		(start 3.9 6.85)
+		(end 3.9 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5370b24-21d9-4ab6-96e4-38f5f67ce3e1")
+	)
+	(fp_line
+		(start 5.453 -5)
+		(end 3.9 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b5f06875-3d05-42af-a87b-d4f427010ca0")
+	)
+	(fp_line
+		(start 5.453 5)
+		(end 5.453 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3aac612d-2cdf-4bab-a829-039615d4fe52")
+	)
+	(fp_line
+		(start -3.7 -5.65)
+		(end -2.7 -6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ed2e5372-11c0-4d3e-b9b5-600f034e2354")
+	)
+	(fp_line
+		(start -3.7 6.65)
+		(end -3.7 -5.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b65b6f8f-19d4-4f99-b023-5281e46698ff")
+	)
+	(fp_line
+		(start -2.7 -6.65)
+		(end 3.7 -6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "81d7000b-a79f-49e5-b480-f30a8136fab8")
+	)
+	(fp_line
+		(start 3.7 -6.65)
+		(end 3.7 6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8939cd71-d95d-4b40-aaf7-3d12b7450e72")
+	)
+	(fp_line
+		(start 3.7 6.65)
+		(end -3.7 6.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab8a6ad7-83e6-40e4-b05b-879f229c0a42")
+	)
+	(fp_text user "UNDER"
+		(at 0 0.7 0)
+		(layer "Cmts.User")
+		(uuid "8d2bbe2d-4b2e-42ec-8fde-875096a4db11")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "COPPER"
+		(at 0 -2 0)
+		(layer "Cmts.User")
+		(uuid "8e6f0277-b22a-41ba-9bd7-26ccafd7ca22")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "KEEPOUT"
+		(at 0 -0.7 0)
+		(layer "Cmts.User")
+		(uuid "920fd51d-a4e5-4d08-8904-626d367d07c3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "MAGNETICS"
+		(at 0 2.1 0)
+		(layer "Cmts.User")
+		(uuid "a8486384-0254-4f83-b199-bf666db96e54")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d79c7947-654a-4bed-9f45-42c50ea2dcba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.239 -4.445)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "e1a0c0b0-b6be-410a-90ca-3fdc1af14f68")
+	)
+	(pad "2" smd roundrect
+		(at -4.239 -3.175)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "0f3507dd-5efd-4f27-806b-b9be6168b5c2")
+	)
+	(pad "3" smd roundrect
+		(at -4.239 -1.905)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "8998338c-ec81-4e5b-ad2b-57f5f50b8c93")
+	)
+	(pad "4" smd roundrect
+		(at -4.239 -0.635)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "6bfffe9e-20f3-46f9-a37a-ec114a339dbc")
+	)
+	(pad "5" smd roundrect
+		(at -4.239 0.635)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "58244875-23b8-436b-bb5d-8c9abd9ae95e")
+	)
+	(pad "6" smd roundrect
+		(at -4.239 1.905)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "6921ca2e-ccbe-48ad-8b5f-c244bd5bf868")
+	)
+	(pad "7" smd roundrect
+		(at -4.239 3.175)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "215ee82f-3796-411b-a803-e6b1f8eb0eac")
+	)
+	(pad "8" smd roundrect
+		(at -4.239 4.445)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "3cb925b9-fc43-413c-bdde-34cb63899781")
+	)
+	(pad "9" smd roundrect
+		(at 4.239 4.445)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "41e315ba-9c23-4c39-acd8-5a2b8a986e28")
+	)
+	(pad "10" smd roundrect
+		(at 4.239 3.175)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "035e023b-50dc-48f7-8d9f-a8653749dcc1")
+	)
+	(pad "11" smd roundrect
+		(at 4.239 1.905)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "6ecb2ca2-f63b-4ec5-8110-586fa4fad011")
+	)
+	(pad "12" smd roundrect
+		(at 4.239 0.635)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "bea0948e-78e1-4d1d-b284-342c032478e2")
+	)
+	(pad "13" smd roundrect
+		(at 4.239 -0.635)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "aec3b83b-02e8-437b-99cf-e450decb6253")
+	)
+	(pad "14" smd roundrect
+		(at 4.239 -1.905)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "f8a2b470-7607-495a-aee0-7edaa661d356")
+	)
+	(pad "15" smd roundrect
+		(at 4.239 -3.175)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "d0efe53e-f26f-4b2f-9e23-06df5cc218c5")
+	)
+	(pad "16" smd roundrect
+		(at 4.239 -4.445)
+		(size 2.028 0.709)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2496)
+		(uuid "57a373aa-d6d5-4908-a9ea-b1c2f1d0e1f0")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.Cu")
+		(uuid "de885b1a-427b-4522-a914-450ba93d1d1a")
+		(hatch edge 0.508)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.254)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.508)
+			(thermal_bridge_width 0.508)
+		)
+		(polygon
+			(pts
+				(xy 3.45 6.4) (xy -3.45 6.4) (xy -3.45 -6.4) (xy 3.45 -6.4)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL.stp"
+		(offset
+			(xyz 0 0 5.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 -90)
+		)
+	)
+)
