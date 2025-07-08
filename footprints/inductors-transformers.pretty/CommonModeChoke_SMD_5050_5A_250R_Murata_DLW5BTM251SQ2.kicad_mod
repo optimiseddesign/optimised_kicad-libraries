@@ -104,10 +104,10 @@
 		(uuid "18d24bc4-42df-468d-aa47-ca2a2456d70e")
 	)
 	(fp_line
-		(start -1.5 -2.75)
-		(end 1.5 -2.75)
+		(start 0.7 -2.75)
+		(end 2.2 -2.75)
 		(stroke
-			(width 0.3)
+			(width 0.33)
 			(type default)
 		)
 		(layer "F.SilkS")
@@ -234,10 +234,10 @@
 		(uuid "86e880d0-e5a1-4e87-be35-16c28fa164e2")
 	)
 	(fp_rect
-		(start -1.5 -2)
-		(end 1.5 -1.5)
+		(start -1.5 2)
+		(end 1.5 1.5)
 		(stroke
-			(width 0.1)
+			(width 0.12)
 			(type default)
 		)
 		(fill none)
@@ -340,7 +340,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 0 -180)
 		)
 	)
 )
