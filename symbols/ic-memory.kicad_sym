@@ -425,6 +425,26 @@
 				(hide yes)
 			)
 		)
+		(symbol "EEPROM_8Kbit_I2C_DFN-8_ST-Micro_M24C08-F_1_0"
+			(pin passive line
+				(at -2.54 -8.89 90)
+				(length 2.54)
+				(name "EP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EEPROM_8Kbit_I2C_DFN-8_ST-Micro_M24C08-F_1_1"
 			(rectangle
 				(start -6.35 6.35)
