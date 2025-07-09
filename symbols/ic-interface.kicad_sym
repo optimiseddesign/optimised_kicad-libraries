@@ -2267,7 +2267,7 @@
 			)
 		)
 	)
-	(symbol "Eth_PoE_PSE_TH_Module_Silvertel_AG6120"
+	(symbol "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
 		(pin_names
 			(offset 0.635)
 		)
@@ -2282,7 +2282,7 @@
 				)
 			)
 		)
-		(property "Value" "Eth_PoE_PSE_TH_Module_Silvertel_AG6120"
+		(property "Value" "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
 			(at 0 12.192 0)
 			(effects
 				(font
@@ -2290,7 +2290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_kb_modules-th:Eth_PoE_PSE_TH_Module_Silvertel_AG6120"
+		(property "Footprint" "_kb_modules-th:Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
 			(at 0.254 -14.986 0)
 			(effects
 				(font
@@ -2326,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN1" "AG6120"
+		(property "MPN1" "Ag6120"
 			(at 1.397 -13.716 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Eth_PoE_PSE_TH_Module_Silvertel_AG6120_0_0"
+		(symbol "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120_0_0"
 			(pin power_in line
 				(at -13.97 7.62 0)
 				(length 2.54)
@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(symbol "Eth_PoE_PSE_TH_Module_Silvertel_AG6120_1_1"
+		(symbol "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120_1_1"
 			(rectangle
 				(start -11.43 10.16)
 				(end 11.43 -10.16)

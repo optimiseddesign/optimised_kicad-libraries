@@ -1,4 +1,4 @@
-(footprint "Eth_PoE_PSE_TH_Module_Silvertel_AG6120"
+(footprint "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -354,7 +354,7 @@
 		(remove_unused_layers no)
 		(uuid "501ba8a7-49a8-45b9-99ab-aafbe933f9b9")
 	)
-	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/Eth_PoE_PSE_TH_Module_Silvertel_AG6120.stp"
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/Eth_PoE_PSE_TH_Module_Silvertel_Ag6120.stp"
 		(offset
 			(xyz -20.8 7.7 0)
 		)
