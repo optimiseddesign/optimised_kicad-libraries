@@ -1,0 +1,333 @@
+(footprint "TerminalBlock_Screw_3.81mm_TH_01x05_Horizontal_TE-Connectivity_284392"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "14-30AWG (.05 – 2mm2) wire size")
+	(property "Reference" "REF**"
+		(at -0.375 -3.415 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6cbf73f5-62ee-493c-9c8d-efc35c4232ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "TE_284392-5"
+		(at -0.4 19.39 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34e1d066-07b2-46e2-81af-2999e93fc4c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98a7ec17-7b59-4b45-97ba-f5e99e541280")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2765b55-ee73-4fe1-a1bf-a1679ffc2a57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3cf10a1e-d4d0-463d-b70a-def3e304ad27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.175 -2.025)
+		(end 4.175 -2.025)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14036884-aeee-4aa6-b83b-98e0c782fb54")
+	)
+	(fp_line
+		(start -4.175 17.275)
+		(end -4.175 -2.025)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6d69572-0b02-4e7d-b170-a14b11f18bbe")
+	)
+	(fp_line
+		(start -0.65 -2.23)
+		(end 0.65 -2.23)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa84c8ae-520d-4cf5-91ca-72cea3e18395")
+	)
+	(fp_line
+		(start 4.175 -2.025)
+		(end 4.175 17.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d36d0a7-3497-4df0-9e79-80e422d1a21b")
+	)
+	(fp_line
+		(start 4.175 17.275)
+		(end -4.175 17.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "352f0a40-d92b-4e13-8b94-fc3ee48c25ff")
+	)
+	(fp_line
+		(start -4.425 -2.275)
+		(end -4.425 17.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d47ba29f-4676-45d8-a403-30359dd1ee8f")
+	)
+	(fp_line
+		(start -4.425 17.525)
+		(end 4.425 17.525)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "435dda51-ae76-416b-909d-368c3bc277ce")
+	)
+	(fp_line
+		(start 4.425 -2.275)
+		(end -4.425 -2.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1f402c4-3a27-4dc3-9698-27ceedfce610")
+	)
+	(fp_line
+		(start 4.425 17.525)
+		(end 4.425 -2.275)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e9cfca8-74db-4284-82c0-a80a6c3702ca")
+	)
+	(fp_line
+		(start -4.175 -2.025)
+		(end 4.175 -2.025)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e1ad041-de2d-4a10-86e4-bedbba51cd45")
+	)
+	(fp_line
+		(start -4.175 -0.78)
+		(end -4.175 -2.025)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa7183e7-4be5-4ae1-a4a2-28a44130f53c")
+	)
+	(fp_line
+		(start -4.175 -0.775)
+		(end -3.4 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90991808-6f43-453a-8be6-fc84ceb95a97")
+	)
+	(fp_line
+		(start -4.175 17.275)
+		(end -4.175 0.78)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "657d0609-14c5-4808-b74c-a600eb7aa43b")
+	)
+	(fp_line
+		(start -3.4 0)
+		(end -4.175 0.775)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3fb1370e-f36d-4382-b870-4f017700bec4")
+	)
+	(fp_line
+		(start -3.4 7.65)
+		(end -1.6 7.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8cd3b491-0fa2-47c8-b02b-01c86d3a8279")
+	)
+	(fp_line
+		(start -2 7.45)
+		(end -2 7.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d18d641a-3c35-4ff3-9b1d-4a6e052266a4")
+	)
+	(fp_line
+		(start -2 7.85)
+		(end -1.6 7.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2765d081-c124-47d1-ace6-787e232177be")
+	)
+	(fp_line
+		(start -1.6 7.65)
+		(end -2 7.45)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd72c6fd-8d01-4c84-aa64-052ccdf03377")
+	)
+	(fp_line
+		(start 4.175 -2.025)
+		(end 4.175 17.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49b00ea9-36f3-4989-b473-6eab12f1c611")
+	)
+	(fp_line
+		(start 4.175 17.275)
+		(end -4.175 17.275)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7556c6b7-65ac-413e-a9cd-66bd4b5b10f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.7 0)
+		(layer "F.Fab")
+		(uuid "14eb02af-f7eb-4342-b4e3-0c4ee00a341e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 270)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b2a536a3-41a9-41f4-8668-d0f797e2bc38")
+	)
+	(pad "2" thru_hole circle
+		(at 0 3.81 270)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33b33270-440d-447f-94db-ec54df75c14d")
+	)
+	(pad "3" thru_hole circle
+		(at 0 7.62 270)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a72ef5a-3c71-4576-8f75-9530ea90ad55")
+	)
+	(pad "4" thru_hole circle
+		(at 0 11.43 270)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d28af9e-6393-4ab3-a092-c6658ef20bc6")
+	)
+	(pad "5" thru_hole circle
+		(at 0 15.24 270)
+		(size 1.8 1.8)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "092f5dbb-91db-4f33-9215-1a314f621c76")
+	)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Screw_3.81mm_TH_01x05_Horizontal_TE-Connectivity_284392.stp"
+		(offset
+			(xyz 4.1 -7.515 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
