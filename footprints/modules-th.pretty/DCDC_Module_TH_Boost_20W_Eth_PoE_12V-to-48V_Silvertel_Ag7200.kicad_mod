@@ -1,4 +1,4 @@
-(footprint "Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200"
+(footprint "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -431,7 +431,7 @@
 			)
 		)
 	)
-	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200.stp"
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200.stp"
 		(offset
 			(xyz -2.54 8.8 0)
 		)

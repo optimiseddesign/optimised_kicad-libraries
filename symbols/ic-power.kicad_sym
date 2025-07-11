@@ -5262,7 +5262,7 @@
 			)
 		)
 	)
-	(symbol "Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200"
+	(symbol "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
 		(pin_names
 			(offset 0.635)
 		)
@@ -5277,7 +5277,7 @@
 				)
 			)
 		)
-		(property "Value" "Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200"
+		(property "Value" "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
 			(at 0 11.938 0)
 			(effects
 				(font
@@ -5285,7 +5285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "_kb_modules-th:Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200"
+		(property "Footprint" "_kb_modules-th:DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
 			(at 0.254 -14.986 0)
 			(effects
 				(font
@@ -5402,7 +5402,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200_0_0"
+		(symbol "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200_0_0"
 			(pin power_in line
 				(at -12.7 7.62 0)
 				(length 2.54)
@@ -5530,7 +5530,7 @@
 				)
 			)
 		)
-		(symbol "Eth_PoE_DCDC_TH_Module_Silvertel_Ag7200_1_1"
+		(symbol "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200_1_1"
 			(rectangle
 				(start -10.16 10.16)
 				(end 10.16 -10.16)
