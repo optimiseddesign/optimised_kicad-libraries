@@ -196,7 +196,7 @@
 	)
 	(fp_line
 		(start -1.15 0.545)
-		(end -21.4 0.545)
+		(end -21.65 0.545)
 		(stroke
 			(width 0.05)
 			(type default)
