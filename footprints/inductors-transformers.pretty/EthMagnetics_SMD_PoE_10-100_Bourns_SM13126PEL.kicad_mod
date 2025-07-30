@@ -136,6 +136,46 @@
 		(uuid "aa79128d-eebd-480f-b5fd-c32e3ae58c74")
 	)
 	(fp_line
+		(start -3.45 -6.4)
+		(end 3.45 -6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "386eb77a-4279-4205-971f-393cc4f2b724")
+	)
+	(fp_line
+		(start -3.45 6.4)
+		(end -3.45 -6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0a69a339-ba1b-48b0-8375-93225b90ae38")
+	)
+	(fp_line
+		(start 3.45 -6.4)
+		(end 3.45 6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "ff0df59b-3597-4a3f-aee2-59c2e3f02657")
+	)
+	(fp_line
+		(start 3.45 6.4)
+		(end -3.45 6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8236be57-1055-4998-89b1-75652aef20d3")
+	)
+	(fp_line
 		(start -5.453 -5)
 		(end -5.453 5)
 		(stroke
@@ -307,6 +347,7 @@
 	)
 	(fp_text user "UNDER"
 		(at 0 0.7 0)
+		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "8d2bbe2d-4b2e-42ec-8fde-875096a4db11")
 		(effects
@@ -318,6 +359,7 @@
 	)
 	(fp_text user "COPPER"
 		(at 0 -2 0)
+		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "8e6f0277-b22a-41ba-9bd7-26ccafd7ca22")
 		(effects
@@ -329,6 +371,7 @@
 	)
 	(fp_text user "KEEPOUT"
 		(at 0 -0.7 0)
+		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "920fd51d-a4e5-4d08-8904-626d367d07c3")
 		(effects
@@ -340,6 +383,7 @@
 	)
 	(fp_text user "MAGNETICS"
 		(at 0 2.1 0)
+		(unlocked yes)
 		(layer "Cmts.User")
 		(uuid "a8486384-0254-4f83-b199-bf666db96e54")
 		(effects
@@ -471,34 +515,6 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2496)
 		(uuid "57a373aa-d6d5-4908-a9ea-b1c2f1d0e1f0")
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layers "*.Cu")
-		(uuid "de885b1a-427b-4522-a914-450ba93d1d1a")
-		(hatch edge 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-		)
-		(polygon
-			(pts
-				(xy 3.45 6.4) (xy -3.45 6.4) (xy -3.45 -6.4) (xy 3.45 -6.4)
-			)
-		)
 	)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL.stp"
 		(offset
