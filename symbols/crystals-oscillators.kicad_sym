@@ -1,10 +1,12 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -187,7 +189,7 @@
 		(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_1_1"
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy -0.762 -1.27)
+					(xy 0.762 1.27) (xy -0.762 1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -199,7 +201,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.27) (xy -0.762 1.27)
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -221,24 +223,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "IN-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "OUT-IN"
@@ -256,11 +240,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -452,7 +457,7 @@
 		(symbol "Crystal_25MHz_SMD-4_3225_10ppm_15ppm_10pF_ECS_ECS-33B_1_1"
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy -0.762 -1.27)
+					(xy 0.762 1.27) (xy -0.762 1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -464,7 +469,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.27) (xy -0.762 1.27)
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -486,24 +491,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "IN-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "OUT-IN"
@@ -521,11 +508,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -708,7 +716,7 @@
 		(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_1_1"
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy -0.762 -1.27)
+					(xy 0.762 1.27) (xy -0.762 1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -720,7 +728,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.27) (xy -0.762 1.27)
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -742,24 +750,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "IN-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "OUT-IN"
@@ -777,12 +767,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -913,7 +926,7 @@
 		(symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217_1_1"
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy -0.762 -1.27)
+					(xy 0.762 1.27) (xy -0.762 1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -925,7 +938,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.27) (xy -0.762 1.27)
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -947,24 +960,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "2"
@@ -982,11 +977,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Crystal_8MHz_SMD-4_3225_10ppm_30ppm_10pF_ECS_ECX-32"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1178,7 +1194,7 @@
 		(symbol "Crystal_8MHz_SMD-4_3225_10ppm_30ppm_10pF_ECS_ECX-32_1_1"
 			(polyline
 				(pts
-					(xy 0.762 -1.27) (xy -0.762 -1.27)
+					(xy 0.762 1.27) (xy -0.762 1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -1190,7 +1206,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.27) (xy -0.762 1.27)
+					(xy 0.762 -1.27) (xy -0.762 -1.27)
 				)
 				(stroke
 					(width 0.381)
@@ -1212,24 +1228,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "IN-OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "OUT-IN"
@@ -1247,7 +1245,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "IN-OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
 		(pin_names
@@ -1400,6 +1417,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -1428,24 +1463,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1482,6 +1499,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_16MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
 		(pin_names
@@ -1634,6 +1652,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -1662,24 +1698,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1716,6 +1734,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
 		(pin_names
@@ -1868,6 +1887,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -1896,24 +1933,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1950,6 +1969,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_26MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33"
 		(pin_names
@@ -2102,6 +2122,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -2130,24 +2168,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2184,6 +2204,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV"
 		(pin_names
@@ -2336,6 +2357,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -2364,24 +2403,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2418,6 +2439,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Oscillator_40MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S18"
 		(pin_names
@@ -2570,6 +2592,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -2598,24 +2638,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2652,6 +2674,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A"
 		(pin_names
@@ -2828,6 +2851,24 @@
 				)
 			)
 			(pin power_in line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
 				(at 0 -10.16 90)
 				(length 3.81)
 				(name "GND"
@@ -2863,25 +2904,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 10.16 270)
-				(length 3.81)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_crystals-oscillators"
 		(pin_names
@@ -2924,7 +2948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3014,5 +3038,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

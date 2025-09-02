@@ -1,10 +1,12 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "CommonModeChoke_SMD_5050_5A_250R_Murata_DLW5BTM251SQ2"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -143,17 +145,6 @@
 		)
 		(symbol "CommonModeChoke_SMD_5050_5A_250R_Murata_DLW5BTM251SQ2_0_1"
 			(circle
-				(center -3.048 -1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
 				(center -3.048 1.524)
 				(radius 0.254)
 				(stroke
@@ -164,69 +155,20 @@
 					(type outline)
 				)
 			)
-			(arc
-				(start -2.54 2.032)
-				(mid -2.032 1.5262)
-				(end -1.524 2.032)
+			(circle
+				(center -3.048 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.524 -2.032)
-				(mid -2.032 -1.5262)
-				(end -2.54 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.524 2.032)
-				(mid -1.016 1.5262)
-				(end -0.508 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.508 -2.032)
-				(mid -1.016 -1.5262)
-				(end -1.524 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.508 2.032)
-				(mid 0 1.5262)
-				(end 0.508 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.032) (xy -2.54 -2.54)
+					(xy -2.54 2.032) (xy -2.54 2.54)
 				)
 				(stroke
 					(width 0)
@@ -250,8 +192,128 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.032) (xy -2.54 2.54)
+					(xy -2.54 -2.032) (xy -2.54 -2.54)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 2.032)
+				(mid -2.032 1.5262)
+				(end -2.54 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 -2.032)
+				(mid -2.032 -1.5262)
+				(end -1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 2.032)
+				(mid -1.016 1.5262)
+				(end -1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.524 -2.032)
+				(mid -1.016 -1.5262)
+				(end -0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 2.032)
+				(mid 0 1.5262)
+				(end -0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.508 -2.032)
+				(mid 0 -1.5262)
+				(end 0.508 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 2.032)
+				(mid 1.016 1.5262)
+				(end 0.508 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.508 -2.032)
+				(mid 1.016 -1.5262)
+				(end 1.524 -2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 2.032)
+				(mid 2.032 1.5262)
+				(end 1.524 2.032)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.524 -2.032)
+				(mid 2.032 -1.5262)
+				(end 2.54 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -262,7 +324,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.032) (xy 2.54 -2.54)
+					(xy 2.54 2.54) (xy 2.54 2.032)
 				)
 				(stroke
 					(width 0)
@@ -286,68 +348,8 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 2.54 2.032)
+					(xy 2.54 -2.032) (xy 2.54 -2.54)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.508 -2.032)
-				(mid 0 -1.5262)
-				(end -0.508 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.508 2.032)
-				(mid 1.016 1.5262)
-				(end 1.524 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.524 -2.032)
-				(mid 1.016 -1.5262)
-				(end 0.508 -2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.524 2.032)
-				(mid 2.032 1.5262)
-				(end 2.54 2.032)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -2.032)
-				(mid 2.032 -1.5262)
-				(end 1.524 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -369,6 +371,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -412,29 +432,14 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -2.54 0)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -595,9 +600,9 @@
 				)
 			)
 			(arc
-				(start -5.08 -7.62)
+				(start -5.08 -6.35)
 				(mid -4.4477 -6.985)
-				(end -5.08 -6.35)
+				(end -5.08 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -608,7 +613,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -7.62) (xy -7.62 -7.62)
+					(xy -5.08 -2.54) (xy -7.62 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -632,19 +637,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -2.54) (xy -7.62 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.556 -2.54) (xy -3.556 -7.62)
+					(xy -5.08 -7.62) (xy -7.62 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -668,7 +661,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.794 -7.62) (xy -2.794 -2.54)
+					(xy -3.556 -2.54) (xy -3.556 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -692,19 +685,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -5.461) (xy 5.08 -5.461)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -4.699) (xy 5.08 -4.699)
+					(xy -2.794 -7.62) (xy -2.794 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -728,7 +709,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -6.985) (xy 1.27 -7.62) (xy -1.27 -7.62)
+					(xy -1.27 -5.08) (xy 0 -5.08) (xy 0 -8.89) (xy 6.35 -8.89) (xy 6.35 -5.08) (xy 7.62 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -740,7 +721,31 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -6.985) (xy 5.08 -7.62) (xy 7.62 -7.62)
+					(xy 1.27 -4.699) (xy 5.08 -4.699)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -5.461) (xy 5.08 -5.461)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -6.985) (xy 1.27 -7.62) (xy -1.27 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -764,7 +769,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 0 -5.08) (xy 0 -8.89) (xy 6.35 -8.89) (xy 6.35 -5.08) (xy 7.62 -5.08)
+					(xy 5.08 -6.985) (xy 5.08 -7.62) (xy 7.62 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -776,42 +781,6 @@
 			)
 		)
 		(symbol "EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL_1_0"
-			(pin passive line
-				(at 2.54 -12.7 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 -12.7 90)
 				(length 2.54)
@@ -848,10 +817,46 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -12.7 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -12.7 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "EthMagnetics_SMD_PoE_10-100_Bourns_SM13126PEL_1_1"
 			(circle
-				(center -5.207 -5.715)
+				(center -5.207 6.985)
 				(radius 0.1778)
 				(stroke
 					(width 0)
@@ -873,7 +878,7 @@
 				)
 			)
 			(circle
-				(center -5.207 6.985)
+				(center -5.207 -5.715)
 				(radius 0.1778)
 				(stroke
 					(width 0)
@@ -884,68 +889,8 @@
 				)
 			)
 			(arc
-				(start -5.08 -6.35)
-				(mid -4.4477 -5.715)
-				(end -5.08 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 -5.08)
-				(mid -4.4477 -4.445)
-				(end -5.08 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 -3.81)
-				(mid -4.4477 -3.175)
-				(end -5.08 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 2.54)
-				(mid -4.4477 3.175)
-				(end -5.08 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 3.81)
-				(mid -4.4477 4.445)
-				(end -5.08 5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -5.08 5.08)
-				(mid -4.4477 5.715)
+				(start -5.08 7.62)
+				(mid -4.4477 6.985)
 				(end -5.08 6.35)
 				(stroke
 					(width 0)
@@ -957,8 +902,8 @@
 			)
 			(arc
 				(start -5.08 6.35)
-				(mid -4.4477 6.985)
-				(end -5.08 7.62)
+				(mid -4.4477 5.715)
+				(end -5.08 5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -968,9 +913,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -6.35)
-				(mid -1.9023 -6.985)
-				(end -1.27 -7.62)
+				(start -5.08 5.08)
+				(mid -4.4477 4.445)
+				(end -5.08 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -980,9 +925,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -5.08)
-				(mid -1.9023 -5.715)
-				(end -1.27 -6.35)
+				(start -5.08 3.81)
+				(mid -4.4477 3.175)
+				(end -5.08 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -992,9 +937,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -3.81)
-				(mid -1.9023 -4.445)
-				(end -1.27 -5.08)
+				(start -5.08 -2.54)
+				(mid -4.4477 -3.175)
+				(end -5.08 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1004,9 +949,9 @@
 				)
 			)
 			(arc
-				(start -1.27 -2.54)
-				(mid -1.9023 -3.175)
-				(end -1.27 -3.81)
+				(start -5.08 -3.81)
+				(mid -4.4477 -4.445)
+				(end -5.08 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -1016,89 +961,9 @@
 				)
 			)
 			(arc
-				(start -1.27 3.81)
-				(mid -1.9023 3.175)
-				(end -1.27 2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 5.08)
-				(mid -1.9023 4.445)
-				(end -1.27 3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 6.35)
-				(mid -1.9023 5.715)
-				(end -1.27 5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -1.27 7.62)
-				(mid -1.9023 6.985)
-				(end -1.27 6.35)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.143 -5.715)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.143 -3.175)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.143 4.445)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.143 6.985)
-				(radius 0.1778)
+				(start -5.08 -5.08)
+				(mid -4.4477 -5.715)
+				(end -5.08 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -1109,7 +974,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -7.62 2.54)
+					(xy -5.08 7.62) (xy -7.62 7.62)
 				)
 				(stroke
 					(width 0)
@@ -1133,7 +998,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 7.62) (xy -7.62 7.62)
+					(xy -5.08 2.54) (xy -7.62 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1145,7 +1010,159 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 4.699) (xy 5.08 4.699)
+					(xy -1.27 7.62) (xy 1.27 7.62) (xy 1.27 6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 6.35)
+				(mid -1.9023 6.985)
+				(end -1.27 7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 5.08)
+				(mid -1.9023 5.715)
+				(end -1.27 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 3.81)
+				(mid -1.9023 4.445)
+				(end -1.27 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 2.54)
+				(mid -1.9023 3.175)
+				(end -1.27 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -3.81)
+				(mid -1.9023 -3.175)
+				(end -1.27 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -5.08)
+				(mid -1.9023 -4.445)
+				(end -1.27 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -6.35)
+				(mid -1.9023 -5.715)
+				(end -1.27 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 -7.62)
+				(mid -1.9023 -6.985)
+				(end -1.27 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.143 6.985)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.143 4.445)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.143 -3.175)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -1.143 -5.715)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 5.461) (xy 5.08 5.461)
 				)
 				(stroke
 					(width 0)
@@ -1169,19 +1186,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 5.461) (xy 5.08 5.461)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy 1.27 7.62) (xy 1.27 6.985)
+					(xy 1.27 4.699) (xy 5.08 4.699)
 				)
 				(stroke
 					(width 0)
@@ -1194,6 +1199,206 @@
 			(polyline
 				(pts
 					(xy 1.27 3.175) (xy 1.27 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 7.112)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 6.985)
+				(mid 1.905 6.3527)
+				(end 1.27 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 3.175)
+				(mid 1.905 3.8073)
+				(end 2.54 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 3.048)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 -3.048)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -3.175)
+				(mid 1.905 -3.8073)
+				(end 1.27 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 -6.985)
+				(mid 1.905 -6.3527)
+				(end 2.54 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.905 -7.112)
+				(radius 0.1778)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 6.985)
+				(mid 3.175 6.3527)
+				(end 2.54 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 3.175)
+				(mid 3.175 3.8073)
+				(end 3.81 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 -3.175)
+				(mid 3.175 -3.8073)
+				(end 2.54 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 -6.985)
+				(mid 3.175 -6.3527)
+				(end 3.81 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 6.985)
+				(mid 4.445 6.3527)
+				(end 3.81 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 3.175)
+				(mid 4.445 3.8073)
+				(end 5.08 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 5.08 -3.175)
+				(mid 4.445 -3.8073)
+				(end 3.81 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.81 -6.985)
+				(mid 4.445 -6.3527)
+				(end 5.08 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 6.985) (xy 5.08 7.62) (xy 7.62 7.62)
 				)
 				(stroke
 					(width 0)
@@ -1217,208 +1422,8 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 6.985) (xy 5.08 7.62) (xy 7.62 7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 7.62 5.08) (xy 6.35 5.08) (xy 6.35 8.89) (xy 0 8.89) (xy 0 5.08) (xy -1.27 5.08)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 -3.175)
-				(mid 1.905 -3.8073)
-				(end 2.54 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 1.27 6.985)
-				(mid 1.905 6.3527)
-				(end 2.54 6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.905 -7.112)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.905 -3.048)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.905 3.048)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.905 7.112)
-				(radius 0.1778)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -6.985)
-				(mid 1.905 -6.3527)
-				(end 1.27 -6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 -3.175)
-				(mid 3.175 -3.8073)
-				(end 3.81 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 3.175)
-				(mid 1.905 3.8073)
-				(end 1.27 3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 2.54 6.985)
-				(mid 3.175 6.3527)
-				(end 3.81 6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.81 -6.985)
-				(mid 3.175 -6.3527)
-				(end 2.54 -6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.81 -3.175)
-				(mid 4.445 -3.8073)
-				(end 5.08 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.81 3.175)
-				(mid 3.175 3.8073)
-				(end 2.54 3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.81 6.985)
-				(mid 4.445 6.3527)
-				(end 5.08 6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 -6.985)
-				(mid 4.445 -6.3527)
-				(end 3.81 -6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 5.08 3.175)
-				(mid 4.445 3.8073)
-				(end 3.81 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -1438,96 +1443,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(name "CT2_CABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "TX2+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 2.54 180)
-				(length 2.54)
-				(name "TX1-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 5.08 180)
-				(length 2.54)
-				(name "CT1_CABLE"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 7.62 180)
-				(length 2.54)
-				(name "TX1+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1626,6 +1541,96 @@
 				)
 			)
 			(pin passive line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "TX1+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "CT1_CABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "TX1-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "TX2+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "CT2_CABLE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "TX2-"
@@ -1644,11 +1649,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Ferrite_SMD_1005_0.9A_600R_Murata_BLM15PX601SN1D"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1779,7 +1789,7 @@
 		(symbol "Ferrite_SMD_1005_0.9A_600R_Murata_BLM15PX601SN1D_1_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -0.7874)
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 				)
 				(stroke
 					(width 0)
@@ -1803,7 +1813,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					(xy 0 -1.27) (xy 0 -0.7874)
 				)
 				(stroke
 					(width 0)
@@ -1850,11 +1860,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1985,7 +2000,7 @@
 		(symbol "Ferrite_SMD_1005_1A_10R_Murata_BLM15PG100SN1D_1_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -0.7874)
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 				)
 				(stroke
 					(width 0)
@@ -2009,7 +2024,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					(xy 0 -1.27) (xy 0 -0.7874)
 				)
 				(stroke
 					(width 0)
@@ -2056,11 +2071,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2191,7 +2211,7 @@
 		(symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D_1_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -0.7874)
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 				)
 				(stroke
 					(width 0)
@@ -2215,7 +2235,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					(xy 0 -1.27) (xy 0 -0.7874)
 				)
 				(stroke
 					(width 0)
@@ -2262,11 +2282,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2397,7 +2422,7 @@
 		(symbol "Ferrite_SMD_1608_2A_120R_Murata_BLM18PG121SN1D_1_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -0.7874)
+					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 				)
 				(stroke
 					(width 0)
@@ -2421,7 +2446,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					(xy 0 -1.27) (xy 0 -0.7874)
 				)
 				(stroke
 					(width 0)
@@ -2468,11 +2493,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_0201_0603m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2603,32 +2633,8 @@
 		)
 		(symbol "Inductor_SMD_0201_0603m_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -2640,8 +2646,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -2687,11 +2717,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_1005"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2830,32 +2865,8 @@
 		)
 		(symbol "Inductor_SMD_1005_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -2867,8 +2878,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -2914,11 +2949,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_1608"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3057,32 +3097,8 @@
 		)
 		(symbol "Inductor_SMD_1608_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -3094,8 +3110,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -3141,11 +3181,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_2012"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3284,32 +3329,8 @@
 		)
 		(symbol "Inductor_SMD_2012_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -3321,8 +3342,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -3368,11 +3413,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3511,32 +3561,8 @@
 		)
 		(symbol "Inductor_SMD_2016_0.24-15uH_4.5A-0.36A_WireWound_Shielded_Laird_TYA201610_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -3548,8 +3574,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -3595,11 +3645,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3738,32 +3793,8 @@
 		)
 		(symbol "Inductor_SMD_2520_0.24-2.2uH_2.3A-4.7A_WireWound_SemiShielded_Bourns_SRN2512_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -3775,8 +3806,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -3822,11 +3877,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3965,32 +4025,8 @@
 		)
 		(symbol "Inductor_SMD_4532_1.0-2200uH_1.3A-30mA_WireWound_UnShielded_Murata_LQH43NH_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -4002,8 +4038,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -4049,11 +4109,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4192,32 +4257,8 @@
 		)
 		(symbol "Inductor_SMD_5050_0.6-100uH_11A-0.75A_WireWound_SemiShielded_Bourns_SRN5040TA_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -4229,8 +4270,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -4276,11 +4341,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4420,32 +4490,8 @@
 		)
 		(symbol "Inductor_SMD_8279_0.5-100uH_12-1A_WireWound_SemiShielded_Bourns_SRN8040_1_1"
 			(arc
-				(start 0 -2.032)
-				(mid 0.5058 -1.524)
-				(end 0 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 -1.016)
-				(mid 0.5058 -0.508)
-				(end 0 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0)
-				(mid 0.5058 0.508)
+				(start 0 2.032)
+				(mid 0.5058 1.524)
 				(end 0 1.016)
 				(stroke
 					(width 0)
@@ -4457,8 +4503,32 @@
 			)
 			(arc
 				(start 0 1.016)
-				(mid 0.5058 1.524)
-				(end 0 2.032)
+				(mid 0.5058 0.508)
+				(end 0 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0)
+				(mid 0.5058 -0.508)
+				(end 0 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 -1.016)
+				(mid 0.5058 -1.524)
+				(end 0 -2.032)
 				(stroke
 					(width 0)
 					(type default)
@@ -4504,11 +4574,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_inductors"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4546,7 +4621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4636,10 +4711,13 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_transformers"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4677,7 +4755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -4767,5 +4845,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

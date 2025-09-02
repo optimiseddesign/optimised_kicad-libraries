@@ -1,10 +1,12 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2_Left"
 		(pin_names
-			(offset 0.635) hide)
+			(offset 0.635)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -135,7 +137,8 @@
 		(symbol "Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2_Left_0_0"
 			(pin no_connect line
 				(at -1.27 -2.54 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -153,7 +156,8 @@
 			)
 			(pin no_connect line
 				(at 0 -2.54 90)
-				(length 2.54) hide
+				(length 2.54)
+				(hide yes)
 				(name "NC"
 					(effects
 						(font
@@ -197,7 +201,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 2.54 0)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -221,10 +237,10 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -0.635) (xy 2.54 0)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -245,10 +261,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					(xy 2.54 -0.635) (xy 2.54 0)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -265,36 +281,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at 2.54 -3.81 90)
-				(length 2.54)
-				(name "RADIATOR"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin bidirectional line
@@ -315,10 +301,31 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -3.81 90)
+				(length 2.54)
+				(name "RADIATOR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Antenna_Helical_2400MHz_SMD-4_Molex_479480001"
-		(pin_names hide)
+		(pin_names
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -481,8 +488,8 @@
 		)
 		(symbol "Antenna_Helical_2400MHz_SMD-4_Molex_479480001_1_1"
 			(rectangle
-				(start -2.54 -1.27)
-				(end -1.27 -2.54)
+				(start -2.54 2.54)
+				(end -1.27 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -492,8 +499,8 @@
 				)
 			)
 			(rectangle
-				(start -2.54 2.54)
-				(end -1.27 1.27)
+				(start -2.54 -1.27)
+				(end -1.27 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -526,6 +533,17 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 1.27 -1.27)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.54 10.795) (xy 1.27 5.715) (xy 0 10.795)
@@ -538,19 +556,8 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 1.27 -1.27)
-				(end 2.54 -2.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin no_connect line
-				(at 5.08 -1.27 180)
+				(at -5.08 1.27 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -559,7 +566,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -585,24 +592,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -5.08 1.27 0)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at 5.08 1.27 180)
 				(length 2.54)
@@ -621,7 +610,26 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 5.08 -1.27 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001"
 		(pin_names
@@ -765,42 +773,6 @@
 		)
 		(symbol "Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001_0_0"
 			(pin bidirectional line
-				(at 17.78 3.81 180)
-				(length 3.81)
-				(name "Unbalanced"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at -17.78 3.81 0)
 				(length 3.81)
 				(name "Balanced-N"
@@ -829,6 +801,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -8.89 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -872,6 +862,24 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 17.78 3.81 180)
+				(length 3.81)
+				(name "Unbalanced"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001_0_1"
 			(rectangle
@@ -886,10 +894,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BuzzerMag_70dBA_3Vop_4kHz_SMD_4040_CUI_CMT-4023S-SMT-TR"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1027,18 +1038,6 @@
 			)
 		)
 		(symbol "BuzzerMag_70dBA_3Vop_4kHz_SMD_4040_CUI_CMT-4023S-SMT-TR_1_1"
-			(arc
-				(start 0 -3.175)
-				(mid 3.1612 0)
-				(end 0 3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -1.651 1.905) (xy -1.143 1.905)
@@ -1055,6 +1054,18 @@
 				(pts
 					(xy -1.397 2.159) (xy -1.397 1.651)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 3.175)
+				(mid 3.1612 0)
+				(end 0 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -1112,10 +1123,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Cell-Holder_18650_Horizontal_TH_Keystone_1043P"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1279,7 +1293,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.508) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1291,7 +1305,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 -0.508) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1362,10 +1376,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1518,7 +1535,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.508) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1530,7 +1547,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 -0.508) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1601,10 +1618,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Cell-Holder_Negative_CR12-CR16_Horizontal_SMD_Keystone_118"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1766,11 +1786,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.508) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -1778,11 +1798,11 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 -0.508) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -1819,10 +1839,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Cell-Holder_Positive_CR12-CR23_Horizontal_SMD_Keystone_120"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1984,7 +2007,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.508) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1996,7 +2019,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 -0.508) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -2049,6 +2072,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fiducial"
 		(pin_names
@@ -2195,6 +2219,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Filter-Matched_868-915MHz_SMD-10_2012_Johanson_0900FM15D0039"
 		(pin_names
@@ -2348,42 +2373,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 5.08 -11.43 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -11.43 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -10.16 1.27 0)
 				(length 2.54)
@@ -2420,6 +2409,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -5.08 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -2.54 -11.43 90)
 				(length 2.54)
@@ -2431,24 +2438,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 10.16 1.27 180)
-				(length 2.54)
-				(name "SW_RFI"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2474,6 +2463,42 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 10.16 6.35 180)
 				(length 2.54)
@@ -2492,17 +2517,17 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -11.43 90)
+			(pin bidirectional line
+				(at 10.16 1.27 180)
 				(length 2.54)
-				(name "GND"
+				(name "SW_RFI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2524,11 +2549,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fuse-FuseHolder_62mA-10A_SMD_9750m_Littelfuse_154-Series"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2681,24 +2711,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "~"
@@ -2716,12 +2728,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "FusePTC_0.10A-1.1A_SMD_2012_Belfuse_0ZCK"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2859,6 +2894,18 @@
 			)
 		)
 		(symbol "FusePTC_0.10A-1.1A_SMD_2012_Belfuse_0ZCK_0_1"
+			(polyline
+				(pts
+					(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.508 1.27)
 				(end 0.508 -1.27)
@@ -2882,38 +2929,8 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "FusePTC_0.10A-1.1A_SMD_2012_Belfuse_0ZCK_1_1"
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
@@ -2932,12 +2949,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fuse_0.25A-5A_SMD_1608_Belfuse_C2Q"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3090,24 +3130,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "~"
@@ -3125,12 +3147,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fuse_0.50A-8A_SMD_1608_Belfuse_C2F"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3292,24 +3337,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "~"
@@ -3327,12 +3354,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Fuse_0.75A-8A_SMD_3216_Belfuse_C1T"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3485,24 +3535,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 2.54 270)
 				(length 1.27)
 				(name "~"
@@ -3520,7 +3552,26 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.27)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Logo"
 		(pin_names
@@ -3675,11 +3726,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "MountingHole_Pad"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3838,6 +3894,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCB_Antenna_2400MHz_W5.5xL15.1mm_MIFA_ESP-WROOM-02_Left"
 		(pin_names
@@ -4053,6 +4110,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCB_Antenna_868-920MHz_W12.3xL19.5mm_Helical_Texas-Instruments_DN038_Right"
 		(pin_names
@@ -4205,6 +4263,18 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy -3.3782 1.4478) (xy -2.4638 0.5334) (xy -2.4638 -1.397) (xy -3.302 -0.5588) (xy -3.302 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -3.175 -4.064)
 				(end -3.683 1.27)
@@ -4238,6 +4308,18 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy -2.2352 1.4478) (xy -1.3208 0.5334) (xy -1.3208 -1.397) (xy -2.159 -0.5588) (xy -2.159 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -1.397 1.27)
 				(end -0.889 -1.27)
@@ -4258,30 +4340,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.3782 1.4478) (xy -2.4638 0.5334) (xy -2.4638 -1.397) (xy -3.302 -0.5588) (xy -3.302 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.2352 1.4478) (xy -1.3208 0.5334) (xy -1.3208 -1.397) (xy -2.159 -0.5588) (xy -2.159 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(polyline
@@ -4382,6 +4440,17 @@
 				)
 			)
 			(circle
+				(center 0 1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
 				(center 0 -1.27)
 				(radius 0.254)
 				(stroke
@@ -4404,91 +4473,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.1938 1.4478) (xy 2.1082 0.5334) (xy 2.1082 -1.397) (xy 1.27 -0.5588) (xy 1.27 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.3368 1.4478) (xy 3.2512 0.5334) (xy 3.2512 -1.397) (xy 2.413 -0.5588) (xy 2.413 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.4798 1.4478) (xy 4.3942 0.5334) (xy 4.3942 -1.397) (xy 3.556 -0.5588) (xy 3.556 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.6228 1.4478) (xy 5.5372 0.5334) (xy 5.5372 -1.397) (xy 4.699 -0.5588) (xy 4.699 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.7658 1.4478) (xy 6.6802 0.5334) (xy 6.6802 -1.397) (xy 5.842 -0.5588) (xy 5.842 1.3208)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 1.27)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(rectangle
 				(start 0.889 1.27)
 				(end 1.397 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 1.143 -1.27)
-				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4508,9 +4495,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 2.032 1.27)
-				(end 2.54 -1.27)
+			(circle
+				(center 1.143 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4519,9 +4506,21 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 2.286 -1.27)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 1.1938 1.4478) (xy 2.1082 0.5334) (xy 2.1082 -1.397) (xy 1.27 -0.5588) (xy 1.27 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.032 1.27)
+				(end 2.54 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4541,9 +4540,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 3.175 1.27)
-				(end 3.683 -1.27)
+			(circle
+				(center 2.286 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4552,9 +4551,21 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 3.429 -1.27)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 2.3368 1.4478) (xy 3.2512 0.5334) (xy 3.2512 -1.397) (xy 2.413 -0.5588) (xy 2.413 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.175 1.27)
+				(end 3.683 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4574,9 +4585,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 4.318 1.27)
-				(end 4.826 -1.27)
+			(circle
+				(center 3.429 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4585,9 +4596,21 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 4.572 -1.27)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 3.4798 1.4478) (xy 4.3942 0.5334) (xy 4.3942 -1.397) (xy 3.556 -0.5588) (xy 3.556 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.318 1.27)
+				(end 4.826 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4607,9 +4630,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 5.461 1.27)
-				(end 5.969 -1.27)
+			(circle
+				(center 4.572 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4618,9 +4641,21 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 5.715 -1.27)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 4.6228 1.4478) (xy 5.5372 0.5334) (xy 5.5372 -1.397) (xy 4.699 -0.5588) (xy 4.699 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.461 1.27)
+				(end 5.969 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4640,9 +4675,9 @@
 					(type outline)
 				)
 			)
-			(rectangle
-				(start 6.604 1.27)
-				(end 7.112 -1.27)
+			(circle
+				(center 5.715 -1.27)
+				(radius 0.254)
 				(stroke
 					(width 0)
 					(type default)
@@ -4651,9 +4686,21 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 6.858 -1.27)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 5.7658 1.4478) (xy 6.6802 0.5334) (xy 6.6802 -1.397) (xy 5.842 -0.5588) (xy 5.842 1.3208)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.604 1.27)
+				(end 7.112 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -4673,7 +4720,19 @@
 					(type outline)
 				)
 			)
+			(circle
+				(center 6.858 -1.27)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCB_NFC-Capsense_PT118C-2.0"
 		(pin_names
@@ -4899,6 +4958,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCB_NFC-Coil_13.56MHz_W14.9xL17.6mm_PT118C"
 		(pin_names
@@ -5070,10 +5130,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SolderBridge-2_0.65x1.0mm_Bridged"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5223,30 +5286,6 @@
 					(type outline)
 				)
 			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -5259,6 +5298,54 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -5269,30 +5356,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -5334,10 +5397,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SolderBridge-2_0.65x1.0mm_Open"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5476,30 +5542,6 @@
 			)
 		)
 		(symbol "SolderBridge-2_0.65x1.0mm_Open_0_1"
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -5512,6 +5554,54 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -5522,30 +5612,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -5587,10 +5653,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SolderBridge-2_1.0x1.3mm_Bridged"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5740,30 +5809,6 @@
 					(type outline)
 				)
 			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -5776,6 +5821,54 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -5786,30 +5879,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -5851,10 +5920,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SolderBridge-2_1.0x1.3mm_Open"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5993,30 +6065,6 @@
 			)
 		)
 		(symbol "SolderBridge-2_1.0x1.3mm_Open_0_1"
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -0.254 1.016)
-				(mid -1.2656 0)
-				(end -0.254 -1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(polyline
 				(pts
 					(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -6029,6 +6077,54 @@
 					(type none)
 				)
 			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -0.254 -1.016)
+				(mid -1.2656 0)
+				(end -0.254 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 1.016)
+				(mid 1.2656 0)
+				(end 0.254 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -6039,30 +6135,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.254 -1.016)
-				(mid 1.2656 0)
-				(end 0.254 1.016)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
 				)
 			)
 		)
@@ -6104,10 +6176,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Standoff_SMD_M2.5_CM4-3.0mm_Wurth_9774030151R"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6275,10 +6350,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6446,6 +6524,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_miscellaneous"
 		(pin_names
@@ -6488,7 +6567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -6578,11 +6657,16 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_0.8mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6742,11 +6826,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_0.9mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6906,11 +6995,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_1.1mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7070,11 +7164,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_1.3mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7234,11 +7333,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_1.5mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7398,11 +7502,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_1.8x1.4mm_Oval"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7562,11 +7671,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_TH_1.3mm_0.7mm"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7735,11 +7849,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TestPoint_TH_Loop_1.27mm_Keystone_5001"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7899,10 +8018,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "batteryholder_18650_keystone-54"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8041,24 +8163,6 @@
 		)
 		(symbol "batteryholder_18650_keystone-54_0_0"
 			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -2.54 -5.08 90)
 				(length 2.54)
 				(name "-"
@@ -8095,6 +8199,24 @@
 				)
 			)
 			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
 				(name "-"
@@ -8114,6 +8236,29 @@
 			)
 		)
 		(symbol "batteryholder_18650_keystone-54_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 1.27)
+				(end 0 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start 0 -2.54)
 				(end 0 -1.27)
@@ -8127,31 +8272,8 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy 2.54 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.54 2.54) (xy -2.54 2.54)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 0 1.27)
-				(end 0 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -8186,7 +8308,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.508) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -8198,7 +8320,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 -0.508) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -8269,5 +8391,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

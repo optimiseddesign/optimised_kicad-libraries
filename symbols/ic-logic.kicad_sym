@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Buffer_Dual_1V65-5V5_Texas-Instruments_SN74LVC2G34_SC-70-6"
 		(pin_names
 			(offset 0.635)
@@ -189,16 +189,16 @@
 				)
 			)
 			(pin output line
-				(at 8.89 -2.54 180)
+				(at 8.89 2.54 180)
 				(length 2.54)
-				(name "2Y"
+				(name "1Y"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -225,16 +225,16 @@
 				)
 			)
 			(pin output line
-				(at 8.89 2.54 180)
+				(at 8.89 -2.54 180)
 				(length 2.54)
-				(name "1Y"
+				(name "2Y"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "6"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -246,7 +246,7 @@
 		(symbol "Buffer_Dual_1V65-5V5_Texas-Instruments_SN74LVC2G34_SC-70-6_0_1"
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -2.54 -2.54)
+					(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
 				)
 				(stroke
 					(width 0)
@@ -270,7 +270,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 2.54 -2.54)
+					(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -294,19 +306,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					(xy 1.27 -2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -330,6 +330,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Demux3-8_Schmitt_2V-6V_Texas-Instruments_SN74HCS238_TSSOP-16"
 		(pin_names
@@ -500,7 +501,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 0) (xy -0.508 2.54) (xy 0.381 2.54)
+					(xy -1.27 0) (xy -0.508 0) (xy 0.381 0) (xy 0.381 2.54) (xy 1.143 2.54)
 				)
 				(stroke
 					(width 0)
@@ -512,7 +513,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.508 0) (xy 0.381 0) (xy 0.381 2.54) (xy 1.143 2.54)
+					(xy -0.508 0) (xy -0.508 2.54) (xy 0.381 2.54)
 				)
 				(stroke
 					(width 0)
@@ -549,132 +550,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -3.81 180)
-				(length 2.54)
-				(name "Y5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -1.27 180)
-				(length 2.54)
-				(name "Y4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 1.27 180)
-				(length 2.54)
-				(name "Y3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 3.81 180)
-				(length 2.54)
-				(name "Y2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 6.35 180)
-				(length 2.54)
-				(name "Y1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 8.89 180)
-				(length 2.54)
-				(name "Y0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 13.97 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -772,17 +647,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 -8.89 180)
+			(pin power_in line
+				(at 0 13.97 270)
 				(length 2.54)
-				(name "Y7"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -809,6 +684,114 @@
 				)
 			)
 			(pin output line
+				(at 10.16 8.89 180)
+				(length 2.54)
+				(name "Y0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "Y5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "Y6"
@@ -826,7 +809,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "Y7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Multi-Func_Single_Schmitt_1V65-5V5_Nexperia_74LVC1G98_SOT-363"
 		(pin_names
@@ -972,42 +974,6 @@
 		)
 		(symbol "Multi-Func_Single_Schmitt_1V65-5V5_Nexperia_74LVC1G98_SOT-363_0_0"
 			(pin input line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -8.89 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "A"
@@ -1025,35 +991,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 0 180)
+			(pin input line
+				(at -8.89 0 0)
 				(length 2.54)
-				(name "Y"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 8.89 270)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1079,8 +1027,101 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 8.89 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Multi-Func_Single_Schmitt_1V65-5V5_Nexperia_74LVC1G98_SOT-363_1_0"
+			(polyline
+				(pts
+					(xy -3.556 2.032) (xy -3.4528 1.9736) (xy -3.1481 1.7951) (xy -2.8468 1.6138) (xy -2.748 1.5519)
+					(xy -2.7203 1.5335) (xy -2.7105 1.5253) (xy -2.7506 1.4987) (xy -2.8562 1.4332) (xy -3.1776 1.2379)
+					(xy -3.5013 1.044) (xy -3.6098 0.9802) (xy -3.6539 0.9561) (xy -3.6546 0.9575) (xy -3.6552 0.9616)
+					(xy -3.6566 0.9775) (xy -3.659 1.0359) (xy -3.6593 1.0536) (xy -3.5995 1.0536) (xy -3.5526 1.082)
+					(xy -3.1637 1.3142) (xy -3.0311 1.3938) (xy -2.9223 1.4598) (xy -2.8804 1.4856) (xy -2.8487 1.5055)
+					(xy -2.8287 1.5186) (xy -2.8234 1.5223) (xy -2.8217 1.5241) (xy -2.829 1.5298) (xy -2.85 1.5437)
+					(xy -2.9272 1.5921) (xy -3.0415 1.6621) (xy -3.181 1.7463) (xy -3.4435 1.9036) (xy -3.5301 1.9552)
+					(xy -3.5699 1.9784) (xy -3.5995 1.9945) (xy -3.5995 1.0536) (xy -3.6593 1.0536) (xy -3.6606 1.1222)
+					(xy -3.6613 1.2277) (xy -3.6613 1.4994) (xy -3.865 1.4994) (xy -3.8994 1.4994) (xy -3.9298 1.4995)
+					(xy -3.9562 1.4996) (xy -3.9791 1.4999) (xy -3.9893 1.5001) (xy -3.9987 1.5004) (xy -4.0073 1.5007)
+					(xy -4.0152 1.501) (xy -4.0224 1.5014) (xy -4.0289 1.5018) (xy -4.0348 1.5023) (xy -4.04 1.5029)
+					(xy -4.0447 1.5036) (xy -4.0489 1.5043) (xy -4.0525 1.5051) (xy -4.0542 1.5055) (xy -4.0557 1.5059)
+					(xy -4.0571 1.5064) (xy -4.0584 1.5069) (xy -4.0597 1.5074) (xy -4.0608 1.5079) (xy -4.0618 1.5085)
+					(xy -4.0627 1.5091) (xy -4.0636 1.5097) (xy -4.0643 1.5103) (xy -4.065 1.511) (xy -4.0656 1.5116)
+					(xy -4.0662 1.5123) (xy -4.0666 1.5131) (xy -4.0671 1.5138) (xy -4.0674 1.5146) (xy -4.0677 1.5154)
+					(xy -4.068 1.5163) (xy -4.0684 1.518) (xy -4.0686 1.5199) (xy -4.0687 1.5219) (xy -4.0687 1.5241)
+					(xy -4.0686 1.5282) (xy -4.068 1.5319) (xy -4.0666 1.535) (xy -4.0643 1.5378) (xy -4.0608 1.5402)
+					(xy -4.0557 1.5422) (xy -4.0489 1.5438) (xy -4.04 1.5452) (xy -4.0289 1.5463) (xy -4.0152 1.5471)
+					(xy -3.9791 1.5482) (xy -3.9298 1.5487) (xy -3.865 1.5487) (xy -3.6613 1.5487) (xy -3.6613 1.7945)
+					(xy -3.6612 1.8343) (xy -3.6611 1.8696) (xy -3.6609 1.9007) (xy -3.6606 1.9279) (xy -3.6604 1.9401)
+					(xy -3.6601 1.9515) (xy -3.6598 1.9619) (xy -3.6595 1.9716) (xy -3.6591 1.9805) (xy -3.6586 1.9886)
+					(xy -3.6581 1.9961) (xy -3.6576 2.0028) (xy -3.657 2.0089) (xy -3.6563 2.0144) (xy -3.6556 2.0193)
+					(xy -3.6548 2.0237) (xy -3.6539 2.0276) (xy -3.653 2.031) (xy -3.6519 2.034) (xy -3.6514 2.0353)
+					(xy -3.6509 2.0365) (xy -3.6503 2.0376) (xy -3.6497 2.0387) (xy -3.6491 2.0396) (xy -3.6484 2.0405)
+					(xy -3.6478 2.0413) (xy -3.6471 2.0421) (xy -3.6464 2.0427) (xy -3.6457 2.0433) (xy -3.6449 2.0439)
+					(xy -3.6442 2.0443) (xy -3.6426 2.0452) (xy -3.6409 2.0458) (xy -3.6391 2.0463) (xy -3.6369 2.047)
+					(xy -3.6346 2.0477) (xy -3.6296 2.0489) (xy -3.6243 2.05) (xy -3.6188 2.051) (xy -3.6135 2.0518)
+					(xy -3.6083 2.0526) (xy -3.5995 2.0538) (xy -3.556 2.032)
+				)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy -3.2851 1.6722) (xy -3.2688 1.672) (xy -3.2542 1.6718) (xy -3.2412 1.6714) (xy -3.2353 1.6712)
@@ -1180,45 +1221,6 @@
 					(xy -3.4688 -0.1058) (xy -3.4637 -0.1058) (xy -3.4267 -0.1058) (xy -3.3896 -0.1058) (xy -3.3032 -0.1058)
 					(xy -3.3032 0.1041) (xy -3.3896 0.1041) (xy -3.3896 -0.1058) (xy -3.4267 -0.1058) (xy -3.4267 0.1535)
 					(xy -3.3032 0.1535) (xy -3.2829 0.1535)
-				)
-				(stroke
-					(width -0.0001)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.556 2.032) (xy -3.4528 1.9736) (xy -3.1481 1.7951) (xy -2.8468 1.6138) (xy -2.748 1.5519)
-					(xy -2.7203 1.5335) (xy -2.7105 1.5253) (xy -2.7506 1.4987) (xy -2.8562 1.4332) (xy -3.1776 1.2379)
-					(xy -3.5013 1.044) (xy -3.6098 0.9802) (xy -3.6539 0.9561) (xy -3.6546 0.9575) (xy -3.6552 0.9616)
-					(xy -3.6566 0.9775) (xy -3.659 1.0359) (xy -3.6593 1.0536) (xy -3.5995 1.0536) (xy -3.5526 1.082)
-					(xy -3.1637 1.3142) (xy -3.0311 1.3938) (xy -2.9223 1.4598) (xy -2.8804 1.4856) (xy -2.8487 1.5055)
-					(xy -2.8287 1.5186) (xy -2.8234 1.5223) (xy -2.8217 1.5241) (xy -2.829 1.5298) (xy -2.85 1.5437)
-					(xy -2.9272 1.5921) (xy -3.0415 1.6621) (xy -3.181 1.7463) (xy -3.4435 1.9036) (xy -3.5301 1.9552)
-					(xy -3.5699 1.9784) (xy -3.5995 1.9945) (xy -3.5995 1.0536) (xy -3.6593 1.0536) (xy -3.6606 1.1222)
-					(xy -3.6613 1.2277) (xy -3.6613 1.4994) (xy -3.865 1.4994) (xy -3.8994 1.4994) (xy -3.9298 1.4995)
-					(xy -3.9562 1.4996) (xy -3.9791 1.4999) (xy -3.9893 1.5001) (xy -3.9987 1.5004) (xy -4.0073 1.5007)
-					(xy -4.0152 1.501) (xy -4.0224 1.5014) (xy -4.0289 1.5018) (xy -4.0348 1.5023) (xy -4.04 1.5029)
-					(xy -4.0447 1.5036) (xy -4.0489 1.5043) (xy -4.0525 1.5051) (xy -4.0542 1.5055) (xy -4.0557 1.5059)
-					(xy -4.0571 1.5064) (xy -4.0584 1.5069) (xy -4.0597 1.5074) (xy -4.0608 1.5079) (xy -4.0618 1.5085)
-					(xy -4.0627 1.5091) (xy -4.0636 1.5097) (xy -4.0643 1.5103) (xy -4.065 1.511) (xy -4.0656 1.5116)
-					(xy -4.0662 1.5123) (xy -4.0666 1.5131) (xy -4.0671 1.5138) (xy -4.0674 1.5146) (xy -4.0677 1.5154)
-					(xy -4.068 1.5163) (xy -4.0684 1.518) (xy -4.0686 1.5199) (xy -4.0687 1.5219) (xy -4.0687 1.5241)
-					(xy -4.0686 1.5282) (xy -4.068 1.5319) (xy -4.0666 1.535) (xy -4.0643 1.5378) (xy -4.0608 1.5402)
-					(xy -4.0557 1.5422) (xy -4.0489 1.5438) (xy -4.04 1.5452) (xy -4.0289 1.5463) (xy -4.0152 1.5471)
-					(xy -3.9791 1.5482) (xy -3.9298 1.5487) (xy -3.865 1.5487) (xy -3.6613 1.5487) (xy -3.6613 1.7945)
-					(xy -3.6612 1.8343) (xy -3.6611 1.8696) (xy -3.6609 1.9007) (xy -3.6606 1.9279) (xy -3.6604 1.9401)
-					(xy -3.6601 1.9515) (xy -3.6598 1.9619) (xy -3.6595 1.9716) (xy -3.6591 1.9805) (xy -3.6586 1.9886)
-					(xy -3.6581 1.9961) (xy -3.6576 2.0028) (xy -3.657 2.0089) (xy -3.6563 2.0144) (xy -3.6556 2.0193)
-					(xy -3.6548 2.0237) (xy -3.6539 2.0276) (xy -3.653 2.031) (xy -3.6519 2.034) (xy -3.6514 2.0353)
-					(xy -3.6509 2.0365) (xy -3.6503 2.0376) (xy -3.6497 2.0387) (xy -3.6491 2.0396) (xy -3.6484 2.0405)
-					(xy -3.6478 2.0413) (xy -3.6471 2.0421) (xy -3.6464 2.0427) (xy -3.6457 2.0433) (xy -3.6449 2.0439)
-					(xy -3.6442 2.0443) (xy -3.6426 2.0452) (xy -3.6409 2.0458) (xy -3.6391 2.0463) (xy -3.6369 2.047)
-					(xy -3.6346 2.0477) (xy -3.6296 2.0489) (xy -3.6243 2.05) (xy -3.6188 2.051) (xy -3.6135 2.0518)
-					(xy -3.6083 2.0526) (xy -3.5995 2.0538) (xy -3.556 2.032)
 				)
 				(stroke
 					(width -0.0001)
@@ -1746,6 +1748,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14"
 		(pin_names
@@ -1888,9 +1891,9 @@
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_1_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1899,10 +1902,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1923,10 +1926,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1947,36 +1962,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "1Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -2008,6 +1993,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2018,9 +2021,9 @@
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_1_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2039,24 +2042,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "1Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input inverted
@@ -2095,12 +2080,30 @@
 					)
 				)
 			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "1Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_2_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2109,10 +2112,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2133,10 +2136,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2157,36 +2172,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "2Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input line
@@ -2218,6 +2203,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "2Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2228,9 +2231,9 @@
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_2_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2249,24 +2252,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "2Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin input inverted
@@ -2305,12 +2290,30 @@
 					)
 				)
 			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "2Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_3_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2319,10 +2322,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2343,10 +2346,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2369,16 +2384,40 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name "3B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin output inverted
@@ -2399,48 +2438,12 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 4.318)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 4.318)
-				(name "3B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_3_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2461,24 +2464,6 @@
 					(type background)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "3Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input inverted
 				(at -7.62 2.54 0)
 				(length 3.81)
@@ -2515,12 +2500,30 @@
 					)
 				)
 			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "3Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_4_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2529,10 +2532,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2553,10 +2556,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2573,18 +2588,6 @@
 				)
 				(stroke
 					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -2648,9 +2651,9 @@
 		)
 		(symbol "NOR-2_Quad_1V65-3V6_Texas-Instruments_SN74LVC02A_TSSOP-14_4_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2777,6 +2780,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14"
 		(pin_names
@@ -2919,9 +2923,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_1_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2930,10 +2934,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2954,10 +2958,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2974,18 +2990,6 @@
 				)
 				(stroke
 					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3049,9 +3053,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_1_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3129,9 +3133,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_2_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3140,10 +3144,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3164,10 +3168,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3184,18 +3200,6 @@
 				)
 				(stroke
 					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -3259,9 +3263,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_2_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3339,9 +3343,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_3_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3350,10 +3354,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3374,10 +3378,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3400,16 +3416,22 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -3441,24 +3463,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 4.318)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3469,9 +3473,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_3_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3490,6 +3494,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input inverted
@@ -3528,30 +3550,12 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -7.62 2.54 0)
-				(length 3.81)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_4_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3560,10 +3564,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3584,10 +3588,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3610,16 +3626,40 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name "4A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name "4B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin output line
@@ -3640,48 +3680,12 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 4.318)
-				(name "4A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 4.318)
-				(name "4B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_TSSOP-14_4_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3702,24 +3706,6 @@
 					(type background)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input inverted
 				(at -7.62 2.54 0)
 				(length 3.81)
@@ -3749,6 +3735,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3821,6 +3825,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14"
 		(pin_names
@@ -3963,9 +3968,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_1_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3974,10 +3979,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3998,10 +4003,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4018,18 +4035,6 @@
 				)
 				(stroke
 					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -4093,9 +4098,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_1_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4173,9 +4178,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_2_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4184,10 +4189,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4208,10 +4213,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4228,18 +4245,6 @@
 				)
 				(stroke
 					(width -25.4)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -4303,9 +4308,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_2_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4383,9 +4388,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_3_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4394,10 +4399,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4418,10 +4423,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4444,16 +4461,22 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input line
@@ -4485,24 +4508,6 @@
 					)
 				)
 				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 4.318)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4513,9 +4518,9 @@
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_3_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4534,6 +4539,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin input inverted
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin input inverted
@@ -4572,30 +4595,12 @@
 					)
 				)
 			)
-			(pin input inverted
-				(at -7.62 2.54 0)
-				(length 3.81)
-				(name "3A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_4_1"
 			(arc
-				(start -3.81 -3.81)
+				(start -3.81 3.81)
 				(mid -2.589 0)
-				(end -3.81 3.81)
+				(end -3.81 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4604,10 +4609,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -0.6096 -3.81)
-				(mid 2.1842 -2.5851)
-				(end 3.81 0)
+			(polyline
+				(pts
+					(xy -3.81 3.81) (xy -0.635 3.81)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4628,10 +4633,22 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -3.81 3.81) (xy -0.635 3.81)
+			(arc
+				(start 3.81 0)
+				(mid 2.1855 -2.584)
+				(end -0.6096 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
 				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -0.6096 3.81)
+				(mid 2.1928 2.5924)
+				(end 3.81 0)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4654,16 +4671,40 @@
 					(type background)
 				)
 			)
-			(arc
-				(start 3.81 0)
-				(mid 2.1915 2.5936)
-				(end -0.6096 3.81)
-				(stroke
-					(width 0.254)
-					(type default)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 4.318)
+				(name "4A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type background)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 4.318)
+				(name "4B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin output line
@@ -4684,48 +4725,12 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 2.54 0)
-				(length 4.318)
-				(name "4A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -7.62 -2.54 0)
-				(length 4.318)
-				(name "4B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_4_2"
 			(arc
-				(start 0 -3.81)
+				(start 0 3.81)
 				(mid 3.7934 0)
-				(end 0 3.81)
+				(end 0 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -4746,24 +4751,6 @@
 					(type background)
 				)
 			)
-			(pin output inverted
-				(at 7.62 0 180)
-				(length 3.81)
-				(name "4Y"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input inverted
 				(at -7.62 2.54 0)
 				(length 3.81)
@@ -4800,8 +4787,44 @@
 					)
 				)
 			)
+			(pin output inverted
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "4Y"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_5_0"
+			(pin power_in line
+				(at -1.27 -8.89 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at 0 8.89 270)
 				(length 3.81)
@@ -4838,24 +4861,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -1.27 -8.89 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "OR-2_Quad_2V0-6V0_Texas-Instruments_SN74HCS32_WQFN-14_5_1"
 			(rectangle
@@ -4883,6 +4888,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_ic-logic"
 		(pin_names
@@ -4925,7 +4931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -5015,5 +5021,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

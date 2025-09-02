@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Al-Elec_Polarised_Radial_TH_10V_220uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -171,9 +175,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -219,11 +223,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_25V_100uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -389,9 +398,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -437,11 +446,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -607,9 +621,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -655,11 +669,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_50V_1uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -825,9 +844,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -873,11 +892,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_50V_22uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1043,9 +1067,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -1091,11 +1115,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_50V_47uF_D6.3xP2.5xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1261,9 +1290,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -1309,11 +1338,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Al-Elec_Polarised_Radial_TH_63V_47uF_D6.3xP2.5xH11.0mm_Rubycon_YXJ"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1479,9 +1513,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -1527,11 +1561,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_0201_0603m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1663,10 +1702,10 @@
 		(symbol "Capacitor_SMD_0201_0603m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1675,10 +1714,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1722,11 +1761,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_0402_1005m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1858,10 +1902,10 @@
 		(symbol "Capacitor_SMD_0402_1005m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1870,10 +1914,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1917,11 +1961,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_0603_1608m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2053,10 +2102,10 @@
 		(symbol "Capacitor_SMD_0603_1608m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2065,10 +2114,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2112,11 +2161,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_0805_2012m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2248,10 +2302,10 @@
 		(symbol "Capacitor_SMD_0805_2012m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2260,10 +2314,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2307,11 +2361,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_1206_3216m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2443,10 +2502,10 @@
 		(symbol "Capacitor_SMD_1206_3216m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2455,10 +2514,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2502,11 +2561,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_1210_3225m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2638,10 +2702,10 @@
 		(symbol "Capacitor_SMD_1210_3225m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2650,10 +2714,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2697,11 +2761,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Capacitor_SMD_1808_4520m"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2833,10 +2902,10 @@
 		(symbol "Capacitor_SMD_1808_4520m_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2845,10 +2914,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2892,11 +2961,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SuperCap_SMD_2V6_11.5mF_3225_Seiko_CPM3225A"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3071,9 +3145,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -3119,11 +3193,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SuperCap_SMD_3V3_11mF_3225_Seiko_CPH3225A"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3298,9 +3377,9 @@
 				)
 			)
 			(arc
-				(start 1.524 -0.762)
+				(start -1.524 -0.762)
 				(mid 0 -0.3734)
-				(end -1.524 -0.762)
+				(end 1.524 -0.762)
 				(stroke
 					(width 0.3048)
 					(type default)
@@ -3346,10 +3425,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_capacitors"
 		(pin_names
-			(offset 1.27) hide)
+			(offset 1.27)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3387,7 +3469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " "
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -3477,5 +3559,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
