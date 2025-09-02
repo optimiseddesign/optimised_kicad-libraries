@@ -264,7 +264,7 @@
 		(uuid "c9009223-b24b-4748-808e-8d4ef23c8a78")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
+	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
 		(offset
 			(xyz 0 0 0)
 		)

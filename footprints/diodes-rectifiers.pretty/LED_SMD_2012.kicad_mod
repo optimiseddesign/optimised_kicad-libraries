@@ -262,7 +262,7 @@
 		(uuid "ae8ffd1e-be1d-4f41-b4e2-0842fe0cb899")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.step"
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.step"
 		(offset
 			(xyz 0 0 0)
 		)
