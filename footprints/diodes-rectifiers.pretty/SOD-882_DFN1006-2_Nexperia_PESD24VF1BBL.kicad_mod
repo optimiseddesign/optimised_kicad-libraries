@@ -1,7 +1,7 @@
 (footprint "SOD-882_DFN1006-2_Nexperia_PESD24VF1BBL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Dual Flat No-Lead (DFN 2 Pin); 2 pin, 0.985 mm L X 0.585 mm W X 0.50 mm H body")
 	(tags "DFN1006-2 SOD882 1x0.6x0.48mm for Nexperia PESD24VF1BBL")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "574c2906-c201-4284-954d-4c8cf303acab")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.12)
 			)
 		)
@@ -112,7 +100,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8262c9e0-0933-4caf-8fc4-fbc4d22e46ae")
 	)
@@ -260,7 +248,7 @@
 	(pad "1" smd roundrect
 		(at -0.35 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
@@ -269,12 +257,13 @@
 	(pad "2" smd roundrect
 		(at 0.35 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(solder_mask_margin 0.05)
 		(solder_paste_margin -0.05)
 		(uuid "c9009223-b24b-4748-808e-8d4ef23c8a78")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
 		(offset
 			(xyz 0 0 0)

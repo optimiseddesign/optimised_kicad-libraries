@@ -1,7 +1,7 @@
 (footprint "LED_SMD_1608-Horizontal_H0.8mm_Dialight_598-8D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0603 (1608 Metric), Chip; 1.60 mm L X 0.80 mm W X 0.70 mm H body")
 	(tags "598-8Dxx-107F side mount")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ba5891c6-21eb-4e14-9199-3aac6b0ce6c9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -352,17 +339,18 @@
 	(pad "A" smd roundrect
 		(at 0.8 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5fe113b3-8292-4c21-9c79-8c2045a29feb")
 	)
 	(pad "K" smd roundrect
 		(at -0.8 0)
 		(size 0.8 1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9ee1285b-5026-45f0-96df-1b9cde008fbc")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD_1608-Horizontal_H0.8mm_Dialight_598-8D.stp"
 		(offset
 			(xyz 0 0.25 0.4)

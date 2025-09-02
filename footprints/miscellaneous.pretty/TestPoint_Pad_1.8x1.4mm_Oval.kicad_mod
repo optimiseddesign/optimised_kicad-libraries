@@ -1,7 +1,7 @@
 (footprint "TestPoint_Pad_1.8x1.4mm_Oval"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1.8x1.4mm Oval top copper pad, no step model")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0d3a8499-8922-4e20-87a2-2127274d9025")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -173,4 +160,5 @@
 		(zone_connect 2)
 		(uuid "9efd302b-da7f-47ed-9f72-c69ca9fbecda")
 	)
+	(embedded_fonts no)
 )

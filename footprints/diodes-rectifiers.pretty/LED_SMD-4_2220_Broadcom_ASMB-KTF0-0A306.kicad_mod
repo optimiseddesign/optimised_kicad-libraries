@@ -1,7 +1,7 @@
 (footprint "LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2.2mm (L) x 2.0mm (W) x 1.9mm (H) PLCC-4 SMD LED for RGB Common-Anode LED Broadcom ASMB-KTF0-0A306")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "54e2d0b7-89e7-4a4a-8912-60b7ddf018e1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -233,31 +220,32 @@
 	(pad "1" smd roundrect
 		(at -0.9 -0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9665a370-4e35-4e85-81ca-d7438182803b")
 	)
 	(pad "2" smd roundrect
 		(at -0.9 0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d661b2bc-e1e7-41b6-9d3a-8c7c4264da70")
 	)
 	(pad "3" smd roundrect
 		(at 0.9 0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "855289c7-65ff-4586-9c95-e02b69c4beca")
 	)
 	(pad "4" smd roundrect
 		(at 0.9 -0.6)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ae5bbd03-cbcc-45c1-b3d1-432748b0274a")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD-4_2220_Broadcom_ASMB-KTF0-0A306.stp"
 		(offset
 			(xyz 15.3 -2.26 0.53)

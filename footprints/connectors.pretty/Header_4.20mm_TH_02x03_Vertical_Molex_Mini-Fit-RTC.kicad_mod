@@ -1,7 +1,7 @@
 (footprint "Header_4.20mm_TH_02x03_Vertical_Molex_Mini-Fit-RTC"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mini-Fit RTC Header, 6way Dual Row, Vertical, without Mounting Pegs")
 	(tags "connector fits Mini-Fit Jr but footprint different (RTC is Reflow Temp Compatible)")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "35fc299c-e584-46bc-941a-cff89acc73e9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -277,6 +264,7 @@
 		(remove_unused_layers no)
 		(uuid "883e7763-c7c3-4085-8e36-b949c37033d0")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_4.20mm_TH_02x03_Vertical_Molex_Mini-Fit-RTC.stp"
 		(offset
 			(xyz -4.2 1.9 13.65)

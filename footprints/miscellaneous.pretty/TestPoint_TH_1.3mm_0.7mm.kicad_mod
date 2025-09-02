@@ -1,7 +1,7 @@
 (footprint "TestPoint_TH_1.3mm_0.7mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TH 1.3mm pad, 0.7mm hole, no step model")
 	(tags "for 26AWG wire, to IPC size")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "62d31c81-ea64-4735-b302-f989ae2b8402")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -76,7 +63,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "c13ea910-aae0-462c-a476-2d42e6096126")
 	)
@@ -87,7 +74,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "0d2dc8e5-31c1-4bee-8237-31af0ca16beb")
 	)
@@ -112,4 +99,5 @@
 		(remove_unused_layers no)
 		(uuid "be3918f1-4fe5-4b30-bfda-c8c375ad626c")
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (footprint "LED_SMD-3_3010-Horizontal_Lite-On_LTST-S326"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF")
 	(tags "LED SMD right angle CCA")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "32e59a75-c3ce-4bc6-a316-a196300acbce")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -278,24 +265,25 @@
 	(pad "A" smd roundrect
 		(at 0 1.375 180)
 		(size 1.5 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2e6be61e-62a3-4291-aa15-f620ea81a61b")
 	)
 	(pad "K1" smd roundrect
 		(at 0 -1.375 180)
 		(size 1.5 0.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "94922951-4894-403f-985e-393c11b257d6")
 	)
 	(pad "K2" smd roundrect
 		(at -0.65 0 180)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "77420970-50ca-44b8-b52d-e6a5e3c4e38c")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/Lite-On LTST-S326KGJRKT SMD Horizontal Bi-colour LED.stp"
 		(offset
 			(xyz 0.45 0 0.5)

@@ -1,7 +1,7 @@
 (footprint "VQFN-10-W2.0xL2.0xH1.0mm_P0.45mm_TexasInstruments_Hotrod"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TPS2597xxPWR Hotrod VQFN-HR QFN-10 drawing RPW0010A")
 	(property "Reference" "REF**"
@@ -26,19 +26,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e03db3f3-8f3a-45d4-9e54-d481d1a79118")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -276,7 +263,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "98d2f18f-8545-435a-8737-54f06392e28f")
 	)
@@ -394,14 +381,14 @@
 	(pad "2" smd roundrect
 		(at -0.9 -0.225)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "79f8d4ff-26f3-421c-a10f-315bc61c44e4")
 	)
 	(pad "3" smd roundrect
 		(at -0.9 0.225)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a236265b-27e0-44d0-8613-61de9540ea32")
 	)
@@ -450,14 +437,14 @@
 	(pad "8" smd roundrect
 		(at 0.9 0.225)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "75da915c-ca5f-4871-b527-c5c3e1e8f591")
 	)
 	(pad "9" smd roundrect
 		(at 0.9 -0.225)
 		(size 0.6 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a7625d22-a00d-4e56-9d79-67dc58a0c264")
 	)
@@ -475,6 +462,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "5bc45c45-de6a-4aa3-8538-a2bcee08c415")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/VQFN-10-W2.0xL2.0xH1.0mm_P0.45mm_TexasInstruments_Hotrod.stp"
 		(offset
 			(xyz 0 0 0)

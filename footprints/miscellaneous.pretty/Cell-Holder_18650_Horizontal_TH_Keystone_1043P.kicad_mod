@@ -1,7 +1,7 @@
 (footprint "Cell-Holder_18650_Horizontal_TH_Keystone_1043P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Polarised Holder for Protected 18650 Cell Battery")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "55b4ebfd-3633-4d71-b7d5-9ca0b77f1c0c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -105,7 +92,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "b9d67940-669f-45b4-ac79-64f31e8fc605")
 	)
@@ -116,7 +103,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "17db409a-7991-4cff-a210-07b812a8db9a")
 	)
@@ -127,7 +114,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d39b2082-5a8d-483a-ab2e-90c470bfb495")
 	)
@@ -138,7 +125,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a017e5b7-ac45-48eb-8ef3-b899ba4b3346")
 	)
@@ -149,7 +136,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e72fd0ed-e703-457e-ba66-f288799ecbe3")
 	)
@@ -180,7 +167,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d6a97076-6614-41b8-b703-b8158ef571a4")
 	)
@@ -243,6 +230,7 @@
 		(remove_unused_layers no)
 		(uuid "2f52371c-99e7-4585-a916-eaa5eb233290")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Cell-Holder_18650_Horizontal_TH_Keystone_1043P.stp"
 		(offset
 			(xyz 33.4 8.35 10.1)

@@ -1,7 +1,7 @@
 (footprint "M.2_2280_Card_Generic"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 39.425 -7.425 0)
@@ -27,19 +27,6 @@
 				(thickness 0.15)
 			)
 			(justify right)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7691d698-4341-44b8-95f8-bc29c72314ff")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -482,4 +469,5 @@
 			(justify right)
 		)
 	)
+	(embedded_fonts no)
 )

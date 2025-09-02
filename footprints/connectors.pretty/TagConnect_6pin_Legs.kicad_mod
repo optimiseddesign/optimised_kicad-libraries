@@ -1,7 +1,7 @@
 (footprint "TagConnect_6pin_Legs"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "To fit Tag-Connect 6pin Legs cables, e.g. TC2030-IDC")
 	(tags "pinout depends on cable & schematic symbol")
@@ -26,19 +26,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20e98c8b-2e35-45b7-a7e5-4ae409bd6966")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -556,7 +543,7 @@
 		(uuid "c5bf5a22-d3eb-41c1-9249-c8e4f4f96c1f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -0.01 0.17 -90)
+		(at -0.01 0.17 270)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f82a6f35-b2e8-45e3-97f8-1c2e70fa4578")
@@ -671,6 +658,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -684,4 +675,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

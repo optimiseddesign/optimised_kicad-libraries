@@ -1,7 +1,7 @@
 (footprint "RJ45-Mag_100Base-TX_Horizontal_TabDown_TH_Pulse-Electronics_J00-0045NL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Connector Through Hole 100Base-TX, AutoMDIX")
 	(tags "RJ45 Magjack PulseJack J0 Series")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ed687689-cfb7-4093-bce7-9382347926ab")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -447,6 +434,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -457,6 +448,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Pulse Electronics J00-0045NL Horizontal RJ45 100Base-TX Ethernet Jack.stp"
 		(offset
 			(xyz 4.45 -16.9 6.85)

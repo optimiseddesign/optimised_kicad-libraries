@@ -1,7 +1,7 @@
 (footprint "Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMT M2.5 threaded standoff, 2.5mm height for 4.2H M.2 sockets")
 	(tags "SMD, M2, connector")
@@ -26,19 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "09dafc0f-234e-43e0-8d13-374334d2b04f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -71,6 +58,17 @@
 	)
 	(zone_connect 2)
 	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "20bbc2e3-3c95-45ff-ad47-60fd581f6194")
+	)
 	(fp_poly
 		(pts
 			(xy -1.865 0.334643) (xy -1.860079 0.369085) (xy -1.845144 0.433807) (xy -1.815202 0.548581) (xy -1.790297 0.623296)
@@ -95,7 +93,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "0f06b20a-9656-479b-98fb-edbe8c748bd5")
 	)
@@ -127,7 +125,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "8437b545-c613-45a4-bb9c-0780745eda4c")
 	)
@@ -155,7 +153,7 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "d9f69230-50a4-4035-9159-b7e92423fd0f")
 	)
@@ -183,20 +181,9 @@
 			(width 0)
 			(type default)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Paste")
 		(uuid "7f7378e8-b5b7-40d0-80eb-1a2297b5c150")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 3.2 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "20bbc2e3-3c95-45ff-ad47-60fd581f6194")
 	)
 	(fp_circle
 		(center 0 0)
@@ -205,7 +192,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "7b795230-d759-40fd-ba6e-ed75af46f34d")
 	)
@@ -216,7 +203,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "396335a1-220d-4bd1-b850-349cf9c37bfd")
 	)
@@ -245,6 +232,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "b6879517-56d3-4ad2-a5b6-91ccce5547c7")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Standoff_SMD_M2.5_M.2-4.2H_Wurth_9774025151R.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "DFN1006-2_Diodes-Inc_BAS116LPH4_Least"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1.0x0.6mmx0.4mmH SMD Diode, created for Diodes Inc BAS116LPH4, X2-DFN1006-2 case")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20e8bff4-64c6-40b7-ac8f-76d01b4acebe")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -202,17 +189,18 @@
 	(pad "1" smd roundrect
 		(at -0.35 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3cc75f21-b2eb-451d-85ca-3d6285be4f66")
 	)
 	(pad "2" smd roundrect
 		(at 0.35 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a7f7715b-5c81-4a47-8dcc-92fd95ee2b52")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN1006-2_Diodes-Inc_BAS116LPH4.stp"
 		(offset
 			(xyz 0 0 0)

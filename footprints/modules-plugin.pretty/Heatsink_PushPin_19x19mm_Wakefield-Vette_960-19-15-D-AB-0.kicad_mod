@@ -1,7 +1,7 @@
 (footprint "Heatsink_PushPin_19x19mm_Wakefield-Vette_960-19-15-D-AB-0"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "19x19mm Aluminium Heatsink, 15mm tall, with Diagonal Sprung Plastic Push Pins")
 	(tags "960 Series")
@@ -26,19 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5b683ee7-2d91-4c92-af0c-85155857defe")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -178,7 +165,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b9f919b0-90cb-4b0a-aef0-7e0aa3b6e3ea")
 	)
@@ -452,6 +439,7 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "fe5e09c1-3dd2-43ac-9a93-d76e7034abce")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-plugin.3dshapes/Heatsink_PushPin_19x19mm_Wakefield-Vette_960-19-15-D-AB-0.stp"
 		(offset
 			(xyz 0 0 2.5)

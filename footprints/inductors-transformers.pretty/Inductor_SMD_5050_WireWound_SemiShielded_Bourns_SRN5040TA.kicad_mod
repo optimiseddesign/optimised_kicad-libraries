@@ -1,7 +1,7 @@
 (footprint "Inductor_SMD_5050_WireWound_SemiShielded_Bourns_SRN5040TA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "5x5mm 4mm high Semi-Shielded Power Inductor")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "73e4316c-a74b-4a4f-9a9b-4d8f1f1c3a0f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -382,17 +369,18 @@
 	(pad "1" smd roundrect
 		(at -1.9 0 270)
 		(size 4.6 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d73c285a-2cc2-49b7-b188-9ad16ab3acd4")
 	)
 	(pad "2" smd roundrect
 		(at 1.9 0 270)
 		(size 4.6 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "606b229b-2ff0-478d-beef-992809f597bd")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Bourns SRN5040TA Series SMD 5mm Power Inductors Semi-Shielded.stp"
 		(offset
 			(xyz 0 0 0.05)

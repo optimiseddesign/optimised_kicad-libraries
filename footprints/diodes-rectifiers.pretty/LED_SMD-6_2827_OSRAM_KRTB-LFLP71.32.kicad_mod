@@ -1,7 +1,7 @@
 (footprint "LED_SMD-6_2827_OSRAM_KRTB-LFLP71.32"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2.8mm (L) x 2.7mm (W) x 2.45mm (H) SMD LED for Independent RGB LED OSRAM KRTB LFLP71.32")
 	(tags "PLCC-6")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6f240b65-ae86-4ea2-9127-22139213167b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -242,45 +229,46 @@
 	(pad "1" smd roundrect
 		(at -1.05 -0.85)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "22b03eac-dcb1-4da5-84ba-e2f201e58a76")
 	)
 	(pad "2" smd roundrect
 		(at -1.05 0)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8c13a57b-836d-4813-8542-3a52c38ff81e")
 	)
 	(pad "3" smd roundrect
 		(at -1.05 0.85)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a07c62cb-ee15-4ec1-8e2a-afe01fa3aee9")
 	)
 	(pad "4" smd roundrect
 		(at 1.05 0.85)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ef4fde0a-4c8d-41aa-a198-0d69b306024b")
 	)
 	(pad "5" smd roundrect
 		(at 1.05 0)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9fe27806-297d-4490-8f4f-300eb98fd52a")
 	)
 	(pad "6" smd roundrect
 		(at 1.05 -0.85)
 		(size 0.9 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "eb5301ea-7904-42db-9d9e-3fe5e9fbfe6b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD-6_2827_OSRAM_KRTB-LFLP71.32.stp"
 		(offset
 			(xyz 0 0 2.45)

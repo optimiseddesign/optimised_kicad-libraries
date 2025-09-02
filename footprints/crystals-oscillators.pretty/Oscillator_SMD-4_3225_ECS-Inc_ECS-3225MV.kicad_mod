@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.3 -2.45 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "71a6146d-7447-461d-98dc-74071b41afb4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -231,31 +218,32 @@
 	(pad "1" smd roundrect
 		(at -1.25 1)
 		(size 1.4 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "4ee7f88d-4e13-4953-a145-45c352801008")
 	)
 	(pad "2" smd roundrect
 		(at 1.25 1)
 		(size 1.4 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8e74c825-27e4-41c5-93c7-2e71a8f9625c")
 	)
 	(pad "3" smd roundrect
 		(at 1.25 -1)
 		(size 1.4 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bfb27c4a-dcbe-465a-88aa-6ee4640b984c")
 	)
 	(pad "4" smd roundrect
 		(at -1.25 -1)
 		(size 1.4 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0ca2723b-abd5-48cd-ad66-c616fed824e9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/crystals-oscillators.3dshapes/Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV.stp"
 		(offset
 			(xyz 0 0 0)

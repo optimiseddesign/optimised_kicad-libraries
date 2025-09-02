@@ -1,7 +1,7 @@
 (footprint "SOD-123FL"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "D_SOD-123F")
 	(tags "D_SOD-123F")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "802b2f67-c453-4adf-841e-89f1a5423246")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -343,17 +330,18 @@
 	(pad "1" smd roundrect
 		(at -1.55 0)
 		(size 1.1 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3d8bc873-f39c-4eb4-8490-fe4e06afa1ca")
 	)
 	(pad "2" smd roundrect
 		(at 1.55 0)
 		(size 1.1 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "200c645c-8bca-49fb-9203-3a871d79f923")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123F.step"
 		(offset
 			(xyz 0 0 0)

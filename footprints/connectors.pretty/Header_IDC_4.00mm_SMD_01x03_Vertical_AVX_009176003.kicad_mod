@@ -1,7 +1,7 @@
 (footprint "Header_IDC_4.00mm_SMD_01x03_Vertical_AVX_009176003"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Connector, Blade Vertical; 3 pin, 12.00 mm L X 5.00 mm W X 5.10 mm H body")
 	(tags "IDC 3way 18-24AWG")
@@ -25,19 +25,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.08)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "965cb7b3-407c-421f-a1f7-8d21ace1922d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -362,24 +349,25 @@
 	(pad "1" smd roundrect
 		(at -4 0)
 		(size 3 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "6d7c23f0-27c3-4fa6-89cc-f79a540be70c")
 	)
 	(pad "2" smd roundrect
 		(at 0 0)
 		(size 3 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "b98190a3-4e75-4ed8-b75b-e1b37bee46b3")
 	)
 	(pad "3" smd roundrect
 		(at 4 0)
 		(size 3 5.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.08333333333)
 		(uuid "d92867dc-3e98-46a9-a48e-3161efe31b10")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_IDC_4.00mm_SMD_01x03_Vertical_AVX_009176003.stp"
 		(offset
 			(xyz -7.5 0 0)

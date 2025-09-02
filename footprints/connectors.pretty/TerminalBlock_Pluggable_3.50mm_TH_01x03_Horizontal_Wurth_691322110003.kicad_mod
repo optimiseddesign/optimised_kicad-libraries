@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.45 -3.85 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9c402b52-3b5e-4207-a2dc-7f6d50f7be13")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -242,6 +229,7 @@
 		(remove_unused_layers no)
 		(uuid "c36e313e-b57e-4e87-be84-97f5175f9e1a")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_3.50mm_TH_01x03_Horizontal_Wurth_691322110003.stp"
 		(offset
 			(xyz -3.4 -3.5 3.7)

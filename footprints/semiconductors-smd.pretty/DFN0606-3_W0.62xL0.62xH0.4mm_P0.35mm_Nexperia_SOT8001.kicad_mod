@@ -1,7 +1,7 @@
 (footprint "DFN0606-3_W0.62xL0.62xH0.4mm_P0.35mm_Nexperia_SOT8001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "plastic leadless ultra small package; 3 terminals; body 0.62 x 0.62 x 0.37 mm, created for Nexperia PMH600UNE")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9c843fee-42d0-4580-a838-b37c67002cb2")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -76,7 +63,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Mask")
 		(uuid "3f4ebf30-caf0-4d4b-8dd9-caad3fac8bc1")
 	)
@@ -185,21 +172,21 @@
 	(pad "1" smd roundrect
 		(at -0.245 -0.175)
 		(size 0.3 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "562b0318-5f29-4b6a-a9b3-cee0db39245b")
 	)
 	(pad "2" smd roundrect
 		(at -0.245 0.175)
 		(size 0.3 0.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "efb1b424-5839-480f-8151-9620f9e8512c")
 	)
 	(pad "3" smd roundrect
 		(at 0.21 0)
 		(size 0.3 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "465d9c26-28c5-479d-a218-3f6b5fec1b78")
 	)
@@ -210,6 +197,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "cdbbce36-f082-484f-9554-5a167aa5a5be")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN0606-3_W0.62xL0.62xH0.4mm_P0.35mm_Nexperia_SOT8001.stp"
 		(offset
 			(xyz 0.5 -0.285 0.4)

@@ -1,7 +1,7 @@
 (footprint "M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 2.02 -8.68 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "966aeecc-6cba-4bec-9427-fbe2b5469df1")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -241,7 +228,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "46a7dba6-e84c-4e04-a72e-86e4c6e4e198")
 	)
@@ -252,7 +239,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "877fe9ac-5928-4653-8b19-041752216d68")
 	)
@@ -461,7 +448,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c9519dbb-7fda-4b2d-904a-05f32731be38")
 	)
@@ -472,7 +459,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "744bf9ad-3201-4631-b4df-82ae02271ec9")
 	)
@@ -483,7 +470,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "69b9c43b-f07d-440f-a8c0-3e74d8fe8255")
 	)
@@ -538,6 +525,7 @@
 		(remove_unused_layers no)
 		(uuid "facfc131-66c7-4b5b-b59f-7d81e0c94438")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TE Connectivity M12 Vertical TH 5pin Female T4141012051-000.stp"
 		(offset
 			(xyz 1.77 -1.77 23)

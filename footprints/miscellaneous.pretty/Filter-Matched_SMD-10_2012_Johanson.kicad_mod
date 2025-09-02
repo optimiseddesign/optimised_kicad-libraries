@@ -1,7 +1,7 @@
 (footprint "Filter-Matched_SMD-10_2012_Johanson"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Footprint for Johanson 0900FM15D0039, from reference design (LoRa Impedance-Matched Filter Network)")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "22fa69df-99f5-4986-8ca2-8e9c6a22b427")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -378,7 +365,7 @@
 		(uuid "b10db1e1-4ee7-4972-8dbf-93c2b313dea8")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.06 0.01 -90)
+		(at 0.06 0.01 270)
 		(layer "F.Fab")
 		(uuid "dc0f1799-cf58-4b70-b241-6b816bd5d6d5")
 		(effects
@@ -391,73 +378,74 @@
 	(pad "1" smd roundrect
 		(at -0.65 -0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "77fb5bdf-45b5-4850-9a5d-2a74943542e1")
 	)
 	(pad "2" smd roundrect
 		(at -0.65 -0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f0aea582-d01c-4f1c-95bc-d5c0013e6a12")
 	)
 	(pad "3" smd roundrect
 		(at -0.65 0.25)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "56ec9a97-5d86-4b11-b1d1-1a725e90204b")
 	)
 	(pad "4" smd roundrect
 		(at -0.65 0.75)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9e3c2b24-6659-47a2-bd1d-b081c218f0e3")
 	)
 	(pad "5" smd roundrect
 		(at 0 1.025 90)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1b6448be-6b5a-4b21-acdc-daf3d56e96aa")
 	)
 	(pad "6" smd roundrect
 		(at 0.65 0.75 180)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "de5093cb-0c99-4252-b301-fe6d0c6c10c9")
 	)
 	(pad "7" smd roundrect
 		(at 0.65 0.25 180)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "245b4970-37b8-4b3e-8e92-b0af8425a875")
 	)
 	(pad "8" smd roundrect
 		(at 0.65 -0.25 180)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "300e035e-29c8-4d54-adeb-f54e8869b631")
 	)
 	(pad "9" smd roundrect
 		(at 0.65 -0.75 180)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "34f10ac0-89cb-4b6b-ac1e-5409f21036e7")
 	)
 	(pad "10" smd roundrect
 		(at 0 -1.025 270)
 		(size 0.5 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "14694e60-3460-4b6c-a3d1-13907e774287")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Filter-Matched_SMD-10_2012_Johanson_0900FM15D0039.stp"
 		(offset
 			(xyz -0.625 -1 0)

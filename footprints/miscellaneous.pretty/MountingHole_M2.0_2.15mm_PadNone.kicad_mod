@@ -1,7 +1,7 @@
 (footprint "MountingHole_M2.0_2.15mm_PadNone"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "NPTH Mounting Hole 2.15mm, for M2.0 screw, No Pad")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "63e66083-6ca3-4f24-9c59-9a52d84b0821")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "8c9ea13f-bfd9-4fe1-bff3-25678c118f7c")
 	)
@@ -86,7 +73,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "a2ad1b8c-ddd5-4b8f-a260-8af4946d3322")
 	)
@@ -109,4 +96,5 @@
 		(zone_connect 2)
 		(uuid "d39c9291-3879-4682-be75-70afe875a265")
 	)
+	(embedded_fonts no)
 )

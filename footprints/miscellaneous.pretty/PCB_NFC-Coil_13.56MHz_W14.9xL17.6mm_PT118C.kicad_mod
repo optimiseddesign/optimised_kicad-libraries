@@ -1,7 +1,7 @@
 (footprint "PCB_NFC-Coil_13.56MHz_W14.9xL17.6mm_PT118C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Custom NFC Coil for PT118C, 0.9uH target, to connect to PT118A")
 	(tags "net tie")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6b311206-4846-4abf-8289-d4aae9e1eb2a")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -815,7 +802,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Cu")
 		(uuid "7c93f000-9c60-4434-bd10-3b93e9ff0790")
 	)
@@ -827,7 +814,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Cu")
 		(uuid "7f4c061a-2244-4649-a704-6dc7e3df889c")
 	)
@@ -839,7 +826,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Mask")
 		(uuid "17d18137-05dd-4ea3-80e0-bd189f4b360e")
 	)
@@ -851,7 +838,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "B.Mask")
 		(uuid "834daaee-020b-49ae-8f34-9114b6b92134")
 	)
@@ -7357,7 +7344,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "a0c173b2-c258-4520-8c1e-13aab99a555c")
 		(hatch edge 0.508)
 		(connect_pads
@@ -7372,6 +7364,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -7382,4 +7378,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )

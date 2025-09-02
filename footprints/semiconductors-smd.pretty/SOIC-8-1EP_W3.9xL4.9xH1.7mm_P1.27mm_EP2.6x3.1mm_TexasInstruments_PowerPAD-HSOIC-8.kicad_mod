@@ -1,7 +1,7 @@
 (footprint "SOIC-8-1EP_W3.9xL4.9xH1.7mm_P1.27mm_EP2.6x3.1mm_TexasInstruments_PowerPAD-HSOIC-8"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Texas Instruments HSOP-8 with EP, 1.27mm pitch, 3.9x4.9mm body, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "08a7b83c-aad1-45fe-ab46-7e260567449b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -322,70 +309,70 @@
 	(pad "" smd roundrect
 		(at 0 0)
 		(size 2.6 3.1)
-		(layers "F.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "5380c47e-dae1-43e9-92ae-673e40cb32d6")
-	)
-	(pad "" smd roundrect
-		(at 0 0)
-		(size 2.6 3.1)
 		(layers "F.Mask")
 		(roundrect_rratio 0.1)
 		(uuid "8a76ef98-e96c-4d23-a378-4cc52811dfea")
 	)
+	(pad "" smd roundrect
+		(at 0 0)
+		(size 2.6 3.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5380c47e-dae1-43e9-92ae-673e40cb32d6")
+	)
 	(pad "1" smd roundrect
 		(at -2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e39ece25-7b20-42b3-800d-5eceec804dfd")
 	)
 	(pad "2" smd roundrect
 		(at -2.7 -0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "82291283-b792-4ac3-ba88-f7f6a97fb628")
 	)
 	(pad "3" smd roundrect
 		(at -2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dd18f5ce-f309-4528-9068-29e15fb8d2f5")
 	)
 	(pad "4" smd roundrect
 		(at -2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "830c3cb9-cc10-447b-8446-abecf71eb3e6")
 	)
 	(pad "5" smd roundrect
 		(at 2.7 1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ff2ae401-3fe9-4cbf-a3e9-51f0820164c3")
 	)
 	(pad "6" smd roundrect
 		(at 2.7 0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "232b2a9f-472d-49d0-9bf0-37637de13a54")
 	)
 	(pad "7" smd roundrect
 		(at 2.7 -0.635)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "83305b88-f8d5-42aa-842c-b72fd7fe9946")
 	)
 	(pad "8" smd roundrect
 		(at 2.7 -1.905)
 		(size 1.55 0.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ac18bfb7-e4ce-4af2-8825-965555afdbf7")
 	)
@@ -397,6 +384,7 @@
 		(zone_connect 2)
 		(uuid "bd2c1d1f-5f77-4d31-a4e1-f65d831e1b98")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOIC-8-1EP_W3.9xL4.9xH1.7mm_P1.27mm_EP2.6x3.1mm_TexasInstruments_PowerPAD-HSOIC-8.stp"
 		(offset
 			(xyz 0 0 0)

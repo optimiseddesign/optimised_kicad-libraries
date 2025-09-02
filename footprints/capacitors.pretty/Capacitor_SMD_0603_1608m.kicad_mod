@@ -1,7 +1,7 @@
 (footprint "Capacitor_SMD_0603_1608m"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0603 (1608 Metric), IPC7351 Nominal, Chip; 1.60 mm L X 0.80 mm W X 1.00 mm H body")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "220817d3-0637-4d1b-bef6-0c4e7f69b857")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -182,17 +169,18 @@
 	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 0.87 0.97)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2529)
 		(uuid "799e761c-1426-40e9-a069-1f4cb353bfaa")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.87 0.97)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2529)
 		(uuid "71af7b65-0e6b-402e-b1a4-b66be507b4dc")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)

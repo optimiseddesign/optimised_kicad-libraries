@@ -1,7 +1,7 @@
 (footprint "M.2_3035-42_Card_Blues_Notecard"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "To fit both 35mm and 42mm length variants")
 	(tags "NOTE-WBEX-500 NOTE-WBEXW")
@@ -29,19 +29,6 @@
 				(thickness 0.15)
 			)
 			(justify right)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a251ba24-fd83-45a1-bf6d-8f7cb7b36e2d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
 		)
 	)
 	(property "Datasheet" ""
@@ -249,7 +236,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "ea25221c-5c8e-447b-a5f6-ca6194ffbad5")
 	)
@@ -464,7 +451,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bd07b1b1-0479-47bd-8776-6ef418672e04")
 	)
@@ -494,6 +481,7 @@
 			(justify right)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-plugin.3dshapes/M.2_3035-42_Card_Blues_Notecard_NOTE-WBEX.stp"
 		(hide yes)
 		(offset

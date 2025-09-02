@@ -1,7 +1,7 @@
 (footprint "Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2.5mm x 2.0mm nominal, 1.2mm high max")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a8a5d95a-bdbf-43e5-9809-83406d33579a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -182,17 +169,18 @@
 	(pad "1" smd roundrect
 		(at -0.925 0)
 		(size 1.05 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e99c2bb4-7a57-4e26-8d0c-400dab99a963")
 	)
 	(pad "2" smd roundrect
 		(at 0.925 0)
 		(size 1.05 2.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "46a0ad32-6cd2-48a9-ade1-14ba68c8ad8e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_2520_WireWound_SemiShielded_Bourns_SRN2512.stp"
 		(offset
 			(xyz -1.25 1 1.2)

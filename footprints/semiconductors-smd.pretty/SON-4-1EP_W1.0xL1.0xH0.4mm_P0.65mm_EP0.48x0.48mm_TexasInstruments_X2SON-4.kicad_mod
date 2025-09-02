@@ -1,7 +1,7 @@
 (footprint "SON-4-1EP_W1.0xL1.0xH0.4mm_P0.65mm_EP0.48x0.48mm_TexasInstruments_X2SON-4"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "DQN Package, 4-Pin 1-mm × 1-mm X2SON, adjusted for 0.125mm track/gap")
 	(tags "Package drawing DQN0004A, for TLV73310PDQNR")
@@ -27,19 +27,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37c6fb5e-6f76-4799-b590-d13f1a31374b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -297,7 +284,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "dabd3523-8266-414d-b151-c9a11185f427")
 	)
@@ -316,7 +303,7 @@
 	(pad "1" smd custom
 		(at -0.575 -0.325)
 		(size 0.17 0.31)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
 		(thermal_bridge_angle 45)
@@ -338,7 +325,7 @@
 	(pad "2" smd custom
 		(at -0.575 0.325 180)
 		(size 0.17 0.31)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
 		(thermal_bridge_angle 45)
@@ -360,7 +347,7 @@
 	(pad "3" smd custom
 		(at 0.575 0.325 180)
 		(size 0.17 0.31)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
 		(thermal_bridge_angle 45)
@@ -382,7 +369,7 @@
 	(pad "4" smd custom
 		(at 0.575 -0.325)
 		(size 0.17 0.31)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.05)
 		(thermal_bridge_angle 45)
@@ -405,12 +392,13 @@
 		(at 0 0 45)
 		(size 0.57 0.57)
 		(property pad_prop_heatsink)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin -0.05)
 		(solder_paste_margin -0.065)
 		(zone_connect 2)
 		(uuid "9188f858-31bf-48f1-be45-cde81f68cf41")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SON-4-1EP_W1.0xL1.0xH0.4mm_P0.65mm_EP0.48x0.48mm_TexasInstruments_X2SON-4.stp"
 		(offset
 			(xyz 0 0 0)

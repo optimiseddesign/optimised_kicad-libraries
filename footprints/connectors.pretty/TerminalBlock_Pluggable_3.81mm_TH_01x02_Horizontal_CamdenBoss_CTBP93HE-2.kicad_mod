@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Pluggable_3.81mm_TH_01x02_Horizontal_CamdenBoss_CTBP93HE-2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "PCB mounting male horizontal right-angle connector (closed ended)")
 	(tags "CTBP93HE/2")
@@ -26,19 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "66a8d5dc-9cac-4739-9bc4-6b4edb20083f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -87,7 +74,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2fd45646-b0e5-4dc5-88f9-fd554ecc11ec")
 	)
@@ -98,7 +85,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "3e76ebf3-b812-43af-90df-4392f105a04e")
 	)
@@ -119,7 +106,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "3120c159-f2b9-4658-80d1-5926f46e8908")
 	)
@@ -151,6 +138,7 @@
 		(remove_unused_layers no)
 		(uuid "779e8f07-3323-4bf4-903b-02daf23e4724")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_3.81mm_TH_01x02_Horizontal_CamdenBoss_CTBP93HE-2.stp"
 		(offset
 			(xyz -8 -6.1 7)

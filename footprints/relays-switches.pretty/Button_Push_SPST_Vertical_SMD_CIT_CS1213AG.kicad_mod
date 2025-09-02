@@ -1,7 +1,7 @@
 (footprint "Button_Push_SPST_Vertical_SMD_CIT_CS1213AG"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Switch, Tactile; 2 pin, 3.90 mm L X 2.90 mm W X 2.00 mm H body")
 	(tags "Without Locating Boss, Gull Wing")
@@ -21,18 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "88632132-4283-447d-8b8a-8ce95b3e4b98")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b084de64-785a-4f01-b5fe-61ac5ce8fdde")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -134,7 +122,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "396a895a-73eb-4d3c-a034-2b55368a7e72")
 	)
@@ -145,7 +133,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4d036d73-e9a1-450f-bfd9-24df6c523f93")
 	)
@@ -156,7 +144,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "331d8eb9-477b-451d-b70a-e024719d9550")
 	)
@@ -174,17 +162,18 @@
 	(pad "1" smd roundrect
 		(at -2.05 0 90)
 		(size 1.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7a9f2553-7b98-44c1-8b35-1f47d12d0cea")
 	)
 	(pad "2" smd roundrect
 		(at 2.05 0 90)
 		(size 1.8 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "37228eb9-24fb-4775-9151-f409b7369542")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/Button_Push_SPST_Vertical_SMD_CIT_CS1213AG.stp"
 		(offset
 			(xyz 0 0 0)

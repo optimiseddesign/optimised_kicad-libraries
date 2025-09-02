@@ -1,7 +1,7 @@
 (footprint "DFN1006-3_W0.62xL1.02xH0.5mm_P0.35mm_Nexperia_SOT883"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "plastic leadless ultra small package; 3 terminals; body 1.0 x 0.60 x 0.5 mm, created for Nexperia NX7002BKM")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "95df57ee-10b2-4973-be08-fc2ac508fc35")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -173,24 +160,25 @@
 	(pad "1" smd roundrect
 		(at -0.35 -0.225)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "562b0318-5f29-4b6a-a9b3-cee0db39245b")
 	)
 	(pad "2" smd roundrect
 		(at -0.35 0.225)
 		(size 0.4 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2)
 		(uuid "efb1b424-5839-480f-8151-9620f9e8512c")
 	)
 	(pad "3" smd roundrect
 		(at 0.35 0)
 		(size 0.4 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.125)
 		(uuid "465d9c26-28c5-479d-a218-3f6b5fec1b78")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN1006-3_W0.62xL1.02xH0.5mm_P0.35mm_Nexperia_SOT883.stp"
 		(offset
 			(xyz 0 0 0)

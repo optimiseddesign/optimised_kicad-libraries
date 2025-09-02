@@ -1,7 +1,7 @@
 (footprint "Button_Push_SPST_Vertical_SMD_CandK_NANOT240AS"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.825 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e148af0a-7325-4197-8efd-ea70713782db")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2381c6c5-a5b0-4c0a-b0d2-ea134d68a93f")
 		(effects
 			(font
 				(size 1 1)
@@ -94,7 +81,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e6de9d09-3ec7-454c-8964-76204120c58b")
 	)
@@ -105,7 +92,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "66171fdd-4b5c-4e5b-a411-0f29cd3492ed")
 	)
@@ -125,7 +112,7 @@
 	(pad "1" smd roundrect
 		(at -1.15 0)
 		(size 0.5 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "ebd7f708-e150-41a6-b1e3-7f262de31e19")
@@ -133,11 +120,12 @@
 	(pad "2" smd roundrect
 		(at 1.15 0)
 		(size 0.5 1.65)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
 		(uuid "1068607a-dcf8-41fe-b30c-5473048b0057")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/Button_Push_SPST_Vertical_SMD_CandK_NANOT240AS.stp"
 		(offset
 			(xyz -1.05 -0.825 0)

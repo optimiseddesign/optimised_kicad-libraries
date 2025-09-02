@@ -1,7 +1,7 @@
 (footprint "Fuse-FuseHolder_SMD_9750m_Littelfuse_154-Series"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.2 -3.9 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1aab267-ac17-410f-b99a-551359694635")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -301,17 +288,18 @@
 	(pad "1" smd roundrect
 		(at -3.19 0)
 		(size 4.24 3.81)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ffbbb4f8-4daf-4c2e-84a7-bb64593aab36")
 	)
 	(pad "2" smd roundrect
 		(at 3.19 0)
 		(size 4.24 3.81)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "51894c7e-87f1-48e6-9232-cb8ab94aa731")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Fuse-FuseHolder_SMD_9750m_Littelfuse_154-Series.stp"
 		(offset
 			(xyz 0 0 0)

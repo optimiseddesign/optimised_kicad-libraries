@@ -1,7 +1,7 @@
 (footprint "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Module; SIL 6 pin, 53.00 mm L X 8.00 mm W X 14.20 mm H body")
 	(property "Reference" "REF**"
@@ -20,18 +20,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "9fb82491-dc4f-4ccf-a815-afe7dce7449f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 5.4 -3.98 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "40e04fc3-0ead-4f90-a1e7-1333ee23fdc6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -291,7 +279,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8076d698-210c-497b-8de9-4165a2fd7f71")
 	)
@@ -354,6 +342,7 @@
 		(remove_unused_layers no)
 		(uuid "501ba8a7-49a8-45b9-99ab-aafbe933f9b9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/Eth_PoE_PSE_TH_Module_Silvertel_Ag6120.stp"
 		(offset
 			(xyz -20.8 7.7 0)

@@ -1,7 +1,7 @@
 (footprint "Header_1.27mm_TH_02x05_Vertical_Shrouded"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Created Dual-Fit custom for Samtec SHF-105-01-L-D-TH and 20021511-00010T4LF")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3150e047-bba5-4408-874f-e819d8bb5556")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -489,6 +476,7 @@
 		(remove_unused_layers no)
 		(uuid "99f4f4aa-2f14-4bf9-b8a7-da1480e9e168")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_1.27mm_TH_02x05_Vertical_Shrouded_Samtec_SHF-105-01-L-D-TH.stp"
 		(offset
 			(xyz 0.635 -2.54 0)

@@ -1,7 +1,7 @@
 (footprint "SolderBridge-2_0.65x1.0mm_Bridged"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SMD Solder Jumper, 0.65x1.0mm pads, 0.25mm gap, bridged with 0.4mm copper strip")
 	(tags "net tie solder bridge")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ad180773-2e76-4cf9-a894-56773455663e")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -77,7 +64,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Cu")
 		(uuid "8bc6f947-f49a-4bdd-98e2-b20e557e0211")
 	)
@@ -280,4 +267,5 @@
 		(zone_connect 2)
 		(uuid "cb34049a-1987-4949-ab7a-f4fb6fbc034c")
 	)
+	(embedded_fonts no)
 )

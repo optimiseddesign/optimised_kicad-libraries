@@ -1,7 +1,7 @@
 (footprint "Antenna_Helical_2400MHz_SMD-4_3232_Molex_479480001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "3.2x3.2x4mm SMD Helical Monopole Antenna, for PCB corner mounting. See GND Keepout in datasheet.")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1a7d9aa9-110a-499a-981b-ef72bd429e98")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -304,35 +291,40 @@
 	(pad "1" smd roundrect
 		(at -1.075 -1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "5a5c47a6-c5b7-4df9-9c97-d176e528ef30")
 	)
 	(pad "2" smd roundrect
 		(at 1.075 -1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "4159b3b5-4b6c-4729-b94b-2cdd62a4be0e")
 	)
 	(pad "3" smd roundrect
 		(at 1.075 1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "03b62931-5e5d-48c5-a69e-fbd3c09ca93f")
 	)
 	(pad "4" smd roundrect
 		(at -1.075 1.075)
 		(size 1.35 1.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "5b5a6eb7-ba23-4c71-a806-62a1556d7c6a")
 	)
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "b5e2e5a8-02ae-4768-974a-def50f889df1")
 		(hatch edge 0.508)
 		(connect_pads
@@ -347,6 +339,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -357,6 +353,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Antenna_Helical_2400MHz_SMD-4_3232_Molex_479480001.stp"
 		(offset
 			(xyz 0 0 4)

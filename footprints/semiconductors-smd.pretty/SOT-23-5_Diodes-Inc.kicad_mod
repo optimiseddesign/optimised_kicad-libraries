@@ -1,7 +1,7 @@
 (footprint "SOT-23-5_Diodes-Inc"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline Transistor, SOT-23 Type, 0.95 mm pitch; 5 pin, 3.00 mm L X 1.60 mm W X 1.40 mm H body")
 	(tags "Originally for Diodes Inc AP3012")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cda0e352-a03b-4240-a67f-abe79e974796")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -319,7 +306,7 @@
 		(uuid "07d160b6-23e1-4aa0-95cb-440482e6fc15")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.07 -0.03 -90)
+		(at 0.07 -0.03 270)
 		(layer "F.Fab")
 		(uuid "c8a7af6e-c432-4fa3-91ee-c8bf0c5a9ebe")
 		(effects
@@ -332,38 +319,39 @@
 	(pad "1" smd roundrect
 		(at -1.2 -0.95)
 		(size 0.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a90361cd-254c-4d27-ae1f-9a6c85bafe28")
 	)
 	(pad "2" smd roundrect
 		(at -1.2 0)
 		(size 0.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "84d296ba-3d39-4264-ad19-947f90c54396")
 	)
 	(pad "3" smd roundrect
 		(at -1.2 0.95)
 		(size 0.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6afc19cf-38b4-47a3-bc2b-445b18724310")
 	)
 	(pad "4" smd roundrect
 		(at 1.2 0.95)
 		(size 0.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fe14c012-3d58-4e5e-9a37-4b9765a7f764")
 	)
 	(pad "5" smd roundrect
 		(at 1.2 -0.95)
 		(size 0.8 0.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d01102e9-b170-4eb1-a0a4-9a31feb850b7")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOT-23-5_Diodes-Inc.stp"
 		(offset
 			(xyz 0 0 0)

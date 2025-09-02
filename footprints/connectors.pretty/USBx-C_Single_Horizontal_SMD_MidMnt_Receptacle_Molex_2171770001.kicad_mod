@@ -1,7 +1,7 @@
 (footprint "USBx-C_Single_Horizontal_SMD_MidMnt_Receptacle_Molex_2171770001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Waterproof Mid Mount Molex 2171770001 for 0.60mm PCB")
 	(tags "Connector")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "79d4fd58-44d8-47d9-94aa-2b24008bfd06")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -665,42 +652,42 @@
 	(pad "C1" smd roundrect
 		(at -2.75 -4.3)
 		(size 0.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "742f6656-c86d-41c0-937e-ef6ded3bd482")
 	)
 	(pad "C2" smd roundrect
 		(at -1.52 -4.3)
 		(size 0.76 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "251435cb-df17-46ab-aac4-3d24ccac8db0")
 	)
 	(pad "C3" smd roundrect
 		(at -0.5 -4.3)
 		(size 0.7 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e68fac9b-3de3-4acb-9bb0-3dee3685df22")
 	)
 	(pad "C4" smd roundrect
 		(at 0.5 -4.3)
 		(size 0.7 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7efaeda2-e767-44b9-adb2-3a0c3f4d2f1d")
 	)
 	(pad "C5" smd roundrect
 		(at 1.52 -4.3)
 		(size 0.76 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dacfc6b2-f197-4446-86ee-d141533404be")
 	)
 	(pad "C6" smd roundrect
 		(at 2.75 -4.3)
 		(size 0.8 1.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d8ebdeb0-2bbd-4a1b-a259-f95c97f44cbe")
 	)
@@ -736,6 +723,7 @@
 		(remove_unused_layers no)
 		(uuid "7d512d14-3ca4-4934-b506-eb07d268c7dc")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/USBx-C_Single_Horizontal_SMD_MidMnt_Receptacle_Molex_2171770001.stp"
 		(offset
 			(xyz 0 -0.07 1.6)

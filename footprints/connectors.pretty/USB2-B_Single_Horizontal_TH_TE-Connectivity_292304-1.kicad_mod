@@ -1,7 +1,7 @@
 (footprint "USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "USB 2.0 Type B, Horizontal TH Single Connector")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1.00078 1.00078)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0ea4850c-577a-438e-9f09-b9327cb589d8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -287,7 +274,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fa1b07bb-2445-4190-872f-94ba80377f60")
 	)
@@ -350,6 +337,7 @@
 		(remove_unused_layers no)
 		(uuid "3c53ba54-f6a7-4939-8a51-97b70f82972d")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TE Connectivity 292304-1 USB2-B Single Horizontal.stp"
 		(offset
 			(xyz -1.25 -15.02 5.7)

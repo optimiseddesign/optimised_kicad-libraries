@@ -1,7 +1,7 @@
 (footprint "Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "For TE Connectivity FSM8JSMA as per datasheet (9.5mm tall)")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5c30f19b-54b5-46db-a98e-4d407234c63d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -362,31 +349,32 @@
 	(pad "1" smd roundrect
 		(at -4.55 -2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7ae3bf42-db86-4681-b72a-4bf769134937")
 	)
 	(pad "2" smd roundrect
 		(at 4.55 -2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bcb841d9-35e5-4c54-8b84-08cbcfa736af")
 	)
 	(pad "3" smd roundrect
 		(at -4.55 2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5ecb37ef-4ffb-42a1-806d-f481420f34d8")
 	)
 	(pad "4" smd roundrect
 		(at 4.55 2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "345656a0-8a23-46f8-bace-c361f183f3fd")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/Button_Push_SPST_Vertical_SMD_TEConnectivity_FSM8JSMA.stp"
 		(offset
 			(xyz 0 0 3.7)

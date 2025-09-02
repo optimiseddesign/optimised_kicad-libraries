@@ -1,7 +1,7 @@
 (footprint "Resistor_SMD_0805_2012m_Least"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0805 (2012 Metric), IPC7351 Least, Chip; 2.00 mm L X 1.25 mm W X 0.70 mm H body")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6fc9131f-f3d0-4e0e-bb58-e422294b2b2c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -182,17 +169,18 @@
 	(pad "1" smd roundrect
 		(at -0.845 0)
 		(size 0.92 1.32)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d1cd004f-5133-4cc3-8970-e57a12bda7bd")
 	)
 	(pad "2" smd roundrect
 		(at 0.845 0)
 		(size 0.92 1.32)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "78d72c1b-dafe-49ae-aa9e-de2c79ecdc0b")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)

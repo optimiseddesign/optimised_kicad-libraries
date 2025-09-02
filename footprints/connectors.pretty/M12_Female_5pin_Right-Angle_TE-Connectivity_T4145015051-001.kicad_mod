@@ -1,7 +1,7 @@
 (footprint "M12_Female_5pin_Right-Angle_TE-Connectivity_T4145015051-001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -5.3 -2.4 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0dbbd392-c2de-4bbc-a343-b828b70d877f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -194,7 +181,7 @@
 			(width 0.3)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "a9633d26-daae-48a7-b5dd-6c0f294c3c20")
 	)
@@ -465,7 +452,7 @@
 			(width 0.4)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4055b357-393c-467b-b2cc-71034cd4083f")
 	)
@@ -548,6 +535,7 @@
 		(remove_unused_layers no)
 		(uuid "3c6e5582-ed52-4848-b93d-0595f2132de1")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TE Connectivity M12 Right-Angle TH 5pin Female T4145015051-001.stp"
 		(offset
 			(xyz 1.8 -24.8 8.5)

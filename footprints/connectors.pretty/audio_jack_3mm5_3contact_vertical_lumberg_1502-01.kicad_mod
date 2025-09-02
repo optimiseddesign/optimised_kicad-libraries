@@ -1,7 +1,7 @@
 (footprint "audio_jack_3mm5_3contact_vertical_lumberg_1502-01"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.5 -5 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3143668a-1837-4ef0-8367-2c67ca8defde")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -202,6 +189,7 @@
 		(remove_unused_layers no)
 		(uuid "6af41bbb-927b-449c-99e6-4b1b25cf4133")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/audio_jack_3mm5_3contact_vertical_lumberg_1502-01.stp"
 		(offset
 			(xyz 0 0 14.5)

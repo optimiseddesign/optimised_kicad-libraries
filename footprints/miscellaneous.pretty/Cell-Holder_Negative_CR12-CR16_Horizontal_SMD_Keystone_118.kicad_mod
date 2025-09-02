@@ -1,7 +1,7 @@
 (footprint "Cell-Holder_Negative_CR12-CR16_Horizontal_SMD_Keystone_118"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.02 -3.26 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b6d7b823-95b5-45f6-b6cd-227f41fa1f8d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.1 -33.4 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bc802193-7768-4a9c-9e04-40c27145de2c")
 		(effects
 			(font
 				(size 1 1)
@@ -154,7 +141,7 @@
 			(width 0.12)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "a82c48b6-e8cd-4c8a-99df-3918045b8970")
 	)
@@ -165,7 +152,7 @@
 			(width 0.12)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "4cff40df-d005-4e46-8ab1-a2acf8c2f8dd")
 	)
@@ -370,17 +357,18 @@
 	(pad "1" smd roundrect
 		(at -0.64 0.94)
 		(size 2.28 2.38)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1050420168)
 		(uuid "ab4408cd-2bfd-4299-8fff-ee59ceca90fa")
 	)
 	(pad "1" smd roundrect
 		(at 0.64 -1.04)
 		(size 2.28 2.18)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1146788991)
 		(uuid "17df7ce7-2af2-4c94-98b4-c4a43f4f3c22")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Cell-Holder_Negative_CR12-CR16_Horizontal_SMD_Keystone_118.stp"
 		(offset
 			(xyz 0 0 0.2)

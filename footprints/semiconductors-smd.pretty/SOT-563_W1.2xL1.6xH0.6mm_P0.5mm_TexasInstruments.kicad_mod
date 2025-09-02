@@ -1,7 +1,7 @@
 (footprint "SOT-563_W1.2xL1.6xH0.6mm_P0.5mm_TexasInstruments"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline Flat Lead (SOFL), 0.50 mm pitch; 6 pin, 1.60 mm L X 1.20 mm W X 0.60 mm H body")
 	(tags "For TI DRL0006A case for TPS61299A")
@@ -28,20 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 -90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1d8a751d-35fc-4f5e-ab89-17744832b485")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ea624994-4499-43bc-b6db-3afa75099f6c")
@@ -53,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 -90)
+		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "79e5ffce-d17a-471c-a5cf-bff58ac96507")
@@ -319,45 +307,46 @@
 	(pad "1" smd roundrect
 		(at -0.74 -0.5)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "757b3b9f-2c0e-4aec-af7b-88564afd6c4d")
 	)
 	(pad "2" smd roundrect
 		(at -0.74 0)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "09cd5e05-c674-4118-8766-89a19300f2ef")
 	)
 	(pad "3" smd roundrect
 		(at -0.74 0.5)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d09771d1-3d31-456f-bfa7-76cfd2494a53")
 	)
 	(pad "4" smd roundrect
 		(at 0.74 0.5)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "b1d19779-dc5b-44f8-b63c-c61da594629a")
 	)
 	(pad "5" smd roundrect
 		(at 0.74 0)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "6068eb6a-5ac5-42ad-aca2-ea2bcdce4c15")
 	)
 	(pad "6" smd roundrect
 		(at 0.74 -0.5)
 		(size 0.67 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "264299c9-daa9-41a4-831c-38b8b1edc3a9")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
 		(offset
 			(xyz 0 0 0)

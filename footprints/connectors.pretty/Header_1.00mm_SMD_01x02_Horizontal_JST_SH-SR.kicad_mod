@@ -1,7 +1,7 @@
 (footprint "Header_1.00mm_SMD_01x02_Horizontal_JST_SH-SR"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST SH / SR series connector SMD Horizontal, SM02B-SRSS-TB, assumes 0.1mm tolerance")
 	(tags "JST SH / SR SMT Header side entry")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "188c8170-5272-43e7-9d6c-481431b341ec")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -322,31 +309,32 @@
 	(pad "1" smd roundrect
 		(at -0.5 -2)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d2521e7b-d32c-4aff-be33-7983e7bdeac4")
 	)
 	(pad "2" smd roundrect
 		(at 0.5 -2)
 		(size 0.6 1.55)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fc258a0a-2806-41a6-a6ad-9f639f443c04")
 	)
 	(pad "MP" smd roundrect
 		(at -1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "43f044bb-20ed-4a40-8924-92cc42188ffd")
 	)
 	(pad "MP" smd roundrect
 		(at 1.8 1.875)
 		(size 1.2 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.208333)
 		(uuid "5e8ac3d9-12af-4f51-9a8a-88dc932bd386")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_1.00mm_SMD_01x02_Horizontal_JST_SH-SR.stp"
 		(offset
 			(xyz 0 1.32 -0.35)

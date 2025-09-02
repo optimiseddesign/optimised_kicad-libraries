@@ -1,7 +1,7 @@
 (footprint "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Module; SIL 7 pin, 56.00 mm L X 19.00 mm W X 14.20 mm H body")
 	(tags "PSE")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 25.46 0.7 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ba5811f8-ba93-40c3-978e-037b4a5026f4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -421,6 +409,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -431,6 +423,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/modules-th.3dshapes/DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200.stp"
 		(offset
 			(xyz -2.54 8.8 0)

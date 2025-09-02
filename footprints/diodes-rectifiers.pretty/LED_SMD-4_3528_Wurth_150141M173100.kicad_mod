@@ -1,7 +1,7 @@
 (footprint "LED_SMD-4_3528_Wurth_150141M173100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline L-Lead (SOL), 1.415 mm pitch; 4 pin, 2.80 mm L X 3.20 mm W X 2.10 mm H body")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 1.2 1.2)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9b87ecad-fabd-4e72-8fbc-30657529bc49")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -292,31 +279,32 @@
 	(pad "1" smd roundrect
 		(at -0.7075 -1.815 90)
 		(size 1.09 1.12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.229)
 		(uuid "ac45d81b-a1fa-4c13-9b9d-c29f59138bb0")
 	)
 	(pad "2" smd roundrect
 		(at 0.7075 -1.815 90)
 		(size 1.09 1.12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.229)
 		(uuid "00341a02-398c-4d4f-8626-04e91ee2daae")
 	)
 	(pad "3" smd roundrect
 		(at -0.7075 1.815 90)
 		(size 1.09 1.12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.229)
 		(uuid "36a27db2-df2b-4cb8-868d-67fdaf52b9be")
 	)
 	(pad "4" smd roundrect
 		(at 0.7075 1.815 90)
 		(size 1.09 1.12)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.229)
 		(uuid "c8c51f3d-7eca-4d70-95fa-b853a1831f12")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/led_smd_rgb_wurth_150141M173100.stp"
 		(offset
 			(xyz 0 0 0)

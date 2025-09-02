@@ -1,7 +1,7 @@
 (footprint "PCB_Silk_Logo_SingingCat_Large"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "G***"
 		(at 0 0 0)
@@ -24,19 +24,6 @@
 			(font
 				(size 1.524 1.524)
 				(thickness 0.3)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6cda92ef-1eba-47a8-8671-d4f2dbe12ede")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -83,7 +70,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "33419a81-d58f-49ee-90b2-1beb01fc16c1")
 	)
@@ -101,7 +88,7 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "be9f3e7f-ecaa-4292-952e-fb778e2c5e2e")
 	)
@@ -244,8 +231,9 @@
 			(width 0.01)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4757a090-c1ef-497f-9f7c-7c93b7fe8f26")
 	)
+	(embedded_fonts no)
 )

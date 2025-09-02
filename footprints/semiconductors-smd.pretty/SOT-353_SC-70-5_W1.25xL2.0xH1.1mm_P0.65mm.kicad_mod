@@ -1,7 +1,7 @@
 (footprint "SOT-353_SC-70-5_W1.25xL2.0xH1.1mm_P0.65mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline Transistor (SOT353 aka SC-70-5 aka SC-88A), 0.65 mm pitch; 5 pin, 2.025 mm L X 1.25 mm W X 1.10 mm H body")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "aa04a7c4-1a83-4a19-9fa4-90d887355e37")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -321,38 +308,39 @@
 	(pad "1" smd roundrect
 		(at -0.935 -0.65)
 		(size 1.04 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "17ff949d-c73c-43f3-8154-f958e34a0814")
 	)
 	(pad "2" smd roundrect
 		(at -0.935 0)
 		(size 1.04 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "14d8de2d-2c94-4740-acc1-688a9cfe448b")
 	)
 	(pad "3" smd roundrect
 		(at -0.935 0.65)
 		(size 1.04 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c328db50-aa7d-4640-8c04-fe149e0efd58")
 	)
 	(pad "4" smd roundrect
 		(at 0.935 0.65)
 		(size 1.04 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ea5c96e5-6c02-4b22-933a-e0c8b736a1de")
 	)
 	(pad "5" smd roundrect
 		(at 0.935 -0.65)
 		(size 1.04 0.45)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "88e6e6aa-f9c1-47a2-b7a3-9a31f5714151")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOT-353_SC-70-5_W1.25xL2.0xH1.1mm_P0.65mm.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "SuperCap_SMD_3225-2_Seiko_CPH3225A"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Polarised Supercap SMD 3225-2 3.2x2.5x0.9mm 2pin for Seiko CPH3225A Supercap EDLC based on datasheet")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ef7810c2-673e-4ffa-863f-2fba72972075")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -469,17 +456,18 @@
 	(pad "1" smd roundrect
 		(at -1.1 0)
 		(size 1.4 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "082621c8-b51d-48fd-937c-afceb255b94e")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0)
 		(size 1.4 1.4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "728dda43-38f9-4d13-b2a9-59e599c86d99")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/capacitors.3dshapes/SuperCap_SMD_3225-2_Seiko_CPH3225A.stp"
 		(offset
 			(xyz 0 0 0)

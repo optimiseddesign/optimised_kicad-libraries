@@ -1,7 +1,7 @@
 (footprint "LED_SMD_1608_H0.7mm_Least"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0603 (1608 Metric), Chip; 1.60 mm L X 0.80 mm W X 0.70 mm H body")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "54a4d4cd-0b15-493f-ab1e-1cb44c469007")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -231,17 +218,18 @@
 	(pad "A" smd roundrect
 		(at 0.77 0)
 		(size 0.59 0.83)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2542)
 		(uuid "25d67a05-cff6-453f-97bb-a3366c4ee486")
 	)
 	(pad "K" smd roundrect
 		(at -0.77 0)
 		(size 0.59 0.83)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.254)
 		(uuid "ca28fc4a-2e02-40ed-9735-6a519a143d9c")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/leds.3dshapes/LED_SMD_1608_H0.7mm.stp"
 		(offset
 			(xyz 0 0 0)

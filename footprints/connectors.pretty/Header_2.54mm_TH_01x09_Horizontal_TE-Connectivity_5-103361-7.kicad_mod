@@ -1,7 +1,7 @@
 (footprint "Header_2.54mm_TH_01x09_Horizontal_TE-Connectivity_5-103361-7"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Custom 2.54mm Shrouded Polarised Header 01x09 Way Horizontal TH with Retention")
 	(tags "Also fits 5-103080-7 (vertical) with manual pin bend")
@@ -26,19 +26,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0933ed2e-4b1f-45c3-8fe0-7951ebdf222b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -414,6 +401,7 @@
 		(remove_unused_layers no)
 		(uuid "14be1028-c77f-4023-9358-3ddb185ecd9e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_2.54mm_TH_01x09_Horizontal_TE-Connectivity_5-103361-7.stp"
 		(offset
 			(xyz -12.22 -10.16 3)

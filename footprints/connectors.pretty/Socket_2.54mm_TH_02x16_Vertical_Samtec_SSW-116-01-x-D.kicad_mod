@@ -1,7 +1,7 @@
 (footprint "Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Through hole straight socket strip, 2x16, 2.54mm pitch, double row")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2e236871-f394-4d63-88e3-adbf7db1cc1f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -485,6 +472,7 @@
 		(remove_unused_layers no)
 		(uuid "01172b30-4940-4805-b545-a15bc4c1c378")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D.stp"
 		(offset
 			(xyz -1.27 -19.05 0)

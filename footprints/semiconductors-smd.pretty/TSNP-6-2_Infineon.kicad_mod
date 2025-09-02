@@ -1,7 +1,7 @@
 (footprint "TSNP-6-2_Infineon"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1.1mm (L) x 0.7mm (W) x 0.4mm (H) XDFN-6 SMD, from Infineon TSNP-6-2-PO V01 for BGS12SN6")
 	(property "Reference" "REF**"
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "52357b33-4f95-44ca-915f-6754c9cda991")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -67,6 +54,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.35 0.55) (xy -0.35 0.55) (xy -0.35 -0.55) (xy 0.35 -0.55)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "f6692b26-386e-4dbd-96a8-1de8f6e77fd3")
+	)
 	(fp_line
 		(start -0.45 -0.65)
 		(end -0.05 -0.65)
@@ -86,18 +85,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e8f25f85-c522-4734-a008-9cfb3ef55dbf")
-	)
-	(fp_poly
-		(pts
-			(xy 0.35 0.55) (xy -0.35 0.55) (xy -0.35 -0.55) (xy 0.35 -0.55)
-		)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "f6692b26-386e-4dbd-96a8-1de8f6e77fd3")
 	)
 	(fp_line
 		(start -0.575 -0.775)
@@ -203,45 +190,46 @@
 	(pad "1" smd roundrect
 		(at -0.2 -0.4)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1e8ad754-3067-429f-bc8b-9a91f93860ef")
 	)
 	(pad "2" smd roundrect
 		(at -0.2 0)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "bb587259-e7a0-45fe-8b6a-c4ac5ed97138")
 	)
 	(pad "3" smd roundrect
 		(at -0.2 0.4)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a0d1a963-c2a6-490f-8624-4196e7cac4f3")
 	)
 	(pad "4" smd roundrect
 		(at 0.2 0.4)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e00ae576-47a8-4ad2-9276-528829dd7152")
 	)
 	(pad "5" smd roundrect
 		(at 0.2 0)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "addc28bc-cf71-44a6-b750-8bdf22c39dea")
 	)
 	(pad "6" smd roundrect
 		(at 0.2 -0.4)
 		(size 0.24 0.24)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8aca6ebe-5165-4776-be51-f41adf689cb5")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/TSNP-6-2_Infineon.stp"
 		(offset
 			(xyz 0 0 0)

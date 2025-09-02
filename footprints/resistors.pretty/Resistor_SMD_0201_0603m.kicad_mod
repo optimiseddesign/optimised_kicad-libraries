@@ -1,7 +1,7 @@
 (footprint "Resistor_SMD_0201_0603m"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Resistor SMD 0201 (0603 Metric), IPC7351 Nominal, Chip; 0.60 mm L X 0.30 mm W X 0.35 mm H body")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dcaf2f27-9f73-4294-8594-74c6c9be81ae")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -181,17 +168,18 @@
 	(pad "1" smd roundrect
 		(at -0.28 0)
 		(size 0.34 0.36)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2647)
 		(uuid "48dd3708-49df-4988-8a1c-35c87463dbf6")
 	)
 	(pad "2" smd roundrect
 		(at 0.28 0)
 		(size 0.34 0.36)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2647)
 		(uuid "1f4910e6-4678-4d5c-a816-d7312aca88ce")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
 		(offset
 			(xyz 0 0 0)

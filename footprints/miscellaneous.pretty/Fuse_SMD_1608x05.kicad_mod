@@ -1,7 +1,7 @@
 (footprint "Fuse_SMD_1608x05"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fuse SMD 0603 (1608 Metric), IPC7351 Nominal, Chip; 1.60 mm L X 0.82 mm W X 0.48 mm H body")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "36fe2b0d-73aa-42f3-843c-00510cb61406")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -182,17 +169,18 @@
 	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 0.87 0.97)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2529)
 		(uuid "6c9a5c68-5455-467b-b575-8b17069bff43")
 	)
 	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.87 0.97)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2529)
 		(uuid "da9de4ca-fd09-4323-9573-d01aa637a550")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Fuse_SMD_1608x05.stp"
 		(offset
 			(xyz 0 0 0)

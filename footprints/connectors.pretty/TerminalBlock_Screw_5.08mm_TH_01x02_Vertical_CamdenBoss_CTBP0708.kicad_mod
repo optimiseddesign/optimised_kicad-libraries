@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CTBP0708/2")
 	(tags "Connector")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "250d3755-e122-4898-8731-19187853a8bb")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -440,7 +427,7 @@
 		(uuid "b412f3cc-d747-49e4-af3e-b05be88e1086")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 3.05 2.5 -90)
+		(at 3.05 2.5 270)
 		(layer "F.Fab")
 		(uuid "bffb8b9f-b878-4362-bee2-9b7bfa537902")
 		(effects
@@ -466,6 +453,7 @@
 		(remove_unused_layers no)
 		(uuid "4a7e8661-014d-40a0-8119-d15844d354bc")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708.stp"
 		(offset
 			(xyz 6.2 -7.62 0)

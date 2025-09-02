@@ -1,7 +1,7 @@
 (footprint "DFN2510-10_W1.0xL2.5xH0.6mm_P0.5mm_Diodes-Inc"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "U-DFN2510-10 or or U-DFN2510-10 (Type CJ) package used by Diodes Incorporated")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e4f913cf-5fd0-4046-b80b-bff077847cac")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -191,21 +178,21 @@
 	(pad "1" smd roundrect
 		(at -0.3875 -1 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1a10a311-ed9a-479b-aff5-c2fffa3cb5a7")
 	)
 	(pad "2" smd roundrect
 		(at -0.3875 -0.5 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "52b2f07b-4000-4ee8-94c5-dfe33f342a5b")
 	)
 	(pad "3" smd roundrect
 		(at -0.35 0 270)
 		(size 0.35 0.7)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(uuid "7dcdb0ea-1c6f-4ae4-9975-f7acec22aad3")
@@ -213,35 +200,35 @@
 	(pad "4" smd roundrect
 		(at -0.3875 0.5 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c36e5e08-c47c-4a77-be4a-720e068dddea")
 	)
 	(pad "5" smd roundrect
 		(at -0.3875 1 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ce73fc64-bb13-440c-a968-a79fae94d572")
 	)
 	(pad "6" smd roundrect
 		(at 0.3875 1 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "59d86983-ed48-45cc-bff5-a907b5c26991")
 	)
 	(pad "7" smd roundrect
 		(at 0.3875 0.5 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "be9f4901-7e11-4476-a370-e92ca909a4c0")
 	)
 	(pad "8" smd roundrect
 		(at 0.4125 0 270)
 		(size 0.35 0.575)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(zone_connect 2)
 		(uuid "8eb53bfa-a40b-473a-80f4-f6d6b6b5be55")
@@ -249,17 +236,18 @@
 	(pad "9" smd roundrect
 		(at 0.3875 -0.5 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "0a6b3446-e9b2-4b18-b526-613b7b737b45")
 	)
 	(pad "10" smd roundrect
 		(at 0.3875 -1 270)
 		(size 0.25 0.625)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e4be4e16-aa0b-4674-a3a5-22659959fe84")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/DFN2510-10_W1.0xL2.5xH0.6mm_P0.5mm_Diodes-Inc.stp"
 		(offset
 			(xyz 0 0 0.15)

@@ -1,7 +1,7 @@
 (footprint "MountingHole_M1.6_1.8mm_Pad4.0mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 1.8mm, for M1.6 screw, with 4.0mm Pad")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b5d1f6ba-68c6-4896-9e92-ed743bde580b")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5185bef0-9c2b-4150-9376-2d129d383025")
 	)
@@ -86,7 +73,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "c65bfc58-41c4-4d25-84a4-a81b2486adde")
 	)
@@ -110,4 +97,5 @@
 		(zone_connect 2)
 		(uuid "b60441fc-2a59-4758-b832-a88533b57378")
 	)
+	(embedded_fonts no)
 )

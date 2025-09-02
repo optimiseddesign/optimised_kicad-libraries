@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Screw_3.81mm_TH_01x06_Horizontal_TE-Connectivity_284392"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "14-30AWG (.05 – 2mm2) wire size")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "98a7ec17-7b59-4b45-97ba-f5e99e541280")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -327,6 +314,7 @@
 		(remove_unused_layers no)
 		(uuid "f5085dbf-c0e6-429e-88b9-1e4165958836")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Screw_3.81mm_TH_01x06_Horizontal_TE-Connectivity_284392.stp"
 		(offset
 			(xyz 4.1 -9.42 12.5)

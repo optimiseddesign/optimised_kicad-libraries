@@ -1,7 +1,7 @@
 (footprint "SON-6_W1.5xL1.5xH0.45mm_P0.5mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline No-Lead (SON), 0.50 mm pitch; 6 pin, 1.50 mm L X 1.50 mm W X 0.45 mm H body")
 	(tags "From PCB Expert based on ON Semi NCP715 (XDFN6, XDFN-6, CASE 711AE, ISSUE B)")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4f4fc23e-f972-4ce6-bf5a-fa939e8370ac")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -272,45 +259,46 @@
 	(pad "1" smd roundrect
 		(at -0.545 -0.5)
 		(size 0.94 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "83faeca5-2aeb-488f-85c1-f54fb16984b2")
 	)
 	(pad "2" smd roundrect
 		(at -0.585 0)
 		(size 0.86 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "097d84e2-a803-499c-9bb2-8d2877f3c409")
 	)
 	(pad "3" smd roundrect
 		(at -0.585 0.5)
 		(size 0.86 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "b8e3881c-c59c-458c-adfc-9e40c38f6c34")
 	)
 	(pad "4" smd roundrect
 		(at 0.585 0.5)
 		(size 0.86 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "2fd56e3a-9bfb-40f1-80ce-cfad78010d00")
 	)
 	(pad "5" smd roundrect
 		(at 0.585 0)
 		(size 0.86 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "6899d6e8-1588-4f81-9bf5-77fa2f84a4d0")
 	)
 	(pad "6" smd roundrect
 		(at 0.585 -0.5)
 		(size 0.86 0.27)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2593)
 		(uuid "b213391f-51de-4bdc-a637-7f366abc7444")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SON-6_W1.5xL1.5xH0.45mm_P0.5mm.stp"
 		(offset
 			(xyz 0 0 0)

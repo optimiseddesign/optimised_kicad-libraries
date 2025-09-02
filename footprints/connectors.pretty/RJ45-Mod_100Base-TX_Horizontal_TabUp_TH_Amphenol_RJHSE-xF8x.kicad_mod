@@ -1,7 +1,7 @@
 (footprint "RJ45-Mod_100Base-TX_Horizontal_TabUp_TH_Amphenol_RJHSE-xF8x"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Modular Jack Connector Through Hole 100Base-TX 8P8C RJHSE-xF8x Series")
 	(tags "With shield shielded Cat5")
@@ -24,18 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -3.556 2.54 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "60c1c374-07f5-47e3-8e08-2622c49cf11c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -454,6 +442,7 @@
 		(remove_unused_layers no)
 		(uuid "5e482a85-e550-4a8d-a31c-ea6c11664539")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/RJ45-Mod_100Base-TX_Horizontal_TabUp_TH_Amphenol_RJHSE-xF8x.stp"
 		(offset
 			(xyz -12.556 11.81 -4.3)

@@ -1,7 +1,7 @@
 (footprint "Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CR1220 3V Lithum 12mm Coin Cell Battery Holder")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5cf2e523-279b-45da-a36d-13f4f27c53d4")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -370,7 +357,7 @@
 			(width 0.3)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d1d956c5-ac66-4845-aefc-a330d04bc6ef")
 	)
@@ -381,7 +368,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "8b283fa1-f07c-40e5-98c6-a4f4deca6511")
 	)
@@ -413,17 +400,18 @@
 	(pad "1" smd roundrect
 		(at 0 7.975)
 		(size 2.3 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c0db1db7-1180-4219-a4e4-ee199bf3404b")
 	)
 	(pad "2" smd roundrect
 		(at 0 -8.425)
 		(size 2.3 4.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fb2b9bb3-dd8a-47e7-9079-c44acf221b9b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R.stp"
 		(offset
 			(xyz 0 0.95 0)

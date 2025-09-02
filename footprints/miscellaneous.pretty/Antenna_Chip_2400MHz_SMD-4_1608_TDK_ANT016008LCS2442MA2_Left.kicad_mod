@@ -1,7 +1,7 @@
 (footprint "Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2_Left"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Estimated from design notes, adapted for left facing. Requires radiator electrode patterns and vias adding, see TDK Simulation.")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1998e120-c478-4ce6-acea-c146507f8b14")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -203,14 +190,14 @@
 	(pad "1" smd roundrect
 		(at -0.625 0)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(uuid "27cc56ba-acbb-49a7-987f-cbce7c965311")
 	)
 	(pad "2" smd roundrect
 		(at 0 -0.235)
 		(size 0.6 0.26)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(zone_connect 2)
 		(uuid "348b6efb-9bcc-4264-b70c-283b6f9b83a8")
@@ -218,7 +205,7 @@
 	(pad "3" smd roundrect
 		(at 0 0.235)
 		(size 0.6 0.26)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(zone_connect 2)
 		(uuid "a1c0a7d2-fbce-4def-ad5f-965bc853e9eb")
@@ -226,7 +213,7 @@
 	(pad "4" smd roundrect
 		(at 0.625 0)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
 		(zone_connect 2)
 		(uuid "b3d059d3-f1e7-4ce7-8a4b-89bdbdcc9ff2")
@@ -234,7 +221,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "ca473586-35a7-4b0b-a15d-ef9b8269e27d")
 		(hatch edge 0.508)
 		(connect_pads
@@ -249,6 +241,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -259,6 +255,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Antenna_Chip_2400MHz_SMD-4_1608_TDK_ANT016008LCS2442MA2.stp"
 		(offset
 			(xyz 0 0 0)

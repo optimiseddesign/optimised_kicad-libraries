@@ -1,7 +1,7 @@
 (footprint "SOD-923"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Diode, Small Outline Diode, Flat Lead (SODFL); 0.80 mm L X 0.60 mm W X 0.40 mm H body")
 	(tags "Originally for ON Semi NSR05T40P2")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bb646efc-ad8e-402a-8aa1-927bb28fb31a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -342,17 +329,18 @@
 	(pad "1" smd roundrect
 		(at -0.42 0)
 		(size 0.36 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.24)
 		(uuid "9fbabfd5-5316-4dcb-8d99-3c53b9c69880")
 	)
 	(pad "2" smd roundrect
 		(at 0.42 0)
 		(size 0.36 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.24)
 		(uuid "f89b1d5e-28c8-498c-b199-7acbd8607540")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-923.step"
 		(offset
 			(xyz 0 0 0)

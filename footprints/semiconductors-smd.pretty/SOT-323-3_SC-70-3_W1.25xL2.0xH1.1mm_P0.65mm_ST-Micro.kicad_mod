@@ -1,7 +1,7 @@
 (footprint "SOT-323-3_SC-70-3_W1.25xL2.0xH1.1mm_P0.65mm_ST-Micro"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Small Outline Transistor, SOT-323 Type, 0.65 mm pitch; 3 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body")
 	(tags "Footprint Expert 2022.15, for ST Micro Electronics TS4061 SOT323-3L")
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "46fb3212-0b10-4915-8d59-a1f064a78c91")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -302,24 +289,25 @@
 	(pad "1" smd roundrect
 		(at -1.015 -0.65)
 		(size 0.68 0.477)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2495)
 		(uuid "528ff189-bba3-4ad5-9a0c-d3fcdbb760a1")
 	)
 	(pad "2" smd roundrect
 		(at -1.015 0.65)
 		(size 0.68 0.477)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2495)
 		(uuid "6414051e-d775-4bb5-9095-e9b619e1a7b8")
 	)
 	(pad "3" smd roundrect
 		(at 1.015 0)
 		(size 0.68 0.477)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2495)
 		(uuid "ca51b19b-bcc8-4e98-92c1-6e71252155de")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-323_SC-70.step"
 		(offset
 			(xyz 0 0 0)

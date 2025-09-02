@@ -1,7 +1,7 @@
 (footprint "USB2-A_Single_Horizontal_TH_Amphenol-ICC_UE27AC54100"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "USB_A Female Connector receptacle")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ff8f07e4-7d3f-45cc-9d48-78fa7e55a881")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -387,7 +374,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "9a188f99-fcd4-4cb5-833f-980f2e868f71")
 	)
@@ -450,6 +437,7 @@
 		(remove_unused_layers no)
 		(uuid "914c5b3a-21b5-462d-8f55-ca0b3cc81d2e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Amphenol ICC UE27AC54100 USB2-A Single Horizontal.stp"
 		(offset
 			(xyz 3.5 0 0)

@@ -1,7 +1,7 @@
 (footprint "Header_2.00mm_SMD_01x02_Vertical_JST_PH"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "JST PH series connector SMD Vertical, B2B-PH-SM4-TB, assumes 0.1mm tolerance")
 	(tags "JST PH SMT Header top entry")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ea64e318-60cb-4cd3-8514-9bb06253495e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -385,7 +372,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7ebac398-8580-4053-a0ff-a8f605095086")
 	)
@@ -403,31 +390,32 @@
 	(pad "1" smd roundrect
 		(at -1 2.25 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d4a14347-f106-4fab-9c3e-cd8a875c683c")
 	)
 	(pad "2" smd roundrect
 		(at 1 2.25 180)
 		(size 1 5.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d2eb360b-2bc4-4408-a8b3-07959277e262")
 	)
 	(pad "MP" smd roundrect
 		(at -3.4 0 180)
 		(size 1.6 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
 		(uuid "fad34361-5673-4b6b-8616-ccc33cd00c24")
 	)
 	(pad "MP" smd roundrect
 		(at 3.4 0 180)
 		(size 1.6 3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.166667)
 		(uuid "777a7d71-7105-4515-9e2c-011e98c36c8b")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/Header_2.00mm_SMD_01x02_Vertical_JST_PH.stp"
 		(offset
 			(xyz -3.97 1.48 0)

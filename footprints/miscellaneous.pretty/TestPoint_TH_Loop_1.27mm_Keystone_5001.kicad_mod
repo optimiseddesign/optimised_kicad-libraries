@@ -1,7 +1,7 @@
 (footprint "TestPoint_TH_Loop_1.27mm_Keystone_5001"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.3 -2.15 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "98f21a8d-62bb-4e90-979d-f20ca585a757")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5bcc6b1a-de48-4c19-a893-2f55ec9a849b")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "da2a32be-30cd-46f1-a15c-c27219687b17")
 	)
@@ -96,7 +83,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7cfd3e5f-4de6-4818-82ba-e2053c491454")
 	)
@@ -121,6 +108,7 @@
 		(remove_unused_layers no)
 		(uuid "5f4afde7-e0bf-42ff-8f50-8d38f27d290c")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/TestPoint_TH_Loop_1.27mm_Keystone_5001.stp"
 		(offset
 			(xyz 0 0 0)

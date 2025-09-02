@@ -1,7 +1,7 @@
 (footprint "TestPoint_Pad_0.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "0.8mm top copper pad, no step model")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2372a307-be2f-4b0e-a452-6f5164c0eb2b")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -76,7 +63,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "11d8c2e7-90c4-4d21-9d56-b7ce6bb4b6d7")
 	)
@@ -87,7 +74,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "7e9dbcec-1775-4af4-b24c-89061bfba984")
 	)
@@ -111,4 +98,5 @@
 		(zone_connect 2)
 		(uuid "401e5eaf-424b-40cc-b235-5fc020e045c1")
 	)
+	(embedded_fonts no)
 )

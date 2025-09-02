@@ -1,7 +1,7 @@
 (footprint "Balun_SMD-6_2012_Johanson"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Created for Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9f5389e9-f419-4e06-b9d4-f51132147176")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -362,45 +349,46 @@
 	(pad "1" smd roundrect
 		(at -0.8 -0.625 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "919f7355-7a99-4fca-aa5a-f39e752a9855")
 	)
 	(pad "2" smd roundrect
 		(at -0.8 0.025 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "27d04097-dd24-4264-b94c-a228735c1e3c")
 	)
 	(pad "3" smd roundrect
 		(at -0.8 0.675 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3474b4a1-cc8f-49d2-ba73-853a94dd0999")
 	)
 	(pad "4" smd roundrect
 		(at 0.8 0.675 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9f294baa-7cb4-4d14-84fa-eba734cc6164")
 	)
 	(pad "5" smd roundrect
 		(at 0.8 0.025 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "62f06ed1-4ba9-41e6-b293-c78c76de0f90")
 	)
 	(pad "6" smd roundrect
 		(at 0.8 -0.625 90)
 		(size 0.35 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d9cd2968-adc6-4e2f-a9bb-272a48b8a08e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/Balun_SMD-6_2012_Johanson.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "MountingHole_M2.0_2.20mm_Pad3.8mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 2.20mm, for M2.0 screw, 3.8mm Pad for 3.0mm Head")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0baf28ea-f155-47f5-8b98-67f9db2e692f")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -75,7 +62,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "e852136f-2b6c-4ea8-99f8-d3919a0076b9")
 	)
@@ -86,7 +73,7 @@
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "90ba61c8-535c-4a86-b2d1-0b7195069b78")
 	)
@@ -110,4 +97,5 @@
 		(zone_connect 2)
 		(uuid "2b07615b-44e6-4885-8741-599588a6ffe5")
 	)
+	(embedded_fonts no)
 )

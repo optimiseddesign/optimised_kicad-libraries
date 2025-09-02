@@ -1,7 +1,7 @@
 (footprint "Capacitor_SMD_0402_1005m"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0402 (1005 Metric), IPC7351 Nominal, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "83536139-fa23-4757-aa63-f059d945cc6d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -181,17 +168,18 @@
 	(pad "1" smd roundrect
 		(at -0.475 0)
 		(size 0.55 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2545)
 		(uuid "e40e8cef-4fb0-4fc3-be09-3875b2cc8469")
 	)
 	(pad "2" smd roundrect
 		(at 0.475 0)
 		(size 0.55 0.58)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.2545)
 		(uuid "15fe8f3d-6077-4e0e-81d0-8ec3f4538981")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)

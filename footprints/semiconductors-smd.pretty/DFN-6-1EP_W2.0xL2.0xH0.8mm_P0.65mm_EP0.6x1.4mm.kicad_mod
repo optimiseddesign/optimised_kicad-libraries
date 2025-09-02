@@ -1,7 +1,7 @@
 (footprint "DFN-6-1EP_W2.0xL2.0xH0.8mm_P0.65mm_EP0.6x1.4mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "6-Lead Plastic Dual Flat No Lead DFN - 2x2x0.8mm Body")
 	(tags "Built for Diodes Inc AP22652 W-DFN2020-6 (Type A1)")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "37a01da3-cd50-44f0-b20c-edaf6fd46484")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -207,42 +194,42 @@
 	(pad "1" smd roundrect
 		(at -0.95 -0.65)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "2a8bf64f-ba7c-4033-9277-db610e16a55b")
 	)
 	(pad "2" smd roundrect
 		(at -0.95 0)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "56df792e-78ff-42cb-9383-f92f6ce25b78")
 	)
 	(pad "3" smd roundrect
 		(at -0.95 0.65)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "86028757-6ee8-461f-b7a2-b31ef9736d0d")
 	)
 	(pad "4" smd roundrect
 		(at 0.95 0.65)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "cc3ba437-58a8-4b18-88cc-675abc6d9093")
 	)
 	(pad "5" smd roundrect
 		(at 0.95 0)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "be15d8a3-f704-4c85-a7f2-d21cbfb1c1f3")
 	)
 	(pad "6" smd roundrect
 		(at 0.95 -0.65)
 		(size 0.45 0.35)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "32a71aff-54d4-4fb5-9196-6f0a4493451a")
 	)
@@ -254,6 +241,7 @@
 		(zone_connect 2)
 		(uuid "4d891274-ae53-48a1-8cc4-8699759f613a")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm.step"
 		(offset
 			(xyz 0 0 0)

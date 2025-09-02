@@ -1,7 +1,7 @@
 (footprint "Switch_Slide_SPDT_Horizontal_TH_CandK_L102011ML04Q"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Right-Angle")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8f7a9729-58a7-47e5-bc17-515982aff4d8")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -479,7 +466,7 @@
 		(uuid "e6aa1765-3422-4a72-b49f-d2ed3c6a88d5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.75 4.63 -90)
+		(at -2.75 4.63 270)
 		(layer "F.Fab")
 		(uuid "63a2543f-549b-4c29-940b-098f509e4b5c")
 		(effects
@@ -513,6 +500,7 @@
 		(remove_unused_layers no)
 		(uuid "8c57356d-450f-47f1-ad5d-91c5a98a069e")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/relays-switches.3dshapes/CandK Components L102011ML04Q Slide Switch SPDT TH Horizontal.stp"
 		(offset
 			(xyz -2.45 -4.75 2.85)

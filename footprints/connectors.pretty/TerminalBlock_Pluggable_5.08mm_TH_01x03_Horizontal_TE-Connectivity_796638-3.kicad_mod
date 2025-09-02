@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -3.8 -5.2 0)
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "fdfb4b3d-026f-45a9-bd55-a993b60252de")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -242,6 +229,7 @@
 		(remove_unused_layers no)
 		(uuid "29dafce9-4ed3-49c7-b139-a42a20a1ba70")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_5.08mm_TH_01x03_Horizontal_TE-Connectivity_796638-3.stp"
 		(offset
 			(xyz -10 -4.83 3.85)

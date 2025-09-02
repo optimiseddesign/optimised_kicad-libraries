@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "AVX 709296001002006 footprint, 2x6mm poke-home horizontal contact")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "deb5f837-2d4d-4ffb-b633-c3a81dad54e5")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -324,14 +311,14 @@
 	(pad "1" smd roundrect
 		(at -2 0)
 		(size 2.4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "7ee108ea-f420-4a5e-bc0e-83f9940b045e")
 	)
 	(pad "1" smd roundrect
 		(at 2 0)
 		(size 2.4 2.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "8ad1e18f-9ba3-422e-bfd0-28459f34e036")
 	)
@@ -353,6 +340,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -363,6 +354,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296.stp"
 		(offset
 			(xyz 0 0 1)

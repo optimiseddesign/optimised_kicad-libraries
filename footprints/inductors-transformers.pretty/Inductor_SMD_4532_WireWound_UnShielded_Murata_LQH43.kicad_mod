@@ -1,7 +1,7 @@
 (footprint "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "4.5x3.2mm 2.6mm Tall Un-Shielded Inductor")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "67e98570-112a-4b26-abd1-505964d4592d")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -232,17 +219,18 @@
 	(pad "1" smd roundrect
 		(at -1.6 0)
 		(size 1.6 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c1c6db56-b200-46e5-a252-b4c51ce0c7ac")
 	)
 	(pad "2" smd roundrect
 		(at 1.6 0)
 		(size 1.6 2.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "fe873b1b-ba4c-4d38-9892-aaea2494cff9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/inductors-transformers.3dshapes/Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43.stp"
 		(offset
 			(xyz 0 0 0)

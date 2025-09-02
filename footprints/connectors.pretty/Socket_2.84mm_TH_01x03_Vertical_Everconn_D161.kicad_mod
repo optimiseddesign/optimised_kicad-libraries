@@ -1,7 +1,7 @@
 (footprint "Socket_2.84mm_TH_01x03_Vertical_Everconn_D161"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.43 -2.45 0)
@@ -21,19 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "548eeb05-b90b-41b7-847c-4e67875a9d5c")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -245,4 +232,5 @@
 		(remove_unused_layers no)
 		(uuid "0cb1c78a-480e-4a30-ae05-22e63b50d461")
 	)
+	(embedded_fonts no)
 )

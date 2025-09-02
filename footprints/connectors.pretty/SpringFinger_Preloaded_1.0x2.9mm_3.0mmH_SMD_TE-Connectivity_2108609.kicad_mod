@@ -1,7 +1,7 @@
 (footprint "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Preloaded spring finger, 1.0x2.9mm area, 3.0mm max Height, SMD, for TE-Connectivity 2108609 series")
 	(tags "sprung contact ground shield clip")
@@ -26,19 +26,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a783fea3-5efb-456e-9f4e-b90e2e51e34a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -203,7 +190,7 @@
 	(pad "1" smd roundrect
 		(at -0.4 0)
 		(size 2.4 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "44f9095b-eeb6-4378-9c5c-6d09ddb813a5")
 	)
@@ -225,6 +212,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
@@ -235,6 +226,7 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609.stp"
 		(offset
 			(xyz 1.45 0 0.75)

@@ -1,7 +1,7 @@
 (footprint "FusePTC_SMD_2012_Belfuse_0ZCK"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fuse, Side Concave Package; 2 pin, 1.35 mm L X 2.15 mm W X 0.75 mm H body")
 	(tags "Polyfuse 0805")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "702b2e9c-27f8-4a42-ab2d-7c35ab718923")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -252,17 +239,18 @@
 	(pad "1" smd roundrect
 		(at -1.1 0)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9b6bb172-1ac4-440a-ac75-c1917d9d59c7")
 	)
 	(pad "2" smd roundrect
 		(at 1.1 0)
 		(size 1 1.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5701b80f-f006-4814-81c9-0c7f006088a9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/FusePTC_SMD_2012_Littelfuse_0805L050WR.stp"
 		(offset
 			(xyz 0 0 0)

@@ -1,7 +1,7 @@
 (footprint "Varistor-ESD_SMD_0603_1608m_Bourns_CG0603MLA"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Varistor, Chip; 1.60 mm L X 0.80 mm W X 0.80 mm H body")
 	(property "Reference" "REF**"
@@ -24,19 +24,6 @@
 			(font
 				(size 0.6 0.6)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "20bdcd76-f059-47d5-9ccd-666d34bb688a")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -94,7 +81,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "defcbdd9-5a73-4dc0-9531-0a68785adb0b")
 	)
@@ -105,7 +92,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d31f5896-7c59-4637-80ce-e1a9b6d830da")
 	)
@@ -123,17 +110,18 @@
 	(pad "1" smd roundrect
 		(at -0.76 0)
 		(size 1.02 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "775e8983-a723-43c5-bf00-61681f0840f3")
 	)
 	(pad "2" smd roundrect
 		(at 0.76 0)
 		(size 1.02 0.76)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "a0e7a81b-2259-4f8d-8368-ba75f2004714")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 		(offset
 			(xyz 0 0 0)

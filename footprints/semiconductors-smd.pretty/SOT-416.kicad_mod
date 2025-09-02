@@ -1,7 +1,7 @@
 (footprint "SOT-416"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SOT-416, https://www.nxp.com/docs/en/package-information/SOT416.pdf")
 	(tags "SOT-416")
@@ -25,19 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "c75e72f1-2d27-4758-8592-e46cb8359621")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -293,24 +280,25 @@
 	(pad "1" smd roundrect
 		(at -0.65 -0.5)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "28136b34-af51-4074-a940-31ad56b7455d")
 	)
 	(pad "2" smd roundrect
 		(at -0.65 0.5)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "efb6661a-d772-4f44-b33a-b16f6f5f6d3b")
 	)
 	(pad "3" smd roundrect
 		(at 0.65 0)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "e517b47b-7ae3-4537-b4f3-a2ff56029b83")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/SOT-416.stp"
 		(offset
 			(xyz 0 0 0.5)

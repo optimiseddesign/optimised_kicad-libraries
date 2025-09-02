@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Oscillator, Corner Concave; 2.00 mm L X 1.60 mm W X 0.45 mm H body")
 	(property "Reference" "REF**"
@@ -25,19 +25,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.12)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "faed71a7-0883-4325-842d-954f1663fd56")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -232,31 +219,32 @@
 	(pad "1" smd roundrect
 		(at -0.675 0.525 90)
 		(size 0.75 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "737fb66e-e8af-4ff4-a887-df417aca2188")
 	)
 	(pad "2" smd roundrect
 		(at 0.675 0.525 90)
 		(size 0.75 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "754ee0b2-5941-4cea-82bd-eb4d2cce394d")
 	)
 	(pad "3" smd roundrect
 		(at 0.675 -0.525 90)
 		(size 0.75 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "f8d410f5-1c94-4655-bf7e-28800c4b4a9f")
 	)
 	(pad "4" smd roundrect
 		(at -0.675 -0.525 90)
 		(size 0.75 0.85)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c5d67839-4777-45dd-9641-4c04e45579f7")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/crystals-oscillators.3dshapes/Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B.stp"
 		(offset
 			(xyz 0 0 0)
