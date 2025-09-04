@@ -1,0 +1,136 @@
+(footprint "PCB_Mask_Logo_vSMSC_7mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "vSMSC solder mask logo 7mm x 6mm")
+	(property "Reference" "REF**"
+		(at 0.17 -2.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e8c3fe0a-8362-4ed6-942d-f6678cc87c64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_Mask_Logo_vSMSC_7mm"
+		(at 0.68 -3.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "135a8189-cb8f-427c-98c0-5b42cbd7be3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f1f06c5-8415-4a46-836c-106975668b31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f69b66-ae7e-40c8-b245-e2236bda193d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 0.068529 -0.17) (xy 0.262696 -0.171285) (xy -0.000207 0.285077) (xy -0.273628 -0.167207)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7204f4f8-5ad1-45b2-86bd-476e2139852a")
+	)
+	(fp_poly
+		(pts
+			(xy 1.329166 -2.000229) (xy 2.384475 -0.170595) (xy 2.123269 0.291449) (xy 0.791484 -2.002876)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "06e22471-2833-4cc6-9808-afa95877d57a")
+	)
+	(fp_poly
+		(pts
+			(xy 3.21 -2) (xy 3.444376 -1.998047) (xy 3.182894 -1.550751) (xy 2.921412 -1.998821)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "310cbaa5-1863-4f82-8a9b-b96787c2a2c1")
+	)
+	(fp_poly
+		(pts
+			(xy 2.655813 -1.549327) (xy 2.921255 -1.090052) (xy 2.651822 -0.622995) (xy 1.853943 -2.008602) (xy 2.390372 -2.008602)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "5fd5f842-cd54-42ce-a32c-7c25525ab40a")
+	)
+	(fp_poly
+		(pts
+			(xy -2.514257 -2.006682) (xy 0.268204 -2.002876) (xy 0.525822 -1.556257) (xy -2.656336 -1.544806)
+			(xy -0.003326 3.03193) (xy 1.590456 0.293541) (xy 1.848147 0.757927) (xy -0.00448 3.960752) (xy -0.592678 2.965068)
+			(xy -3.459126 -2.004696)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7b2072bb-c961-4af9-87d4-f0b5f7f7f183")
+	)
+	(fp_poly
+		(pts
+			(xy 0.795202 -1.091978) (xy 1.318373 -0.161695) (xy -0.000017 2.128323) (xy -1.59528 -0.616781) (xy -1.054256 -0.616781)
+			(xy 0 1.19) (xy 1.036151 -0.609727) (xy -0.789823 -0.620858) (xy -1.59528 -0.616781) (xy -1.864261 -1.083872)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "91cb4868-5ca6-41ac-bb37-873e8ead2385")
+	)
+	(embedded_fonts no)
+)
