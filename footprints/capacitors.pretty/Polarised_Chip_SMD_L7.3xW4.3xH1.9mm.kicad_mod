@@ -1,0 +1,252 @@
+(footprint "Polarised_Chip_SMD_L7.3xW4.3xH1.9mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Based on Panasonic SP-Cap CX Series SMD,7.3x4.3mm")
+	(tags "Capacitor Polarised Surface Mount")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "95e0870a-d376-477a-86b1-c59bb94999b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Polarised_Chip_SMD_L7.3xW4.3xH1.9mm"
+		(at 0.375 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "887e02bc-4e7e-4956-a1e0-e8a3289b8262")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52b6edd1-fcc9-4ac7-843a-461b231c525d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fea1f708-3a5a-4051-99ba-25b52c41f2e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.75 -2.25)
+		(end -3.75 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8c216ab9-e0e7-4fc4-9b8d-839591efe909")
+	)
+	(fp_line
+		(start -3.75 2.25)
+		(end -3.75 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b91b6a53-10c2-48e2-b828-e368b55ff91f")
+	)
+	(fp_line
+		(start -3.75 2.25)
+		(end 3.75 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98c5073d-f83c-4b93-81fc-cdb0dc17e79c")
+	)
+	(fp_line
+		(start 1.05 -1.4)
+		(end 1.45 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bdbe120-41c7-4dd7-ba33-3dc6f75186ed")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b90ffd4-e004-4035-ae3e-955ec2e1ef17")
+	)
+	(fp_line
+		(start 3.75 -2.25)
+		(end -3.75 -2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2c88438c-c632-44bb-aab9-efac9a8fbada")
+	)
+	(fp_rect
+		(start 3.75 -2.25)
+		(end 4.05 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7a719a66-c4fa-4fa3-84c0-efa733736f8f")
+	)
+	(fp_rect
+		(start 3.75 1.6)
+		(end 4.05 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3d27baa7-59da-416c-8163-d45a815062a9")
+	)
+	(fp_circle
+		(center 1.25 -1.4)
+		(end 1.7 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "578135e1-eb7d-41a3-8ce7-74a1fcf6ec66")
+	)
+	(fp_poly
+		(pts
+			(xy 4 -1.65) (xy 4.65 -1.65) (xy 4.65 1.65) (xy 4 1.65) (xy 4 2.5) (xy -4 2.5) (xy -4 1.65) (xy -4.65 1.65)
+			(xy -4.65 -1.65) (xy -4 -1.65) (xy -4 -2.5) (xy 4 -2.5)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4cfec013-c4a6-422c-b697-fcc7cfcd4b6e")
+	)
+	(fp_line
+		(start 1.05 -1.4)
+		(end 1.45 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "026a4d9c-e8b1-4131-87e7-19af208df916")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffa9c96c-40cf-4be5-af3e-f47807882189")
+	)
+	(fp_rect
+		(start -3.75 -2.25)
+		(end 3.75 2.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "12475605-118f-4e3d-afc2-e63a4eb5b709")
+	)
+	(fp_rect
+		(start 3.05 -2.25)
+		(end 3.75 2.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "08d32bfd-766c-4128-97ec-0ade89b9e66c")
+	)
+	(fp_circle
+		(center 1.25 -1.4)
+		(end 1.7 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d77a8f8b-a7a0-4adb-b088-e8d2c376ff1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.45 0)
+		(layer "F.Fab")
+		(uuid "c59a7e29-4c2c-426f-8723-8a984782be0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 3.2 0)
+		(size 2.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1041666667)
+		(uuid "938caf74-cfea-4214-b176-64671dcd23dc")
+	)
+	(pad "2" smd roundrect
+		(at -3.2 0)
+		(size 2.4 2.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1041666667)
+		(uuid "7ae221f7-c100-4842-bedc-fb7bbf593b40")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/capacitors.3dshapes/Polarised_Chip_SMD_L7.3xW4.3xH1.9mm.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
