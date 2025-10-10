@@ -1,0 +1,221 @@
+(footprint "PSON-8_W1.0xL1.95xH0.5mm_P0.5mm_Nexperia_SOT833-1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "leadless extremely thin small outline package; 8 terminals; 0.5 mm pitch; 1 mm x 1.95 mm x 0.5 mm body")
+	(tags "XSON8 SOT-833 MO-252 Originally for Nexeperia 74LVC2G02GT")
+	(property "Reference" "REF**"
+		(at 0 -1.725 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bc43ce7a-e6ec-49b4-bc85-3b3d8fe22ba5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "PSON-8_W1.0xL1.95xH0.5mm_P0.5mm_Nexperia_SOT833-1"
+		(at -0.15 -4.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0c93118-f170-4619-b94e-e063edc4a830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a45c1c0c-8073-4805-aaf4-2ad3892bf49c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f09f47e-3e6a-4b2e-91f8-81caca8dbdff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.725 -1.1)
+		(end 0.475 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "88c7ee8b-fe74-4d49-8012-2b545da8ca8b")
+	)
+	(fp_line
+		(start -0.475 1.1)
+		(end 0.475 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b749fef-18a4-48dc-8fd9-b40fb8324a5d")
+	)
+	(fp_rect
+		(start -0.725 -1.2)
+		(end 0.725 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd4c4bd3-9679-4a96-9d27-f2dabddeb9a3")
+	)
+	(fp_line
+		(start -0.525 1)
+		(end -0.525 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e690640e-9aa4-43b6-b6f2-070e4dbfb6cf")
+	)
+	(fp_line
+		(start -0.525 1)
+		(end 0.525 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e09123bc-919b-4f55-b7b7-e062ee27eba8")
+	)
+	(fp_line
+		(start -0.225 -1)
+		(end -0.525 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "747e01d6-0486-42e1-82f2-33a03df8a91d")
+	)
+	(fp_line
+		(start 0.525 -1)
+		(end -0.225 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9a384041-78a8-4bd0-a69e-0b87e7c90dc6")
+	)
+	(fp_line
+		(start 0.525 1)
+		(end 0.525 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fb9ddc1c-bdc9-4ccc-8111-2a546b3f5090")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "90fb3dbb-1805-4216-8a1c-a2ef98275d16")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3 -0.75)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "7eb7eab8-544a-4d32-a6fd-500062c7323f")
+	)
+	(pad "2" smd roundrect
+		(at -0.3 -0.25)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0964ff8a-4642-4456-b01b-9fa8ea556617")
+	)
+	(pad "3" smd roundrect
+		(at -0.3 0.25)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "50c42021-a44c-489b-ae66-81b150394e44")
+	)
+	(pad "4" smd roundrect
+		(at -0.3 0.75)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "6af784df-8d6b-4b54-bbaf-79e6c8612ea5")
+	)
+	(pad "5" smd roundrect
+		(at 0.3 0.75)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "87493d3a-bcc6-463c-ac86-0b76421584fc")
+	)
+	(pad "6" smd roundrect
+		(at 0.3 0.25)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cbba7c65-c1ee-4c00-b7b1-9d2d7dfb2f74")
+	)
+	(pad "7" smd roundrect
+		(at 0.3 -0.25)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "df9b83ba-0b55-49d1-8135-f1a0b5274041")
+	)
+	(pad "8" smd roundrect
+		(at 0.3 -0.75)
+		(size 0.4 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cb54c186-8086-4a9f-b584-e0932eb6901d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/PSON-8_W1.0xL1.95xH0.5mm_P0.5mm_Nexperia_SOT833-1.stp"
+		(offset
+			(xyz -1.4875 0.8125 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 90)
+		)
+	)
+)
