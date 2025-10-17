@@ -6338,6 +6338,7 @@
 	(symbol "TVS_Unidir_Dual_HighSpeedData_ST-Micro_USBLC6-2_SOT-666"
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6807,8 +6808,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
-				(length 5.08)
+				(at -10.16 0 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -6825,8 +6826,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 7.62 270)
-				(length 3.81)
+				(at -2.54 6.35 270)
+				(length 2.54)
 				(name "IO1"
 					(effects
 						(font
@@ -6843,8 +6844,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 90)
-				(length 3.81)
+				(at -2.54 -6.35 90)
+				(length 2.54)
 				(name "IO2"
 					(effects
 						(font
@@ -6861,8 +6862,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 7.62 270)
-				(length 3.81)
+				(at 2.54 6.35 270)
+				(length 2.54)
 				(name "IO1"
 					(effects
 						(font
@@ -6879,8 +6880,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -7.62 90)
-				(length 3.81)
+				(at 2.54 -6.35 90)
+				(length 2.54)
 				(name "IO2"
 					(effects
 						(font
@@ -6897,8 +6898,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
-				(length 5.08)
+				(at 10.16 0 180)
+				(length 2.54)
 				(name "VBUS"
 					(effects
 						(font
