@@ -6432,7 +6432,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,19 +6549,20 @@
 		)
 		(symbol "TestPoint_Pad_0.8mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.1)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 0.5019607843)
 				)
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -6592,7 +6593,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,19 +6710,20 @@
 		)
 		(symbol "TestPoint_Pad_0.9mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.1)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 0.5019607843)
 				)
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -6752,7 +6754,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,19 +6871,20 @@
 		)
 		(symbol "TestPoint_Pad_1.1mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.1)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 0.5019607843)
 				)
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -6912,7 +6915,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,19 +7032,20 @@
 		)
 		(symbol "TestPoint_Pad_1.3mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.1)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 0.5019607843)
 				)
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -7072,7 +7076,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,19 +7193,20 @@
 		)
 		(symbol "TestPoint_Pad_1.5mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.1)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 132 0 0 0.5019607843)
 				)
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -7232,7 +7237,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,11 +7353,84 @@
 			)
 		)
 		(symbol "TestPoint_Pad_1.8x1.4mm_Oval_1_1"
-			(circle
-				(center 0 3.302)
-				(radius 0.762)
+			(rectangle
+				(start -0.254 2.286)
+				(end 0.254 1.27)
 				(stroke
-					(width 0)
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 0.5019607843)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 2.286) (xy 0.254 2.286)
+				)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -0.254 1.778)
+				(radius 0.508)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 0.5019607843)
+				)
+			)
+			(arc
+				(start -0.254 1.27)
+				(mid -0.762 1.778)
+				(end -0.254 2.286)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0.254 2.286)
+				(mid 0.762 1.778)
+				(end 0.254 1.27)
+				(stroke
+					(width 0.1)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0.254 1.778)
+				(radius 0.508)
+				(stroke
+					(width -0.0001)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 0 0 0.5019607843)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.27) (xy -0.254 1.27)
+				)
+				(stroke
+					(width 0.1)
 					(type default)
 				)
 				(fill
@@ -7361,7 +7439,7 @@
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -7392,7 +7470,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,11 +7596,11 @@
 		)
 		(symbol "TestPoint_TH_1.3mm_0.7mm_1_1"
 			(circle
-				(center 0 3.302)
-				(radius 0.762)
+				(center 0 1.778)
+				(radius 0.508)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.45)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7530,7 +7608,7 @@
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -7561,7 +7639,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TP"
-			(at 0 5.08 0)
+			(at 0 5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,12 +7755,23 @@
 			)
 		)
 		(symbol "TestPoint_TH_Loop_1.27mm_Keystone_5001_1_1"
+			(rectangle
+				(start -0.762 2.54)
+				(end 0.762 0.762)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
 				(center 0 3.302)
 				(radius 0.762)
 				(stroke
-					(width 0)
-					(type default)
+					(width 0.3)
+					(type solid)
 				)
 				(fill
 					(type none)
@@ -7690,7 +7779,7 @@
 			)
 			(pin passive line
 				(at 0 0 90)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
