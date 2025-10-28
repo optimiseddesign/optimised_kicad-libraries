@@ -61,9 +61,9 @@ CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" 
 
 # for sch_export_bom
 CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + ".csv"
-CONFIG_PCB_EXPORT_BOM_FIELDS = "${ITEM_NUMBER},Reference,${QUANTITY},FitPart,Value,Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Vendor1,SKU1,Vendor2,SKU2"
+CONFIG_PCB_EXPORT_BOM_FIELDS = "${ITEM_NUMBER},Reference,${QUANTITY},${DNP},Value,Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Vendor1,SKU1,Vendor2,SKU2"
 CONFIG_PCB_EXPORT_BOM_LABELS = "Item,References,Qty,FitPart,Value,Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Vendor1,SKU1,Vendor2,SKU2"
-CONFIG_PCB_EXPORT_BOM_GROUP = "Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Value,FitPart,Footprint"
+CONFIG_PCB_EXPORT_BOM_GROUP = "Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Value,${DNP},Footprint"
 
 # for pcb_export_pdf
 CONFIG_PCB_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_layout.pdf"
