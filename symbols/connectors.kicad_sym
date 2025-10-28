@@ -19978,7 +19978,7 @@
 			(hide yes)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at 0 8.89 0)
@@ -20537,7 +20537,7 @@
 			(offset 0.635)
 		)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at -11.43 10.16 0)
@@ -20899,7 +20899,7 @@
 	)
 	(symbol "TagConnect_6pin_UART_Legs"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at -11.43 10.16 0)
@@ -21305,7 +21305,7 @@
 	)
 	(symbol "TagConnect_6pin_UART_NoLegs"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at -11.43 10.16 0)
