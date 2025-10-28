@@ -121,15 +121,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "EEPROM_4Kbit_Microwire_SOIC-8_ST-Micro_M93C66-W_1_1"
 			(rectangle
 				(start -6.35 6.35)
@@ -400,15 +391,6 @@
 			)
 		)
 		(property "SKU2" "511-M24C08-FMC6TG"
-			(at 1.143 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -10.16 0)
 			(effects
 				(font
@@ -727,15 +709,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "2.7 to 3.6V , -40C to 85C"
 			(at 0 0 0)
 			(effects
@@ -1020,15 +993,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

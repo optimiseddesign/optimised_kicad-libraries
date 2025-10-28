@@ -124,15 +124,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "refdes A for plug-in modules (Assembly), XA for a module socket"
 			(at 0 0 0)
 			(effects
@@ -280,15 +271,6 @@
 		)
 		(property "SKU2" "345-1747-ND"
 			(at 2.413 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -520,15 +502,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "part not soldered to PCBA but to include in BOM (combine with M.2 socket and M.2 standoff)"
 			(at 0 0 0)
 			(effects
@@ -706,15 +679,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "*FILL IN DETAILS* Part not soldered to PCBA but to include in BOM (combine with M.2 socket and M.2 standoff)"
 			(at 0 0 0)
 			(effects
@@ -872,15 +836,6 @@
 			)
 		)
 		(property "SKU2" "MDT420E01001TR-ND"
-			(at 2.413 -58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.413 -58.42 0)
 			(effects
 				(font
@@ -2428,15 +2383,6 @@
 			)
 		)
 		(property "SKU2" "798-DF40HC30100DS451"
-			(at 0 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -68.58 0)
 			(effects
 				(font
@@ -4407,15 +4353,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "for pins101-200 (High Speed Serial) of CM4 module socket. Use with CM_Module part"
 			(at 0 0 0)
 			(effects
@@ -6370,15 +6307,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "for module itself, fill in part numbers. Use with CM_Connector & Standoff_SMD parts"
 			(at 0 0 0)
 			(effects
@@ -6525,15 +6453,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

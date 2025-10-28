@@ -128,15 +128,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Black 160g Actuation, Straight Terminals, With Boss"
 			(at 0 0 0)
 			(effects
@@ -444,15 +435,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -3.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "240gF Actuation, 200,000 cycles, gull wing"
 			(at 0 0 0)
 			(effects
@@ -668,15 +650,6 @@
 			)
 		)
 		(property "SKU2" ""
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -924,15 +897,6 @@
 			)
 		)
 		(property "SKU2" "506-FSM6JSMA"
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -7.62 0)
 			(effects
 				(font
@@ -1248,15 +1212,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Black 160g Actuation"
 			(at 0 0 0)
 			(effects
@@ -1554,15 +1509,6 @@
 			)
 		)
 		(property "SKU2" "296-53258-2-ND"
-			(at 0.762 -41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0.762 -41.402 0)
 			(effects
 				(font
@@ -2833,15 +2779,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Relay_SPDT_1A_5V_TH_OMRON_G5V-1_0_1"
 			(polyline
 				(pts
@@ -3285,15 +3222,6 @@
 			)
 		)
 		(property "SKU2" "172-0244"
-			(at 0.508 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0.508 -11.43 0)
 			(effects
 				(font
@@ -3778,15 +3706,6 @@
 		)
 		(property "SKU2" "726-BGS12SN6E6327XTS"
 			(at -1.27 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,15 +4304,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -0.508 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Right-Angle"
 			(at 0 0 0)
 			(effects
@@ -4737,15 +4647,6 @@
 		)
 		(property "SKU2" "L102121ML04Q-ND"
 			(at 2.54 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -0.508 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,15 +5004,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_switches"
@@ -5229,15 +5121,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

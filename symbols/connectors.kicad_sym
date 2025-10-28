@@ -128,15 +128,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Coaxial-U.Fl_SMD_Vertical_Hirose_U.FL-R-SMT-1_1_1"
 			(arc
 				(start 0 -2.667)
@@ -386,15 +377,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -977,15 +959,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "1A 50V, 32AWG-28AWG, From SR series interchangeable with SH housings"
 			(at 0 0 0)
 			(effects
@@ -1183,15 +1156,6 @@
 			)
 		)
 		(property "SKU2" "2308450"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -1637,15 +1601,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "2A 100V, 32AWG-24AWG"
 			(at 0 0 0)
 			(effects
@@ -1851,15 +1806,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "2A 100V, 32AWG-24AWG"
 			(at 0 0 0)
 			(effects
@@ -2058,15 +2004,6 @@
 		)
 		(property "SKU2" "688-1338P"
 			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,15 +2274,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Header_2.54mm_TH_01x02_Vertical_1_1"
 			(rectangle
 				(start -1.27 2.54)
@@ -2534,15 +2462,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -2768,15 +2687,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -3031,15 +2941,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -3323,15 +3224,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -3644,15 +3536,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 5.08 0)
 			(effects
 				(font
@@ -4024,15 +3907,6 @@
 		)
 		(property "SKU2" "571-5-103080-7 (vertical; bend pins)"
 			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,15 +4322,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Header_2.54mm_TH_01x09_Vertical_1_1"
 			(rectangle
 				(start -1.27 11.43)
@@ -4848,15 +4713,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -5293,15 +5149,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Header_2.54mm_TH_02x04_Vertical_1_1"
 			(rectangle
 				(start -2.54 5.08)
@@ -5664,15 +5511,6 @@
 			)
 		)
 		(property "SKU2" "710-61303221021"
-			(at 1.27 -24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -24.13 0)
 			(effects
 				(font
@@ -6747,15 +6585,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -1.27 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Header_4.20mm_TH_02x03_Horizontal_Molex_39300060_0_1"
 			(rectangle
 				(start -6.35 -5.08)
@@ -7134,15 +6963,6 @@
 			)
 		)
 		(property "SKU2" "0462071006-ND"
-			(at -1.27 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at -1.27 13.97 0)
 			(effects
 				(font
@@ -7546,15 +7366,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "10A 300VAC, for 1.1-1.6mm Insulation"
 			(at 0 0 0)
 			(effects
@@ -7781,15 +7592,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -8138,15 +7940,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "M12_Female_5pin_Vertical_TE-Connectivity_T4141012051-000_1_1"
 			(circle
 				(center -1.27 1.27)
@@ -8478,15 +8271,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -9897,15 +9681,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 69.8527 0.127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Single Port, Right Angle, With Shield, No (Without) EMI Tabs, Yellow/Green LED, Cat5, 50u\" Gold Contacts"
 			(at 0 0 0)
 			(effects
@@ -10614,15 +10389,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SIM Card Holder Connector 4FF"
 			(at 0 0 0)
 			(effects
@@ -11013,15 +10779,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -17199,15 +16956,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Socket_2.54mm_TH_01x02_Vertical_1_1"
 			(rectangle
 				(start -1.27 2.54)
@@ -17396,15 +17144,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -17630,15 +17369,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -17893,15 +17623,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -18390,15 +18111,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at -1.27 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at -1.27 5.08 0)
 			(effects
 				(font
@@ -19003,15 +18715,6 @@
 			)
 		)
 		(property "SKU2" "SAM11957-ND"
-			(at 1.27 -24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -24.13 0)
 			(effects
 				(font
@@ -20095,15 +19798,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Socket_2.84mm_TH_01x03_Vertical_Everconn_D161_1_1"
 			(rectangle
 				(start -1.27 3.81)
@@ -20332,15 +20026,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "sprung contact probe connector ground shield clip"
 			(at 0 0 0)
 			(effects
@@ -20521,15 +20206,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TagConnect_6pin_SWD_NoLegs"
@@ -20652,14 +20328,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at -10.16 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" " e.g. TC2030-IDC-NL - https://www.tag-connect.com/product/tc2030-idc-nl"
@@ -21014,14 +20682,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at -10.16 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "Note: VCC voltage & direction, UART voltages & speed etc depend on cable chosen - not all are compatible with all uses!"
@@ -21422,14 +21082,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at -10.16 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "Note: VCC voltage & direction, UART voltages & speed etc depend on cable chosen - not all are compatible with all uses!"
 			(at 0 0 0)
 			(effects
@@ -21781,15 +21433,6 @@
 		)
 		(property "SKU2" "710-691322110002"
 			(at 0.3556 -6.5024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -0.127 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22193,15 +21836,6 @@
 		)
 		(property "SKU2" "710-691322110003"
 			(at 0.3556 -9.0424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -0.127 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22733,15 +22367,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -0.127 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Right-Angle PCB mounting male horizontal connector header (closed ended)"
 			(at 0 0 0)
 			(effects
@@ -23138,15 +22763,6 @@
 		)
 		(property "SKU2" "21-3419"
 			(at 0.7874 -8.7376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -0.127 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23682,15 +23298,6 @@
 		)
 		(property "SKU2" "21-3420"
 			(at 0.7874 -8.7376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -0.127 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24342,15 +23949,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Closed Ends, 0.32-1.6mm2 (28-14AWG) wire size"
 			(at 0 0 0)
 			(effects
@@ -24638,15 +24236,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Closed Ends, 0.05-2mm2 (30-14AWG) wire size"
 			(at 0 0 0)
 			(effects
@@ -24927,15 +24516,6 @@
 		)
 		(property "SKU2" "A98236-ND"
 			(at 0.3556 -9.0424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25296,15 +24876,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Push Fit Connector"
 			(at 0 0 0)
 			(effects
@@ -25474,15 +25045,6 @@
 		)
 		(property "SKU2" "571-284392-2"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25727,15 +25289,6 @@
 		)
 		(property "SKU2" "571-284392-3"
 			(at 0 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26033,15 +25586,6 @@
 		)
 		(property "SKU2" "A98169-ND"
 			(at 1.27 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26447,15 +25991,6 @@
 		)
 		(property "SKU2" "A98373-ND"
 			(at 1.27 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26921,15 +26456,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TerminalBlock_Screw_5.08mm_TH_01x02_Vertical_CamdenBoss_CTBP0708_1_1"
 			(rectangle
 				(start -1.27 2.54)
@@ -27166,15 +26692,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -27471,15 +26988,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -27862,15 +27370,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1_1_1"
 			(rectangle
 				(start -6.35 -7.62)
@@ -28240,15 +27739,6 @@
 		)
 		(property "SKU2" "12401610E4#2ACT-ND"
 			(at -5.08 -58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29288,15 +28778,6 @@
 		)
 		(property "SKU2" "640-USB4160-3-0170-C"
 			(at 1.27 -54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30355,15 +29836,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 3.81 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Waterproof Type C Middle Mount for 0.6mm PCB, uses waterproof ring 2171766666"
 			(at 0 0 0)
 			(effects
@@ -30815,15 +30287,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

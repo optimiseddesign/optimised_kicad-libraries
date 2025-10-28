@@ -124,15 +124,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.921 -44.958 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "CC CC/CV, Linear Technology, -40C to 125C, ideal diode BAT power path, Synchronous DCDC controller, NTC, cells batteries"
 			(at 0 0 0)
 			(effects
@@ -983,15 +974,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Dynamic Power-Path Management DPPM 4.4V"
 			(at 0 0 0)
 			(effects
@@ -1516,15 +1498,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 29.21 20.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "WQFN-HR (RYK00018A)"
 			(at 0 0 0)
 			(effects
@@ -1997,15 +1970,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "lithium battery charger"
 			(at 0 0 0)
 			(effects
@@ -2314,14 +2278,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "force pass through bypass mode, VSEL, WCSP option"
 			(at 0 0 0)
 			(effects
@@ -2578,14 +2534,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(symbol "DCDC_Boost_Converter_2V6-16V_0.5A_1500kHz_Diodes-Inc_AP3012_SOT-23-5_0_0"
 			(pin power_in line
 				(at -11.43 3.81 0)
@@ -2808,15 +2756,6 @@
 		)
 		(property "SKU2" "595-TPS63061DSCR"
 			(at 5.08 -29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,15 +3109,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Step-Down, PWM/PFM, adjustable soft-start, Power-good output, active discharge"
 			(at 0 0 0)
 			(effects
@@ -3465,15 +3395,6 @@
 			)
 		)
 		(property "SKU2" "296-TPS628512DRLRTR-ND"
-			(at 1.143 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -17.78 0)
 			(effects
 				(font
@@ -3776,15 +3697,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Step-Down, PWM/PFM, adjustable soft-start, Power-good output, active discharge"
 			(at 0 0 0)
 			(effects
@@ -4072,15 +3984,6 @@
 		)
 		(property "SKU2" "296-49765-1-ND"
 			(at 2.54 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,15 +4292,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "DCDC_Buck_Converter_4V-36V_1A_400kHz_Texas-Instruments_LMR23610_HSOIC-EP-8_1_1"
 			(rectangle
 				(start -7.62 8.89)
@@ -4690,15 +4584,6 @@
 		)
 		(property "SKU2" "296-LMR51450SDRRRTR-ND"
 			(at 2.54 -25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,15 +4973,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "DCDC_Buck_Converter_6V-100V_0.5A_1000kHz_Texas-Instruments_LM5163_HSOIC-8_0_0"
 			(pin power_in line
 				(at -11.43 6.35 0)
@@ -5390,15 +5266,6 @@
 			)
 		)
 		(property "SKU2" "480-AG7200"
-			(at 1.397 -13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.397 -13.716 0)
 			(effects
 				(font
@@ -5773,15 +5640,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Ideal_Diode_Controller_Texas-Instruments_LM74700-Q1_SOT-23-6_0_0"
 			(pin power_in line
 				(at -12.7 5.08 0)
@@ -6021,15 +5879,6 @@
 			)
 		)
 		(property "SKU2" "511-LD39200PUR"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -6305,15 +6154,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LDO_Adjustable_500mA_STMicro_LD39050_DFN-6_0_0"
 			(pin output line
 				(at -10.16 -1.27 0)
@@ -6581,15 +6421,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LDO_Fixed_1V8_300mA_Diodes-Inc_AP2127K_SOT-23-5_1_1"
 			(rectangle
 				(start -5.08 4.445)
@@ -6809,15 +6640,6 @@
 			)
 		)
 		(property "SKU2" "595-TLV70218DBVR"
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -7046,15 +6868,6 @@
 		)
 		(property "SKU2" "863-NCP718AMT250TBG"
 			(at 2.54 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,15 +7149,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LDO_Fixed_3V3_2A_STMicro_LD39200_DFN-6_0_0"
 			(pin output line
 				(at -10.16 -1.27 0)
@@ -7612,15 +7416,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LDO_Fixed_3V3_300mA_Diodes-Inc_AP2127K_SOT-23-5_1_1"
 			(rectangle
 				(start -5.08 4.445)
@@ -7841,15 +7636,6 @@
 		)
 		(property "SKU2" "296-40674-6-ND"
 			(at 2.54 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,15 +7874,6 @@
 		)
 		(property "SKU2" "296-TPS7A2533DRVRCT-ND"
 			(at 2.54 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,15 +8155,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "2x2mm Package, 1uF Stable Cout, Ultra-low Iq 4uA, without active discharge"
 			(at 0 0 0)
 			(effects
@@ -8661,15 +8429,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "1.5x1.5mm Package, 0.47uF Stable Cout, Ultra-low Iq 4.7uA"
 			(at 0 0 0)
 			(effects
@@ -8918,15 +8677,6 @@
 			)
 		)
 		(property "SKU2" "LTC4365ITS8#TRMPBFCT-ND"
-			(at 1.27 -11.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -11.684 0)
 			(effects
 				(font
@@ -9225,15 +8975,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Protection_Output_HighSideSwitch_Dual_500mA_2V7-5V5_Microchip_MIC2026-1_SOIC-8_1_1"
 			(rectangle
 				(start -6.35 -11.43)
@@ -9507,15 +9248,6 @@
 			)
 		)
 		(property "SKU2" "31-AP22652FDZ-7CT-ND"
-			(at 3.81 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 3.81 -16.51 0)
 			(effects
 				(font
@@ -9798,15 +9530,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 3.81 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Output Current Limits, Active-High Enable, with slow start and reverse protection"
 			(at 0 0 0)
 			(effects
@@ -10073,15 +9796,6 @@
 			)
 		)
 		(property "SKU2" "296-42052-1-ND"
-			(at 1.27 -31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -31.75 0)
 			(effects
 				(font
@@ -10499,15 +10213,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.413 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Adjustable OVLO, Circuit Breaker, Latch-off, PG power good output (no /FLT)"
 			(at 0 0 0)
 			(effects
@@ -10837,15 +10542,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Regulator, Q Temp, A Grade"
 			(at 0 0 0)
 			(effects
@@ -11097,15 +10793,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SOT323-3L, A Grade 0.1%, also B 0.2% available"
 			(at 0 0 0)
 			(effects
@@ -11336,15 +11023,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

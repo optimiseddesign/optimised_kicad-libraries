@@ -125,15 +125,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -17.907 -17.526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Spread Spectrum PDM, LFCSP, Stereo/Mono 2Ω/4Ω/8Ω, 7V-18V"
 			(at 0 0 0)
 			(effects
@@ -1566,15 +1557,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -2091,15 +2073,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Opamp_Single_1.2MHz_3.5V-16V_SMD_Microchip_MCP6H01_SC-70-5_1_1"
 			(polyline
 				(pts
@@ -2321,15 +2294,6 @@
 		)
 		(property "SKU2" "MCP6H01T-E/MNYTR-ND"
 			(at -1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,15 +2604,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

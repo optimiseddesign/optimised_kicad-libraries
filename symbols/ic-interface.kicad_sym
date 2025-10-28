@@ -124,15 +124,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "BT-SoC_SMD_Nordic_nRF52833_QFN-40_0_0"
 			(pin bidirectional line
 				(at -29.21 -3.81 0)
@@ -1002,15 +993,6 @@
 			)
 		)
 		(property "SKU2" "1914-BM833CT-ND"
-			(at 1.27 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -52.07 0)
 			(effects
 				(font
@@ -2391,15 +2373,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.397 -13.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "IEEE802.3bt IEEE802.3at IEEE802.3af Power over Ethernet"
 			(at 0 0 0)
 			(effects
@@ -2707,15 +2680,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.143 -34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -34.29 0)
 			(effects
 				(font
@@ -3896,15 +3860,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 6.35 -54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "ESD OC over-current regulator level shifting"
 			(at 0 0 0)
 			(effects
@@ -4735,15 +4690,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "IEC 61131-2 Type 1, 2, 3"
 			(at 0 0 0)
 			(effects
@@ -5514,15 +5460,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "3000VRMS -55V to 125C"
 			(at 0 0 0)
 			(effects
@@ -5927,15 +5864,6 @@
 			)
 		)
 		(property "SKU2" "SX1262IMLTRTCT-ND"
-			(at 5.08 -35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 5.08 -35.56 0)
 			(effects
 				(font
@@ -6525,15 +6453,6 @@
 			)
 		)
 		(property "SKU2" "C2995536"
-			(at 0.762 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0.762 59.182 0)
 			(effects
 				(font
@@ -8295,15 +8214,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "USB2_Hub-Quad_Eth-10-100_Microchip_LAN9514i"
@@ -8420,15 +8330,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -9765,15 +9666,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 5.08 -19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "USB2_Switch_2Port_ON-Semi_FSUSB42_MSOP-10_0_0"
 			(text "CTRL"
 				(at -1.778 -9.017 0)
@@ -10223,15 +10115,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.143 -45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -45.72 0)
 			(effects
 				(font
@@ -11686,15 +11569,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -13048,15 +12922,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 13.97 -57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Integrated System-in-Package"
 			(at 0 0 0)
 			(effects
@@ -14077,15 +13942,6 @@
 			)
 		)
 		(property "SKU2" "587-6382-ND"
-			(at -5.08 -69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at -5.08 -69.85 0)
 			(effects
 				(font
@@ -15242,15 +15098,6 @@
 			)
 		)
 		(property "SKU2" "595-DRV2605LDGSR"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -2.54 0)
 			(effects
 				(font

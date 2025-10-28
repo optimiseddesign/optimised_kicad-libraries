@@ -124,15 +124,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Buffer_Dual_1V65-5V5_Texas-Instruments_SN74LVC2G34_SC-70-6_0_0"
 			(pin input line
 				(at -8.89 2.54 0)
@@ -446,15 +437,6 @@
 			)
 		)
 		(property "SKU2" "296-13013-2-ND"
-			(at 1.143 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -8.89 0)
 			(effects
 				(font
@@ -862,15 +844,6 @@
 			)
 		)
 		(property "SKU2" "296-SN74HCS238PWRCT-ND"
-			(at 1.27 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -21.59 0)
 			(effects
 				(font
@@ -1362,15 +1335,6 @@
 		)
 		(property "SKU2" "771-LVC573ABQ115"
 			(at -1.27 -31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at -10.16 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,15 +1870,6 @@
 			)
 		)
 		(property "SKU2" "1727-1773-2-ND"
-			(at 1.143 -20.574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.143 -20.574 0)
 			(effects
 				(font
@@ -2833,15 +2788,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.397 -9.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -3459,15 +3405,6 @@
 			)
 		)
 		(property "SKU2" "296-8434-1-ND"
-			(at 1.27 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -15.24 0)
 			(effects
 				(font
@@ -4491,15 +4428,6 @@
 			)
 		)
 		(property "SKU2" "296-SN74HCS32PWRCT-ND"
-			(at 1.27 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -15.24 0)
 			(effects
 				(font
@@ -5536,15 +5464,6 @@
 			)
 		)
 		(property "SKU2" "296-SN74HCS32BQARCT-ND"
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -7.62 0)
 			(effects
 				(font
@@ -6599,15 +6518,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

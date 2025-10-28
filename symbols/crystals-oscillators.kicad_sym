@@ -125,15 +125,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Crystal_25MHz_SMD-4_2016_10ppm_20ppm_10pF_ECS_ECX-1637B_0_0"
 			(pin passive line
 				(at 3.81 1.27 180)
@@ -377,15 +368,6 @@
 		)
 		(property "SKU2" "520-250-10-33B-CWNT"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,15 +634,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Crystal_32MHz_SMD-4_2016_10ppm_10ppm_10pF_ECS_ECX-1637B_0_0"
 			(pin passive line
 				(at 3.81 1.27 180)
@@ -914,15 +887,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Crystal_32kHz_SMD-2_3215_20ppm_7pF_IQD_CFPX-217_1_1"
 			(polyline
 				(pts
@@ -1114,15 +1078,6 @@
 		)
 		(property "SKU2" "50-ECS-80-10-33-CGN-TR3TR-ND"
 			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,15 +1343,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Oscillator_16MHz_SMD-4_2520_10ppm_85C_ECS-Inc_ECS-2520S33_0_0"
 			(pin input line
 				(at -10.16 0 0)
@@ -1616,15 +1562,6 @@
 		)
 		(property "SKU2" "XC2883CT-ND"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,15 +1795,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Oscillator_25MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
 			(pin input line
 				(at -10.16 0 0)
@@ -2086,15 +2014,6 @@
 		)
 		(property "SKU2" "XC2199CT-ND"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,15 +2247,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Oscillator_26MHz_SMD-4_3225_25ppm_85C_ECS-Inc_ECS-3225MV_0_0"
 			(pin input line
 				(at -10.16 0 0)
@@ -2556,15 +2466,6 @@
 		)
 		(property "SKU2" "XC2214TR-ND"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,15 +2699,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 7.62 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TCXO_32MHz_SMD-4_2016_2.5ppm_85C_NDK_NT2016SA-END4263A_1_1"
 			(polyline
 				(pts
@@ -3021,15 +2913,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

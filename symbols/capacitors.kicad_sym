@@ -128,15 +128,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Al-Elec_Polarised_Radial_TH_10V_220uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ_1_1"
 			(polyline
 				(pts
@@ -343,15 +334,6 @@
 			)
 		)
 		(property "SKU2" "749-7173"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -574,15 +556,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Al-Elec_Polarised_Radial_TH_35V_1000uF_D12.5xP5.0xH20.0mm_Rubycon_YXJ_1_1"
 			(polyline
 				(pts
@@ -789,15 +762,6 @@
 			)
 		)
 		(property "SKU2" "232-50YXJ1M5X11"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -1020,15 +984,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Al-Elec_Polarised_Radial_TH_50V_22uF_D5.0xP2.0xH11.0mm_Rubycon_YXJ_1_1"
 			(polyline
 				(pts
@@ -1235,15 +1190,6 @@
 			)
 		)
 		(property "SKU2" "232-50YXJ47M6.3X11"
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -6.35 0)
 			(effects
 				(font
@@ -1466,15 +1412,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Al-Elec_Polarised_Radial_TH_63V_47uF_D6.3xP2.5xH11.0mm_Rubycon_YXJ_1_1"
 			(polyline
 				(pts
@@ -1683,15 +1620,6 @@
 			)
 		)
 		(property "SKU2" "667-EEF-CX0J221R"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -1924,15 +1852,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Capacitor_SMD_0201_0603m_1_1"
 			(polyline
 				(pts
@@ -2116,15 +2035,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2324,15 +2234,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Capacitor_SMD_0603_1608m_1_1"
 			(polyline
 				(pts
@@ -2516,15 +2417,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2724,15 +2616,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Capacitor_SMD_1206_3216m_1_1"
 			(polyline
 				(pts
@@ -2916,15 +2799,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -3124,15 +2998,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Capacitor_SMD_1808_4520m_1_1"
 			(polyline
 				(pts
@@ -3315,15 +3180,6 @@
 			)
 		)
 		(property "SKU2" "728-1133-1-ND"
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -3555,15 +3411,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Supercapacitor Electric Double Layer Capacitor Reflowable"
 			(at 0 0 0)
 			(effects
@@ -3776,15 +3623,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

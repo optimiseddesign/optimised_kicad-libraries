@@ -125,15 +125,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "Triac_Single_30A_600V_35mA_TO-263_ST-Microelectronics_T3035H"
@@ -251,15 +242,6 @@
 		)
 		(property "SKU2" "511-T3035H-6G-TR"
 			(at 1.27 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

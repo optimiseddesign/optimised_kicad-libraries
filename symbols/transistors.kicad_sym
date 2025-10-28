@@ -127,15 +127,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.667 -14.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "'BW' variant higher hFE 200-450 gain bin 100mA SC-70"
 			(at 0 0 0)
 			(effects
@@ -380,15 +371,6 @@
 		)
 		(property "SKU2" "78-SI7252DP-T1-GE3"
 			(at 3.81 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,15 +1131,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -1911,15 +1884,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "8Vgs 470mOhm"
 			(at 0 0 0)
 			(effects
@@ -2316,15 +2280,6 @@
 		)
 		(property "SKU2" "1727-8580-1-ND"
 			(at 0.2286 -14.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,15 +2690,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SC-75"
 			(at 0 0 0)
 			(effects
@@ -3147,15 +3093,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "NMOS_Single_40V_50A_TO-252_Vishay_SUD50N04-8m8P_1_1"
 			(polyline
 				(pts
@@ -3543,15 +3480,6 @@
 		)
 		(property "SKU2" "726-BSS670S2LH6327XT"
 			(at 0 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,15 +3890,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "NMOS_Single_60V_0.35A_DFN1006-3_Nexperia_NX7002BKM_1_1"
 			(polyline
 				(pts
@@ -4358,15 +4277,6 @@
 		)
 		(property "SKU2" "621-DMP1046UFDB-13"
 			(at 3.81 -8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,15 +4950,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.54 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SC-75"
 			(at 0 0 0)
 			(effects
@@ -5442,15 +5343,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "PMOS_Single_30V_3.8A_SOT-23_Diodes-Inc_DMP3099L_1_1"
 			(polyline
 				(pts
@@ -5790,15 +5682,6 @@
 		)
 		(property "SKU2" "213-9204"
 			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,15 +6037,6 @@
 		)
 		(property "SKU2" "1727-1263-1-ND"
 			(at 0.2286 -14.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,15 +6418,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

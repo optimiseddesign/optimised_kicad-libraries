@@ -129,15 +129,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Resistor_SMD_0201_0603m_1_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -308,15 +299,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -503,15 +485,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Resistor_SMD_0603_1608m_1_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -682,15 +655,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -877,15 +841,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Resistor_SMD_1206_3216m_1_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -1063,15 +1018,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "Varistor-ESD_SMD_0402_1005m_14VDC_Bourns_CG0402MLA-14LG"
@@ -1194,15 +1140,6 @@
 		)
 		(property "SKU2" "CG0402MLA-14LGTR-ND"
 			(at 2.794 -9.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,15 +1351,6 @@
 		)
 		(property "SKU2" "652-CG0603MLA-18KE"
 			(at 2.794 -9.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

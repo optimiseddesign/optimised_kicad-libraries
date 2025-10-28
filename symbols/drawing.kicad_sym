@@ -128,15 +128,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 )

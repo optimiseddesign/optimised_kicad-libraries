@@ -125,15 +125,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -5.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Filter Coil Chip 100MHz -40C to +85C"
 			(at 0 0 0)
 			(effects
@@ -550,15 +541,6 @@
 			)
 		)
 		(property "SKU2" "652-SM13126PEL"
-			(at 1.397 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.397 -15.24 0)
 			(effects
 				(font
@@ -1777,15 +1759,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Ferrite_SMD_1005_0.9A_600R_Murata_BLM15PX601SN1D_1_1"
 			(polyline
 				(pts
@@ -1980,15 +1953,6 @@
 			)
 		)
 		(property "SKU2" "81-BLM15PG100SN1D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2199,15 +2163,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Ferrite_SMD_1608_0.7A_220R_Murata_BLM18AG221SN1D_1_1"
 			(polyline
 				(pts
@@ -2402,15 +2357,6 @@
 			)
 		)
 		(property "SKU2" "81-BLM18PG121SN1D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2621,15 +2567,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Ferrite_SMD_2012_4A_30R_Murata_BLM21PG300SN1D_1_1"
 			(polyline
 				(pts
@@ -2825,15 +2762,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -3048,15 +2976,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -3288,15 +3207,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "General, fill-in"
 			(at 0 0 0)
 			(effects
@@ -3512,15 +3422,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -3752,15 +3653,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "-40C to 125C, 1.15mm Tall"
 			(at 0 0 0)
 			(effects
@@ -3976,15 +3868,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -7.62 0)
 			(effects
 				(font
@@ -4216,15 +4099,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 2.54 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "LQH43NH Series - choose exact part"
 			(at 0 0 0)
 			(effects
@@ -4440,15 +4314,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 2.54 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -7.62 0)
 			(effects
 				(font
@@ -4681,15 +4546,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SRN8040 Series - choose exact part"
 			(at 0 0 0)
 			(effects
@@ -4913,15 +4769,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TEMPLATE_transformers"
@@ -5039,15 +4886,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

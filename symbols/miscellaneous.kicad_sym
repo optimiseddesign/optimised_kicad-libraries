@@ -444,15 +444,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -3.81 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "MID 'OnGround' SLS Selective Laser Sintering"
 			(at 0 0 0)
 			(effects
@@ -753,15 +744,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "50R impedance, balanced to unbalanced conversion including LPF"
 			(at 0 0 0)
 			(effects
@@ -1019,15 +1001,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "4.0x4.0mm 90mA"
 			(at 0 0 0)
 			(effects
@@ -1243,15 +1216,6 @@
 		)
 		(property "SKU2" "534-1043P"
 			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1501,15 +1465,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Cell-Holder_CR1220_Horizontal_SMD_Harwin_S8411-45R_1_1"
 			(rectangle
 				(start -2.286 0.508)
@@ -1743,15 +1698,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Stainless Steel SMT, matches with Keystone 110 120 or 122"
 			(at 0 0 0)
 			(effects
@@ -1956,15 +1902,6 @@
 			)
 		)
 		(property "SKU2" "3759163"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2197,15 +2134,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Fiducial_0_1"
 			(circle
 				(center 0 0)
@@ -2338,15 +2266,6 @@
 		)
 		(property "SKU2" "712-0900FM15D0039ECT-ND"
 			(at 2.54 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 5.08 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,15 +2596,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -12.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Fuse-FuseHolder_62mA-10A_SMD_9750m_Littelfuse_154-Series_1_1"
 			(rectangle
 				(start -0.508 -1.27)
@@ -2867,15 +2777,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -9.652 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -9.652 90)
 			(effects
 				(font
@@ -3096,15 +2997,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -12.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Fuse_0.25A-5A_SMD_1608_Belfuse_C2Q_1_1"
 			(rectangle
 				(start -0.508 -1.27)
@@ -3286,15 +3178,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 -12.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 -12.7 90)
 			(effects
 				(font
@@ -3501,15 +3384,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -12.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Fuse_0.75A-8A_SMD_3216_Belfuse_C1T_1_1"
 			(rectangle
 				(start -0.508 -1.27)
@@ -3695,15 +3569,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at -2.54 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Select logo footprint after placing"
 			(at 0 0 0)
 			(effects
@@ -3847,15 +3712,6 @@
 		)
 		(property "SKU2" " "
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at 0 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,14 +3872,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at -1.27 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "Matches Espressif ESP-WROOM-02 reference design"
@@ -4232,14 +4080,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at 0 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "Matches Texas Instruments DN038 reference design, for 0.8mm thick PCBs"
@@ -4856,14 +4696,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 0 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "Self-contained, pads built-in. For PT118C 2.0"
 			(at 0 0 0)
 			(effects
@@ -5082,14 +4914,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 0 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "ki_keywords" "Self-contained, pads built-in"
 			(at 0 0 0)
 			(effects
@@ -5249,15 +5073,6 @@
 		)
 		(property "SKU2" " "
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at 1.27 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5523,15 +5338,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "net tie"
 			(at 0 0 0)
 			(effects
@@ -5772,15 +5578,6 @@
 		)
 		(property "SKU2" " "
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at 1.27 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,15 +5843,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 1.27 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "net tie"
 			(at 0 0 0)
 			(effects
@@ -6301,15 +6089,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -1.397 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SMD, CM4 3.0mm tall stacking height"
 			(at 0 0 0)
 			(effects
@@ -6467,15 +6246,6 @@
 			)
 		)
 		(property "SKU2" "710-9774025151R"
-			(at -1.397 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at -1.397 -7.62 0)
 			(effects
 				(font
@@ -6648,15 +6418,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TestPoint_Pad_0.8mm"
@@ -6778,15 +6539,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 1.27 -6.35 0)
 			(effects
 				(font
@@ -6955,15 +6707,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TestPoint_Pad_0.9mm_1_1"
 			(circle
 				(center 0 3.302)
@@ -7116,15 +6859,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 1.27 -6.35 0)
 			(effects
 				(font
@@ -7293,15 +7027,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TestPoint_Pad_1.3mm_1_1"
 			(circle
 				(center 0 3.302)
@@ -7454,15 +7179,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 1.27 -6.35 0)
 			(effects
 				(font
@@ -7631,15 +7347,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TestPoint_Pad_1.8x1.4mm_Oval_1_1"
 			(circle
 				(center 0 3.302)
@@ -7792,15 +7499,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 1.27 -6.35 0)
 			(effects
 				(font
@@ -7978,15 +7676,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "TestPoint_TH_Loop_1.27mm_Keystone_5001_1_1"
 			(circle
 				(center 0 3.302)
@@ -8135,15 +7824,6 @@
 			)
 		)
 		(property "SKU2" "534-54"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

@@ -126,15 +126,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.143 -52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "MCU CRC Timer I2C DMA ADC RTC"
 			(at 0 0 0)
 			(effects
@@ -1591,15 +1582,6 @@
 		)
 		(property "SKU2" "511-STM32U575RGT6"
 			(at 1.397 -50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 3.937 -50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,15 +3400,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TPU_SMD_Google_Coral_G313-06329-00_LGA-88-32EP"
@@ -3543,15 +3516,6 @@
 			)
 		)
 		(property "SKU2" "212-G313-06329-00"
-			(at 1.27 -24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -24.13 0)
 			(effects
 				(font

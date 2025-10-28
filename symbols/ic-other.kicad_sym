@@ -124,15 +124,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 3.81 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "SMBus 2.0 I2C , no external EEPROM load, temperature, PWM or DAC Fan, TACH"
 			(at 0 0 0)
 			(effects
@@ -408,15 +399,6 @@
 			)
 		)
 		(property "SKU2" "2195-RV-3028-C732.768KHZ1PPM-TA-QCCT-ND"
-			(at 1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -16.51 0)
 			(effects
 				(font
@@ -715,15 +697,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at -1.397 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "925nA typical timekeeping current at 3.0V"
 			(at 0 0 0)
 			(effects
@@ -1014,15 +987,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "RTC_I2C_NXP_PCF8523_SOIC-8_1_1"
 			(rectangle
 				(start -10.16 7.62)
@@ -1296,15 +1260,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -1590,15 +1545,6 @@
 			)
 		)
 		(property "SKU2" "511-LSM303AGRTR"
-			(at 5.08 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 5.08 -22.86 0)
 			(effects
 				(font
@@ -1971,15 +1917,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Sensor_Cap_2Ch_GPIO_Microchip_MTCH102_UDFN-8_0_0"
 			(pin open_collector line
 				(at -15.24 5.08 0)
@@ -2275,15 +2212,6 @@
 			)
 		)
 		(property "SKU2" "163-9811"
-			(at 5.08 -22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 5.08 -22.86 0)
 			(effects
 				(font
@@ -2684,15 +2612,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font

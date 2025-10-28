@@ -128,15 +128,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Diode_Single_75V_150mA_Diodes-Inc_1N4148WS_SOD-323_1_1"
 			(polyline
 				(pts
@@ -332,15 +323,6 @@
 		)
 		(property "SKU2" "621-BAS116LPH4-7B"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,15 +530,6 @@
 			)
 		)
 		(property "SKU2" "630-ASMB-KTF0-0A306"
-			(at 1.27 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -13.97 0)
 			(effects
 				(font
@@ -1005,15 +978,6 @@
 			)
 		)
 		(property "SKU2" "815-4332"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -1517,15 +1481,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LED_SMD-6_2827_RGB_OSRAM_KRTB-LFLP71.32_0_0"
 			(pin passive line
 				(at 5.08 5.08 180)
@@ -1992,15 +1947,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "LED_SMD_1608_Green_3.2V_430mcd_Wurth_150060GS75000_1_1"
 			(polyline
 				(pts
@@ -2220,15 +2166,6 @@
 		)
 		(property "SKU2" "645-598-8D90-107F"
 			(at 0 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,15 +2410,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "InGaN Light Emitting Diode"
 			(at 0 0 0)
 			(effects
@@ -2709,15 +2637,6 @@
 			)
 		)
 		(property "SKU2" "630-HSMG-C170"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -2961,15 +2880,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Avago Broadcom"
 			(at 0 0 0)
 			(effects
@@ -3205,15 +3115,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Avago Broadcom"
 			(at 0 0 0)
 			(effects
@@ -3438,15 +3339,6 @@
 			)
 		)
 		(property "SKU2" "160-2033-1-ND"
-			(at 2.54 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -11.43 0)
 			(effects
 				(font
@@ -3796,15 +3688,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "Serial / Common Cathode+Anode (AKAK)"
 			(at 0 0 0)
 			(effects
@@ -4130,15 +4013,6 @@
 			)
 		)
 		(property "SKU2" "771-BAT160C115"
-			(at 2.54 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -12.7 0)
 			(effects
 				(font
@@ -4492,15 +4366,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Schottky_Single_100V_200mA_ON-Semi_NSR02100HT1G_SOD-323_1_1"
 			(polyline
 				(pts
@@ -4719,15 +4584,6 @@
 			)
 		)
 		(property "SKU2" "863-NSR0240P2T5G"
-			(at 2.54 -11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 2.54 -11.43 0)
 			(effects
 				(font
@@ -4962,15 +4818,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 1.27 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "Schottky_Single_60V_2A_Nexperia_PMEG6020ER_SOD-323W_1_1"
 			(polyline
 				(pts
@@ -5194,15 +5041,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(embedded_fonts no)
 	)
 	(symbol "TVS_Bidir_10kV_SOD-882_Nexperia_PESD24VF1BBL"
@@ -5324,15 +5162,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -5532,15 +5361,6 @@
 			)
 		)
 		(property "MPN2" " "
-			(at 0 0 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 90)
 			(effects
 				(font
@@ -5755,15 +5575,6 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 0 0 0)
 			(effects
 				(font
@@ -5997,15 +5808,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "30kV ESD IEC 61000-4-2 , Surge 8/20us 10/1000us pulse"
 			(at 0 0 0)
 			(effects
@@ -6229,15 +6031,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "ki_keywords" "5V - 250V Uni-directional available"
 			(at 0 0 0)
 			(effects
@@ -6450,15 +6243,6 @@
 			)
 		)
 		(property "SKU2" "511-USBLC6-2P6"
-			(at 1.27 -16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
 			(at 1.27 -16.51 0)
 			(effects
 				(font
@@ -7033,15 +6817,6 @@
 		)
 		(property "SKU2" "621-D1213A-04S-7"
 			(at 0 -20.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,15 +7519,6 @@
 		)
 		(property "SKU2" "621-DT1240-04LP-7"
 			(at 0 -20.193 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 1.27 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,15 +8381,6 @@
 		)
 		(property "SKU2" "??"
 			(at 0 -3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" " "
-			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
