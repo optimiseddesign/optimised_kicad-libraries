@@ -3,7 +3,7 @@
 ## INFO
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
-# Uses KiCAD v8 CLI (Command Line Interface). Written for KiCAD v8.0.8 (updated, initially for v7.0.6) on Win10 using Python v3.10.0 .
+# Uses KiCAD v9 CLI (Command Line Interface). Written for KiCAD v9.0.5 (updated, was for v8.0.8 and initially for v7.0.6) on Win10 using Python v3.10.0 .
 # REQUIRES 'pypdf' python package installed, Tested using v3.15.0 - install using 'pip3 install pypdf' on command line
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
@@ -13,14 +13,14 @@
 #
 ## TO-DO
 #
-# - Add automatic 3D viewer image save once feature available (in v9), see https://gitlab.com/kicad/code/kicad/-/issues/3691
-# - Use --exclude-dnp in future(?) when I use the in-built DNP feature (but need to think through)
+# - Add ODB++ Export
+# - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
+# - Use DRC/ERC from CLI(?)
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
 # - fixes before IPC-2581 can be used
-#            a) BOM 'populate' field won't be correct until I move to KiCAD native DNP method
-#            b) 'revision' field is always 1.0
-#            c) import error into ZofZPCB (but may just be that program?)
+#            a) 'revision' field is always 1.0 (check if fixed in v9 or later?)
+#            b) import error into ZofZPCB (but may just be that program?)
 #
 ###########################################
 
@@ -39,10 +39,10 @@ from pypdf import PdfMerger, PdfReader, PdfWriter
 ###########################################
 
 # Overall configs
-CONFIG_KICAD_VERSION_BOM = "3A"
-CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\8.0\\bin\\kicad-cli"
+CONFIG_KICAD_VERSION_BOM = "1A"
+CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli"
 CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
-CONFIG_KICAD_NAME = "pt136a_giraffecctv_edge_controller_generic"  # Main configuration to set, if design follows Optimiseds' conventions
+CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_usb_dongle"  # Main configuration to set, if design follows Optimiseds' conventions
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
 CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
@@ -54,7 +54,7 @@ CONFIG_KICAD_LAYERS_4L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu," + CONFIG_K
 CONFIG_KICAD_LAYERS_4LR_2LF = CONFIG_KICAD_LAYERS_4L + "," + CONFIG_KICAD_LAYERS_FLEX
 CONFIG_KICAD_LAYERS_6L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu," + CONFIG_KICAD_LAYERS_BACK
 CONFIG_KICAD_LAYERS_8L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu,In5.Cu,In6.Cu," + CONFIG_KICAD_LAYERS_BACK
-CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_4L     # **Note**: Adjust based on the number/type of PCB layers
+CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_6L     # **Note**: Adjust based on the number/type of PCB layers
 
 # for sch_export_pdf
 CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
@@ -84,6 +84,14 @@ CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "
 CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for gerbers
 CONFIG_PCB_EXPORT_GERBERS_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 CONFIG_PCB_EXPORT_GERBERS_LAYERS_COMMON = ""    # Think best to have no common layers, though could be Edge.Cuts?
+
+# for pcb_export_render
+CONFIG_PCB_EXPORT_RENDER_FILETYPE = ".png" # .png, .jpg, or .jpeg
+CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\images\\" + CONFIG_KICAD_NAME + "_top" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
+CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\images\\" + CONFIG_KICAD_NAME + "_bottom" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
+CONFIG_PCB_EXPORT_RENDER_WIDTH = "3200"
+CONFIG_PCB_EXPORT_RENDER_HEIGHT = "1800"
+CONFIG_PCB_EXPORT_RENDER_ZOOM = "1"   # Zoom factor as INTEGER
 
 # for pcb_export_ipc2581
 CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
@@ -381,6 +389,55 @@ def pcb_export_gerbers():
 
 ###########################################
 #
+#   Export KICAD PCB Layout Render Image
+#   Param: "top" or "bottom"
+#   Uses: kicad-cli pcb render [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--width WIDTH] [--height HEIGHT] [--side SIDE] [--background BG] [--quality QUALITY] [--preset PRESET] [--floor] [--perspective] [--zoom ZOOM] [--pan VECTOR] [--pivot PIVOT] [--rotate ANGLES] [--light-top COLOR] [--light-bottom COLOR] [--light-side COLOR] [--light-camera COLOR] [--light-side-elevation ANGLE] INPUT_FILE
+#
+###########################################
+
+def pcb_export_render(side):
+    print("\n## Exporting Layout Render image (side: " + side + ") ...")
+
+    # set the output filename based on whether "top" or "bottom" for the 'side' argument
+    if side == "top":
+        CONFIG_PCB_EXPORT_RENDER_FILEPATH = CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP
+    if side == "bottom":
+        CONFIG_PCB_EXPORT_RENDER_FILEPATH = CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM
+        
+        
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'render',
+            '--output',
+            CONFIG_PCB_EXPORT_RENDER_FILEPATH,
+            '--side',
+            side,
+            '--quality',
+            'high',
+            '--background',
+            'transparent',
+            '--preset',
+            'follow_plot_settings',
+            '--width',
+            CONFIG_PCB_EXPORT_RENDER_WIDTH,
+            '--height',
+            CONFIG_PCB_EXPORT_RENDER_HEIGHT,
+            '--zoom',
+            CONFIG_PCB_EXPORT_RENDER_ZOOM,
+            '--floor',
+            CONFIG_KICAD_PCB]
+            
+    process = subprocess.run(args=cmd, 
+                            stdout=subprocess.PIPE,
+                            shell=True, 
+                            universal_newlines=True)
+    
+    print("Result: " + process.stdout)
+
+
+
+###########################################
+#
 #   Export KICAD PCB Layout IPC-2581 file
 #   Uses: kicad-cli pcb export ipc2581 [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE] [--precision PRECISION] [--compress] [--version VAR] [--units VAR] [--bom-col-int-id FIELD_NAME] [--bom-col-mfg-pn FIELD_NAME] [--bom-col-mfg FIELD_NAME] [--bom-col-dist-pn FIELD_NAME] [--bom-col-dist FIELD_NAME] INPUT_FILE
 #
@@ -418,8 +475,8 @@ def pcb_export_ipc2581():
                             universal_newlines=True)
     
     print("Result: " + process.stdout)
-
-
+    
+    
 
 ###########################################
 #
@@ -436,7 +493,8 @@ sch_export_pdf()
 sch_export_bom()
 pcb_export_pdf()
 pcb_export_step()
-#pcb_export_images() - future addition
+pcb_export_render("top")
+pcb_export_render("bottom")
 pcb_export_pos("front")
 pcb_export_pos("back")
 pcb_export_drill()
