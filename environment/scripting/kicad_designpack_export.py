@@ -93,6 +93,12 @@ CONFIG_PCB_EXPORT_RENDER_WIDTH = "3200"
 CONFIG_PCB_EXPORT_RENDER_HEIGHT = "1800"
 CONFIG_PCB_EXPORT_RENDER_ZOOM = "1"   # Zoom factor as INTEGER
 
+# for pcb_export_odb
+CONFIG_PCB_EXPORT_ODB_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_odb.zip"
+CONFIG_PCB_EXPORT_ODB_COMPRESSION = "zip" # none, zip (default), or tgz
+CONFIG_PCB_EXPORT_ODB_UNITS = "mm" # mm (default) or in
+CONFIG_PCB_EXPORT_ODB_PRECISION = "6"
+
 # for pcb_export_ipc2581
 CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
 CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.xml"
@@ -434,6 +440,36 @@ def pcb_export_render(side):
     
     print("Result: " + process.stdout)
 
+    
+    
+###########################################
+#
+#   Export KICAD PCB Layout ODB++ archive
+#   Uses: kicad-cli pcb export odb [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE] [--precision PRECISION] [--compression VAR] [--units VAR] INPUT_FILE
+#
+###########################################
+
+def pcb_export_odb():
+    print("\n## Exporting Layout ODB++ archive ...")
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'export',
+            'odb',
+            '--output',
+            CONFIG_PCB_EXPORT_ODB_FILEPATH,
+            '--compression',
+            CONFIG_PCB_EXPORT_ODB_COMPRESSION,
+            '--units',
+            CONFIG_PCB_EXPORT_ODB_UNITS,
+            '--precision',
+            CONFIG_PCB_EXPORT_ODB_PRECISION,
+            CONFIG_KICAD_PCB]
+    process = subprocess.run(args=cmd,
+                            stdout=subprocess.PIPE,
+                            shell=True,
+                            universal_newlines=True)
+    print("Result: " + process.stdout)
+
 
 
 ###########################################
@@ -475,8 +511,8 @@ def pcb_export_ipc2581():
                             universal_newlines=True)
     
     print("Result: " + process.stdout)
-    
-    
+
+
 
 ###########################################
 #
@@ -499,6 +535,7 @@ pcb_export_pos("front")
 pcb_export_pos("back")
 pcb_export_drill()
 pcb_export_gerbers()
+pcb_export_odb()
 #pcb_export_ipc2581() - DRAFT for future addition once issues are resolved (see top)
 
 print("\nEnd of design pack export!")
