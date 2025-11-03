@@ -372,7 +372,6 @@ def pcb_export_gerbers():
             CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH, # FOLDER not FILE path
             '--layers',
             CONFIG_PCB_EXPORT_GERBERS_LAYERS,
-            '--include-border-title',
             '--exclude-value',
             '--use-drill-file-origin',
             '--no-protel-ext',
