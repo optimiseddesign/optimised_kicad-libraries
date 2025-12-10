@@ -6823,7 +6823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN1" "TLV70218DBV"
+		(property "MPN1" "TLV70218DBVR"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -6832,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer2" " "
+		(property "Manufacturer2" "Texas Instruments"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -6841,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN2" " "
+		(property "MPN2" "TLV70218DBVT"
 			(at 0 -17.78 0)
 			(effects
 				(font
