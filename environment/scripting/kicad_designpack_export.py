@@ -13,7 +13,6 @@
 #
 ## TO-DO
 #
-# - Add ODB++ Export
 # - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
 # - Use DRC/ERC from CLI(?)
 # - Set soldermask expansion/min web values(?)
@@ -372,7 +371,6 @@ def pcb_export_gerbers():
             CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH, # FOLDER not FILE path
             '--layers',
             CONFIG_PCB_EXPORT_GERBERS_LAYERS,
-            '--include-border-title',
             '--exclude-value',
             '--use-drill-file-origin',
             '--no-protel-ext',
