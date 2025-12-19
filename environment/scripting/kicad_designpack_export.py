@@ -449,6 +449,13 @@ def pcb_export_render(side):
 
 def pcb_export_odb():
     print("\n## Exporting Layout ODB++ archive ...")
+
+    # Remove previous ODB file if it exists (for some reason KiCAD CLI can't overwrite!)
+    try:
+        os.remove(CONFIG_PCB_EXPORT_ODB_FILEPATH)
+    except FileNotFoundError:
+        pass
+
     cmd = [CONFIG_KICAD_CLI_PATH,
             'pcb',
             'export',
