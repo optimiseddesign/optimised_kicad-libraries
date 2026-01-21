@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 46.482 0)
+			(at -3.81 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "ChargerPowerPath_LithiumLeadAcid_55V_BuckBoost_AnalogDevices_LTC4020I_QFN-38-1EP"
-			(at 0 44.196 0)
+			(at -3.81 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,7 @@
 		)
 		(symbol "ChargerPowerPath_LithiumLeadAcid_55V_BuckBoost_AnalogDevices_LTC4020I_QFN-38-1EP_1_0"
 			(pin power_in line
-				(at -17.78 6.35 0)
+				(at -16.51 10.16 0)
 				(length 2.54)
 				(name "PGND"
 					(effects
@@ -153,7 +153,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -19.05 0)
+				(at -16.51 -15.24 0)
 				(length 2.54)
 				(name "SENSGND"
 					(effects
@@ -171,7 +171,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -43.18 90)
+				(at -2.54 -44.45 90)
 				(length 2.54)
 				(name "SGND"
 					(effects
@@ -189,7 +189,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -44.45 90)
 				(length 2.54)
 				(name "SGND"
 					(effects
@@ -207,7 +207,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -43.18 90)
+				(at 2.54 -44.45 90)
 				(length 2.54)
 				(name "SGND"
 					(effects
@@ -227,8 +227,8 @@
 		)
 		(symbol "ChargerPowerPath_LithiumLeadAcid_55V_BuckBoost_AnalogDevices_LTC4020I_QFN-38-1EP_1_1"
 			(rectangle
-				(start -15.24 40.64)
-				(end 15.24 -40.64)
+				(start -13.97 41.91)
+				(end 13.97 -41.91)
 				(stroke
 					(width 0)
 					(type default)
@@ -237,26 +237,8 @@
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at -17.78 38.1 0)
-				(length 2.54)
-				(name "PVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at -17.78 34.29 0)
+				(at -16.51 38.1 0)
 				(length 2.54)
 				(name "TG2"
 					(effects
@@ -274,7 +256,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 31.75 0)
+				(at -16.51 35.56 0)
 				(length 2.54)
 				(name "SW2"
 					(effects
@@ -292,7 +274,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 29.21 0)
+				(at -16.51 33.02 0)
 				(length 2.54)
 				(name "BG2"
 					(effects
@@ -310,7 +292,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 21.59 0)
+				(at -16.51 25.4 0)
 				(length 2.54)
 				(name "BST2"
 					(effects
@@ -328,7 +310,7 @@
 				)
 			)
 			(pin power_out line
-				(at -17.78 13.97 0)
+				(at -16.51 17.78 0)
 				(length 2.54)
 				(name "INTVCC"
 					(effects
@@ -346,7 +328,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -1.27 0)
+				(at -16.51 2.54 0)
 				(length 2.54)
 				(name "BST1"
 					(effects
@@ -364,7 +346,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -8.89 0)
+				(at -16.51 -5.08 0)
 				(length 2.54)
 				(name "BG1"
 					(effects
@@ -382,7 +364,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -11.43 0)
+				(at -16.51 -7.62 0)
 				(length 2.54)
 				(name "SW1"
 					(effects
@@ -400,7 +382,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 -13.97 0)
+				(at -16.51 -10.16 0)
 				(length 2.54)
 				(name "TG1"
 					(effects
@@ -418,7 +400,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -21.59 0)
+				(at -16.51 -17.78 0)
 				(length 2.54)
 				(name "SENSBOT"
 					(effects
@@ -436,7 +418,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -24.13 0)
+				(at -16.51 -20.32 0)
 				(length 2.54)
 				(name "SENSTOP"
 					(effects
@@ -454,7 +436,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -26.67 0)
+				(at -16.51 -22.86 0)
 				(length 2.54)
 				(name "SENSVIN"
 					(effects
@@ -471,8 +453,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -16.51 -27.94 0)
+				(length 2.54)
+				(name "PVIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -17.78 -34.29 0)
+				(at -16.51 -36.83 0)
 				(length 2.54)
 				(name "VIN_REG"
 					(effects
@@ -490,7 +490,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -38.1 0)
+				(at -16.51 -39.37 0)
 				(length 2.54)
 				(name "~{SHDN}"
 					(effects
@@ -508,7 +508,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 38.1 180)
+				(at 16.51 39.37 180)
 				(length 2.54)
 				(name "CSP"
 					(effects
@@ -526,7 +526,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 30.48 180)
+				(at 16.51 31.75 180)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -544,7 +544,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 25.4 180)
+				(at 16.51 24.13 180)
 				(length 2.54)
 				(name "BGATE"
 					(effects
@@ -562,7 +562,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 20.32 180)
+				(at 16.51 17.78 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -580,7 +580,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 12.7 180)
+				(at 16.51 13.97 180)
 				(length 2.54)
 				(name "VFBMAX"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 10.16 180)
+				(at 16.51 11.43 180)
 				(length 2.54)
 				(name "VFBMIN"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 7.62 180)
+				(at 16.51 8.89 180)
 				(length 2.54)
 				(name "VFB"
 					(effects
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 17.78 0 180)
+				(at 16.51 1.27 180)
 				(length 2.54)
 				(name "FBG"
 					(effects
@@ -652,7 +652,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -5.08 180)
+				(at 16.51 -3.81 180)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -670,7 +670,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -10.16 180)
+				(at 16.51 -10.16 180)
 				(length 2.54)
 				(name "VC"
 					(effects
@@ -688,7 +688,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -12.7 180)
+				(at 16.51 -12.7 180)
 				(length 2.54)
 				(name "ITH"
 					(effects
@@ -706,7 +706,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -15.24 180)
+				(at 16.51 -16.51 180)
 				(length 2.54)
 				(name "CSOUT"
 					(effects
@@ -724,7 +724,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 17.78 -22.86 180)
+				(at 16.51 -24.13 180)
 				(length 2.54)
 				(name "STAT1"
 					(effects
@@ -742,7 +742,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 17.78 -25.4 180)
+				(at 16.51 -26.67 180)
 				(length 2.54)
 				(name "STAT2"
 					(effects
@@ -760,7 +760,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -27.94 180)
+				(at 16.51 -29.21 180)
 				(length 2.54)
 				(name "MODE"
 					(effects
@@ -778,7 +778,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -30.48 180)
+				(at 16.51 -31.75 180)
 				(length 2.54)
 				(name "TIMER"
 					(effects
@@ -796,7 +796,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -33.02 180)
+				(at 16.51 -34.29 180)
 				(length 2.54)
 				(name "ILIMIT"
 					(effects
@@ -814,7 +814,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -35.56 180)
+				(at 16.51 -36.83 180)
 				(length 2.54)
 				(name "RNG/SS"
 					(effects
@@ -832,7 +832,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -38.1 180)
+				(at 16.51 -39.37 180)
 				(length 2.54)
 				(name "RT"
 					(effects
