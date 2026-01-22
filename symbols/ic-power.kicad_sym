@@ -580,7 +580,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 13.97 180)
+				(at 16.51 12.7 180)
 				(length 2.54)
 				(name "VFBMAX"
 					(effects
@@ -598,7 +598,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 11.43 180)
+				(at 16.51 10.16 180)
 				(length 2.54)
 				(name "VFBMIN"
 					(effects
@@ -616,7 +616,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 8.89 180)
+				(at 16.51 7.62 180)
 				(length 2.54)
 				(name "VFB"
 					(effects
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 16.51 1.27 180)
+				(at 16.51 0 180)
 				(length 2.54)
 				(name "FBG"
 					(effects
@@ -652,7 +652,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -3.81 180)
+				(at 16.51 -5.08 180)
 				(length 2.54)
 				(name "NTC"
 					(effects
@@ -670,7 +670,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -10.16 180)
+				(at 16.51 -11.43 180)
 				(length 2.54)
 				(name "VC"
 					(effects
@@ -688,7 +688,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -12.7 180)
+				(at 16.51 -13.97 180)
 				(length 2.54)
 				(name "ITH"
 					(effects
@@ -706,7 +706,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -16.51 180)
+				(at 16.51 -17.78 180)
 				(length 2.54)
 				(name "CSOUT"
 					(effects
