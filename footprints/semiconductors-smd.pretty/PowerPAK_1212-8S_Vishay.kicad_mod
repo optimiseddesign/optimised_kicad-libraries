@@ -1,0 +1,273 @@
+(footprint "PowerPAK_1212-8S_Vishay"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PowerPAK 1212-8S (https://www.vishay.com/docs/63919/ppak1212-8s.pdf) for SiSS65DN")
+	(tags "Similar to TI Q3A package, OnSemi CASE 483AW WDFN8 3.30x3.30x0.75, 0.65P")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4a3bc505-0fd6-4cd5-b137-7a4907c5baa2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70a12462-9c71-4a9a-bd88-ab94b62c683c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84b29b88-def7-4f7e-a981-6a7d647b1ca2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59898247-7ac1-42e6-b859-9b0c7b5d5edb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.7 -1.375)
+		(end -2.15 -1.375)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5795775d-f068-42e3-b868-6e4f80283bfd")
+	)
+	(fp_line
+		(start -1.7 -1.375)
+		(end -1.7 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "010bedce-f69b-4b3e-ac9b-e604cfdcb1ff")
+	)
+	(fp_line
+		(start -1.7 1.4)
+		(end -1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "186d5f0c-21e0-4e0c-a929-27f43d0062db")
+	)
+	(fp_line
+		(start -1.7 1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1adc62b7-17f0-4f1b-a776-a6c038914abd")
+	)
+	(fp_line
+		(start 1.7 -1.7)
+		(end -1.7 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "93115c32-77d7-4db5-b55d-fce48a93f9ed")
+	)
+	(fp_line
+		(start 1.7 -1.4)
+		(end 1.7 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b62a292-d369-41dc-89a5-9cc1dd254bd5")
+	)
+	(fp_line
+		(start 1.7 1.4)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47223889-506e-48fb-a34c-81af13d4d890")
+	)
+	(fp_poly
+		(pts
+			(xy 1.95 -1.435) (xy 2.2 -1.435) (xy 2.2 1.435) (xy 1.95 1.435) (xy 1.95 1.95) (xy -1.95 1.95) (xy -1.95 1.435)
+			(xy -2.2 1.435) (xy -2.2 -1.435) (xy -1.95 -1.435) (xy -1.95 -1.95) (xy 1.95 -1.95)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c9670174-0c3e-4eb2-87b3-e1ecf7688aef")
+	)
+	(fp_poly
+		(pts
+			(xy -1.7 -1) (xy -1 -1.7) (xy 1.7 -1.7) (xy 1.7 1.7) (xy -1.7 1.7)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1ff02cba-77b2-4936-b337-01c39c989823")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "59c10b46-0199-4341-a266-f33e0cdf3b83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.3 -0.675)
+		(size 0.7 1.15)
+		(property pad_prop_heatsink)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(uuid "5584501d-d30d-4e4e-8e84-dcf6b633d391")
+	)
+	(pad "" smd roundrect
+		(at -0.3 0.675)
+		(size 0.7 1.15)
+		(property pad_prop_heatsink)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(uuid "5208ef62-b3c2-4b65-b281-c031fa8f2c8e")
+	)
+	(pad "" smd roundrect
+		(at 0.6 -0.675)
+		(size 0.7 1.15)
+		(property pad_prop_heatsink)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(uuid "728f8710-0744-4d20-ba48-ca9d8c9886b3")
+	)
+	(pad "" smd roundrect
+		(at 0.6 0.675)
+		(size 0.7 1.15)
+		(property pad_prop_heatsink)
+		(layers "F.Paste")
+		(roundrect_rratio 0.1428571429)
+		(uuid "685d0140-0cfb-4836-92a8-a21c5c27617c")
+	)
+	(pad "1" smd roundrect
+		(at -1.55 -0.975)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6bd02ce8-88ff-4d8c-9891-26f1e321a016")
+	)
+	(pad "2" smd roundrect
+		(at -1.55 -0.325)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "01e1e290-14e1-431d-803f-8050e26f8010")
+	)
+	(pad "3" smd roundrect
+		(at -1.55 0.325)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8e3ba21b-757a-4220-9dd6-b32757c09916")
+	)
+	(pad "4" smd roundrect
+		(at -1.55 0.975)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "28d2a4e6-27d1-4360-ab04-6c4ca9ab8135")
+	)
+	(pad "5" smd roundrect
+		(at 0.325 0)
+		(size 1.95 2.5)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.05)
+		(uuid "099101db-e757-4743-9a54-dd6c06f744f8")
+	)
+	(pad "5" smd roundrect
+		(at 1.55 -0.975)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "207a553a-b788-4386-a36f-87cb26818a78")
+	)
+	(pad "5" smd roundrect
+		(at 1.55 -0.325)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1ff8707e-41d1-453e-b239-1e42d0cd7830")
+	)
+	(pad "5" smd roundrect
+		(at 1.55 0.325)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f6543105-71a6-434a-8950-7ba5d88c0bdb")
+	)
+	(pad "5" smd roundrect
+		(at 1.55 0.975)
+		(size 0.8 0.42)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "01cc08fc-fd28-455d-9ca4-cf1257580e50")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/semiconductors-smd.3dshapes/PowerPAK_1212-8S_Vishay.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
