@@ -1,0 +1,104 @@
+(footprint "Net_Tie_Via_0.2_0.6mm_Track_0.25mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Connects Top layer to Bottom layer using Via net tie, with trace stub on bottom layer")
+	(tags "net tie, for current sense resistor")
+	(property "Reference" "REF**"
+		(at 0.075 -6.225 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "0c78ea5a-e9d1-428d-97d2-1d43934188a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -0.05 -19.825 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e0ba7043-2590-4c50-ba7c-53ad5f1d8139")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c86087e0-9142-4c44-817a-276a40d7be38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1cf38200-c09e-46de-bf79-9b2a86ab6dd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 0)
+	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(net_tie_pad_groups "1,2")
+	(fp_text user "${REFERENCE}"
+		(at 0.075 -3.225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4c9a0b9-5ad5-4d01-a743-b217d0bcab37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.2)
+		(layers "*.Cu")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(zone_connect 0)
+		(uuid "08dd7d1d-1361-4db1-ae42-4957e42026e7")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 0.6 0.6)
+		(layers "B.Cu")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_rect
+				(start -0.125 0.25)
+				(end 0.125 0.7)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5ae4df86-127c-4b18-828c-d291a2dc2ece")
+	)
+	(embedded_fonts no)
+)
