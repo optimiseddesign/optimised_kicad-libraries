@@ -1,4 +1,4 @@
-(footprint "Net_Tie_Via_0.2_0.6mm_Track_0.25mm"
+(footprint "NetTie_2_Via_0.2_0.6mm_Track_0.25mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -9,6 +9,7 @@
 		(at 0.075 -6.225 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "0c78ea5a-e9d1-428d-97d2-1d43934188a2")
 		(effects
 			(font
@@ -59,18 +60,6 @@
 	(zone_connect 0)
 	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(net_tie_pad_groups "1,2")
-	(fp_text user "${REFERENCE}"
-		(at 0.075 -3.225 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "e4c9a0b9-5ad5-4d01-a743-b217d0bcab37")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 0.6 0.6)
