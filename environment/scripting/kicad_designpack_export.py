@@ -14,7 +14,6 @@
 ## TO-DO
 #
 # - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
-# - Use DRC/ERC from CLI(?)
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
 # - fixes before IPC-2581 can be used
@@ -107,6 +106,11 @@ CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN = "MPN1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_DIST = "Vendor1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN = "SKU1"
 
+# for sch_erc
+CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + "-erc.rpt"
+
+# for pcb_drc
+CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + "-drc.rpt"
 
 
 ###########################################
@@ -518,6 +522,73 @@ def pcb_export_ipc2581():
     print("Result: " + process.stdout)
 
 
+###########################################
+#
+#   Export KICAD SCH Electrical Rules Check (ERC)
+#   Usage: erc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--format VAR] [--units VAR] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] INPUT_FILE
+#
+###########################################
+
+def sch_erc():
+    print("\n## Schematic Electrical Rules Check (ERC) ...")
+        
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'sch',
+            'erc',
+            '--output',
+            CONFIG_SCH_ERC_FILEPATH,
+            '--severity-all',
+            '--exit-code-violations',
+            CONFIG_KICAD_SCH]
+            
+    process = subprocess.run(args=cmd, 
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            shell=True, 
+                            universal_newlines=True)
+    
+    print("Result: " + process.stdout)
+    if process.returncode != 0:
+        print("KiCad reported violations.")
+        print("Error: " + process.stderr)
+    else:
+        print("KiCad reported No violations.")
+
+
+###########################################
+#
+#   Export KICAD PCB Design Rules Check (DRC)
+#   Usage: Usage: drc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--format FORMAT] [--all-track-errors] [--schematic-parity] [--units UNITS] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] INPUT_FILE
+#
+###########################################
+
+def pcb_drc():
+    print("\n## PCB Design Rules Check (DRC) ...")
+        
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'drc',
+            '--output',
+            CONFIG_PCB_DRC_FILEPATH,
+            '--severity-all',
+            '--exit-code-violations',
+            CONFIG_KICAD_PCB]
+            
+    process = subprocess.run(args=cmd, 
+                            stdout=subprocess.PIPE,
+                            stderr=subprocess.PIPE,
+                            shell=True, 
+                            universal_newlines=True)
+    
+    print("Result: " + process.stdout)
+
+    if process.returncode != 0:
+        print("KiCad reported violations.")
+        print("Error: " + process.stderr)
+    else:
+        print("KiCad reported No violations.")
+
+
 
 ###########################################
 #
@@ -530,6 +601,8 @@ print("\n####################################################################")
 print("Exporting design pack from;\n" + CONFIG_KICAD_PROJECT)
 print("####################################################################\n")
 
+sch_erc()
+pcb_drc()
 sch_export_pdf()
 sch_export_bom()
 pcb_export_pdf()
