@@ -14,6 +14,8 @@
 ## TO-DO
 #
 # - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
+# - resolve v10 font difference vs. v9
+# - add variant support for position files(?)
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
 # - fixes before IPC-2581 can be used
@@ -38,12 +40,13 @@ from pypdf import PdfMerger, PdfReader, PdfWriter
 
 # Overall configs
 CONFIG_KICAD_VERSION_BOM = "1A"
-CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\9.0\\bin\\kicad-cli"
+CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli"
 CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
 CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_usb_dongle"  # Main configuration to set, if design follows Optimiseds' conventions
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
 CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
+CONFIG_KICAD_VARIANTS = ["8-SIM","4-SIM"] # e.g. ["8-SIM","4-SIM"] to match the names in KiCAD, or [None] for none/default
 CONFIG_KICAD_LAYERS_FRONT = "F.Fab,Edge.Cuts,User.Drawings,F.Cu,F.Mask,F.Paste,F.Silkscreen,"
 CONFIG_KICAD_LAYERS_BACK = "B.Fab,B.Cu,B.Mask,B.Paste,B.Silkscreen,User.Comments"
 CONFIG_KICAD_LAYERS_FLEX = "User.1,User.2" # i.e. "Flex.pcb.rigid,Flex.pcb.not.rigid"
@@ -55,10 +58,10 @@ CONFIG_KICAD_LAYERS_8L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.C
 CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_4L     # **Note**: Adjust based on the number/type of PCB layers
 
 # for sch_export_pdf
-CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
+#CONFIG_SCH_EXPORT_PDF_FILEPATH defined within function to cope with variants
 
 # for sch_export_bom
-CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + ".csv"
+# CONFIG_PCB_EXPORT_BOM_FILEPATH defined within function to cope with variants
 CONFIG_PCB_EXPORT_BOM_FIELDS = "${ITEM_NUMBER},Reference,${QUANTITY},${DNP},Value,Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Vendor1,SKU1,Vendor2,SKU2"
 CONFIG_PCB_EXPORT_BOM_LABELS = "Item,References,Qty,FitPart,Value,Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Vendor1,SKU1,Vendor2,SKU2"
 CONFIG_PCB_EXPORT_BOM_GROUP = "Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Value,${DNP},Footprint"
@@ -116,13 +119,23 @@ CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\"
 ###########################################
 #
 #   Export KICAD Schematic PDF
-#   Uses: kicad-cli sch export pdf [-h] [--output VAR] [--theme VAR] [--black-and-white] [--exclude-drawing-sheet] [--no-background-color] [--plot-one] input
+#   Uses: kicad-cli sch export pdf [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--variant VAR]…​ [--theme THEME_NAME] [--black-and-white] [--exclude-drawing-sheet] [--default-font VAR] [--draw-hop-over] [--exclude-pdf-property-popups] [--exclude-pdf-hierarchical-links] [--exclude-pdf-metadata] [--no-background-color] [--pages PAGE_LIST] INPUT_FILE
 #
 ###########################################
 
 def sch_export_pdf():
-    print("\n## Exporting Schematic PDF...")
-    cmd = [CONFIG_KICAD_CLI_PATH,
+    for CONFIG_KICAD_VARIANT in CONFIG_KICAD_VARIANTS:
+        if CONFIG_KICAD_VARIANT:
+            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic_" + CONFIG_KICAD_VARIANT + ".pdf"
+        else:
+            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
+
+        if CONFIG_KICAD_VARIANT:
+            print("\n## Exporting Schematic PDF (Variant " + CONFIG_KICAD_VARIANT + ")...")
+        else:
+            print("\n## Exporting Schematic PDF...")
+                
+        cmd = [CONFIG_KICAD_CLI_PATH,
             'sch',
             'export',
             'pdf',
@@ -130,13 +143,17 @@ def sch_export_pdf():
             CONFIG_SCH_EXPORT_PDF_FILEPATH,
             '--no-background-color',
             CONFIG_KICAD_SCH]
-            
-    process = subprocess.run(args=cmd, 
-                            stdout=subprocess.PIPE,
-                            shell=True, 
-                            universal_newlines=True)
-    
-    print("Result: " + process.stdout)
+
+        # Only add --variant if one is specified
+        if CONFIG_KICAD_VARIANT:
+            cmd.extend(['--variant', CONFIG_KICAD_VARIANT])
+               
+        process = subprocess.run(args=cmd, 
+                                stdout=subprocess.PIPE,
+                                shell=True, 
+                                universal_newlines=True)
+        
+        print("Result: " + process.stdout)
 
     # Don't read and re-write PDF here - actually *increases* PDF size for Schematic unlike Layout PDF so not worth it.
     # Also want to keep the schematic links (v useful feature in KiCAD v7+) so can't use that saving.
@@ -146,39 +163,53 @@ def sch_export_pdf():
 ###########################################
 #
 #   Export KICAD Bill Of Materials (BOM)
-#   Uses: kicad-cli sch export bom [--help] [--output OUTPUT_FILE] [--preset PRESET] [--format-preset FMT_PRESET] [--fields FIELDS] [--labels LABELS] [--group-by GROUP_BY] [--sort-field SORT_BY] [--sort-asc VAR] [--filter FILTER] [--exclude-dnp] [--include-excluded-from-bom] [--field-delimiter FIELD_DELIM] [--string-delimiter STR_DELIM] [--ref-delimiter REF_DELIM] [--ref-range-delimiter REF_RANGE_DELIM] [--keep-tabs] [--keep-line-breaks] INPUT_FILE
+#   Uses: kicad-cli sch export bom [--help] [--output OUTPUT_FILE] [--variant VAR]…​ [--preset PRESET] [--format-preset FMT_PRESET] [--fields FIELDS] [--labels LABELS] [--group-by GROUP_BY] [--sort-field SORT_BY] [--sort-asc VAR] [--filter FILTER] [--exclude-dnp] [--include-excluded-from-bom] [--field-delimiter FIELD_DELIM] [--string-delimiter STR_DELIM] [--ref-delimiter REF_DELIM] [--ref-range-delimiter REF_RANGE_DELIM] [--keep-tabs] [--keep-line-breaks] INPUT_FILE
 #
 ###########################################
 
 def sch_export_bom():
-    print("\n## Exporting Schematic BoM...")
-    cmd = [CONFIG_KICAD_CLI_PATH,
-            'sch',
-            'export',
-            'bom',
-            '--output',
-            CONFIG_PCB_EXPORT_BOM_FILEPATH,
-            '--string-delimiter',
-            '"',
-            '--ref-delimiter',
-            ' ',
-            '--ref-range-delimiter',
-            '',
-            '--fields',
-            CONFIG_PCB_EXPORT_BOM_FIELDS,
-            '--labels',
-            CONFIG_PCB_EXPORT_BOM_LABELS,
-            '--group-by',
-            CONFIG_PCB_EXPORT_BOM_GROUP,
-            CONFIG_KICAD_SCH,
-            '--sort-asc']
-           
-    process = subprocess.run(args=cmd, 
-                            stdout=subprocess.PIPE,
-                            shell=True, 
-                            universal_newlines=True)
-    
-    print("Result: " + process.stdout)   
+    for CONFIG_KICAD_VARIANT in CONFIG_KICAD_VARIANTS:
+        if CONFIG_KICAD_VARIANT:
+            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + "_" + CONFIG_KICAD_VARIANT + ".csv"
+        else:
+            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + ".csv"
+
+        if CONFIG_KICAD_VARIANT:
+            print("\n## Exporting Schematic BoM (Variant " + CONFIG_KICAD_VARIANT + ")...")
+        else:
+            print("\n## Exporting Schematic BoM...")
+                
+        cmd = [CONFIG_KICAD_CLI_PATH,
+                'sch',
+                'export',
+                'bom',
+                '--output',
+                CONFIG_PCB_EXPORT_BOM_FILEPATH,
+                '--string-delimiter',
+                '"',
+                '--ref-delimiter',
+                ' ',
+                '--ref-range-delimiter',
+                '',
+                '--fields',
+                CONFIG_PCB_EXPORT_BOM_FIELDS,
+                '--labels',
+                CONFIG_PCB_EXPORT_BOM_LABELS,
+                '--group-by',
+                CONFIG_PCB_EXPORT_BOM_GROUP,
+                CONFIG_KICAD_SCH,
+                '--sort-asc']
+
+        # Only add --variant if one is specified
+        if CONFIG_KICAD_VARIANT:
+            cmd.extend(['--variant', CONFIG_KICAD_VARIANT])
+               
+        process = subprocess.run(args=cmd, 
+                                stdout=subprocess.PIPE,
+                                shell=True, 
+                                universal_newlines=True)
+        
+        print("Result: " + process.stdout)   
 
 
 
