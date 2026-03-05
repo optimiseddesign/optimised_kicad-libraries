@@ -1,0 +1,82 @@
+(footprint "PCB_Mask_Logo_vSMSC_8.0mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "vSMSC solder mask logo 7.2mm x 6.8mm")
+	(property "Reference" "REF**"
+		(at 0.17 -2.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "49f733f7-8ce6-4ca8-89fd-915789cd8d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PCB_Mask_Logo_vSMSC_8.0mm"
+		(at 0.68 -3.14 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd80e9bf-854d-4634-a53e-d55a219ab33f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8dc82ca6-4d46-4512-b489-9f8746cd9bae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7804c580-53f1-4a17-a89e-1fa1bf496d6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 0.041588 -0.921397) (xy -0.706673 -1.353451) (xy -2.319554 -0.42836) (xy -2.638091 -0.612299)
+			(xy -2.638091 -1.24378) (xy -1.573854 -1.854177) (xy -2.638091 -2.468424) (xy -2.638091 -1.24378)
+			(xy -2.638091 -0.612299) (xy -3.503976 -1.112309) (xy -3.503976 -1.11231) (xy -3.503976 -3.968297)
+			(xy 3.39523 0.014719) (xy -2.638091 3.498268) (xy -2.638091 2.498612) (xy 1.663217 0.014865) (xy 0.906977 -0.421961)
+			(xy -2.638091 1.630672) (xy -2.638091 2.498612) (xy -2.638091 3.498268) (xy -3.503976 3.998225) (xy -3.503976 1.131471)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "d8ecf34f-683c-4a06-9041-d7c8b2cb1b5f")
+	)
+	(group ""
+		(uuid "abce38b0-c1f0-4b7c-b2a6-96f4d63e9a3b")
+		(members "d8ecf34f-683c-4a06-9041-d7c8b2cb1b5f")
+	)
+	(embedded_fonts no)
+)
