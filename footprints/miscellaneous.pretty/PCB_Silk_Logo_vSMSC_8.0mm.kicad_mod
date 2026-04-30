@@ -1,15 +1,15 @@
-(footprint "PCB_Mask_Logo_vSMSC_8.0mm"
+(footprint "PCB_Silk_Logo_vSMSC_8.0mm"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "vSMSC solder mask logo 8.0mm x 7.0mm")
+	(descr "vSMSC silkscreen logo 8.0mm x 7.0mm")
 	(property "Reference" "REF**"
 		(at 0.17 -2.95 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "f51388a1-a8e7-4e9d-9491-c17fdd4cab99")
+		(uuid "b486823f-ccbe-4f88-9580-bc7eb532c029")
 		(effects
 			(font
 				(size 1 1)
@@ -17,12 +17,12 @@
 			)
 		)
 	)
-	(property "Value" "PCB_Mask_Logo_vSMSC_8.0mm"
+	(property "Value" "PCB_Silk_Logo_vSMSC_8.0mm"
 		(at 0.68 -3.14 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5b2eb70-6749-4d6a-82a2-bf499dd9737f")
+		(uuid "e13e9992-e0c6-4c6b-8116-615801f0bb05")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8c27e95d-90ef-49a3-a38a-518f5a4dda2a")
+		(uuid "78482d77-573b-402a-90b1-5b994051cccb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6f959b25-dbab-4465-90c4-709c9683061a")
+		(uuid "5c5a1e10-abaa-497e-b2b1-4a9715b692b7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -86,8 +86,8 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Mask")
-		(uuid "c27ecbd6-f93d-443d-9a15-35ac14c96b9e")
+		(layer "F.SilkS")
+		(uuid "da3e559a-74e7-406c-b820-a2f3925ecc72")
 	)
 	(fp_poly
 		(pts
@@ -120,8 +120,8 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Mask")
-		(uuid "9c51d178-3ce0-4b09-8995-49e8431f13ae")
+		(layer "F.SilkS")
+		(uuid "458ba8bf-4e0e-483d-a923-4124face2570")
 	)
 	(fp_poly
 		(pts
@@ -153,13 +153,13 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Mask")
-		(uuid "99e8ed8c-dd76-4a57-b88b-e342e293bd8f")
+		(layer "F.SilkS")
+		(uuid "8c3b3a51-db6c-442a-8e33-b8851eb521dc")
 	)
 	(group ""
-		(uuid "7907ec23-3121-46bd-81c6-7720722a1998")
-		(members "99e8ed8c-dd76-4a57-b88b-e342e293bd8f" "9c51d178-3ce0-4b09-8995-49e8431f13ae"
-			"c27ecbd6-f93d-443d-9a15-35ac14c96b9e"
+		(uuid "f900465d-12d6-4402-b216-31b66368fd00")
+		(members "458ba8bf-4e0e-483d-a923-4124face2570" "8c3b3a51-db6c-442a-8e33-b8851eb521dc"
+			"da3e559a-74e7-406c-b820-a2f3925ecc72"
 		)
 	)
 	(embedded_fonts no)
