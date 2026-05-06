@@ -4,7 +4,7 @@
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
 # Uses KiCAD v9 CLI (Command Line Interface). Written for KiCAD v9.0.5 (updated, was for v8.0.8 and initially for v7.0.6) on Win10 using Python v3.10.0 .
-# REQUIRES 'pypdf' python package installed, Tested using v3.15.0 - install using 'pip3 install pypdf' on command line
+# REQUIRES 'pypdf' v6.x python package installed, Tested using python v3.15.0 - install using 'pip3 install pypdf' on command line
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
@@ -27,7 +27,7 @@
 
 import subprocess
 import os
-from pypdf import PdfMerger, PdfReader, PdfWriter
+from pypdf import PdfReader, PdfWriter
 
 
 ###########################################
@@ -223,9 +223,9 @@ def sch_export_bom():
 def pcb_export_pdf():
     print("\n## Exporting Layout PDF of all layers...")
 
-    # Create PDF Object to merge all the individual Layer PDFs into
+    # Create PDF Object to merge all the individual Layer PDFs into.
+    # Note: PdfWriter replaces PdfMerger, which was removed in pypdf 5.0.0.
     merger = PdfWriter()
-    #pypdf.errors.DeprecationError: PdfMerger is deprecated and was removed in pypdf 5.0.0. Use PdfWriter instead.
 
     # Loop over layers in CONFIG_PCB_EXPORT_PDF_LAYERS_2L to export individually
     layers = CONFIG_PCB_EXPORT_PDF_LAYERS
@@ -236,7 +236,7 @@ def pcb_export_pdf():
         pcb_export_pdf_single(layer)
 
         # Append this temporary PDF page to our created PDF object
-        merger.append(open(CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP, 'rb'))
+        merger.append(CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP)
     
     # Save merged PDF of all the individual layer pages
     print("Saving merged Layout PDF of all layers, to;\n" + CONFIG_PCB_EXPORT_PDF_FILEPATH + " ...\n")
