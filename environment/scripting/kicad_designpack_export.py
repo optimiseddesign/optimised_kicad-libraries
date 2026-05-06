@@ -39,14 +39,14 @@ from pypdf import PdfMerger, PdfReader, PdfWriter
 ###########################################
 
 # Overall configs
-CONFIG_KICAD_VERSION_BOM = "1A"
+CONFIG_KICAD_VERSION_BOM = "3A"
 CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli"
 CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
-CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_usb_dongle"  # Main configuration to set, if design follows Optimiseds' conventions
+CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_cellular_gateway"  # Main configuration to set, if design follows Optimiseds' conventions
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
 CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
-CONFIG_KICAD_VARIANTS = ["8-SIM","4-SIM"] # e.g. ["8-SIM","4-SIM"] to match the names in KiCAD, or [None] for none/default
+CONFIG_KICAD_VARIANTS = ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] # e.g. ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] to match the names in KiCAD, or [None] for none/default
 CONFIG_KICAD_LAYERS_FRONT = "F.Fab,Edge.Cuts,User.Drawings,F.Cu,F.Mask,F.Paste,F.Silkscreen,"
 CONFIG_KICAD_LAYERS_BACK = "B.Fab,B.Cu,B.Mask,B.Paste,B.Silkscreen,User.Comments"
 CONFIG_KICAD_LAYERS_FLEX = "User.1,User.2" # i.e. "Flex.pcb.rigid,Flex.pcb.not.rigid"
