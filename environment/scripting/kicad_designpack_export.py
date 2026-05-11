@@ -457,6 +457,7 @@ def pcb_export_render(side):
             'transparent',
             '--preset',
             'follow_plot_settings',
+            '--use-board-stackup-colors',
             '--width',
             CONFIG_PCB_EXPORT_RENDER_WIDTH,
             '--height',
