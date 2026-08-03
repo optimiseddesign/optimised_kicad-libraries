@@ -39,13 +39,13 @@ from pypdf import PdfReader, PdfWriter
 ###########################################
 
 # Overall configs
-CONFIG_KICAD_VERSION_BOM = "3A"
+CONFIG_KICAD_VERSION_BOM = "4A"
 CONFIG_KICAD_CLI_PATH = "C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli"
-CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\"
-CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_cellular_gateway"  # Main configuration to set, if design follows Optimiseds' conventions
-CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
-CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
-CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
+CONFIG_KICAD_FOLDER = "C:\\freelance\\git\\pt140a_vsmsc_8sim_4g_cellular_gateway"   # Main configuration to set, if design follows Optimiseds' conventions
+CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_cellular_gateway"                         # Main configuration to set, if design follows Optimiseds' conventions
+CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
+CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
+CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
 CONFIG_KICAD_VARIANTS = ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] # e.g. ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] to match the names in KiCAD, or [None] for none/default
 CONFIG_KICAD_LAYERS_FRONT = "F.Fab,Edge.Cuts,User.Drawings,F.Cu,F.Mask,F.Paste,F.Silkscreen,"
 CONFIG_KICAD_LAYERS_BACK = "B.Fab,B.Cu,B.Mask,B.Paste,B.Silkscreen,User.Comments"
@@ -55,7 +55,7 @@ CONFIG_KICAD_LAYERS_4L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu," + CONFIG_K
 CONFIG_KICAD_LAYERS_4LR_2LF = CONFIG_KICAD_LAYERS_4L + "," + CONFIG_KICAD_LAYERS_FLEX
 CONFIG_KICAD_LAYERS_6L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu," + CONFIG_KICAD_LAYERS_BACK
 CONFIG_KICAD_LAYERS_8L = CONFIG_KICAD_LAYERS_FRONT + "In1.Cu,In2.Cu,In3.Cu,In4.Cu,In5.Cu,In6.Cu," + CONFIG_KICAD_LAYERS_BACK
-CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_4L     # **Note**: Adjust based on the number/type of PCB layers
+CONFIG_KICAD_LAYERS_OUTPUT = CONFIG_KICAD_LAYERS_6L     # **Note**: Adjust based on the number/type of PCB layers
 
 # for sch_export_pdf
 #CONFIG_SCH_EXPORT_PDF_FILEPATH defined within function to cope with variants
@@ -67,42 +67,42 @@ CONFIG_PCB_EXPORT_BOM_LABELS = "Item,References,Qty,FitPart,Value,Description,Ma
 CONFIG_PCB_EXPORT_BOM_GROUP = "Description,Manufacturer1,MPN1,Manufacturer2,MPN2,Value,${DNP},Footprint"
 
 # for pcb_export_pdf
-CONFIG_PCB_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_layout.pdf"
-CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_TEMP.pdf"
+CONFIG_PCB_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_layout.pdf"
+CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_TEMP.pdf"
 CONFIG_PCB_EXPORT_PDF_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 
 # for pcb_export_step
-CONFIG_PCB_EXPORT_STEP_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\mechanical\\" + CONFIG_KICAD_NAME + ".step"
+CONFIG_PCB_EXPORT_STEP_FILEPATH = CONFIG_KICAD_FOLDER + "\\mechanical\\" + CONFIG_KICAD_NAME + ".step"
 
 # for pcb_export_pos
-CONFIG_PCB_EXPORT_POS_FILEPATH_FRONT = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-top-pos.csv"
-CONFIG_PCB_EXPORT_POS_FILEPATH_BACK = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-bottom-pos.csv"
+CONFIG_PCB_EXPORT_POS_FILEPATH_FRONT = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-top-pos.csv"
+CONFIG_PCB_EXPORT_POS_FILEPATH_BACK = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-bottom-pos.csv"
 
 # for pcb_export_drill
-CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for drill
+CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for drill
 
 # for pcb_export_gerbers
-CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for gerbers
+CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for gerbers
 CONFIG_PCB_EXPORT_GERBERS_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 CONFIG_PCB_EXPORT_GERBERS_LAYERS_COMMON = ""    # Think best to have no common layers, though could be Edge.Cuts?
 
 # for pcb_export_render
 CONFIG_PCB_EXPORT_RENDER_FILETYPE = ".png" # .png, .jpg, or .jpeg
-CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\images\\" + CONFIG_KICAD_NAME + "_top" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
-CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\images\\" + CONFIG_KICAD_NAME + "_bottom" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
+CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP = CONFIG_KICAD_FOLDER + "\\images\\" + CONFIG_KICAD_NAME + "_top" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
+CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM = CONFIG_KICAD_FOLDER + "\\images\\" + CONFIG_KICAD_NAME + "_bottom" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
 CONFIG_PCB_EXPORT_RENDER_WIDTH = "3200"
 CONFIG_PCB_EXPORT_RENDER_HEIGHT = "1800"
 CONFIG_PCB_EXPORT_RENDER_ZOOM = "1"   # Zoom factor as INTEGER
 
 # for pcb_export_odb
-CONFIG_PCB_EXPORT_ODB_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_odb.zip"
+CONFIG_PCB_EXPORT_ODB_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_odb.zip"
 CONFIG_PCB_EXPORT_ODB_COMPRESSION = "zip" # none, zip (default), or tgz
 CONFIG_PCB_EXPORT_ODB_UNITS = "mm" # mm (default) or in
 CONFIG_PCB_EXPORT_ODB_PRECISION = "6"
 
 # for pcb_export_ipc2581
 CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
-CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.xml"
+CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.xml"
 CONFIG_PCB_EXPORT_IPC2581_BOM_ID = "Reference"
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG = "Manufacturer1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN = "MPN1"
@@ -110,10 +110,10 @@ CONFIG_PCB_EXPORT_IPC2581_BOM_DIST = "Vendor1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN = "SKU1"
 
 # for sch_erc
-CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + "-erc.rpt"
+CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + "-erc.rpt"
 
 # for pcb_drc
-CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\" + CONFIG_KICAD_NAME + "-drc.rpt"
+CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + "-drc.rpt"
 
 
 ###########################################
@@ -126,9 +126,9 @@ CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\design\\"
 def sch_export_pdf():
     for CONFIG_KICAD_VARIANT in CONFIG_KICAD_VARIANTS:
         if CONFIG_KICAD_VARIANT:
-            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic_" + CONFIG_KICAD_VARIANT + ".pdf"
+            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_schematic_" + CONFIG_KICAD_VARIANT + ".pdf"
         else:
-            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
+            CONFIG_SCH_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_schematic.pdf"
 
         if CONFIG_KICAD_VARIANT:
             print("\n## Exporting Schematic PDF (Variant " + CONFIG_KICAD_VARIANT + ")...")
@@ -170,9 +170,9 @@ def sch_export_pdf():
 def sch_export_bom():
     for CONFIG_KICAD_VARIANT in CONFIG_KICAD_VARIANTS:
         if CONFIG_KICAD_VARIANT:
-            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + "_" + CONFIG_KICAD_VARIANT + ".csv"
+            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + "_" + CONFIG_KICAD_VARIANT + ".csv"
         else:
-            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + CONFIG_KICAD_NAME + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + ".csv"
+            CONFIG_PCB_EXPORT_BOM_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_bom_" + CONFIG_KICAD_VERSION_BOM + ".csv"
 
         if CONFIG_KICAD_VARIANT:
             print("\n## Exporting Schematic BoM (Variant " + CONFIG_KICAD_VARIANT + ")...")
