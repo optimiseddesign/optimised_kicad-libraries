@@ -113,10 +113,13 @@ CONFIG_PCB_EXPORT_IPC2581_BOM_DIST = "Vendor1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN = "SKU1"
 
 # for sch_erc
-CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + "-erc.rpt"
+CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_report-erc.txt"
 
 # for pcb_drc
-CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + "-drc.rpt"
+CONFIG_PCB_DRC_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_report-drc.txt"
+
+# for pcb_export_stats
+CONFIG_PCB_EXPORT_STATS_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_report-statistics.txt"
 
 
 ###########################################
@@ -602,7 +605,8 @@ def sch_erc():
             'erc',
             '--output',
             CONFIG_SCH_ERC_FILEPATH,
-            '--severity-all',
+            '--severity-error',     # errors + warnings only, i.e. excluded violations not reported
+            '--severity-warning',
             '--exit-code-violations',
             CONFIG_KICAD_SCH]
             
@@ -635,7 +639,8 @@ def pcb_drc():
             'drc',
             '--output',
             CONFIG_PCB_DRC_FILEPATH,
-            '--severity-all',
+            '--severity-error',     # errors + warnings only, i.e. excluded violations not reported
+            '--severity-warning',
             '--exit-code-violations',
             CONFIG_KICAD_PCB]
             
@@ -657,6 +662,35 @@ def pcb_drc():
 
 ###########################################
 #
+#   Export KICAD PCB Statistics summary report (board size/area, copper areas, min track/drill, pad/via/component counts, drill table)
+#   Note: requires KiCAD v10+ CLI
+#   Uses: kicad-cli pcb export stats [--help] [--output OUTPUT_FILE] [--format FORMAT] [--units UNITS] [--exclude-footprints-without-pads] [--subtract-holes-from-board] [--subtract-holes-from-copper] INPUT_FILE
+#
+###########################################
+
+def pcb_export_stats():
+    print("\n## Exporting PCB Statistics summary report ...")
+
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'export',
+            'stats',
+            '--output',
+            CONFIG_PCB_EXPORT_STATS_FILEPATH,
+            '--exclude-footprints-without-pads',    # Don't count logo/graphic-only footprints as components
+            CONFIG_KICAD_PCB]
+
+    process = subprocess.run(args=cmd,
+                            stdout=subprocess.PIPE,
+                            shell=True,
+                            universal_newlines=True)
+
+    print("Result: " + process.stdout)
+
+
+
+###########################################
+#
 #   MAIN
 #   Calls all the other functions in turn to export the design pack
 #
@@ -668,6 +702,7 @@ print("####################################################################\n")
 
 sch_erc()
 pcb_drc()
+pcb_export_stats()
 sch_export_pdf()
 sch_export_bom()
 pcb_export_pdf()
