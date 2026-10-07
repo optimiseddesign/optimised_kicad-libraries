@@ -1,7 +1,7 @@
 (footprint "Eth_PoE_PSE_TH_Module_Silvertel_Ag6120"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Module; SIL 6 pin, 53.00 mm L X 8.00 mm W X 14.20 mm H body")
 	(property "Reference" "REF**"
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -21.15 -7.705)
 		(end 31.95 -7.705)

@@ -1,7 +1,7 @@
 (footprint "USBx-C_Single_Horizontal_SMD_MidMnt_Receptacle_Molex_2171770001"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Waterproof Mid Mount Molex 2171770001 for 0.60mm PCB")
 	(tags "Connector")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.26 -2.51)
 		(end -5.26 -3.89)
@@ -616,10 +617,10 @@
 		(layer "F.Fab")
 		(uuid "1cb04a09-2170-4553-aa97-cddc7ca5b52d")
 	)
-	(fp_text user "MID-MOUNT"
-		(at 0.01 -2.9 0)
+	(fp_text user "PCB EDGE"
+		(at 0 -1.8 0)
 		(layer "Cmts.User")
-		(uuid "15f6edf6-ca99-4936-a366-b591ef4ffb27")
+		(uuid "77a02fbb-bab8-4503-b12d-a1e4575d844b")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -627,10 +628,10 @@
 			)
 		)
 	)
-	(fp_text user "PCB EDGE"
-		(at 0 -1.8 0)
+	(fp_text user "MID-MOUNT"
+		(at 0.01 -2.9 0)
 		(layer "Cmts.User")
-		(uuid "77a02fbb-bab8-4503-b12d-a1e4575d844b")
+		(uuid "15f6edf6-ca99-4936-a366-b591ef4ffb27")
 		(effects
 			(font
 				(size 0.6 0.6)

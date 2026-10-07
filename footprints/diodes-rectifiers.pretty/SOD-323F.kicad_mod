@@ -1,7 +1,7 @@
 (footprint "SOD-323F"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SOD-323F (SC-90), originally for Nexperia TDZxJ Series")
 	(property "Reference" "REF**"
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.9 -0.7)
 		(end 0.9 -0.7)
@@ -340,7 +341,7 @@
 		(uuid "8d907c11-f884-436b-8217-40fb62308283")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323F.step"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323F.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "Socket_2.54mm_TH_02x16_Vertical_Samtec_SSW-116-01-x-D"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Through hole straight socket strip, 2x16, 2.54mm pitch, double row")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.87 -1.59)
 		(end -3.87 39.69)

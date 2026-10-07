@@ -1,7 +1,7 @@
 (footprint "TSSOP-14-1EP_W4.4xL5.0xH1.2mm_P0.65mm_EP2.46x2.31mm_TexasInstruments_PowerPAD-HTSSOP-14"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "KB Custom-made footprint to match TI PowerPAD HTSSOP 14pin (PWP R-PDSO-G14), as used for TPS1H100-Q1 - http://www.ti.com/lit/ml/mpds370/mpds370.pdf")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.25 -2.55)
 		(end 2.25 -2.55)

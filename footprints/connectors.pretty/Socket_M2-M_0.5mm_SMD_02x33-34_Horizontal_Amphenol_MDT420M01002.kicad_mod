@@ -1,7 +1,7 @@
 (footprint "Socket_M2-M_0.5mm_SMD_02x33-34_Horizontal_Amphenol_MDT420M01002"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "M2 'M' Key Connector, Right Angle Receptacle; 67 + 2 pin, 22.00 mm L X 8.55 mm W X 4.20 mm H body")
 	(tags "M.2")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11 4.275)
 		(end -11 -1.52)
@@ -352,14 +353,14 @@
 		(at -10 1.425)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "56d582f0-999e-40c3-9ebd-def4dd94cf6a")
 	)
 	(pad "" np_thru_hole circle
 		(at 10 1.425)
 		(size 1.6 1.6)
 		(drill 1.6)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "30f81d8f-64cd-42f5-97f9-3b15517558ad")
 	)
 	(pad "1" smd roundrect

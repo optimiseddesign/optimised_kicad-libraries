@@ -1,7 +1,7 @@
 (footprint "PowerPAK_1212-8S_Vishay"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "PowerPAK 1212-8S (https://www.vishay.com/docs/63919/ppak1212-8s.pdf) for SiSS65DN")
 	(tags "Similar to TI Q3A package, OnSemi CASE 483AW WDFN8 3.30x3.30x0.75, 0.65P")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.7 -1.375)
 		(end -2.15 -1.375)

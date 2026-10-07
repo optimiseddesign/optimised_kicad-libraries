@@ -1,7 +1,7 @@
 (footprint "SpringFinger_Preloaded_1.0x2.9mm_3.0mmH_SMD_TE-Connectivity_2108609"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Preloaded spring finger, 1.0x2.9mm area, 3.0mm max Height, SMD, for TE-Connectivity 2108609 series")
 	(tags "sprung contact ground shield clip")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 1 -0.55)
 		(end 1.5 -0.55)
@@ -195,8 +196,6 @@
 		(uuid "44f9095b-eeb6-4378-9c5c-6d09ddb813a5")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "e1b963ea-799b-44a7-a9cb-2a0dd2883700")
 		(hatch edge 0.508)
@@ -204,7 +203,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -219,6 +217,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

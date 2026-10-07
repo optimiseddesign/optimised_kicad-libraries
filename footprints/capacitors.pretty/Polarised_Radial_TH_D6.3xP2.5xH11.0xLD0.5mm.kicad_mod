@@ -1,7 +1,7 @@
 (footprint "Polarised_Radial_TH_D6.3xP2.5xH11.0xLD0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Polarised Radial Capacitor, Pitch=2.50mm, Diameter=6.3mm, Height=11mm, Lead Diameter=0.5mm")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.1 -1.55)
 		(end -0.7 -1.55)

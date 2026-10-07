@@ -1,7 +1,7 @@
 (footprint "Header_4.20mm_TH_02x03_Vertical_Molex_Mini-Fit-RTC"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Mini-Fit RTC Header, 6way Dual Row, Vertical, without Mounting Pegs")
 	(tags "connector fits Mini-Fit Jr but footprint different (RTC is Reflow Temp Compatible)")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -11.225 -6.875)
 		(end -11.225 3.025)

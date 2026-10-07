@@ -1,7 +1,7 @@
 (footprint "SOT-563_W1.2xL1.6xH0.6mm_P0.5mm_TexasInstruments"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Small Outline Flat Lead (SOFL), 0.50 mm pitch; 6 pin, 1.60 mm L X 1.20 mm W X 0.60 mm H body")
 	(tags "For TI DRL0006A case for TPS61299A")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.71 -0.915)
 		(end -0.71 -0.81)
@@ -347,7 +348,7 @@
 		(uuid "264299c9-daa9-41a4-831c-38b8b1edc3a9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-563.step"
 		(offset
 			(xyz 0 0 0)
 		)

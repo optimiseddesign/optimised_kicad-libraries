@@ -1,7 +1,7 @@
 (footprint "PCB_NFC-Capsense_PT118C-2.0"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Custom Capsense button with guard & NFC Coil for PT118C 2.0, 0.9uH target, to connect to PT118A")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.005321 -8.92526)
 		(end 0.789049 -8.92526)
@@ -2889,10 +2890,10 @@
 		(layer "F.CrtYd")
 		(uuid "6788ae5b-6732-440a-b5c4-f6dd82ab5095")
 	)
-	(fp_text user "KEEPOUT ALL COPPER,"
-		(at -16.2 -9.9 0)
+	(fp_text user "TRACKS, COMPONENTS"
+		(at -16.3 -8.1 0)
 		(layer "Cmts.User")
-		(uuid "2bd07e8a-1573-405b-a9e9-6da6f1579f24")
+		(uuid "ba6dfc4b-0bd1-45bf-9367-eeab65b37545")
 		(effects
 			(font
 				(size 1 1)
@@ -2900,10 +2901,10 @@
 			)
 		)
 	)
-	(fp_text user "TRACKS, COMPONENTS"
-		(at -16.3 -8.1 0)
+	(fp_text user "KEEPOUT ALL COPPER,"
+		(at -16.2 -9.9 0)
 		(layer "Cmts.User")
-		(uuid "ba6dfc4b-0bd1-45bf-9367-eeab65b37545")
+		(uuid "2bd07e8a-1573-405b-a9e9-6da6f1579f24")
 		(effects
 			(font
 				(size 1 1)
@@ -2947,8 +2948,6 @@
 		(uuid "c703479c-df17-4b37-b341-3598abbceff5")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
 			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
 			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
@@ -2961,7 +2960,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -2976,6 +2974,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

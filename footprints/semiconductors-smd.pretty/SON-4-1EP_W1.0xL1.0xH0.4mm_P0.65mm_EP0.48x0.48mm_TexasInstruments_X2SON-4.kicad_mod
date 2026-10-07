@@ -1,7 +1,7 @@
 (footprint "SON-4-1EP_W1.0xL1.0xH0.4mm_P0.65mm_EP0.48x0.48mm_TexasInstruments_X2SON-4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DQN Package, 4-Pin 1-mm × 1-mm X2SON, adjusted for 0.125mm track/gap")
 	(tags "Package drawing DQN0004A, for TLV73310PDQNR")
@@ -57,6 +57,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.83 -0.35)
 		(end -0.83 -0.65)

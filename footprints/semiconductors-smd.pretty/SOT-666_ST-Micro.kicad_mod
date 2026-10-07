@@ -1,7 +1,7 @@
 (footprint "SOT-666_ST-Micro"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SOT666, with pads extending underneath as in ST USBLC6-2PG")
 	(tags "SOT-666")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.65 0.8)
 		(end -0.65 0.85)
@@ -250,7 +251,7 @@
 		(uuid "f7d249cc-5235-418e-a609-e0e12520d2d6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-666.step"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-666.step"
 		(offset
 			(xyz 0 0 0)
 		)

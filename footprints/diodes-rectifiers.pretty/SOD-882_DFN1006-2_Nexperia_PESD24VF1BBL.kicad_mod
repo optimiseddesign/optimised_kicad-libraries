@@ -1,7 +1,7 @@
 (footprint "SOD-882_DFN1006-2_Nexperia_PESD24VF1BBL"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Dual Flat No-Lead (DFN 2 Pin); 2 pin, 0.985 mm L X 0.585 mm W X 0.50 mm H body")
 	(tags "DFN1006-2 SOD882 1x0.6x0.48mm for Nexperia PESD24VF1BBL")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.73 -0.53)
 		(end 0.73 -0.53)
@@ -264,7 +265,7 @@
 		(uuid "c9009223-b24b-4748-808e-8d4ef23c8a78")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-882.step"
 		(offset
 			(xyz 0 0 0)
 		)

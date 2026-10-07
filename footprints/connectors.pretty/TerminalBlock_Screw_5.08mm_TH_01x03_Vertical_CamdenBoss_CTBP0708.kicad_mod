@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Screw_5.08mm_TH_01x03_Vertical_CamdenBoss_CTBP0708"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "CTBP0708/3")
 	(tags "Connector")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.35 -2.59)
 		(end -4.35 12.75)

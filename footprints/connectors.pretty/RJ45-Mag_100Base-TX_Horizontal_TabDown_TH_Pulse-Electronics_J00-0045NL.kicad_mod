@@ -1,7 +1,7 @@
 (footprint "RJ45-Mag_100Base-TX_Horizontal_TabDown_TH_Pulse-Electronics_J00-0045NL"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "1 Port RJ45 Magjack Connector Through Hole 100Base-TX, AutoMDIX")
 	(tags "RJ45 Magjack PulseJack J0 Series")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.85 0.7)
 		(end -3.85 -0.7)
@@ -417,8 +418,6 @@
 		(uuid "46634196-2c70-4f35-b871-e4f4df0ea48a")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "a9d6890a-d24a-47f8-93e5-403f9c9566cd")
 		(hatch edge 0.508)
@@ -426,7 +425,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -441,6 +439,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

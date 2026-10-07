@@ -1,7 +1,7 @@
 (footprint "USB2-B_Single_Horizontal_TH_TE-Connectivity_292304-1"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB 2.0 Type B, Horizontal TH Single Connector")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.32 -0.77)
 		(end -7.32 2.71)

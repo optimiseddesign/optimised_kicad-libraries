@@ -1,7 +1,7 @@
 (footprint "TPU_SMD_Google_Coral_G313-06329-00_LGA-88-32EP"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "10x15mmx1.5mm Google Coral Edge TPU ML Accelerator Module LGA-88-32EP")
 	(tags "G313-06329-00")
@@ -104,6 +104,7 @@
 	)
 	(sheetfile "M2_USB_TPU.kicad_sch")
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.7 -5.2)
 		(end -7.7 -4.15)

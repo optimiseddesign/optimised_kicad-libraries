@@ -1,7 +1,7 @@
 (footprint "LED_SMD-3_3010-Horizontal_Lite-On_LTST-S326"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF")
 	(tags "LED SMD right angle CCA")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.9 -1.05)
 		(end -0.9 -1.9)
@@ -219,9 +220,9 @@
 		(uuid "93aadfd1-8eb7-476b-b4f6-e9709188ad67")
 	)
 	(fp_text user "K"
-		(at -0.9 0 90)
+		(at -0.9 -1.25 90)
 		(layer "F.Fab")
-		(uuid "90bf0ded-0a4f-45d1-b1e9-b550dd84051b")
+		(uuid "e73c5c4e-46b5-45c6-a451-268d4e231d4b")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -229,21 +230,10 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0.035 0 90)
-		(layer "F.Fab")
-		(uuid "e41a8961-722f-4a07-8ecb-1fc5e3c5ddff")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.1)
-			)
-		)
-	)
 	(fp_text user "K"
-		(at -0.9 -1.25 90)
+		(at -0.9 0 90)
 		(layer "F.Fab")
-		(uuid "e73c5c4e-46b5-45c6-a451-268d4e231d4b")
+		(uuid "90bf0ded-0a4f-45d1-b1e9-b550dd84051b")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -258,6 +248,17 @@
 		(effects
 			(font
 				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.035 0 90)
+		(layer "F.Fab")
+		(uuid "e41a8961-722f-4a07-8ecb-1fc5e3c5ddff")
+		(effects
+			(font
+				(size 0.6 0.6)
 				(thickness 0.1)
 			)
 		)

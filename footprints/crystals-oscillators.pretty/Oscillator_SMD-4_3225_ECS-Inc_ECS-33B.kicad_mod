@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD-4_3225_ECS-Inc_ECS-33B"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Oscillator, Corner Concave Package; 3.20 mm L X 2.50 mm W X 0.80 mm H body")
 	(tags "For ECS Inc ECS-33B Series SMD Crystal")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.96 0.96)
 		(end -1.96 1.66)
@@ -245,7 +246,7 @@
 		(uuid "9aa3af3b-f6d3-4320-8c9d-02de7e0aab66")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

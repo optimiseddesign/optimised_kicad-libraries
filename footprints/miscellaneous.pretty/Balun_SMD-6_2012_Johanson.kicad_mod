@@ -1,7 +1,7 @@
 (footprint "Balun_SMD-6_2012_Johanson"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Created for Balun_868-915MHz_SMD-6_2012_Johanson_0896BM15A0001")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -0.95)
 		(end -0.675 -0.95)

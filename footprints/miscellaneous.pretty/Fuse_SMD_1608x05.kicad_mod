@@ -1,7 +1,7 @@
 (footprint "Fuse_SMD_1608x05"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Fuse SMD 0603 (1608 Metric), IPC7351 Nominal, Chip; 1.60 mm L X 0.82 mm W X 0.48 mm H body")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.135 -0.48)
 		(end 0.135 -0.48)

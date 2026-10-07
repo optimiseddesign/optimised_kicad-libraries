@@ -1,7 +1,7 @@
 (footprint "SODIMM-200_Socket_0.6mm_DDR2_Horizontal_SMD_TE-Connectivity_1473005-4"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "0.6mm Pitch SODIMM DDR2 1.8V Socket used for Raspberry Pi Compute Module CM")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -37.5 -21)
 		(end -37.5 -1.85)
@@ -606,39 +607,6 @@
 		(layer "F.Fab")
 		(uuid "7f41f14a-270d-4a24-9f0d-58cea090d007")
 	)
-	(fp_text user "42"
-		(at -16.5 -4.4 90)
-		(layer "F.SilkS")
-		(uuid "276a11b5-d077-4941-bcdb-7f873a0f36ce")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-		)
-	)
-	(fp_text user "200"
-		(at 32.55 -4.45 90)
-		(layer "F.SilkS")
-		(uuid "57e0ad9e-0c72-4850-bb3f-59e185b7503d")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-		)
-	)
-	(fp_text user "39"
-		(at -19.45 4.45 90)
-		(layer "F.SilkS")
-		(uuid "7efab9c0-3741-428c-97b2-d8a407ea4bf1")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-			)
-		)
-	)
 	(fp_text user "1"
 		(at -32.15 4.8 180)
 		(layer "F.SilkS")
@@ -650,10 +618,21 @@
 			)
 		)
 	)
-	(fp_text user "199"
-		(at 32.05 4.45 90)
+	(fp_text user "2"
+		(at -32.05 -4.45 90)
 		(layer "F.SilkS")
-		(uuid "c094e4fa-d1aa-4361-8c19-905d3cdd1317")
+		(uuid "f42b3e66-45e2-45d8-ac6e-58b2a4de23c7")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "39"
+		(at -19.45 4.45 90)
+		(layer "F.SilkS")
+		(uuid "7efab9c0-3741-428c-97b2-d8a407ea4bf1")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -683,10 +662,32 @@
 			)
 		)
 	)
-	(fp_text user "2"
-		(at -32.05 -4.45 90)
+	(fp_text user "42"
+		(at -16.5 -4.4 90)
 		(layer "F.SilkS")
-		(uuid "f42b3e66-45e2-45d8-ac6e-58b2a4de23c7")
+		(uuid "276a11b5-d077-4941-bcdb-7f873a0f36ce")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "199"
+		(at 32.05 4.45 90)
+		(layer "F.SilkS")
+		(uuid "c094e4fa-d1aa-4361-8c19-905d3cdd1317")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "200"
+		(at 32.55 -4.45 90)
+		(layer "F.SilkS")
+		(uuid "57e0ad9e-0c72-4850-bb3f-59e185b7503d")
 		(effects
 			(font
 				(size 0.6 0.6)

@@ -1,7 +1,7 @@
 (footprint "Header_1.00mm_SMD_01x02_Horizontal_JST_SH-SR"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "JST SH / SR series connector SMD Horizontal, SM02B-SRSS-TB, assumes 0.1mm tolerance")
 	(tags "JST SH / SR SMT Header side entry")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.05 -1.725)
 		(end -0.975 -1.725)

@@ -1,7 +1,7 @@
 (footprint "NetTie_2_Via_0.2_0.6mm_Track_0.25mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Connects Top layer to Bottom layer using Via net tie, with trace stub on bottom layer")
 	(tags "net tie, for current sense resistor")
@@ -60,6 +60,7 @@
 	(zone_connect 0)
 	(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(net_tie_pad_groups "1,2")
+	(duplicate_pad_numbers_are_jumpers no)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 0.6 0.6)
