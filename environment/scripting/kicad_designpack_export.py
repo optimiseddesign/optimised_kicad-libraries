@@ -3,24 +3,25 @@
 ## INFO
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
-# Uses KiCAD v9 CLI (Command Line Interface). Written for KiCAD v9.0.5 (updated, was for v8.0.8 and initially for v7.0.6) on Win10 using Python v3.10.0 .
+# Uses KiCAD v10 CLI (Command Line Interface). Written for KiCAD v10.0.6 (updated, was for v9.0.5, v8.0.8 and initially for v7.0.6) on Win11 (previously Win10).
+# Requires KiCAD v10.0 or later (3D PDF, statistics report, variants and wire hop-over options are v10+).
 # REQUIRES 'pypdf' v6.x python package installed, Tested using python v3.15.0 - install using 'pip3 install pypdf' on command line
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
-# Copyright Optimised Product Design Ltd 2023-2025
+# Copyright Optimised Product Design Ltd 2023-2026
 #
 #
 ## TO-DO
 #
 # - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
-# - resolve v10 font difference vs. v9
-# - add variant support for position files(?)
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
 # - fixes before IPC-2581 can be used
-#            a) 'revision' field is always 1.0 (check if fixed in v9 or later?)
-#            b) import error into ZofZPCB (but may just be that program?)
+#            a) F.Courtyard imports into ZofZPCB as a Silkscreen layer - raise support ticket with ZofZPCB
+#               (KiCAD v10.0.6 exports it as layerFunction="COURTYARD" side="TOP", valid in IPC-2581B1 & C schemas)
+#            b) assess IPC-2581 output more rigorously before enabling (schema, layers, vs. Gerbers/drill/BOM/pos)
+#            c) decide CONFIG_PCB_EXPORT_IPC2581_BOM_ID (Reference or omit, neither ideal)
 #
 ###########################################
 
@@ -46,7 +47,7 @@ CONFIG_KICAD_NAME = "pt140a_vsmsc_8sim_4g_cellular_gateway"                     
 CONFIG_KICAD_PROJECT = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pro"
 CONFIG_KICAD_SCH = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_sch"
 CONFIG_KICAD_PCB = CONFIG_KICAD_FOLDER + "\\design\\" + CONFIG_KICAD_NAME + ".kicad_pcb"
-CONFIG_KICAD_VARIANTS = ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] # e.g. ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] to match the names in KiCAD, or [None] for none/default
+CONFIG_KICAD_VARIANTS = ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] # e.g. ["N4-7600E","N4-7600A","N8-7600E","N8-7600A"] to match the names in KiCAD, or [None] for none/default. Applies to schematic PDF & BOM only
 CONFIG_KICAD_LAYERS_FRONT = "F.Fab,Edge.Cuts,User.Drawings,F.Cu,F.Mask,F.Paste,F.Silkscreen,"
 CONFIG_KICAD_LAYERS_BACK = "B.Fab,B.Cu,B.Mask,B.Paste,B.Silkscreen,User.Comments"
 CONFIG_KICAD_LAYERS_FLEX = "User.1,User.2" # i.e. "Flex.pcb.rigid,Flex.pcb.not.rigid"
@@ -95,7 +96,7 @@ CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP = CONFIG_KICAD_FOLDER + "\\images\\" + CON
 CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM = CONFIG_KICAD_FOLDER + "\\images\\" + CONFIG_KICAD_NAME + "_bottom" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
 CONFIG_PCB_EXPORT_RENDER_WIDTH = "3200"
 CONFIG_PCB_EXPORT_RENDER_HEIGHT = "1800"
-CONFIG_PCB_EXPORT_RENDER_ZOOM = "1"   # Zoom factor as INTEGER
+CONFIG_PCB_EXPORT_RENDER_ZOOM = "1.0"   # Camera zoom factor. Decimal (docs say integer but v10.0.6 code takes a decimal)
 
 # for pcb_export_odb
 CONFIG_PCB_EXPORT_ODB_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_odb.zip"
@@ -105,12 +106,13 @@ CONFIG_PCB_EXPORT_ODB_PRECISION = "6"
 
 # for pcb_export_ipc2581
 CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
-CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.xml"
-CONFIG_PCB_EXPORT_IPC2581_BOM_ID = "Reference"
+CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.zip"   # zip as exported with --compress (contains the .xml)
+CONFIG_PCB_EXPORT_IPC2581_BOM_ID = "Reference"   # One BOM line per RefDes: no grouping, but never merges different parts
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG = "Manufacturer1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN = "MPN1"
-CONFIG_PCB_EXPORT_IPC2581_BOM_DIST = "Vendor1"
-CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN = "SKU1"
+CONFIG_PCB_EXPORT_IPC2581_BOM_REV = CONFIG_KICAD_VERSION_BOM    # BOM revision field, same as BOM file version
+# No Internal ID field set, so KiCAD generates one per library_footprint_value (GUI "Generate unique")
+# No distributor P/N exported: KiCAD only takes one fixed distributor for all parts so not useful
 
 # for sch_erc
 CONFIG_SCH_ERC_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_report-erc.txt"
@@ -125,7 +127,7 @@ CONFIG_PCB_EXPORT_STATS_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAM
 ###########################################
 #
 #   Export KICAD Schematic PDF
-#   Uses: kicad-cli sch export pdf [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--variant VAR]…​ [--theme THEME_NAME] [--black-and-white] [--exclude-drawing-sheet] [--default-font VAR] [--draw-hop-over] [--exclude-pdf-property-popups] [--exclude-pdf-hierarchical-links] [--exclude-pdf-metadata] [--no-background-color] [--pages PAGE_LIST] INPUT_FILE
+#   Uses: kicad-cli sch export pdf [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--variant VAR] [--theme THEME_NAME] [--black-and-white] [--exclude-drawing-sheet] [--default-font VAR] [--draw-hop-over] [--exclude-pdf-property-popups] [--exclude-pdf-hierarchical-links] [--exclude-pdf-metadata] [--no-background-color] [--pages PAGE_LIST] INPUT_FILE
 #
 ###########################################
 
@@ -148,6 +150,7 @@ def sch_export_pdf():
             '--output',
             CONFIG_SCH_EXPORT_PDF_FILEPATH,
             '--no-background-color',
+            '--draw-hop-over',
             CONFIG_KICAD_SCH]
 
         # Only add --variant if one is specified
@@ -169,7 +172,7 @@ def sch_export_pdf():
 ###########################################
 #
 #   Export KICAD Bill Of Materials (BOM)
-#   Uses: kicad-cli sch export bom [--help] [--output OUTPUT_FILE] [--variant VAR]…​ [--preset PRESET] [--format-preset FMT_PRESET] [--fields FIELDS] [--labels LABELS] [--group-by GROUP_BY] [--sort-field SORT_BY] [--sort-asc VAR] [--filter FILTER] [--exclude-dnp] [--include-excluded-from-bom] [--field-delimiter FIELD_DELIM] [--string-delimiter STR_DELIM] [--ref-delimiter REF_DELIM] [--ref-range-delimiter REF_RANGE_DELIM] [--keep-tabs] [--keep-line-breaks] INPUT_FILE
+#   Uses: kicad-cli sch export bom [--help] [--output OUTPUT_FILE] [--variant VAR] [--preset PRESET] [--format-preset FMT_PRESET] [--fields FIELDS] [--labels LABELS] [--group-by GROUP_BY] [--sort-field SORT_BY] [--sort-asc VAR] [--filter FILTER] [--exclude-dnp] [--include-excluded-from-bom] [--field-delimiter FIELD_DELIM] [--string-delimiter STR_DELIM] [--ref-delimiter REF_DELIM] [--ref-range-delimiter REF_RANGE_DELIM] [--keep-tabs] [--keep-line-breaks] INPUT_FILE
 #
 ###########################################
 
@@ -222,7 +225,7 @@ def sch_export_bom():
 ###########################################
 #
 #   Export KICAD PCB Layout PDF
-#   Uses: kicad-cli pcb export pdf [-h] [--output VAR] [--layers VAR] [--mirror] [--exclude-refdes] [--exclude-value] [--include-border-title] [--negative] [--black-and-white] [--theme VAR] input
+#   Uses: kicad-cli pcb export pdf [--help] [--output OUTPUT_DIR] [--layers LAYER_LIST] [--common-layers COMMON_LAYER_LIST] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--mirror] [--exclude-refdes] [--exclude-value] [--include-border-title] [--subtract-soldermask] [--sketch-pads-on-fab-layers] [--hide-DNP-footprints-on-fab-layers] [--sketch-DNP-footprints-on-fab-layers] [--crossout-DNP-footprints-on-fab-layers] [--negative] [--black-and-white] [--theme THEME_NAME] [--drill-shape-opt VAR] [--mode-single] [--mode-separate] [--mode-multipage] [--scale SCALE] [--bg-color COLOR] [--check-zones] [--variant VAR] INPUT_FILE
 #
 ###########################################
 
@@ -233,7 +236,7 @@ def pcb_export_pdf():
     # Note: PdfWriter replaces PdfMerger, which was removed in pypdf 5.0.0.
     merger = PdfWriter()
 
-    # Loop over layers in CONFIG_PCB_EXPORT_PDF_LAYERS_2L to export individually
+    # Loop over layers in CONFIG_PCB_EXPORT_PDF_LAYERS to export individually
     layers = CONFIG_PCB_EXPORT_PDF_LAYERS
     for layer in layers.split(","):
 
@@ -294,7 +297,7 @@ def pcb_export_pdf_single(layer):
 ###########################################
 #
 #   Export KICAD PCB Layout .STEP 3D Model
-#   Uses: kicad-cli pcb export step [-h] [--drill-origin] [--grid-origin] [--no-virtual] [--subst-models] [--force] [--board-only] [--min-distance VAR] [--user-origin VAR] [--output VAR] input
+#   Uses: kicad-cli pcb export step [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]…​ [--force] [--no-unspecified] [--no-dnp] [--variant VAR] [--grid-origin] [--drill-origin] [--subst-models] [--board-only] [--cut-vias-in-body] [--no-board-body] [--no-components] [--component-filter VAR] [--include-tracks] [--include-pads] [--include-zones] [--include-inner-copper] [--include-silkscreen] [--include-soldermask] [--fuse-shapes] [--fill-all-vias] [--no-extra-pad-thickness] [--min-distance MIN_DIST] [--net-filter VAR] [--no-optimize-step] [--user-origin VAR] INPUT_FILE
 #
 ###########################################
 
@@ -324,7 +327,7 @@ def pcb_export_step():
 #
 #   Export KICAD PCB Layout 3D PDF (PDF with embedded U3D 3D Model - view in Adobe Acrobat/Reader)
 #   Note: requires KiCAD v10+ CLI. Uses same options as pcb_export_step() so 3D PDF matches the .STEP model.
-#   Uses: kicad-cli pcb export 3dpdf [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]... [--force] [--no-unspecified] [--no-dnp] [--variant VAR]... [--grid-origin] [--drill-origin] [--subst-models] [--board-only] [--cut-vias-in-body] [--no-board-body] [--no-components] [--component-filter VAR] [--include-tracks] [--include-pads] [--include-zones] [--include-inner-copper] [--include-silkscreen] [--include-soldermask] [--fuse-shapes] [--fill-all-vias] [--no-extra-pad-thickness] [--min-distance MIN_DIST] [--net-filter VAR] [--user-origin VAR] INPUT_FILE
+#   Uses: kicad-cli pcb export 3dpdf [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--force] [--no-unspecified] [--no-dnp] [--variant VAR] [--grid-origin] [--drill-origin] [--subst-models] [--board-only] [--cut-vias-in-body] [--no-board-body] [--no-components] [--component-filter VAR] [--include-tracks] [--include-pads] [--include-zones] [--include-inner-copper] [--include-silkscreen] [--include-soldermask] [--fuse-shapes] [--fill-all-vias] [--no-extra-pad-thickness] [--min-distance MIN_DIST] [--net-filter VAR] [--user-origin VAR] INPUT_FILE
 #
 ###########################################
 
@@ -354,7 +357,7 @@ def pcb_export_3dpdf():
 #
 #   Export KICAD PCB Layout .pos footprint position file
 #   Param: "front" "back" or "both"
-#   Uses: kicad-cli pcb export pos [-h] [--output VAR] [--side VAR] [--format VAR] [--units VAR] [--bottom-negate-x] [--use-drill-file-origin] [--smd-only] [--exclude-fp-th] [--gerber-board-edge] input
+#   Uses: kicad-cli pcb export pos [--help] [--output OUTPUT_FILE] [--side VAR] [--format FORMAT] [--units UNITS] [--bottom-negate-x] [--use-drill-file-origin] [--smd-only] [--exclude-fp-th] [--exclude-dnp] [--gerber-board-edge] [--variant VAR] INPUT_FILE
 #
 ###########################################
 
@@ -394,7 +397,7 @@ def pcb_export_pos(side):
 ###########################################
 #
 #   Export KICAD PCB Layout drill and map files
-#   Uses: kicad-cli pcb export drill [-h] [--output VAR] [--format VAR] [--drill-origin VAR] [--excellon-zeros-format VAR] [--excellon-units VAR] [--excellon-mirror-y] [--excellon-min-header] [--excellon-separate-th] [--generate-map] [--map-format VAR] [--gerber-precision VAR] input
+#   Uses: kicad-cli pcb export drill [--help] [--output OUTPUT_DIR] [--format FORMAT] [--drill-origin DRILL_ORIGIN] [--excellon-zeros-format ZEROS_FORMAT] [--excellon-oval-format OVAL_FORMAT] [--excellon-units UNITS] [--excellon-mirror-y] [--excellon-min-header] [--excellon-separate-th] [--generate-map] [--generate-report] [--report-path REPORT_FILE] [--generate-tenting] [--map-format MAP_FORMAT] [--gerber-precision VAR] INPUT_FILE
 #
 ###########################################
 
@@ -427,7 +430,7 @@ def pcb_export_drill():
 ###########################################
 #
 #   Export KICAD PCB Layout Gerber files
-#   Uses: kicad-cli pcb export gerbers [-h] [--output VAR] [--layers VAR] [--exclude-refdes] [--exclude-value] [--include-border-title] [--no-x2] [--no-netlist] [--subtract-soldermask] [--disable-aperture-macros] [--use-drill-file-origin] [--precision VAR] [--no-protel-ext] [--common-layers VAR] [--board-plot-params] input
+#   Uses: kicad-cli pcb export gerbers [--help] [--output OUTPUT_DIR] [--layers LAYER_LIST] [--common-layers COMMON_LAYER_LIST] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--exclude-refdes] [--exclude-value] [--include-border-title] [--sketch-pads-on-fab-layers] [--hide-DNP-footprints-on-fab-layers] [--sketch-DNP-footprints-on-fab-layers] [--crossout-DNP-footprints-on-fab-layers] [--no-x2] [--no-netlist] [--subtract-soldermask] [--disable-aperture-macros] [--use-drill-file-origin] [--precision PRECISION] [--no-protel-ext] [--check-zones] [--variant VAR] [--board-plot-params] INPUT_FILE
 #
 ###########################################
 
@@ -466,7 +469,7 @@ def pcb_export_gerbers():
 #
 #   Export KICAD PCB Layout Render Image
 #   Param: "top" or "bottom"
-#   Uses: kicad-cli pcb render [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--width WIDTH] [--height HEIGHT] [--side SIDE] [--background BG] [--quality QUALITY] [--preset PRESET] [--floor] [--perspective] [--zoom ZOOM] [--pan VECTOR] [--pivot PIVOT] [--rotate ANGLES] [--light-top COLOR] [--light-bottom COLOR] [--light-side COLOR] [--light-camera COLOR] [--light-side-elevation ANGLE] INPUT_FILE
+#   Uses: kicad-cli pcb render [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]…​ [--variant VAR] [--width WIDTH] [--height HEIGHT] [--side SIDE] [--background BG] [--quality QUALITY] [--preset PRESET] [--use-board-stackup-colors VAR] [--floor] [--perspective] [--zoom ZOOM] [--pan VECTOR] [--pivot PIVOT] [--rotate ANGLES] [--light-top COLOR] [--light-bottom COLOR] [--light-side COLOR] [--light-camera COLOR] [--light-side-elevation ANGLE] INPUT_FILE
 #
 ###########################################
 
@@ -493,7 +496,7 @@ def pcb_export_render(side):
             'transparent',
             '--preset',
             'follow_plot_settings',
-            '--use-board-stackup-colors',
+            '--use-board-stackup-colors',   # Needed in v10: off unless given (v9 always used stackup colours)
             '--width',
             CONFIG_PCB_EXPORT_RENDER_WIDTH,
             '--height',
@@ -515,7 +518,7 @@ def pcb_export_render(side):
 ###########################################
 #
 #   Export KICAD PCB Layout ODB++ archive
-#   Uses: kicad-cli pcb export odb [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE] [--precision PRECISION] [--compression VAR] [--units VAR] INPUT_FILE
+#   Uses: kicad-cli pcb export odb [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--precision PRECISION] [--compression VAR] [--units VAR] [--variant VAR] INPUT_FILE
 #
 ###########################################
 
@@ -552,7 +555,7 @@ def pcb_export_odb():
 ###########################################
 #
 #   Export KICAD PCB Layout IPC-2581 file
-#   Uses: kicad-cli pcb export ipc2581 [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE] [--precision PRECISION] [--compress] [--version VAR] [--units VAR] [--bom-col-int-id FIELD_NAME] [--bom-col-mfg-pn FIELD_NAME] [--bom-col-mfg FIELD_NAME] [--bom-col-dist-pn FIELD_NAME] [--bom-col-dist FIELD_NAME] INPUT_FILE
+#   Uses: kicad-cli pcb export ipc2581 [--help] [--output OUTPUT_FILE] [--drawing-sheet SHEET_PATH] [--define-var KEY=VALUE]…​ [--precision PRECISION] [--compress] [--version VAR] [--units VAR] [--bom-col-int-id FIELD_NAME] [--bom-col-mfg-pn FIELD_NAME] [--bom-col-mfg FIELD_NAME] [--bom-col-dist-pn FIELD_NAME] [--bom-col-dist FIELD_NAME] [--bom-rev REVISION] [--variant VAR] INPUT_FILE
 #
 ###########################################
 
@@ -576,10 +579,8 @@ def pcb_export_ipc2581():
             CONFIG_PCB_EXPORT_IPC2581_BOM_MFG,
             '--bom-col-mfg-pn',
             CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN,
-            '--bom-col-dist',
-            CONFIG_PCB_EXPORT_IPC2581_BOM_DIST,
-            '--bom-col-dist-pn',
-            CONFIG_PCB_EXPORT_IPC2581_BOM_DIST_PN,
+            '--bom-rev',
+            CONFIG_PCB_EXPORT_IPC2581_BOM_REV,
             CONFIG_KICAD_PCB]
             
     process = subprocess.run(args=cmd, 
@@ -593,7 +594,7 @@ def pcb_export_ipc2581():
 ###########################################
 #
 #   Export KICAD SCH Electrical Rules Check (ERC)
-#   Usage: erc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--format VAR] [--units VAR] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] INPUT_FILE
+#   Uses: kicad-cli sch erc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]​ [--format VAR] [--units VAR] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] INPUT_FILE
 #
 ###########################################
 
@@ -627,7 +628,7 @@ def sch_erc():
 ###########################################
 #
 #   Export KICAD PCB Design Rules Check (DRC)
-#   Usage: Usage: drc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE] [--format FORMAT] [--all-track-errors] [--schematic-parity] [--units UNITS] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] INPUT_FILE
+#   Uses: kicad-cli pcb drc [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]​ [--format FORMAT] [--all-track-errors] [--schematic-parity] [--units UNITS] [--severity-all] [--severity-error] [--severity-warning] [--severity-exclusions] [--exit-code-violations] [--refill-zones] [--save-board] INPUT_FILE
 #
 ###########################################
 
