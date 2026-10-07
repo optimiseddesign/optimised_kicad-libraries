@@ -74,6 +74,9 @@ CONFIG_PCB_EXPORT_PDF_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 # for pcb_export_step
 CONFIG_PCB_EXPORT_STEP_FILEPATH = CONFIG_KICAD_FOLDER + "\\mechanical\\" + CONFIG_KICAD_NAME + ".step"
 
+# for pcb_export_3dpdf
+CONFIG_PCB_EXPORT_3DPDF_FILEPATH = CONFIG_KICAD_FOLDER + "\\mechanical\\" + CONFIG_KICAD_NAME + "_3d.pdf"   # Same folder as STEP file
+
 # for pcb_export_pos
 CONFIG_PCB_EXPORT_POS_FILEPATH_FRONT = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-top-pos.csv"
 CONFIG_PCB_EXPORT_POS_FILEPATH_BACK = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "-bottom-pos.csv"
@@ -310,6 +313,36 @@ def pcb_export_step():
                             shell=True, 
                             universal_newlines=True)
     
+    print("Result: " + process.stdout)
+
+
+
+###########################################
+#
+#   Export KICAD PCB Layout 3D PDF (PDF with embedded U3D 3D Model - view in Adobe Acrobat/Reader)
+#   Note: requires KiCAD v10+ CLI. Uses same options as pcb_export_step() so 3D PDF matches the .STEP model.
+#   Uses: kicad-cli pcb export 3dpdf [--help] [--output OUTPUT_FILE] [--define-var KEY=VALUE]... [--force] [--no-unspecified] [--no-dnp] [--variant VAR]... [--grid-origin] [--drill-origin] [--subst-models] [--board-only] [--cut-vias-in-body] [--no-board-body] [--no-components] [--component-filter VAR] [--include-tracks] [--include-pads] [--include-zones] [--include-inner-copper] [--include-silkscreen] [--include-soldermask] [--fuse-shapes] [--fill-all-vias] [--no-extra-pad-thickness] [--min-distance MIN_DIST] [--net-filter VAR] [--user-origin VAR] INPUT_FILE
+#
+###########################################
+
+def pcb_export_3dpdf():
+    print("\n## Exporting Layout 3D PDF...")
+    cmd = [CONFIG_KICAD_CLI_PATH,
+            'pcb',
+            'export',
+            '3dpdf',
+            '--output',
+            CONFIG_PCB_EXPORT_3DPDF_FILEPATH,
+            '--subst-models',
+            '--force',
+            '--drill-origin',
+            CONFIG_KICAD_PCB]
+
+    process = subprocess.run(args=cmd,
+                            stdout=subprocess.PIPE,
+                            shell=True,
+                            universal_newlines=True)
+
     print("Result: " + process.stdout)
 
 
@@ -639,6 +672,7 @@ sch_export_pdf()
 sch_export_bom()
 pcb_export_pdf()
 pcb_export_step()
+pcb_export_3dpdf()
 pcb_export_render("top")
 pcb_export_render("bottom")
 pcb_export_pos("front")
