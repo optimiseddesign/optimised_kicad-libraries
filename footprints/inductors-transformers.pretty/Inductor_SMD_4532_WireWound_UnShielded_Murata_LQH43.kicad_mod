@@ -1,7 +1,7 @@
 (footprint "Inductor_SMD_4532_WireWound_UnShielded_Murata_LQH43"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "4.5x3.2mm 2.6mm Tall Un-Shielded Inductor")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.4 -1.7)
 		(end -2.4 -1.45)

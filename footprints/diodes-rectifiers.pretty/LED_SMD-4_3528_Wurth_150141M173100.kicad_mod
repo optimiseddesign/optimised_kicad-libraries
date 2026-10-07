@@ -1,7 +1,7 @@
 (footprint "LED_SMD-4_3528_Wurth_150141M173100"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Small Outline L-Lead (SOL), 1.415 mm pitch; 4 pin, 2.80 mm L X 3.20 mm W X 2.10 mm H body")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.5 1.7)
 		(end -1.5 -1.7)

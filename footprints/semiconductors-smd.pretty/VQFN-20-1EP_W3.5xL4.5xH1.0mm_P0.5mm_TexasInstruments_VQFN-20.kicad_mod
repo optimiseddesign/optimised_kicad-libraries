@@ -1,7 +1,7 @@
 (footprint "VQFN-20-1EP_W3.5xL4.5xH1.0mm_P0.5mm_TexasInstruments_VQFN-20"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quad Flat No-Lead (QFN) with tab, 0.50 mm pitch; 21 pin, rect., 8 pin X 4 pin, 4.50 mm L X 3.50 mm W X 1.00 mm H body")
 	(tags "For Texas Instruments RHL0020A for BQ24070")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.8 -2.3)
 		(end -1.06 -2.3)

@@ -1,7 +1,7 @@
 (footprint "WQFN-18-W2.5xL3.0xH0.8mm_P0.40mm_TexasInstruments_WQFN-HR-18"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quad Flat No-Lead (QFN); 22 pin, 3.00 mm L X 2.50 mm W X 0.80 mm H body")
 	(tags "TI Package WQFN-HR (RYK0018A) for BQ25622E")
@@ -57,6 +57,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.83 -1.08)
 		(end -1.83 -1.58)

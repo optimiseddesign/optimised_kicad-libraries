@@ -1,7 +1,7 @@
 (footprint "Cell-Holder_18650_Horizontal_TH_Keystone_1043P"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Polarised Holder for Protected 18650 Cell Battery")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start 15.51 0)
 		(end 17.51 0)
@@ -197,21 +198,21 @@
 		(at 0.31 -8)
 		(size 2.4 2.4)
 		(drill 2.4)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "9b7f821a-d9db-4b25-831a-f1bb4f6703e6")
 	)
 	(pad "" np_thru_hole circle
 		(at 8.51 8)
 		(size 3.55 3.55)
 		(drill 3.55)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "8ae91526-a7bd-4c52-8c89-2bc9578e94f7")
 	)
 	(pad "" np_thru_hole circle
 		(at 63.71 -8)
 		(size 3.55 3.55)
 		(drill 3.55)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "b1716cfa-726d-4ee6-8941-0a6fc72000a1")
 	)
 	(pad "1" thru_hole rect

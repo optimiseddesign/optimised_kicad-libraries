@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD-4_2016_ECS-Inc_ECX-1637B"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Oscillator, Corner Concave; 2.00 mm L X 1.60 mm W X 0.45 mm H body")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.27 0.47)
 		(end -1.27 1.07)

@@ -1,7 +1,7 @@
 (footprint "LED_SMD-6_2827_OSRAM_KRTB-LFLP71.32"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "2.8mm (L) x 2.7mm (W) x 2.45mm (H) SMD LED for Independent RGB LED OSRAM KRTB LFLP71.32")
 	(tags "PLCC-6")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.65 -0.6)
 		(end -1.65 -1.1)

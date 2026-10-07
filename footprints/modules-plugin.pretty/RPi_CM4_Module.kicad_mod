@@ -1,7 +1,7 @@
 (footprint "RPi_CM4_Module"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Raspberry Pi 4 Compute Plug-in Module, connects to 2off Hirose DF40C connectors and 4off standoffs (separate parts)")
 	(tags "3.0mm stacking height, use with RPi_CM4_Connector1-100_GPIO and RPi_CM4_Connector101-200_HighSpeed & _CM4-3.0mm_Wurth_9774030151R")
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -20 -24)
 		(end -20 24)
@@ -495,11 +496,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "1"
-		(at 17.54 8 270)
+	(fp_text user "102"
+		(at -18.34 6.9 270)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "1e410628-7356-49fa-99ff-b05750755997")
+		(uuid "5674100f-34ad-4769-863e-5348060ad16e")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -514,6 +515,117 @@
 		(unlocked yes)
 		(layer "Dwgs.User")
 		(uuid "2b63dda8-66fe-4965-8a98-ff7b6a09b494")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "199"
+		(at -16.44 -13.7 270)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "f27ff452-2070-42a5-8010-6e4d99daf8aa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "101"
+		(at -16.44 6.9 270)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "c56e5f87-6ce4-4849-abdb-4f32e7c41806")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BCM2711"
+		(at -6.4 5.1 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "4bf53577-c4ed-440c-ac80-cce2ebfe5602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "6.5x11mm MINIMUM"
+		(at 3.9 -23.8 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "b3c7f5f4-8868-42a5-b622-58f14f584a26")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "(8x15mm PREFERRED)"
+		(at 3.9 -22.7 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "925a0f56-a6cd-49ea-aa73-6c422100c247")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "CM4 Wireless Keepout"
+		(at 4 -25.7 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "75a4177b-f535-4263-abd4-9d2703e5dc1a")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "u.FL"
+		(at 10 -24.6 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "fc11d03b-a4c2-47f6-828c-fa3c65502cc2")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.12)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "2"
+		(at 15.64 8 270)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "928369a2-a5eb-4e53-8f37-9c5b802c2fd2")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -551,122 +663,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "BCM2711"
-		(at -6.4 5.1 0)
+	(fp_text user "1"
+		(at 17.54 8 270)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "4bf53577-c4ed-440c-ac80-cce2ebfe5602")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "102"
-		(at -18.34 6.9 270)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "5674100f-34ad-4769-863e-5348060ad16e")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "CM4 Wireless Keepout"
-		(at 4 -25.7 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "75a4177b-f535-4263-abd4-9d2703e5dc1a")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "(8x15mm PREFERRED)"
-		(at 3.9 -22.7 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "925a0f56-a6cd-49ea-aa73-6c422100c247")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "2"
-		(at 15.64 8 270)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "928369a2-a5eb-4e53-8f37-9c5b802c2fd2")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "6.5x11mm MINIMUM"
-		(at 3.9 -23.8 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "b3c7f5f4-8868-42a5-b622-58f14f584a26")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify bottom)
-		)
-	)
-	(fp_text user "101"
-		(at -16.44 6.9 270)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "c56e5f87-6ce4-4849-abdb-4f32e7c41806")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "199"
-		(at -16.44 -13.7 270)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "f27ff452-2070-42a5-8010-6e4d99daf8aa")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.12)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(fp_text user "u.FL"
-		(at 10 -24.6 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "fc11d03b-a4c2-47f6-828c-fa3c65502cc2")
+		(uuid "1e410628-7356-49fa-99ff-b05750755997")
 		(effects
 			(font
 				(size 0.6 0.6)

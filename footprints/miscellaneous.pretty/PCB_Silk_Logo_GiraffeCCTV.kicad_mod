@@ -1,7 +1,7 @@
 (footprint "PCB_Silk_Logo_GiraffeCCTV"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Giraffe CCTV Silkscreen & ENIG logo 11.3mm x 3.7mm")
 	(property "Reference" "REF**"
@@ -57,6 +57,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 2.497386 -2.790343) (xy 2.522385 -2.778967) (xy 2.558396 -2.762305) (xy 2.602089 -2.741892) (xy 2.62009 -2.733436)

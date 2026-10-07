@@ -1,7 +1,7 @@
 (footprint "Oscillator_SMD-4_3225_ECS-Inc_ECS-3225MV"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.3 -2.45 0)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.15 1.05)
 		(end -2.15 1.75)

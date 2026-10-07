@@ -1,7 +1,7 @@
 (footprint "M.2_3035-42_Card_Blues_Notecard"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "To fit both 35mm and 42mm length variants")
 	(tags "NOTE-WBEX-500 NOTE-WBEXW")
@@ -57,6 +57,7 @@
 			)
 		)
 	)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -14.3 -15.075)
 		(end 24.575 -15.075)

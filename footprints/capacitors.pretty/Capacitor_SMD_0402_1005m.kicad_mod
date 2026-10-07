@@ -1,7 +1,7 @@
 (footprint "Capacitor_SMD_0402_1005m"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0402 (1005 Metric), IPC7351 Nominal, Chip; 1.00 mm L X 0.50 mm W X 0.55 mm H body")
 	(property "Reference" "REF**"
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.05 -0.28)
 		(end 0.05 -0.28)

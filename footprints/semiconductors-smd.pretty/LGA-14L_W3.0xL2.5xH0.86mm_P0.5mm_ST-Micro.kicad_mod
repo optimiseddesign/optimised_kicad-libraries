@@ -1,7 +1,7 @@
 (footprint "LGA-14L_W3.0xL2.5xH0.86mm_P0.5mm_ST-Micro"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Custom footprint created for LSM6DSL in the LGA-14L 3x2.5mm package, based on ST TN0018 recommendations")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.6 -0.9) (xy -1.6 -0.6) (xy -1.4 -0.6) (xy -1.4 -0.9)
@@ -393,10 +394,10 @@
 		(layer "F.Fab")
 		(uuid "d67a9e32-a811-4f70-97fc-6b3a6e9073b0")
 	)
-	(fp_text user "TOP"
-		(at 0.05 0.35 0)
+	(fp_text user "KEEPOUT"
+		(at 0 -0.35 0)
 		(layer "Cmts.User")
-		(uuid "119b1ef5-84b2-420f-a2d2-ad4e21443df3")
+		(uuid "df1679bd-f6e8-411c-b562-0720a926e11a")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -404,10 +405,10 @@
 			)
 		)
 	)
-	(fp_text user "KEEPOUT"
-		(at 0 -0.35 0)
+	(fp_text user "TOP"
+		(at 0.05 0.35 0)
 		(layer "Cmts.User")
-		(uuid "df1679bd-f6e8-411c-b562-0720a926e11a")
+		(uuid "119b1ef5-84b2-420f-a2d2-ad4e21443df3")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -525,8 +526,6 @@
 		(uuid "948418fb-02e5-4422-b12b-b913dd9f3b41")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "225dea47-a33f-4c85-9aa5-e7cb6ddf0c51")
 		(hatch edge 0.508)
@@ -534,7 +533,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -549,6 +547,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

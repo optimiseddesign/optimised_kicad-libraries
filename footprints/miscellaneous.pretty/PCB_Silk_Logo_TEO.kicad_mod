@@ -1,7 +1,7 @@
 (footprint "PCB_Silk_Logo_TEO"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -8.720667 7.1628) (xy -8.8392 7.1628) (xy -8.8392 6.333067) (xy -8.720667 6.333067) (xy -8.720667 7.1628)

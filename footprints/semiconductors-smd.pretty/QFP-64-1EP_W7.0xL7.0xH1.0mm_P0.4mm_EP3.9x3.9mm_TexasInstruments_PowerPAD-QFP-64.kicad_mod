@@ -1,7 +1,7 @@
 (footprint "QFP-64-1EP_W7.0xL7.0xH1.0mm_P0.4mm_EP3.9x3.9mm_TexasInstruments_PowerPAD-QFP-64"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quad Flat Pack (QFP) with tab, 0.40 mm pitch; 65 pin, square, 16 pin X 16 pin, 7.00 mm L X 7.00 mm W X 1.20 mm H body")
 	(tags "Made for Texas Instruments TUSB9261, PVP (S-PQFP-G64) PowerPAD")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.6 -3.6)
 		(end -3.275 -3.6)

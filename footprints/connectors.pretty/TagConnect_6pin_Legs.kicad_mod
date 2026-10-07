@@ -1,7 +1,7 @@
 (footprint "TagConnect_6pin_Legs"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "To fit Tag-Connect 6pin Legs cables, e.g. TC2030-IDC")
 	(tags "pinout depends on cable & schematic symbol")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.93 -2.54)
 		(end -3.93 2.31)
@@ -558,14 +559,14 @@
 		(at -2.54 -2.54 270)
 		(size 1 1)
 		(drill 2.375)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "6391a4e0-1cb1-4611-89de-018ebca474d6")
 	)
 	(pad "" np_thru_hole circle
 		(at -2.54 0.635 270)
 		(size 1 1)
 		(drill 2.375)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "d1864424-46c4-43b8-9d10-d6a6460b27ea")
 	)
 	(pad "" np_thru_hole circle
@@ -593,14 +594,14 @@
 		(at 2.54 -2.54 270)
 		(size 1 1)
 		(drill 2.375)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "c645d9c6-46e2-48da-b900-84dd7f40e9f3")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 0.635 270)
 		(size 1 1)
 		(drill 2.375)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e265c9cb-4713-4337-8359-e8ebc0892152")
 	)
 	(pad "1" smd roundrect
@@ -641,8 +642,6 @@
 		(uuid "fd78f13b-b630-4092-83f4-19bcc526489b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "0d4c28e2-948b-4d4a-8c13-8a199f9b6a2d")
 		(hatch edge 0.508)
@@ -650,7 +649,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -665,6 +663,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

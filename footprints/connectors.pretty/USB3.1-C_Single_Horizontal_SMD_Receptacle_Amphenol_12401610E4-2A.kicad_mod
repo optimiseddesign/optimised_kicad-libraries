@@ -1,7 +1,7 @@
 (footprint "USB3.1-C_Single_Horizontal_SMD_Receptacle_Amphenol_12401610E4-2A"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "USB TYPE C, RA RCPT PCB, SMT,")
 	(tags "USB C Type-C Receptacle SMD")
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.725 -5.395)
 		(end -3.19 -5.395)
@@ -216,17 +217,6 @@
 		(layer "F.Fab")
 		(uuid "e731be15-55d3-4566-bef3-4b77ed3f848a")
 	)
-	(fp_text user "NO TOP"
-		(at 0.25 0.35 0)
-		(layer "Cmts.User")
-		(uuid "129987fb-2dbd-4a45-a8a6-fba1894ab023")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(fp_text user "PCB EDGE"
 		(at 0.13 4.42 0)
 		(layer "Cmts.User")
@@ -242,6 +232,17 @@
 		(at 0.2 1.7 0)
 		(layer "Cmts.User")
 		(uuid "48bb50a1-3a35-46ae-a5c3-62507e939a04")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "NO TOP"
+		(at 0.25 0.35 0)
+		(layer "Cmts.User")
+		(uuid "129987fb-2dbd-4a45-a8a6-fba1894ab023")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -475,8 +476,6 @@
 		(uuid "779533b7-ecb7-4e96-b7e6-07828431b196")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "e67bdf2d-3f1e-4d1b-8b1e-9d8b1d4db68a")
 		(hatch edge 0.508)
@@ -484,7 +483,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -499,6 +497,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

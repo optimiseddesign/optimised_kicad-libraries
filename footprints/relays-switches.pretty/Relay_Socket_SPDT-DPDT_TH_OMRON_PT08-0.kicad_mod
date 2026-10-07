@@ -1,7 +1,7 @@
 (footprint "Relay_Socket_SPDT-DPDT_TH_OMRON_PT08-0"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Socket for 1 or 2 Pole relays from LY series (e.g. LY2-DC24)")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -16 -5.65)
 		(end 6 -5.65)
@@ -195,10 +196,10 @@
 		(layer "F.Fab")
 		(uuid "1da4377d-79b0-4035-98d5-c44aaa3ad070")
 	)
-	(fp_text user "AREAS UNDER PINS"
-		(at -4.8 15.1 0)
+	(fp_text user "TOP COPPER KEEPOUT"
+		(at -4.9 13.5 0)
 		(layer "Cmts.User")
-		(uuid "4fd3ce7e-3945-4e1a-8100-baa15e0198b5")
+		(uuid "f1841a37-0b46-447f-adf4-647569cf23a0")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -206,10 +207,10 @@
 			)
 		)
 	)
-	(fp_text user "TOP COPPER KEEPOUT"
-		(at -4.9 13.5 0)
+	(fp_text user "AREAS UNDER PINS"
+		(at -4.8 15.1 0)
 		(layer "Cmts.User")
-		(uuid "f1841a37-0b46-447f-adf4-647569cf23a0")
+		(uuid "4fd3ce7e-3945-4e1a-8100-baa15e0198b5")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -293,8 +294,6 @@
 		(uuid "41bc0e3e-ecdb-43a7-bd21-75b17dd6627b")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "68f01c3f-2a92-4ed1-a973-006ddbb88dc1")
 		(hatch edge 0.508)
@@ -302,7 +301,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -317,6 +315,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -325,8 +324,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "5625307e-65ec-45ac-8410-46134d531854")
 		(hatch edge 0.508)
@@ -334,7 +331,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -349,6 +345,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -357,8 +354,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "67117b45-5428-4662-99a5-05960ee8872e")
 		(hatch edge 0.508)
@@ -366,7 +361,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -381,6 +375,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -389,8 +384,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "ef6c9bad-fc40-43dd-95f5-2e66e3c750a4")
 		(hatch edge 0.508)
@@ -398,7 +391,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -413,6 +405,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -421,8 +414,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "4e3af486-a373-444c-a05a-f7694c21149b")
 		(hatch edge 0.508)
@@ -430,7 +421,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -445,6 +435,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -453,8 +444,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "71259aec-d6c8-459c-bcb9-ab1536c683dc")
 		(hatch edge 0.508)
@@ -462,7 +451,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -477,6 +465,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -485,8 +474,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "30e3455f-1c52-4cc3-9e05-60c594808e30")
 		(hatch edge 0.508)
@@ -494,7 +481,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -509,6 +495,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
@@ -517,8 +504,6 @@
 		)
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "4932750c-a1e8-4033-b4ab-950872f468ad")
 		(hatch edge 0.508)
@@ -526,7 +511,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -541,6 +525,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

@@ -1,7 +1,7 @@
 (footprint "Cell-Holder_Negative_CR12-CR16_Horizontal_SMD_Keystone_118"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.02 -3.26 0)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.17 -2.23)
 		(end -0.77 -2.23)
@@ -316,11 +317,11 @@
 		(layer "F.Fab")
 		(uuid "426d57b1-f862-4a8d-bf27-6b58a42b9832")
 	)
-	(fp_text user "CR12"
-		(at -2.17 -4.15 0)
+	(fp_text user "CR16"
+		(at -2.24 -6.38 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "7a3cbd2f-ff0e-4be1-af10-c38dd7ca1061")
+		(uuid "c2e8be7b-ef68-4c74-89c6-23b069312149")
 		(effects
 			(font
 				(size 1 1)
@@ -329,11 +330,11 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "CR16"
-		(at -2.24 -6.38 0)
+	(fp_text user "CR12"
+		(at -2.17 -4.15 0)
 		(unlocked yes)
 		(layer "Dwgs.User")
-		(uuid "c2e8be7b-ef68-4c74-89c6-23b069312149")
+		(uuid "7a3cbd2f-ff0e-4be1-af10-c38dd7ca1061")
 		(effects
 			(font
 				(size 1 1)

@@ -1,7 +1,7 @@
 (footprint "SOT-323-3_SC-70-3_W1.25xL2.0xH1.1mm_P0.65mm_ST-Micro"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Small Outline Transistor, SOT-323 Type, 0.65 mm pitch; 3 pin, 2.00 mm L X 1.25 mm W X 1.10 mm H body")
 	(tags "Footprint Expert 2022.15, for ST Micro Electronics TS4061 SOT323-3L")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.21 -1.1)
 		(end 0.675 -1.1)

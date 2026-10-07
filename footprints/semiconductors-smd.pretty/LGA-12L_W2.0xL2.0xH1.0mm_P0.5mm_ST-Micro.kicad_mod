@@ -1,7 +1,7 @@
 (footprint "LGA-12L_W2.0xL2.0xH1.0mm_P0.5mm_ST-Micro"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Pullback Quad Flat No-Lead (PQFN), 0.50 mm pitch; 12 pin, square, 4 pin X 2 pin, 2.00 mm L X 2.00 mm W X 1.00 mm H body")
 	(tags "TN0018 recommendations, adjusted custom, for LSM303AGR")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy -1.1 -0.9) (xy -1.1 -0.6) (xy -0.95 -0.6) (xy -0.95 -0.9)
@@ -369,17 +370,6 @@
 		(layer "F.Fab")
 		(uuid "3da13e41-867d-486c-bc65-941f1713e8a6")
 	)
-	(fp_text user "TOP"
-		(at 0.05 0.25 0)
-		(layer "Cmts.User")
-		(uuid "2ff42395-9af5-4035-950e-9f3f8eb3e584")
-		(effects
-			(font
-				(size 0.3 0.3)
-				(thickness 0.06)
-			)
-		)
-	)
 	(fp_text user "KEEPOUT"
 		(at 0 -0.25 0)
 		(layer "Cmts.User")
@@ -389,6 +379,17 @@
 				(size 0.3 0.3)
 				(thickness 0.06)
 				(bold yes)
+			)
+		)
+	)
+	(fp_text user "TOP"
+		(at 0.05 0.25 0)
+		(layer "Cmts.User")
+		(uuid "2ff42395-9af5-4035-950e-9f3f8eb3e584")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.06)
 			)
 		)
 	)
@@ -488,8 +489,6 @@
 		(uuid "d89c2d50-5801-4218-9465-0525394a9a13")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "b321be22-434e-4373-b9c1-bc513080282c")
 		(hatch edge 0.508)
@@ -497,7 +496,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks allowed)
 			(vias not_allowed)
@@ -512,6 +510,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

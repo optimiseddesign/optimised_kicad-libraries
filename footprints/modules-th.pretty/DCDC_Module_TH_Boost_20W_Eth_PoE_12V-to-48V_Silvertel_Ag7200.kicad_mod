@@ -1,7 +1,7 @@
 (footprint "DCDC_Module_TH_Boost_20W_Eth_PoE_12V-to-48V_Silvertel_Ag7200"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Module; SIL 7 pin, 56.00 mm L X 19.00 mm W X 14.20 mm H body")
 	(tags "PSE")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.94 -0.8)
 		(end -2.94 0.8)
@@ -391,8 +392,6 @@
 		(uuid "91505d84-de17-483d-8b9e-1aa7781361c4")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "18137236-d47e-43bf-8cc4-c3d6e256899f")
 		(name "Isolation")
@@ -401,7 +400,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -416,6 +414,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

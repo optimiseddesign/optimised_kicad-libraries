@@ -1,7 +1,7 @@
 (footprint "SON-6_W1.5xL1.5xH0.45mm_P0.5mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Small Outline No-Lead (SON), 0.50 mm pitch; 6 pin, 1.50 mm L X 1.50 mm W X 0.45 mm H body")
 	(tags "From PCB Expert based on ON Semi NCP715 (XDFN6, XDFN-6, CASE 711AE, ISSUE B)")
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.1 -0.8)
 		(end 0.8 -0.8)

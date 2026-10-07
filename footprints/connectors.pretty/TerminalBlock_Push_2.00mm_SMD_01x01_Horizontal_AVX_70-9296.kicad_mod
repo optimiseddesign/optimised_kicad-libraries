@@ -1,7 +1,7 @@
 (footprint "TerminalBlock_Push_2.00mm_SMD_01x01_Horizontal_AVX_70-9296"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "AVX 709296001002006 footprint, 2x6mm poke-home horizontal contact")
 	(property "Reference" "REF**"
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5 0)
 		(end 0.5 0)
@@ -323,8 +324,6 @@
 		(uuid "8ad1e18f-9ba3-422e-bfd0-28459f34e036")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
 		(uuid "dcf41d97-c532-4149-a85c-e62f9b160b8f")
 		(hatch edge 0.508)
@@ -332,7 +331,6 @@
 			(clearance 0)
 		)
 		(min_thickness 0.254)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -347,6 +345,7 @@
 		(fill
 			(thermal_gap 0.508)
 			(thermal_bridge_width 0.508)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

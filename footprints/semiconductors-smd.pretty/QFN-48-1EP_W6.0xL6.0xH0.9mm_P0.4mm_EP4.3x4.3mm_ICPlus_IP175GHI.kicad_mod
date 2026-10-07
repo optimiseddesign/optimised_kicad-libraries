@@ -1,7 +1,7 @@
 (footprint "QFN-48-1EP_W6.0xL6.0xH0.9mm_P0.4mm_EP4.3x4.3mm_ICPlus_IP175GHI"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Quad Flat No-Lead (QFN) with tab, 0.40 mm pitch; 49 pin, square, 12 pin X 12 pin, 6.00 mm L X 6.00 mm W X 0.90 mm H body")
 	(tags "For IC+ ICPlus IP175GHI IP175G")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.05 -3.05)
 		(end -2.49 -3.05)

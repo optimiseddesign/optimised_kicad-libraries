@@ -1,7 +1,7 @@
 (footprint "Polarised_Chip_SMD_L7.3xW4.3xH1.9mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Based on Panasonic SP-Cap CX Series SMD,7.3x4.3mm")
 	(tags "Capacitor Polarised Surface Mount")
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.75 -2.25)
 		(end -3.75 -1.6)

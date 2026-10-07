@@ -1,7 +1,7 @@
 (footprint "PCB_Silk_Logo_TELOS"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "TELOS silkscreen logo 8.0mm x 1.6mm; 'O' has soldermask removed, relies on copper behind!")
 	(property "Reference" "REF**"
@@ -57,6 +57,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_poly
 		(pts
 			(xy 1.714618 -0.874234) (xy 1.83503 -0.855251) (xy 1.951546 -0.816691) (xy 2.011309 -0.789356) (xy 2.143117 -0.710349)
