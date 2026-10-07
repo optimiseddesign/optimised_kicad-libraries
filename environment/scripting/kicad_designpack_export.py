@@ -21,7 +21,8 @@
 #            a) F.Courtyard imports into ZofZPCB as a Silkscreen layer - raise support ticket with ZofZPCB
 #               (KiCAD v10.0.6 exports it as layerFunction="COURTYARD" side="TOP", valid in IPC-2581B1 & C schemas)
 #            b) assess IPC-2581 output more rigorously before enabling (schema, layers, vs. Gerbers/drill/BOM/pos)
-#            c) decide CONFIG_PCB_EXPORT_IPC2581_BOM_ID (Reference or omit, neither ideal)
+#            c) decide CONFIG_PCB_EXPORT_IPC2581_BOM_ID (Reference means all unique and no grouping, omit means Description differences don't cause unique)
+#            d) also just missing lots of BOM info... Description field, dielectric voltage tolerance etc, MPN2 and SKU fields etc
 #
 ###########################################
 
@@ -96,7 +97,7 @@ CONFIG_PCB_EXPORT_RENDER_FILEPATH_TOP = CONFIG_KICAD_FOLDER + "\\images\\" + CON
 CONFIG_PCB_EXPORT_RENDER_FILEPATH_BOTTOM = CONFIG_KICAD_FOLDER + "\\images\\" + CONFIG_KICAD_NAME + "_bottom" + CONFIG_PCB_EXPORT_RENDER_FILETYPE
 CONFIG_PCB_EXPORT_RENDER_WIDTH = "3200"
 CONFIG_PCB_EXPORT_RENDER_HEIGHT = "1800"
-CONFIG_PCB_EXPORT_RENDER_ZOOM = "1.0"   # Camera zoom factor. Decimal (docs say integer but v10.0.6 code takes a decimal)
+CONFIG_PCB_EXPORT_RENDER_ZOOM = "1.2"   # Camera zoom factor. Decimal (docs say integer but v10.0.6 code takes a decimal)
 
 # for pcb_export_odb
 CONFIG_PCB_EXPORT_ODB_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_odb.zip"
@@ -108,10 +109,10 @@ CONFIG_PCB_EXPORT_ODB_PRECISION = "6"
 CONFIG_PCB_EXPORT_IPC2581_VERSION = "B"
 CONFIG_PCB_EXPORT_IPC2581_FILEPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\" + CONFIG_KICAD_NAME + "_ipc2581.zip"   # zip as exported with --compress (contains the .xml)
 CONFIG_PCB_EXPORT_IPC2581_BOM_ID = "Reference"   # One BOM line per RefDes: no grouping, but never merges different parts
+# OR - don't set Internal ID field at all, so KiCAD generates one per library_footprint_value (GUI "Generate unique") but then misses Description uniqueness
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG = "Manufacturer1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_MFG_PN = "MPN1"
 CONFIG_PCB_EXPORT_IPC2581_BOM_REV = CONFIG_KICAD_VERSION_BOM    # BOM revision field, same as BOM file version
-# No Internal ID field set, so KiCAD generates one per library_footprint_value (GUI "Generate unique")
 # No distributor P/N exported: KiCAD only takes one fixed distributor for all parts so not useful
 
 # for sch_erc
