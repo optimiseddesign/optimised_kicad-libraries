@@ -4,8 +4,8 @@
 #
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
 # Uses KiCAD v10 CLI (Command Line Interface). Written for KiCAD v10.0.6 (updated, was for v9.0.5, v8.0.8 and initially for v7.0.6) on Win11 (previously Win10).
-# Requires KiCAD v10.0 or later (3D PDF, statistics report, variants and wire hop-over options are v10+).
-# REQUIRES 'pypdf' v6.x python package installed, Tested using python v3.15.0 - install using 'pip3 install pypdf' on command line
+# Requires KiCAD v10.0.3 or later (3D PDF, statistics report, variants and wire hop-over options are v10+, multipage layout PDF is v10.0.3+).
+# Tested using python v3.15.0, no extra python packages needed (pypdf no longer used since multipage layout PDF is now native in KiCAD)
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
@@ -14,7 +14,7 @@
 #
 ## TO-DO
 #
-# - use new flag '--mode-multipage' for separate-page PDF export of multiple layers
+# - Possibly add Layout PDF property popups (remove --no-property-popups) once issues with top/bottom parts improved
 # - Set soldermask expansion/min web values(?)
 # - Use custom colour scheme(?)
 # - fixes before IPC-2581 can be used
@@ -23,13 +23,13 @@
 #            b) assess IPC-2581 output more rigorously before enabling (schema, layers, vs. Gerbers/drill/BOM/pos)
 #            c) decide CONFIG_PCB_EXPORT_IPC2581_BOM_ID (Reference means all unique and no grouping, omit means Description differences don't cause unique)
 #            d) also just missing lots of BOM info... Description field, dielectric voltage tolerance etc, MPN2 and SKU fields etc
+#            e) decide B or C revision
 #
 ###########################################
 
 
 import subprocess
 import os
-from pypdf import PdfReader, PdfWriter
 
 
 ###########################################
@@ -70,7 +70,6 @@ CONFIG_PCB_EXPORT_BOM_GROUP = "Description,Manufacturer1,MPN1,Manufacturer2,MPN2
 
 # for pcb_export_pdf
 CONFIG_PCB_EXPORT_PDF_FILEPATH = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_layout.pdf"
-CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP = CONFIG_KICAD_FOLDER + "\\" + CONFIG_KICAD_NAME + "_TEMP.pdf"
 CONFIG_PCB_EXPORT_PDF_LAYERS = CONFIG_KICAD_LAYERS_OUTPUT
 
 # for pcb_export_step
@@ -231,59 +230,23 @@ def sch_export_bom():
 ###########################################
 
 def pcb_export_pdf():
-    print("\n## Exporting Layout PDF of all layers...")
-
-    # Create PDF Object to merge all the individual Layer PDFs into.
-    # Note: PdfWriter replaces PdfMerger, which was removed in pypdf 5.0.0.
-    merger = PdfWriter()
-
-    # Loop over layers in CONFIG_PCB_EXPORT_PDF_LAYERS to export individually
-    layers = CONFIG_PCB_EXPORT_PDF_LAYERS
-    for layer in layers.split(","):
-
-        # Export single-layer temporary PDF using KiCAD CLI
-        print("Exporting Layout PDF (temp single layer: " + layer + ")...")
-        pcb_export_pdf_single(layer)
-
-        # Append this temporary PDF page to our created PDF object
-        merger.append(CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP)
-    
-    # Save merged PDF of all the individual layer pages
-    print("Saving merged Layout PDF of all layers, to;\n" + CONFIG_PCB_EXPORT_PDF_FILEPATH + " ...\n")
-    with open(CONFIG_PCB_EXPORT_PDF_FILEPATH, "wb") as fout:
-        merger.write(fout)
-
-    # Delete temporary PDF file
-    os.remove(CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP)
-
-    # Read and re-write PDF to reduce file size by approx 10%...
-    print("Reading & re-writing PDF to reduce file size...")
-    reader = PdfReader(CONFIG_PCB_EXPORT_PDF_FILEPATH)
-    writer = PdfWriter()
-    
-    for page in reader.pages:
-        writer.add_page(page)
-
-    writer.remove_links()   # Reduces PDF size by further 76% on test project (7.6MB to 1.8MB)!
-    writer.add_metadata(reader.metadata)
-
-    with open(CONFIG_PCB_EXPORT_PDF_FILEPATH, "wb") as fp:
-        writer.write(fp)
-
-
-def pcb_export_pdf_single(layer):
+    print("\n## Exporting Layout PDF of all layers, to;\n" + CONFIG_PCB_EXPORT_PDF_FILEPATH + " ...")
     cmd = [CONFIG_KICAD_CLI_PATH,
             'pcb',
             'export',
             'pdf',
             '--output',
-            CONFIG_PCB_EXPORT_PDF_FILEPATH_TEMP,
+            CONFIG_PCB_EXPORT_PDF_FILEPATH,
+            '--mode-multipage',     # One page per layer, in CONFIG_PCB_EXPORT_PDF_LAYERS order
             '--layers',
-            layer + ",Edge.Cuts",
+            CONFIG_PCB_EXPORT_PDF_LAYERS,
+            '--common-layers',      # Edge.Cuts on every page
+            'Edge.Cuts',
             '--include-border-title',
             '--black-and-white',
             '--drill-shape-opt',    # Fix for missing copper in drill holes, requires KiCAD v7.0.8
             '0',                    # Fix for missing copper in drill holes, requires KiCAD v7.0.8
+            '--no-property-popups', # No footprint popups/bookmarks, smaller file (could remove in future once fixed? bit broken, links don't distinguish front/back components)
             CONFIG_KICAD_PCB]
             
     process = subprocess.run(args=cmd, 
