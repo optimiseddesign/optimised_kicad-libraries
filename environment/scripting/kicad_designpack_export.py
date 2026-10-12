@@ -5,7 +5,7 @@
 # Python script to automatically export design pack from KiCAD Project, using Optimised naming etc conventions.
 # Uses KiCAD v10 CLI (Command Line Interface). Written for KiCAD v10.0.6 (updated, was for v9.0.5, v8.0.8 and initially for v7.0.6) on Win11 (previously Win10).
 # Requires KiCAD v10.0.3 or later (3D PDF, statistics report, variants and wire hop-over options are v10+, multipage layout PDF is v10.0.3+).
-# Tested using python v3.15.0, no extra python packages needed (pypdf no longer used since multipage layout PDF is now native in KiCAD)
+# Tested using python v3.15.0. Requires pypdf (pip install pypdf), but only for pcb_export_drill_pdf().
 # 
 # Once all the requirements are installed and the CONFIG values are filled out, simply run this script with python in your preferred way.
 #
@@ -30,6 +30,7 @@
 
 import subprocess
 import os
+from pypdf import PdfWriter
 
 
 ###########################################
@@ -84,6 +85,10 @@ CONFIG_PCB_EXPORT_POS_FILEPATH_BACK = CONFIG_KICAD_FOLDER + "\\manufacturing\\" 
 
 # for pcb_export_drill
 CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for drill
+
+# for pcb_export_drill_pdf
+CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\"  # Note: is a FOLDER not a FILE path. Same folder as other PDFs
+CONFIG_PCB_EXPORT_DRILL_PDF_FILEPATH = CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH + CONFIG_KICAD_NAME + "_drill.pdf"
 
 # for pcb_export_gerbers
 CONFIG_PCB_EXPORT_GERBERS_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for gerbers
@@ -360,22 +365,20 @@ def pcb_export_pos(side):
 
 ###########################################
 #
-#   Export KICAD PCB Layout drill and map files
+#   Export KICAD PCB Layout drill and map files - used by pcb_export_drill() and pcb_export_drill_pdf()
 #   Uses: kicad-cli pcb export drill [--help] [--output OUTPUT_DIR] [--format FORMAT] [--drill-origin DRILL_ORIGIN] [--excellon-zeros-format ZEROS_FORMAT] [--excellon-oval-format OVAL_FORMAT] [--excellon-units UNITS] [--excellon-mirror-y] [--excellon-min-header] [--excellon-separate-th] [--generate-map] [--generate-report] [--report-path REPORT_FILE] [--generate-tenting] [--map-format MAP_FORMAT] [--gerber-precision VAR] INPUT_FILE
 #
 ###########################################
 
-def pcb_export_drill():
-    print("\n## Exporting Layout drill .drl and .map files ...")
-        
+def pcb_export_drill_cli(output_folderpath, map_format):
     cmd = [CONFIG_KICAD_CLI_PATH,
             'pcb',
             'export',
             'drill',
             '--output',
-            CONFIG_PCB_EXPORT_DRILL_FOLDERPATH, # FOLDER not FILE path
+            output_folderpath, # FOLDER not FILE path
             '--map-format',
-            'gerberx2',
+            map_format,
             '--excellon-separate-th',
             '--generate-map',
             '--drill-origin',
@@ -388,6 +391,47 @@ def pcb_export_drill():
                             universal_newlines=True)
     
     print("Result: " + process.stdout)
+
+    if process.returncode != 0:
+        print("ERROR: kicad-cli drill export failed")
+
+    return process.returncode
+
+
+
+###########################################
+#
+#   Export KICAD PCB Layout drill .drl and Gerber X2 map .gbr files
+#
+###########################################
+
+def pcb_export_drill():
+    print("\n## Exporting Layout drill .drl and _map.gbr files ...")
+    pcb_export_drill_cli(CONFIG_PCB_EXPORT_DRILL_FOLDERPATH, 'gerberx2')
+
+
+
+###########################################
+#
+#   Export KICAD PCB Layout drill map PDF (PTH page, NPTH page), alongside the other PDFs
+#   Note: kicad-cli can't export maps without the drill files too, so they're deleted (real ones are in \manufacturing\)
+#
+###########################################
+
+def pcb_export_drill_pdf():
+    print("\n## Exporting Layout drill map PDF ...")
+    if pcb_export_drill_cli(CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH, 'pdf') != 0:
+        return
+
+    # Combine PTH and NPTH maps into one PDF, a page each, then delete kicad-cli's separate files
+    prefix = CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH + CONFIG_KICAD_NAME
+    writer = PdfWriter()
+    writer.append(prefix + "-PTH-drl_map.pdf", "PTH", import_outline=False)
+    writer.append(prefix + "-NPTH-drl_map.pdf", "NPTH", import_outline=False)
+    writer.write(CONFIG_PCB_EXPORT_DRILL_PDF_FILEPATH)
+
+    for ending in ["-PTH.drl", "-NPTH.drl", "-PTH-drl_map.pdf", "-NPTH-drl_map.pdf"]:
+        os.remove(prefix + ending)
 
 
 
@@ -677,6 +721,7 @@ pcb_export_render("bottom")
 pcb_export_pos("front")
 pcb_export_pos("back")
 pcb_export_drill()
+pcb_export_drill_pdf()
 pcb_export_gerbers()
 pcb_export_odb()
 #pcb_export_ipc2581() - DRAFT for future addition once issues are resolved (see top)
