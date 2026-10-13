@@ -87,7 +87,7 @@ CONFIG_PCB_EXPORT_POS_FILEPATH_BACK = CONFIG_KICAD_FOLDER + "\\manufacturing\\" 
 CONFIG_PCB_EXPORT_DRILL_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\manufacturing\\"  # Note: is a FOLDER not a FILE path for drill
 
 # for pcb_export_drill_pdf
-CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\"  # Note: is a FOLDER not a FILE path. Same folder as other PDFs
+CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH = CONFIG_KICAD_FOLDER + "\\"  # Note: is a FOLDER not a FILE path. Same folder as other PDFs. Must NOT be the same as CONFIG_PCB_EXPORT_DRILL_FOLDERPATH.
 CONFIG_PCB_EXPORT_DRILL_PDF_FILEPATH = CONFIG_PCB_EXPORT_DRILL_PDF_FOLDERPATH + CONFIG_KICAD_NAME + "_drill.pdf"
 
 # for pcb_export_gerbers
@@ -415,6 +415,7 @@ def pcb_export_drill():
 #
 #   Export KICAD PCB Layout drill map PDF (PTH page, NPTH page), alongside the other PDFs
 #   Note: kicad-cli can't export maps without the drill files too, so they're deleted (real ones are in \manufacturing\)
+#   Note: PTH and NPTH maps only, future additions would be needed to support blind/buried vias etc.
 #
 ###########################################
 
