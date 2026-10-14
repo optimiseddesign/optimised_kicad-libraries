@@ -92,16 +92,16 @@
 	)
 	(tbtext "Date: ${ISSUE_DATE}"
 		(name "text5:Text")
-		(pos 87 6.9)
+		(pos 81.5 6.9)
 	)
 	(line
 		(name "segm5:Line")
-		(start 110 5.5)
-		(end 2 5.5)
+		(start 110 5.25)
+		(end 2 5.25)
 	)
 	(tbtext "${KICAD_VERSION}"
 		(name "text6:Text")
-		(pos 109 3.7)
+		(pos 81.5 3.6)
 	)
 	(line
 		(name "segm6:Line")
@@ -110,91 +110,91 @@
 	)
 	(tbtext "Copyright 2026"
 		(name "text7:Text")
-		(pos 49.002 3.7)
+		(pos 23.5 6.9)
 		(font italic)
 	)
 	(tbtext "PCB ID: ${COMMENT1}"
 		(name "text8:Text")
-		(pos 29.002 10.5)
+		(pos 106.5 6.9)
 		(font bold)
 	)
 	(tbtext "Rev: ${REVISION}"
 		(name "text9:Text")
-		(pos 29.0002 6.9002)
+		(pos 106.5 3.6)
 		(font bold)
 	)
 	(tbtext "Size: ${PAPER}"
 		(name "text10:Text")
-		(pos 109 6.9)
+		(pos 46.5 6.9)
 	)
 	(tbtext "Sheet: ${#} of ${##}"
 		(name "text11:Text")
-		(pos 29 3.7)
+		(pos 23.5 3.6)
 	)
 	(line
 		(name "segm7:Line")
-		(start 110 12.5)
-		(end 2 12.5)
+		(start 110 12.75)
+		(end 2 12.75)
 	)
-	(tbtext "Title: ${TITLE}"
+	(tbtext "@{if(\"${VARIANT}\"==\"\", \"${TITLE}\", \"${TITLE} (Variant: ${VARIANT}, ${VARIANT_DESC})\")}"
 		(name "text12:Text")
-		(pos 109 10.5)
+		(pos 108.5 10.5)
 		(font
 			(size 2 2) bold italic)
 	)
 	(tbtext "File: ${FILENAME}"
 		(name "text13:Text")
-		(pos 109 14.3)
+		(pos 108.5 14.4)
 	)
 	(line
 		(name "segm8:Line")
-		(start 110 18.5)
-		(end 2 18.5)
+		(start 110 19)
+		(end 2 19)
 	)
 	(tbtext "Sheet: ${SHEETNAME}"
 		(name "text14:Text")
-		(pos 109 17)
+		(pos 108.5 17.1)
 	)
 	(tbtext "Author:    ${COMMENT2}"
 		(name "text15:Text")
-		(pos 108.202 25.7002)
+		(pos 108.5 25.7)
 		(font
 			(size 1.8 1.8) bold)
 	)
 	(tbtext "Customer: ${COMPANY}"
 		(name "text16:Text")
-		(pos 108.2 29.8)
+		(pos 108.5 29.8)
 		(font
 			(size 1.8 1.8) bold)
 	)
 	(tbtext "${COMMENT4}"
 		(name "text19:Text")
-		(pos 58 17.0002)
+		(pos 58 17.1)
 	)
 	(line
 		(name "segm9:Line")
-		(start 90 8.5)
-		(end 90 5.5)
+		(start 83 8.5)
+		(end 83 2)
 	)
 	(line
 		(name "segm10:Line")
-		(start 30 12.5)
-		(end 30 2)
+		(start 25 8.5)
+		(end 25 2)
 	)
 	(tbtext "Designed by;"
 		(name "text20:Text")
-		(pos 59.0002 31.0072)
+		(pos 59 31)
 		(font italic)
 	)
 	(tbtext "www.optimiseddesign.com"
 		(name "text21:Text")
-		(pos 40.0002 20.5002)
+		(pos 38 21)
 		(font
-			(size 1.5 1.5) bold)
+			(size 1.4 1.4) bold)
 	)
 	(bitmap
 		(name "bm1:Bitmap")
-		(pos 23.002 27.007)
+		(pos 23 27.5)
 		(scale 0.1446153846)
 		(data "iVBORw0KGgoAAAANSUhEUgAAA+kAAADcCAIAAACDAHerAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
 			"AA50AAAOdAFrJLPWAAAgAElEQVR4nOy9ebRt11ndOee31t7nnHvv6596t1g2Nu4BB0wqBmK6KigS"
@@ -2968,8 +2968,13 @@
 	)
 	(tbtext "Reviewer:  ${COMMENT3}"
 		(name "text15:Text")
-		(pos 108.502 21.7002)
+		(pos 108.5 21.7)
 		(font
 			(size 1.8 1.8) bold)
+	)
+	(line
+		(name "segm10:Line")
+		(start 48 8.5)
+		(end 48 5.25)
 	)
 )
