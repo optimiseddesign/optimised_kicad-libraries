@@ -9,7 +9,7 @@
 		(at -3 -3.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f740a94c-db3a-4fc6-be78-3bde9bc9c80b")
+		(uuid "578fa9e2-9791-4ea6-8c94-b453400a2707")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e4091ba-8d54-42d9-b281-723ce9e56fa3")
+		(uuid "9294e00f-6a49-4a39-8490-4e83f76cc6ed")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c8ac16a-b59c-440c-8f1d-3fba0a9b331a")
+		(uuid "058db46d-3441-4083-8a10-54a45b10e193")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a17e5dcf-32ca-4343-8876-c41500949c4c")
+		(uuid "cfcfb4f4-fa46-4ff3-8ca5-e0ded6105076")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d5a794bd-7586-4b3e-bf2b-bcd6f69ed818")
+		(uuid "e71824bc-6dd5-4594-acd6-13383f16c3d6")
 	)
 	(fp_rect
 		(start -8.15 10.165)
@@ -77,7 +77,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7d15bb9e-7e7a-47f1-93a2-2f710b70ca36")
+		(uuid "1ae01b73-48f9-490c-be83-eaec06996387")
 	)
 	(fp_rect
 		(start -8.4 10.415)
@@ -88,7 +88,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "c0a27aaf-b532-408a-b28b-9dffa964ba10")
+		(uuid "23c7c93b-67ec-48af-9033-d8622f8695c9")
 	)
 	(fp_line
 		(start 0.35 -2.535)
@@ -98,7 +98,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "ec73e12e-fbd0-44da-8cb5-86bf7f2a3b18")
+		(uuid "fa1191b2-65a7-46fc-955c-4e3c0625a6b6")
 	)
 	(fp_rect
 		(start -8.15 10.165)
@@ -109,13 +109,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "8deede9a-1202-470d-8b80-8ec0206b548e")
+		(uuid "39c94848-4820-4039-aec7-e8afc1efa789")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -3.53 3.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "7ae1d859-9ded-40f3-8204-71c60764d413")
+		(uuid "4fb8a8ff-0220-4bb1-884f-19758d4034c5")
 		(effects
 			(font
 				(size 1 1)
@@ -123,13 +123,25 @@
 			)
 		)
 	)
+	(point
+		(at -8.15 3.815)
+		(size 1)
+		(layer "F.Fab")
+		(uuid "2aea4649-e37e-42c7-a71b-f4692beeaa5a")
+	)
+	(point
+		(at -3.4 3.815)
+		(size 1)
+		(layer "F.Fab")
+		(uuid "1aeea790-33c6-4669-8f60-b46b0bd3da87")
+	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 2.4 2.4)
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4d08aff3-10ab-480d-b5cc-d1ac27801832")
+		(uuid "10a99ef0-38e1-47fa-bd25-55612cfea040")
 	)
 	(pad "2" thru_hole circle
 		(at 0 3.81)
@@ -137,7 +149,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "779e8f07-3323-4bf4-903b-02daf23e4724")
+		(uuid "74185931-0103-4d9c-9b6f-ee91f8cbabc7")
 	)
 	(pad "3" thru_hole circle
 		(at 0 7.62)
@@ -145,7 +157,7 @@
 		(drill 1.4)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f557ca81-bf6b-469f-8ac1-c8cf481acb05")
+		(uuid "a228a802-3cf3-44ed-8fcb-cfc0ebc35efe")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/connectors.3dshapes/TerminalBlock_Pluggable_3.81mm_TH_01x03_Horizontal_CamdenBoss_CTBP93HE-3.stp"
