@@ -1070,60 +1070,6 @@
 		)
 		(symbol "BT_SMD_PCBAntenna_Fanstel_BM833_0_0"
 			(pin passive line
-				(at -7.62 -43.18 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -5.08 -43.18 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -43.18 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 19.05 43.18 270)
 				(length 2.54)
 				(name "NC"
@@ -1178,7 +1124,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -43.18 90)
+				(at -2.54 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1196,7 +1142,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -43.18 90)
+				(at 0 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1214,7 +1160,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -43.18 90)
+				(at 2.54 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1232,7 +1178,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -43.18 90)
+				(at 5.08 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1304,7 +1250,7 @@
 				)
 			)
 			(pin passive line
-				(at 10.16 -43.18 90)
+				(at 7.62 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1484,7 +1430,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -43.18 90)
+				(at 10.16 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1857,7 +1803,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -43.18 90)
+				(at -7.62 -43.18 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -1867,24 +1813,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -10.16 -43.18 90)
-				(length 2.54)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2302,6 +2230,24 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -43.18 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[2-5]"
+					(effects
+						(font
+							(size 0.5 0.5)
 						)
 					)
 				)
@@ -6750,8 +6696,8 @@
 		)
 		(symbol "Mobile_4G_SMD_SimCom_SIM7600E_LCC-87_1_0"
 			(rectangle
-				(start -25.4 10.16)
-				(end 25.4 -10.16)
+				(start -22.86 7.62)
+				(end 22.86 -7.62)
 				(stroke
 					(width 0.127)
 					(type default)
@@ -6761,7 +6707,7 @@
 				)
 			)
 			(pin power_in line
-				(at -22.86 -12.7 90)
+				(at -15.24 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6779,7 +6725,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -12.7 90)
+				(at -12.7 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6797,7 +6743,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -12.7 90)
+				(at -10.16 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6815,7 +6761,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -12.7 90)
+				(at -7.62 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6833,7 +6779,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -12.7 90)
+				(at -5.08 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6851,7 +6797,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 5.08 180)
+				(at 25.4 5.08 180)
 				(length 2.54)
 				(name "VDD_1V8"
 					(effects
@@ -6869,7 +6815,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -12.7 90)
+				(at -2.54 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6887,79 +6833,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 12.7 270)
-				(length 2.54)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -8.89 12.7 270)
-				(length 2.54)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "39"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -7.62 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -12.7 90)
+				(at 2.54 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -6977,7 +6851,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 -2.54 180)
+				(at 25.4 0 180)
 				(length 2.54)
 				(name "VDD_AUX"
 					(effects
@@ -6995,7 +6869,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 1.27 0)
+				(at -25.4 -2.54 0)
 				(length 2.54)
 				(name "ISINK"
 					(effects
@@ -7013,79 +6887,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 7.62 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 8.89 12.7 270)
+				(at -25.4 2.54 0)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -7094,16 +6896,70 @@
 						)
 					)
 				)
-				(number "62"
+				(number "[38,39]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -10.16 90)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+				(number "[40,41]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
 			)
 			(pin power_in line
-				(at 11.43 12.7 270)
+				(at 5.08 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[57,58]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -10.16 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[60,61]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -25.4 5.08 0)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -7112,16 +6968,16 @@
 						)
 					)
 				)
-				(number "63"
+				(number "[62,63]"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.6 0.6)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 10.16 -12.7 90)
+				(at 10.16 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7130,16 +6986,16 @@
 						)
 					)
 				)
-				(number "64"
+				(number "[64,65]"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.6 0.6)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 12.7 -12.7 90)
+				(at 12.7 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7148,16 +7004,16 @@
 						)
 					)
 				)
-				(number "65"
+				(number "[77,78]"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.6 0.6)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 15.24 -12.7 90)
+				(at 15.24 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7166,64 +7022,10 @@
 						)
 					)
 				)
-				(number "77"
+				(number "[80,81]"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 17.78 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "78"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 20.32 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "80"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 22.86 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "81"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.6 0.6)
 						)
 					)
 				)
@@ -7231,7 +7033,7 @@
 		)
 		(symbol "Mobile_4G_SMD_SimCom_SIM7600E_LCC-87_1_1"
 			(text "Power"
-				(at 0 0 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -14005,42 +13807,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -1.27 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 1.27 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 10.16 36.83 270)
 				(length 2.54)
@@ -14167,42 +13933,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 3.81 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "44"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 6.35 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "45"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 36.83 270)
 				(length 2.54)
@@ -14214,42 +13944,6 @@
 					)
 				)
 				(number "46"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 8.89 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 11.43 -36.83 90)
-				(length 2.54)
-				(name "NC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "48"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -14271,6 +13965,60 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -1.27 -36.83 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[35,36]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 1.27 -36.83 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[44,45]"
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 3.81 -36.83 90)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "[47,48]"
+					(effects
+						(font
+							(size 0.6 0.6)
 						)
 					)
 				)
@@ -14441,8 +14189,8 @@
 		)
 		(symbol "WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG_1_0"
 			(rectangle
-				(start -25.4 -38.1)
-				(end 24.13 38.1)
+				(start -22.86 38.1)
+				(end 21.59 -38.1)
 				(stroke
 					(width 0)
 					(type default)
@@ -14454,7 +14202,7 @@
 		)
 		(symbol "WiFi-BT_SMD_ExtAntenna_TaiyoYuden_WYSEGVDXG_1_1"
 			(pin power_in line
-				(at -22.86 -41.91 90)
+				(at -13.97 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14490,7 +14238,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 10.16 180)
+				(at 25.4 10.16 180)
 				(length 3.81)
 				(name "GPIO3_CON-1"
 					(effects
@@ -14508,7 +14256,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 7.62 180)
+				(at 25.4 7.62 180)
 				(length 3.81)
 				(name "GPIO2_CON-0"
 					(effects
@@ -14526,7 +14274,7 @@
 				)
 			)
 			(pin output line
-				(at -29.21 -3.81 0)
+				(at -26.67 -3.81 0)
 				(length 3.81)
 				(name "UART_RTS"
 					(effects
@@ -14544,7 +14292,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 -6.35 0)
+				(at -26.67 -6.35 0)
 				(length 3.81)
 				(name "UART_CTS"
 					(effects
@@ -14562,7 +14310,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 -8.89 0)
+				(at -26.67 -8.89 0)
 				(length 3.81)
 				(name "UART_SIN"
 					(effects
@@ -14580,7 +14328,7 @@
 				)
 			)
 			(pin output line
-				(at -29.21 -11.43 0)
+				(at -26.67 -11.43 0)
 				(length 3.81)
 				(name "UART_SOUT"
 					(effects
@@ -14598,7 +14346,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 29.21 0)
+				(at -26.67 29.21 0)
 				(length 3.81)
 				(name "PDN"
 					(effects
@@ -14616,7 +14364,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 0 180)
+				(at 25.4 0 180)
 				(length 3.81)
 				(name "GPIO13/BT_WAKEUP_BT_HOST"
 					(effects
@@ -14634,7 +14382,7 @@
 				)
 			)
 			(pin passive line
-				(at -20.32 -41.91 90)
+				(at -11.43 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14652,7 +14400,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 27.94 180)
+				(at 25.4 27.94 180)
 				(length 3.81)
 				(name "VDD18"
 					(effects
@@ -14670,7 +14418,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 41.91 270)
+				(at -8.89 41.91 270)
 				(length 3.81)
 				(name "VDD33"
 					(effects
@@ -14688,7 +14436,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -41.91 90)
+				(at -8.89 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14706,7 +14454,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 41.91 270)
+				(at -19.05 41.91 270)
 				(length 3.81)
 				(name "VBAT"
 					(effects
@@ -14724,7 +14472,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 -21.59 0)
+				(at -26.67 -21.59 0)
 				(length 3.81)
 				(name "PCM_DIN/PCM_A"
 					(effects
@@ -14742,7 +14490,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 -24.13 0)
+				(at -26.67 -24.13 0)
 				(length 3.81)
 				(name "PCM_CLK"
 					(effects
@@ -14760,7 +14508,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 -26.67 0)
+				(at -26.67 -26.67 0)
 				(length 3.81)
 				(name "PCM_SYNC"
 					(effects
@@ -14778,7 +14526,7 @@
 				)
 			)
 			(pin output line
-				(at -29.21 -29.21 0)
+				(at -26.67 -29.21 0)
 				(length 3.81)
 				(name "PCM_DOUT/PCM_B"
 					(effects
@@ -14796,7 +14544,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 25.4 180)
+				(at 25.4 25.4 180)
 				(length 3.81)
 				(name "1.1V_INT"
 					(effects
@@ -14814,7 +14562,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -41.91 90)
+				(at -6.35 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14832,7 +14580,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 12.7 0)
+				(at -26.67 12.7 0)
 				(length 3.81)
 				(name "SD_D2"
 					(effects
@@ -14850,7 +14598,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 10.16 0)
+				(at -26.67 10.16 0)
 				(length 3.81)
 				(name "SD_D3"
 					(effects
@@ -14868,7 +14616,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 7.62 0)
+				(at -26.67 7.62 0)
 				(length 3.81)
 				(name "SD_CMD"
 					(effects
@@ -14886,7 +14634,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -41.91 90)
+				(at -3.81 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14904,7 +14652,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 5.08 0)
+				(at -26.67 5.08 0)
 				(length 3.81)
 				(name "SD_CLK"
 					(effects
@@ -14922,7 +14670,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -41.91 90)
+				(at -1.27 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14940,7 +14688,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 17.78 0)
+				(at -26.67 17.78 0)
 				(length 3.81)
 				(name "SD_D0"
 					(effects
@@ -14958,7 +14706,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -29.21 15.24 0)
+				(at -26.67 15.24 0)
 				(length 3.81)
 				(name "SD_D1"
 					(effects
@@ -14976,7 +14724,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -41.91 90)
+				(at 1.27 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -14994,7 +14742,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 41.91 270)
+				(at 19.05 41.91 270)
 				(length 3.81)
 				(name "VIO_SD"
 					(effects
@@ -15012,7 +14760,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 41.91 270)
+				(at 8.89 41.91 270)
 				(length 3.81)
 				(name "VIO"
 					(effects
@@ -15030,7 +14778,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -41.91 90)
+				(at 3.81 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -15048,7 +14796,7 @@
 				)
 			)
 			(pin input line
-				(at -29.21 26.67 0)
+				(at -26.67 26.67 0)
 				(length 3.81)
 				(name "SLP_CLK"
 					(effects
@@ -15066,7 +14814,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -2.54 180)
+				(at 25.4 -2.54 180)
 				(length 3.81)
 				(name "GPIO1/WL_HOST_WAKE"
 					(effects
@@ -15084,7 +14832,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -20.32 180)
+				(at 25.4 -20.32 180)
 				(length 3.81)
 				(name "RES"
 					(effects
@@ -15102,7 +14850,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -7.62 180)
+				(at 25.4 -7.62 180)
 				(length 3.81)
 				(name "TMS"
 					(effects
@@ -15120,7 +14868,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -10.16 180)
+				(at 25.4 -10.16 180)
 				(length 3.81)
 				(name "TDI"
 					(effects
@@ -15138,7 +14886,7 @@
 				)
 			)
 			(pin output line
-				(at 27.94 -12.7 180)
+				(at 25.4 -12.7 180)
 				(length 3.81)
 				(name "TDO"
 					(effects
@@ -15156,7 +14904,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -15.24 180)
+				(at 25.4 -15.24 180)
 				(length 3.81)
 				(name "TCK"
 					(effects
@@ -15174,7 +14922,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -41.91 90)
+				(at 6.35 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -15192,7 +14940,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 20.32 180)
+				(at 25.4 20.32 180)
 				(length 3.81)
 				(name "ANT1"
 					(effects
@@ -15210,7 +14958,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 17.78 180)
+				(at 25.4 17.78 180)
 				(length 3.81)
 				(name "ANT2"
 					(effects
@@ -15228,7 +14976,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -41.91 90)
+				(at 8.89 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -15246,7 +14994,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -41.91 90)
+				(at 11.43 -41.91 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -15264,7 +15012,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -22.86 180)
+				(at 25.4 -22.86 180)
 				(length 3.81)
 				(name "RES"
 					(effects
@@ -15282,7 +15030,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -25.4 180)
+				(at 25.4 -25.4 180)
 				(length 3.81)
 				(name "RES"
 					(effects
@@ -15300,7 +15048,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -27.94 180)
+				(at 25.4 -27.94 180)
 				(length 3.81)
 				(name "RES"
 					(effects
@@ -15318,7 +15066,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 27.94 -30.48 180)
+				(at 25.4 -30.48 180)
 				(length 3.81)
 				(name "RES"
 					(effects
@@ -15336,60 +15084,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "50"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "51"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 11.43 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 13.97 -41.91 90)
 				(length 3.81)
 				(name "GND"
@@ -15399,64 +15093,10 @@
 						)
 					)
 				)
-				(number "53"
+				(number "[50-56]"
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 16.51 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 19.05 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "55"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 21.59 -41.91 90)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.27 1.27)
+							(size 0.6 0.6)
 						)
 					)
 				)
